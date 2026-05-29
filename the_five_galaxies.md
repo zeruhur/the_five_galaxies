@@ -1034,3 +1034,9 @@ All entries are defined in one sentence. Names appear in their established form 
 **Royal Guard** — The Empire of Wrulis's professional standing military, providing operational depth that exceeds the defensive capacity of most neighboring polities.
 
 **Survey Expedition SY-7** — A survey mission whose final transmissions from the Xalith Rift in SY 5.151.104 were classified by the Technocratic Union of Skopalia within hours of receipt; no authorized search has been launched, and Skopalia has been actively acquiring and suppressing all secondary-source attempts to reconstruct the expedition's findings.
+
+## License
+
+© 2026 Roberto Bisceglie
+
+This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
