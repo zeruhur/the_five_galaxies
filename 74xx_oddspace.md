@@ -2069,7 +2069,9 @@ Roll when the party lands on a world and explores beyond the port.
 
 ---
 
-## Credits
+## License & Credits
+
+© 2026 Roberto Bisceglie
 
 *74XX Oddspace* is based on **24XX** by Jason Tocci (CC BY 4.0) and **Plerion** by Roberto Bisceglie (CC-BY-SA 4.0), which derives from **Cairn** by Yochai Gal and **Spacer** by Paul Umbers.
 
