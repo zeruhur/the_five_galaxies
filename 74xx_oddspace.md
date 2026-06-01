@@ -1031,9 +1031,25 @@ Each cargo slot holds 100 tons. Buy price is per slot. Availability depends on t
 | Luxuries | 60 | Core | High demand everywhere |
 | Biotech | 80 | Medical/Core | Restricted in some systems |
 
+#### What Worlds Produce and Need
+
+This table drives both buying and selling. A world is rich in what it produces and short on what it needs.
+
+| World Type | Produces | Needs |
+|------------|----------|-------|
+| Agricultural | Food, Textiles | Electronics, Machinery, Biotech |
+| Industrial | Electronics, Machinery, Chemicals | Food, Raw Materials |
+| Mining | Raw Materials | Food, Electronics, Machinery |
+| Core/Central | Luxuries, Biotech | Raw Materials, Food |
+| Frontier | Little | Almost everything |
+
 #### Buying
 
-Pay the listed price per slot. Not all cargo is available at every world — the GM decides what's on offer based on the world's economy. A mining colony will have raw materials and nothing else. A core world trade hub will have almost everything.
+The GM decides what's on offer based on the world's economy and the table above. A mining colony will have raw materials and nothing else; a core world trade hub will have almost everything.
+
+A good the world **produces** is abundant — buy it at **−25%** (round to the nearest credit). A good the world **needs** is usually not for sale there at all; if the GM does offer it, it costs **+25%**. Everything else is at list price.
+
+The whole game of trading is the spread: buy what's cheap where it's made, carry it to where it's scarce. Before you commit capital, you can ask the Oracle in the **Prepare** step where a good is in demand, or follow a Rumor to a buyer. Knowing the route before you fly it is the difference between a haul and a gamble.
 
 #### Selling
 
@@ -1046,21 +1062,10 @@ When you arrive at a destination and try to sell, roll d6 for market conditions:
 | 4–5 | Standard | 100% |
 | 6 | Boom | 150% |
 
-**World type modifiers:**
+Use the produce/needs table above:
 
-If you're selling goods the destination world **produces** (abundant supply): roll 2d6 for market conditions, take the lower result.
-
-If you're selling goods the destination world **needs** (scarce supply): roll 2d6 for market conditions, take the higher result.
-
-**What worlds need:**
-
-| World Type | Produces | Needs |
-|------------|----------|-------|
-| Agricultural | Food, Textiles | Electronics, Machinery, Biotech |
-| Industrial | Electronics, Machinery, Chemicals | Food, Raw Materials |
-| Mining | Raw Materials | Food, Electronics, Machinery |
-| Core/Central | Luxuries, Biotech | Raw Materials, Food |
-| Frontier | Little | Almost everything |
+- Selling goods the destination world **produces** (abundant supply): roll 2d6, take the **lower**.
+- Selling goods the destination world **needs** (scarce supply): roll 2d6, take the **higher**.
 
 #### Special Cargo
 
@@ -1076,6 +1081,8 @@ Patrons sometimes offer unusual or illegal cargo. Roll d6 or choose when a job i
 | 6 | Stolen property | Original owners are looking for it; may be tracked | ×3 |
 
 Value modifier applies to the sell roll result. A special cargo run is a job for advancement purposes — the GM declares a risk tier (typically risky or desperate) before the party commits, which determines both the advancement credit roll and how seriously to take the danger. Cargo sale proceeds and advancement credits are separate income streams; both apply after a successful run.
+
+When you're carrying contraband or Flagged cargo, an **Authority checkpoint** (Arrival table, result 1) is no longer routine — it's a Heat check. Pass and you're through; a disaster means seizure, a fine, and Heat with that jurisdiction. This is what makes a smuggling spread pay triple: the markup is hazard pay.
 
 #### Cargo Properties
 
