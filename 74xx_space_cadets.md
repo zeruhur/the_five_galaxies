@@ -2,7 +2,7 @@
 Version 1.0
 
 ## THE PREMISE
-You are cadets at the GCP Combined Services Academy — a joint institution where member polities of the Galactic Coalition of Peace train officers for shared coalition operations. Your fellow cadets come from a dozen worlds and half as many species. Between rigorous classes, surprise inspections, and interpersonal drama, you'll face real emergencies that test everything you've learned. Navigate the politics of polity and species alongside the mechanics of command, forge lasting alliances and bitter rivalries, and prove you have what it takes to graduate and earn your commission among the stars.
+You are cadets at the GCP Combined Services Academy, a joint institution where member polities of the Galactic Coalition of Peace train officers for shared coalition operations. Your fellow cadets come from a dozen worlds and half as many species. Between rigorous classes, surprise inspections, and interpersonal drama, you'll face real emergencies that test everything you've learned. Manage the politics of polity and species alongside the mechanics of command, forge lasting alliances and bitter rivalries, and prove you have what it takes to graduate and earn your commission among the stars.
 
 ## CHARACTERS
 
@@ -28,7 +28,7 @@ You are cadets at the GCP Combined Services Academy — a joint institution wher
 
 **Humble Origins**: You come from a working-class or poor family. Start with Reputation +1 (people respect your determination) and take repair tools. Increase 2 skills.
 
-**Foreigner**: You're from outside the GCP — an unaligned polity, a non-member species, or a contested-border community. Start with one Cultural Outsider TIE (-1) but gain a perspective none of your peers share. Take universal translator and increase Linguistics (d8).
+**Foreigner**: You're from outside the GCP: an unaligned polity, a non-member species, or a contested-border community. Start with one Cultural Outsider TIE (-1) but gain a perspective none of your peers share. Take universal translator and increase Linguistics (d8).
 
 **Rebel Transfer**: You're here on disciplinary transfer. Start with Reputation -1 but gain street skills. Increase 2 skills of choice.
 
@@ -89,9 +89,9 @@ Analysis, Athletics, Combat Tactics, Communications, Diplomacy, Electronics, Eng
 
 ## HOW TO PLAY
 
-**Play**: Players describe what their characters do. The GM advises when their action is impossible, demands a cost or extra steps, or presents a risk. Players can revise plans before committing so as to change goal/stakes. Only roll to avoid risk.
+**Play**: Players describe what their characters do. The GM advises when their action is impossible, demands a cost or extra steps, or presents a risk. Players can revise plans before committing to adjust their goal or the stakes. Only roll to avoid risk.
 
-**Rolling**: Roll a skill die — d6 by default, higher with a relevant skill, or d4 if hindered by injury or circumstances. If helped by circumstances, roll an extra d6; if helped by an ally, they roll their skill die and share the risk. Take the highest die.
+**Rolling**: Roll a skill die, d6 by default, higher with a relevant skill, or d4 if hindered by injury or circumstances. If helped by circumstances, roll an extra d6; if helped by an ally, they roll their skill die and share the risk. Take the highest die.
 
 *Before rolling, check if any of your TIEs apply to the situation. Add the TIE value to your result if relevant.*
 
@@ -101,7 +101,7 @@ Analysis, Athletics, Combat Tactics, Communications, Diplomacy, Electronics, Eng
 
 If success can't get you what you want (you make the shot, but it's bulletproof!), you'll at least get useful info or set up an advantage.
 
-**Load**: Carry as much as makes sense, but more than one bulky item may hinder you at times.
+**Load**: Carry as much as makes sense, but more than one bulky item will hinder you.
 
 **Advancement**: After a mission, each character increases a skill (none⮕d8⮕d10⮕d12) and gains d6 credits (₡).
 
@@ -109,9 +109,9 @@ If success can't get you what you want (you make the shot, but it's bulletproof!
 
 **Harm**: Injuries take time and/or medical attention to heal. If killed, make a new character to introduce ASAP. Favor inclusion over realism.
 
-**GM**: Describe characters in terms of behaviors, risks, and obstacles, not skill dice. Lead the group in setting lines not to cross in play. Fast-forward, pause, or rewind/redo for pacing and safety; invite players to do likewise. Present dilemmas you don't know how to solve. Move spotlight to give all time to shine. Test as needed for bad luck (e.g., equipment failure, surprise inspections) — roll a die to check for (1–2) trouble or (3–4) signs of it. Improvise rulings to cover gaps in rules; on a break, revise unsatisfactory rulings as a group.
+**GM**: Describe characters in terms of behaviors, risks, and obstacles, not skill dice. Lead the group in setting lines not to cross in play. Fast-forward, pause, or rewind/redo for pacing and safety; invite players to do likewise. Present dilemmas you don't know how to solve. Shift focus so every character gets time in the scene. Test as needed for bad luck (e.g., equipment failure, surprise inspections); roll a die to check for (1–2) trouble or (3–4) signs of it. Improvise rulings to cover gaps in rules; on a break, revise unsatisfactory rulings as a group.
 
-**The GCP Combined Services Academy** is not a neutral institution. Member polities argue over funding, curriculum priority, and whose history gets taught as standard doctrine. Some instructors were placed here as political appointments; others arrived as punishment postings; a few because no one else would take the assignment. When a regulation seems arbitrary or two instructors give contradictory orders, the answer is usually the same — three polities wrote those rules and couldn't agree on a compromise. That tension is part of the setting, not background noise.
+**The GCP Combined Services Academy** is not a neutral institution. Member polities argue over funding, curriculum priority, and whose history gets taught as standard doctrine. Some instructors were placed here as political appointments; others arrived as punishment postings; a few because no one else would take the assignment. When a regulation seems arbitrary or two instructors give contradictory orders, the answer is usually the same: three polities wrote those rules and couldn't agree on a compromise. That tension is part of the setting, not background noise.
 
 
 ## TIES & REPUTATION
@@ -120,7 +120,7 @@ Each PC tracks up to 3 TIEs to NPCs or other PCs. A TIE has: a role label (Mento
 
 **Extreme TIEs**: When a TIE would go beyond ±2, it locks: +3 (Devoted) means you must act to protect them even against your interests; -3 (Nemesis) means you must oppose them when possible, whatever the cost.
 
-**Cadet Conflicts**: When cadets clash, name the arena — Physical (duel, obstacle course), Mental (debate, tactical sim), Social (hearing, reputation contest), or Honor (formal challenge, tribunal) — then both roll the relevant skill + TIE value. Higher result wins. On a tie, the GM breaks it dramatically. The winner shifts a TIE by ±1; a decisive win (3+ margin) shifts a second TIE and adjusts Reputation by 1. Sanctioned contests carry no official penalty; forbidden ones (real duels, sabotage) risk disciplinary action.
+**Cadet Conflicts**: When cadets clash, name the arena: Physical (duel, obstacle course), Mental (debate, tactical sim), Social (hearing, reputation contest), or Honor (formal challenge, tribunal). Both roll the relevant skill + TIE value. Higher result wins. On a tie, the GM breaks it dramatically. The winner shifts a TIE by ±1; a decisive win (3+ margin) shifts a second TIE and adjusts Reputation by 1. Sanctioned contests carry no official penalty; forbidden ones (real duels, sabotage) risk disciplinary action.
 
 **REPUTATION** starts at 0 and shifts based on public impact within the academy. Lose 1 Reputation when you fail publicly with your standing at stake, act against a valued TIE, or suffer humiliation. Gain 1 Reputation for visible success, upholding academy values, or earning faculty recognition.
 
@@ -136,9 +136,9 @@ Each PC tracks up to 3 TIEs to NPCs or other PCs. A TIE has: a role label (Mento
 
 **Graduation Clock**: Start with a 12-segment clock. Advance 1 segment per completed mission; 2 segments for exceptional performance or a major academy achievement.
 
-**Academy Years**: The group chooses a starting year as a tone-setter — First Year (basic training, forming relationships), Second Year (first real missions, early leadership), Third Year (advanced missions, mentoring juniors), or Fourth Year (senior privileges, commission preparation). No mechanical difference; it frames what the academy expects of you.
+**Academy Years**: The group chooses a starting year as a tone-setter: First Year (basic training, forming relationships), Second Year (first real missions, early leadership), Third Year (advanced missions, mentoring juniors), or Fourth Year (senior privileges, commission preparation). No mechanical difference; it frames what the academy expects of you.
 
-**Graduation**: When the clock fills, each character chooses a post-graduation path and rebuilds as a commissioned officer. Keep your TIEs — they become professional relationships. Gain two skills at d10 in your new role and replace cadet gear with ₡5 of officer equipment.
+**Graduation**: When the clock fills, each character chooses a post-graduation path and rebuilds as a commissioned officer. Keep your TIEs; they become professional relationships. Gain two skills at d10 in your new role and replace cadet gear with ₡5 of officer equipment.
 
 - **Fleet Officer**: Command starships, explore new sectors
 - **Academy Instructor**: Train new cadets, uncover academy mysteries
@@ -165,10 +165,10 @@ Each PC tracks up to 3 TIEs to NPCs or other PCs. A TIE has: a role label (Mento
 In a solo role-playing game, use these steps to guide your scenes:
 
 1.  **Set Expectations:** Think about your character’s traits, goals, and motivations. Picture their action and how the game world might respond.  
-2.  **Test Expectations:** If you’re unsure how the world reacts, ask the oracle a “Yes” or “No” question to gauge possible outcomes—advantages or setbacks.  
+2.  **Test Expectations:** If you’re unsure how the world reacts, ask the oracle a “Yes” or “No” question to gauge possible outcomes, advantages or setbacks.  
 3.  **Interpret the Outcome:** Compare the oracle’s answer to your expectations. If it matches, proceed as planned. If it doesn’t, think about how the unexpected result could shift the scene or story.
 
-Testing your assumptions keeps the game engaging and opens up fresh story possibilities.
+Testing your assumptions surfaces complications and opens up fresh story directions.
 
 When deciding outcomes for actions beyond your character’s control or answering questions about the game world or NPC (Non-Player Character) reactions, try one of these methods:
 
@@ -273,17 +273,17 @@ Use these tables to spark adventure ideas. Combine an Action with a Theme to gen
 | 7   | A senior cadet orders you to break protocol.                    |
 | 8   | Your squadmate has been replaced on short notice.               |
 | 9   | You’re shadowed by an unknown observer.                         |
-| 10  | An NPC confesses they sabotaged a test—on your behalf.          |
+| 10  | An NPC confesses they sabotaged a test, on your behalf.          |
 | 11  | Your rival claims they want to bury the hatchet.                |
 | 12  | Someone's transferred to your academy with an agenda.           |
 | 13  | A former ally is now openly hostile.                            |
 | 14  | You receive an anonymous gift with cadet-level clearance codes. |
-| 15  | An NPC pretends not to know you—but clearly does.               |
+| 15  | An NPC pretends not to know you, but clearly does.               |
 | 16  | You overhear a conversation about your future.                  |
 | 17  | A mentor asks you to spy on another cadet.                      |
-| 18  | Someone is missing—and no one talks about it.                   |
+| 18  | Someone is missing, and no one talks about it.                   |
 | 19  | An NPC reveals their assignment conflicts with yours.           |
-| 20  | A former classmate shows up in disgrace—and blames you.         |
+| 20  | A former classmate shows up in disgrace, and blames you.         |
 
 #### EMOTIONAL BEATS
 
@@ -300,7 +300,7 @@ Use these tables to spark adventure ideas. Combine an Action with a Theme to gen
 | 9   | You break formation, and no one notices.            |
 | 10  | You feel genuine fear in a low-stakes situation.    |
 | 11  | You lose track of time during a mundane task.       |
-| 12  | You act on instinct—and regret it instantly.        |
+| 12  | You act on instinct, and regret it instantly.        |
 | 13  | You lie to protect someone.                         |
 | 14  | You make a joke and no one laughs.                  |
 | 15  | You feel the urge to sabotage your own success.     |
@@ -315,10 +315,10 @@ Use these tables to spark adventure ideas. Combine an Action with a Theme to gen
 | d20 | Prompt                                              |
 | --- | --------------------------------------------------- |
 | 1   | A major faction issues a sudden recruitment order.  |
-| 2   | An alien vessel docks nearby—without permission.    |
+| 2   | An alien vessel docks nearby, without permission.    |
 | 3   | A known satellite goes dark for unknown reasons.    |
 | 4   | The academy AI issues a lockdown.                   |
-| 5   | A scheduled event is cancelled—without explanation. |
+| 5   | A scheduled event is cancelled, without explanation. |
 | 6   | Cadet footage leaks to interstellar media.          |
 | 7   | Instructors are summoned off-world urgently.        |
 | 8   | A drone test goes rogue during a simulation.        |
@@ -342,7 +342,7 @@ Use these tables to spark adventure ideas. Combine an Action with a Theme to gen
 | 1   | You find an old letter you don’t remember writing.           |
 | 2   | A family member contacts you with a strange request.         |
 | 3   | Your name appears in a classified file.                      |
-| 4   | You discover you have a sibling—also a cadet.                |
+| 4   | You discover you have a sibling, also a cadet.                |
 | 5   | You fail a test you were sure you passed.                    |
 | 6   | Someone you trusted isn’t who they claimed.                  |
 | 7   | A piece of gear responds only to your biometrics.            |
@@ -354,7 +354,7 @@ Use these tables to spark adventure ideas. Combine an Action with a Theme to gen
 | 13  | A shared memory with another cadet doesn’t match up.         |
 | 14  | Your backstory contradicts newly revealed records.           |
 | 15  | A stranger refers to you by a name you've never used.        |
-| 16  | You receive a parcel with no sender—only your academy ID.    |
+| 16  | You receive a parcel with no sender, only your academy ID.    |
 | 17  | A DNA test triggers an academy alert.                        |
 | 18  | A recording shows you committing an act you don’t recall.    |
 | 19  | You find classified files about your upbringing.             |
@@ -495,7 +495,7 @@ Use these tables to spark adventure ideas. Combine an Action with a Theme to gen
 
 ## Overview
 
-**Cadet Yearbooks** is a modular supplement for *74XX: Space Cadets* that introduces rival academies, student factions, and intra-academy life. It expands your campaign world with new NPCs, conflict hooks, and emerging dynamics—without adding complex new mechanics.
+**Cadet Yearbooks** is a modular supplement for *74XX: Space Cadets* that introduces rival academies, student factions, and intra-academy life. It expands your campaign world with new NPCs, conflict hooks, and emerging dynamics, without adding complex new mechanics.
 
 Each entry is designed for plug-and-play use across solo and group campaigns.
 
@@ -518,7 +518,7 @@ Each rival academy includes a short profile, traits, custom TIE hooks, and a cad
 * **Focus:** Political manipulation, rhetorical combat, interstellar diplomacy.
 * **Traits:** Elegant, subtle, hierarchical.
 * **Known For:** Producing envoys and puppetmasters. Noble house connections are assumed; those without them learn to manufacture them.
-* **Cadet Rival (NPC):** **Siran Vos** — poised, vicious in debate, secretly disgraced Lynem royalty.
+* **Cadet Rival (NPC):** **Siran Vos**: poised, vicious in debate, secretly disgraced Lynem royalty.
 * **Custom TIE Hooks:**
 
   * “They humiliated me during the ethics tribunal.”
@@ -531,11 +531,11 @@ Each rival academy includes a short profile, traits, custom TIE hooks, and a cad
 * **Sponsor:** Empire of Wrulis
 * **Focus:** Tactical operations, mech piloting, siege warfare.
 * **Traits:** Brutal, efficient, patriotic.
-* **Known For:** High dropout rate. Ruthless competence. Royal Guard officers often rotate through as instructors — and treat students accordingly.
-* **Cadet Rival (NPC):** **Tamsin Rez** — ex-mercenary, stoic, leads training duels that get *too* real.
+* **Known For:** High dropout rate. Ruthless competence. Royal Guard officers often rotate through as instructors, and treat students accordingly.
+* **Cadet Rival (NPC):** **Tamsin Rez**: ex-mercenary, stoic, leads training duels that get *too* real.
 * **Custom TIE Hooks:**
 
-  * “They saved my life—then claimed the credit.”
+  * “They saved my life, then claimed the credit.”
   * “We sparred until one of us bled.”
 
 ### 3. Hetsusian Institute of Xenology
@@ -545,12 +545,12 @@ Each rival academy includes a short profile, traits, custom TIE hooks, and a cad
 * **Sponsor:** Confederacy of Enthor
 * **Focus:** Alien diplomacy, xeno-psychology, pre-collapse site interpretation.
 * **Traits:** Curious, eccentric, non-hierarchical.
-* **Known For:** Producing cryptic advisors and xenolinguists. Direct access to Xalith ruin sites gives students fieldwork opportunities no other institution can match — and some don't come back unchanged.
-* **Cadet Rival (NPC):** **Alun Nirel** — wears a living organism as clothing, speaks only in questions.
+* **Known For:** Producing cryptic advisors and xenolinguists. Direct access to Xalith ruin sites gives students fieldwork opportunities no other institution can match, and some don't come back unchanged.
+* **Cadet Rival (NPC):** **Alun Nirel**: wears a living organism as clothing, speaks only in questions.
 * **Custom TIE Hooks:**
 
   * “They unlocked a memory I didn't know I had.”
-  * “We studied the same creature—and fought over how to treat it.”
+  * “We studied the same creature, and fought over how to treat it.”
 
 ### 4. Avaros Federation Defense Conservatory
 
@@ -560,11 +560,11 @@ Each rival academy includes a short profile, traits, custom TIE hooks, and a cad
 * **Focus:** Homeland defense, logistics, mass-coordination warfare.
 * **Traits:** Collective-focused, ideological, austere.
 * **Known For:** Producing tacticians who treat command as a consensus problem. The Conservatory's multi-species cohort structure is a feature, not an accident; Federation policy is baked into the curriculum.
-* **Cadet Rival (NPC):** **Uten Bray** — fervent, magnetic, under covert surveillance by their own superiors.
+* **Cadet Rival (NPC):** **Uten Bray**: fervent, magnetic, under covert surveillance by their own superiors.
 * **Custom TIE Hooks:**
 
   * “They turned my own squad against me.”
-  * “We were once inseparable—until the Loyalty Test.”
+  * “We were once inseparable, until the Loyalty Test.”
 
 ### 5. Void Consortium Contractor School
 
@@ -574,11 +574,11 @@ Each rival academy includes a short profile, traits, custom TIE hooks, and a cad
 * **Focus:** Freelance cadets trained for corporate ops, salvage missions, and grey-area logistics.
 * **Traits:** Sarcastic, pragmatic, mercenary.
 * **Known For:** Losing half their cadets to off-world gigs mid-course. Graduates go where the Consortium points them; the curriculum is the contract.
-* **Cadet Rival (NPC):** **Cass “Slip” Kael** — smooth-talking hacker with 3 conflicting loyalties.
+* **Cadet Rival (NPC):** **Cass “Slip” Kael**: smooth-talking hacker with 3 conflicting loyalties.
 * **Custom TIE Hooks:**
 
   * “They hacked my records and made it look like an accident.”
-  * “We pulled a job together—and barely walked out.”
+  * “We pulled a job together, and barely walked out.”
 
 ## ELECTIVE CLUBS
 
@@ -600,7 +600,7 @@ Clubs are informal factions that can shape downtime, mission priorities, and soc
 ### Drama Cell
 
 **Perk:** Once per session, you may stage a distraction or emotional performance to escape or deceive.
-**Risk:** On a failed roll, your motives are questioned—TIE shifts unpredictably.
+**Risk:** On a failed roll, your motives are questioned; TIE shifts unpredictably.
 
 ### ESPIONAGE CIRCLE *(Unofficial)*
 
@@ -635,7 +635,7 @@ Each rival academy gets a unique table to reflect its internal drama or quirks.
 Example: *Lynem Academy of Statecraft – d6*
 
 1. A cadet publishes a political pamphlet criticizing the instructors.
-2. A visiting envoy is found unconscious—no sign of forced entry.
+2. A visiting envoy is found unconscious, no sign of forced entry.
 3. A secret vote is held on expelling a disruptive student.
 4. The Debate Corps is accused of fabricating transcripts.
 5. Rumors circulate about someone forging family lineage documents.
@@ -673,20 +673,20 @@ Roll when a rival NPC is involved in a scene.
 
 ## INTER-ACADEMY ENCOUNTER TABLE
 
-Roll when two schools cross paths—missions, tournaments, exchange programs.
+Roll when two schools cross paths: missions, tournaments, exchange programs.
 
 | d6 | Scenario                                        |
 | -- | ----------------------------------------------- |
 | 1  | Joint mission with conflicting goals            |
-| 2  | Tournament with unclear rules—or sabotage       |
+| 2  | Tournament with unclear rules, or sabotage       |
 | 3  | Exchange student causes division in your dorm   |
 | 4  | A cadet defects to or from your academy         |
 | 5  | Shared facility goes into lockdown              |
-| 6  | Your mentor has history with theirs—good or bad |
+| 6  | Your mentor has history with theirs, good or bad |
 
 # MISSION LOGS
 
-**Tagline:** *From Zero-G drills to black ops sabotage—ready-to-run arcs for cadets under pressure.*
+**Tagline:** *From Zero-G drills to black ops sabotage, ready-to-run arcs for cadets under pressure.*
 
 ## OVERVIEW
 
@@ -702,7 +702,7 @@ Roll when two schools cross paths—missions, tournaments, exchange programs.
 * Drop one pack as a one-shot with little prep.
 * Tie 2–3 packs together into a mini-campaign arc.
 * Allow mission outcomes to influence Reputation, TIEs, and club/faction dynamics.
-* Clocks offer consequences—but also momentum toward graduation or institutional failure.
+* Clocks offer consequences, but also momentum toward graduation or institutional failure.
 
 
 ## MISSION PACK 01: **MISFIRE PROTOCOL**
@@ -712,7 +712,7 @@ Roll when two schools cross paths—missions, tournaments, exchange programs.
 
 ### BRIEFING
 
-A xenoarchaeological survey ship sends a distress signal from the surface of a quarantined world. Cadets are dispatched to assist—under strict observation from both the GCP and the Hetsusian Institute of Xenology.
+A xenoarchaeological survey ship sends a distress signal from the surface of a quarantined world. Cadets are dispatched to assist, under strict observation from both the GCP and the Hetsusian Institute of Xenology.
 
 ### Scene Seeds:
 
@@ -762,7 +762,7 @@ A training mission turns real as the orbital station *Chariot-6* suffers cascadi
 
 ### BRIEFING
 
-A GCP intelligence asset embedded in your academy believes a cadet has been flipped. Your team is tasked with identifying the mole—quietly.
+A GCP intelligence asset embedded in your academy believes a cadet has been flipped. Your team is tasked with identifying the mole, quietly.
 
 ### SCENE SEEDS
 
@@ -773,7 +773,7 @@ A GCP intelligence asset embedded in your academy believes a cadet has been flip
 ### COMPLICATIONS
 
 * The mole might be one of you
-* The evidence has been planted—or is it?
+* The evidence has been planted, or is it?
 * An instructor is implicated and begins covering tracks
 
 ### FALLOUT CLOCK
@@ -787,7 +787,7 @@ A GCP intelligence asset embedded in your academy believes a cadet has been flip
 
 ### BRIEFING
 
-Power surges, false alarms, and reactor hiccups: someone is testing the limits of the academy’s infrastructure. Your team is assigned to shadow Engineering and Security—and catch the saboteur.
+Power surges, false alarms, and reactor hiccups: someone is testing the limits of the academy’s infrastructure. Your team is assigned to shadow Engineering and Security, and catch the saboteur.
 
 ### SCENE SEEDS
 
@@ -812,7 +812,7 @@ Power surges, false alarms, and reactor hiccups: someone is testing the limits o
 
 ### BRIEFING
 
-Cadets must escort a non-aligned dignitary from a disputed sector to an off-world summit, under the cover of an academic cultural exchange. None of the factions officially know—but all suspect.
+Cadets must escort a non-aligned dignitary from a disputed sector to an off-world summit, under the cover of an academic cultural exchange. None of the factions officially know, but all suspect.
 
 ### SCENE SEEDS
 
@@ -837,7 +837,7 @@ Cadets must escort a non-aligned dignitary from a disputed sector to an off-worl
 
 ### BRIEFING
 
-A rogue unit of expelled cadets—rumored to be running freelance ops for an unaligned faction—has begun targeting GCP installations. Your squad is deployed to intercept… and uncover who trained them.
+A rogue unit of expelled cadets, rumored to be running freelance ops for an unaligned faction, has begun targeting GCP installations. Your squad is deployed to intercept… and uncover who trained them.
 
 ### SCENE SEEDS
 
