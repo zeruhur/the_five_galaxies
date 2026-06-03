@@ -1,5 +1,28 @@
-# 74XX COLD SIGNAL
-Version 1.0
+---
+title: 74XX COLD SIGNAL
+author: Roberto Bisceglie
+date: 2026-06-03
+lang: en
+license: CC BY-SA 4.0
+version: "1.0"
+format:
+  html: {}
+  typst:
+    toc: true
+    toc-depth: 2
+    number-sections: false
+    fontsize: 11pt
+    tbl-colwidths: auto
+    template: _extensions/typst-template.typ
+    template-partials:
+      - _extensions/typst-show.typ
+  odt:
+    toc: true
+  epub:
+    toc: true
+  gfm:
+    toc: false
+---
 
 ## THE PREMISE
 
