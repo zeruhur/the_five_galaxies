@@ -162,53 +162,60 @@ Each PC tracks up to 3 TIEs to NPCs or other PCs. A TIE has: a role label (Mento
 
 ## SOLO PLAY
 
-In a solo role-playing game, use these steps to guide your scenes:
+This game can be played alone. You take on both the protagonist and the world: making decisions as your character, then stepping back to let the setting respond through the oracles below.
 
-1.  **Set Expectations:** Think about your character’s traits, goals, and motivations. Picture their action and how the game world might respond.  
-2.  **Test Expectations:** If you’re unsure how the world reacts, ask the oracle a “Yes” or “No” question to gauge possible outcomes, advantages or setbacks.  
-3.  **Interpret the Outcome:** Compare the oracle’s answer to your expectations. If it matches, proceed as planned. If it doesn’t, think about how the unexpected result could shift the scene or story.
+The **Risk Oracle** tells you how much friction the world offers before you commit to an action. The **Question Oracle** lets the world answer questions you can't resolve alone (what an NPC does, whether the docking bay is sealed, if the cargo matches the manifest). **Sparks** give you a prompt when you need direction or momentum.
 
-Testing your assumptions surfaces complications and opens up fresh story directions.
+Trust the results. When an oracle contradicts what you expected, that's where the story is.
 
-When deciding outcomes for actions beyond your character’s control or answering questions about the game world or NPC (Non-Player Character) reactions, try one of these methods:
+### The Loop
 
-1.  **Draw a Conclusion:** Choose the answer that’s the most interesting or logical.  
-2.  **Ask a Closed Question:** Estimate the odds of a “Yes,” then roll on the table below for the answer.  
-3.  **Choose Between Two Options:** Imagine two possible outcomes, mark one as “likely,” and roll to see if it’s true. If not, go with the other option.  
-4.  **Spark an Idea:** Brainstorm or use a random prompt (like the Spark tables below).
+Each time your character acts, go through these steps:
 
-### Asking Questions
+1. **Declare your action.** What are you doing, and what do you want to happen?
+2. **Assess the situation.** Use the *Risk Oracle* to read how much is at stake.
+3. **Roll if needed.** If the Risk Oracle says there's friction or volatility, make your standard roll. Otherwise, it just happens.
+4. **Interpret the outcome.** Let the result shape the fiction. If you need to know how the world or an NPC responds, use the *Question Oracle*.
 
-For closed questions (with a “Yes” or “No” answer), follow these steps:
+### Risk Oracle
 
-1.  Roll a die based on the likelihood:
+Before your character acts, roll to assess how much control you have over the situation.
 
-| Likelihood    | Die to Roll |
-| ------------- | ----------- |
-| Very Unlikely | 1d4         |
-| Unlikely      | 1d6         |
-| Uncertain     | 1d8         |
-| Likely        | 1d10        |
-| Very Likely   | 1d12        |
+| Situation    | Die  |
+|--------------|------|
+| Chaotic      | d4   |
+| Precarious   | d6   |
+| Manageable   | d8   |
+| Predictable  | d10  |
+| Stable       | d12  |
 
-2.  Interpret the roll:
-      - **1-2 No, and…**: What you expected doesn’t happen, and things get worse.  
-      - **3-4 Yes, but…**: What you expected happens, but with a complication.  
-      - **5+ Yes, and…**: What you expected happens, plus something even better\!
-3.  Think about the answer in the context of your question and the situation. Does it fit? Does it inspire you?  
-4.  If you’ve got your answer, great\! Play it out. If you need more details, use the Sparks tables for inspiration.  
-5.  If you’re still stuck, try rolling again, exploring a different Spark, or trust your instincts to move forward.
+Interpret the result:
 
-For open-ended questions, skip the oracle and roll directly on the Sparks tables. Let the results guide your imagination.
+- **1-2: Volatile.** The situation is unstable. Make your standard roll, and failure hits hard.
+- **3-4: Friction.** Something could go wrong. Make your standard roll.
+- **5+: Clean.** The situation is in hand. No roll needed; it happens.
 
-### SPARKS
+### Question Oracle
 
-Use these tables to spark adventure ideas. Combine an Action with a Theme to generate prompts like:
+When the outcome isn't about what your character *does* (NPC reactions, world states, things off-screen), ask a yes/no question and roll based on the odds.
 
-  - **“Investigate a signal in an uncharted star system.”**  
-  - **“Defend an outpost from a hostile faction.”**  
-  - **“Chart a stargate route through a debris field.”**  
-  - **“Retrieve an ancient alien artifact buried in a ruin.”**
+| Likelihood     | Die  |
+|----------------|------|
+| Very Unlikely  | d4   |
+| Unlikely       | d6   |
+| Likely         | d8   |
+| Very Likely    | d10  |
+| Almost Certain | d12  |
+
+Interpret the result:
+
+- **1-2: No, and…** It doesn't happen, and things get worse.
+- **3-4: Yes, but…** It happens, but with a complication.
+- **5+: Yes, and…** It happens, and something else opens up.
+
+### Sparks
+
+When you need a fresh angle or you're stuck, combine an Action and a Theme to generate a prompt.
 
 #### ACTION
 
