@@ -131,6 +131,30 @@ If success can't get you what you want, you'll at least get useful info or set u
 
 **GM**: Describe characters in terms of behaviors, risks, and obstacles, not skill dice. The sites are not passive — technology running for tens of thousands of years without maintenance behaves unpredictably. Test for site activity the same way you test for bad luck: roll a die, (1–2) something activates or shifts, (3–4) signs of it. Competing parties always arrive at the wrong moment. Give players real information; let the site's full nature remain unclear until they earn it. Lead the group in setting lines not to cross. Fast-forward, pause, or rewind/redo for pacing and safety. Improvise rulings; revise unsatisfactory ones on a break.
 
+## Situation
+
+When characters act without risk, the GM rolls a die sized to how settled things are: d4 (chaotic), d6 (precarious), d8 (manageable), d10 (predictable), d12 (stable), to find how the world moves.
+
+- 1–2 Trouble. An adverse fact surfaces, something the characters can see and respond to.
+- 3–4 Signs. Trouble shows at the edge; the situation grows less stable, the next die will likely be smaller.
+- 5+ Calm. Nothing new; the action lands.
+
+The surfaced fact must be proportionate to what is established, leave something to act on, and follow from prior events, not invented to fill the silence.
+
+## Opponents
+
+Characters played by the GM have no skill dice. Define them by their **behavior** (what they want, including when they would rather flee or bargain than fight), the **risks** they present (the 1–2 result for players in conflict with them), and any **obstacles** (visible conditions, armor, numbers, cover, that must be cleared before they can be put down). Signal both before players roll.
+
+## Conflict
+
+In a fight, the GM rolls the situation die: d4 if ambushed or scattered, d6 if evenly matched, d8 if holding an advantage, d10 if dominating, d12 if the opposition is broken, to find what the opposition does.
+
+- 1–2 Press. A new risk or obstacle surfaces; the fight grows harder.
+- 3–4 Shift. The opposition adapts, repositions, changes tactic; the situation tilts.
+- 5+ Opening. An obstacle clears, a gap appears, or the opposition is ready to break.
+
+Roll in lulls, at the start of a fight, or whenever no skill roll applies. For extended conflicts, use Steps: state actions and risks, roll as needed, describe how the situation has changed, repeat. On an Opening with the opposition cornered, they break per their behavior, fleeing, yielding, or bargaining.
+
 ## TIES
 
 Each operative tracks up to 3 TIEs — key relationships with a role label (Client, Rival Team, Institutional Handler), a numeric value (-2 to +2), and a trait tag (e.g., Forthcoming, Withholding, Competitive). TIE value adds to or subtracts from any roll where that relationship is directly in play. TIEs shift by ±1 after significant interactions.
