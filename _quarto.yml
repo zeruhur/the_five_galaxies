@@ -16,7 +16,7 @@ project:
 website:
   title: "The Five Galaxies"
   description: "A system-agnostic space opera setting bible"
-  site-url: "https://zeruhur.github.io/the_five_galaxies/"
+  site-url: "https://zeruhur.icu/the_five_galaxies/"
   repo-url: "https://github.com/zeruhur/the_five_galaxies"
   repo-actions: [issue]
 
