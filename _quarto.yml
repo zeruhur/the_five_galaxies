@@ -3,7 +3,7 @@ project:
   output-dir: _site
   render:
     - index.qmd
-    - setting/the_five_galaxies.md
+    - setting/the_five_galaxies.qmd
     - setting/GLOSSARY.md
     - maps.qmd
     - 74xx_oddspace.md
