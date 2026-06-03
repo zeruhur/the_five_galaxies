@@ -1,0 +1,5756 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.38">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Roberto Bisceglie">
+<meta name="dcterms.date" content="2026-06-03">
+
+<title>74XX ODDSPACE – The Five Galaxies</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-5b1c58e66ef74a4b994079585d538883.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-97cace2ba407a1d0b23a291a3ef258f9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-5b1c58e66ef74a4b994079585d538883.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500&amp;family=Orbitron:wght@400;500;700;900&amp;display=swap" rel="stylesheet">
+
+
+</head>
+
+<body class="nav-sidebar docked nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">The Five Galaxies</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./setting/the_five_galaxies.html" aria-current="page"> 
+<span class="menu-text">Setting</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./maps.html"> 
+<span class="menu-text">Maps</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./74xx_oddspace.html"> 
+<span class="menu-text">Games</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./setting/GLOSSARY.html"> 
+<span class="menu-text">Glossary</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/zeruhur/the_five_galaxies"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./74xx_oddspace.html">Games</a></li><li class="breadcrumb-item"><a href="./74xx_oddspace.html">Oddspace</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Setting</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./setting/the_five_galaxies.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">The Five Galaxies</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Reference</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./maps.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Maps</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./setting/GLOSSARY.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Glossary</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./orion_timeline.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Beyond The Stars Timeline</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+ <span class="menu-text">Games</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./74xx_oddspace.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Oddspace</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./74xx_space_cadets.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Space Cadets</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./74xx_grey_channel.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Grey Channel</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./74xx_cold_signal.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cold Signal</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./74xx_star_trader.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Star Trader</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#core-rules" id="toc-core-rules" class="nav-link" data-scroll-target="#core-rules">Core Rules</a>
+  <ul class="collapse">
+  <li><a href="#play" id="toc-play" class="nav-link" data-scroll-target="#play">Play</a></li>
+  <li><a href="#rolling" id="toc-rolling" class="nav-link" data-scroll-target="#rolling">Rolling</a></li>
+  <li><a href="#load" id="toc-load" class="nav-link" data-scroll-target="#load">Load</a></li>
+  <li><a href="#advancement" id="toc-advancement" class="nav-link" data-scroll-target="#advancement">Advancement</a></li>
+  <li><a href="#defense" id="toc-defense" class="nav-link" data-scroll-target="#defense">Defense</a></li>
+  <li><a href="#harm" id="toc-harm" class="nav-link" data-scroll-target="#harm">Harm</a></li>
+  <li><a href="#gm" id="toc-gm" class="nav-link" data-scroll-target="#gm">GM</a></li>
+  </ul></li>
+  <li><a href="#skills" id="toc-skills" class="nav-link" data-scroll-target="#skills">Skills</a></li>
+  <li><a href="#character-creation" id="toc-character-creation" class="nav-link" data-scroll-target="#character-creation">Character Creation</a>
+  <ul class="collapse">
+  <li><a href="#choose-a-creation-path" id="toc-choose-a-creation-path" class="nav-link" data-scroll-target="#choose-a-creation-path">1. Choose a creation path</a></li>
+  <li><a href="#choose-or-roll-species" id="toc-choose-or-roll-species" class="nav-link" data-scroll-target="#choose-or-roll-species">2. Choose or roll species</a></li>
+  <li><a href="#name-and-background" id="toc-name-and-background" class="nav-link" data-scroll-target="#name-and-background">3. Name and background</a></li>
+  <li><a href="#starting-credits" id="toc-starting-credits" class="nav-link" data-scroll-target="#starting-credits">4. Starting credits</a></li>
+  <li><a href="#names-d20" id="toc-names-d20" class="nav-link" data-scroll-target="#names-d20">Names (d20)</a></li>
+  <li><a href="#character-traits" id="toc-character-traits" class="nav-link" data-scroll-target="#character-traits">Character Traits</a></li>
+  </ul></li>
+  <li><a href="#psionics" id="toc-psionics" class="nav-link" data-scroll-target="#psionics">Psionics</a>
+  <ul class="collapse">
+  <li><a href="#psionic-skills" id="toc-psionic-skills" class="nav-link" data-scroll-target="#psionic-skills">Psionic Skills</a></li>
+  </ul></li>
+  <li><a href="#archetypes" id="toc-archetypes" class="nav-link" data-scroll-target="#archetypes">Archetypes</a>
+  <ul class="collapse">
+  <li><a href="#bounty-hunter" id="toc-bounty-hunter" class="nav-link" data-scroll-target="#bounty-hunter">1. Bounty Hunter</a></li>
+  <li><a href="#croaker" id="toc-croaker" class="nav-link" data-scroll-target="#croaker">2. Croaker</a></li>
+  <li><a href="#emissary" id="toc-emissary" class="nav-link" data-scroll-target="#emissary">3. Emissary</a></li>
+  <li><a href="#expert" id="toc-expert" class="nav-link" data-scroll-target="#expert">4. Expert</a></li>
+  <li><a href="#freelancer" id="toc-freelancer" class="nav-link" data-scroll-target="#freelancer">5. Freelancer</a></li>
+  <li><a href="#highborn" id="toc-highborn" class="nav-link" data-scroll-target="#highborn">6. Highborn</a></li>
+  <li><a href="#hitman" id="toc-hitman" class="nav-link" data-scroll-target="#hitman">7. Hitman</a></li>
+  <li><a href="#jarhead" id="toc-jarhead" class="nav-link" data-scroll-target="#jarhead">8. Jarhead</a></li>
+  <li><a href="#matterjammer-psionic" id="toc-matterjammer-psionic" class="nav-link" data-scroll-target="#matterjammer-psionic">9. Matterjammer <em>[psionic]</em></a></li>
+  <li><a href="#mindbender-psionic" id="toc-mindbender-psionic" class="nav-link" data-scroll-target="#mindbender-psionic">10. Mindbender <em>[psionic]</em></a></li>
+  <li><a href="#operative" id="toc-operative" class="nav-link" data-scroll-target="#operative">11. Operative</a></li>
+  <li><a href="#rockhopper" id="toc-rockhopper" class="nav-link" data-scroll-target="#rockhopper">12. Rockhopper</a></li>
+  <li><a href="#routeplanner" id="toc-routeplanner" class="nav-link" data-scroll-target="#routeplanner">13. Routeplanner</a></li>
+  <li><a href="#savage" id="toc-savage" class="nav-link" data-scroll-target="#savage">14. Savage</a></li>
+  <li><a href="#shaper" id="toc-shaper" class="nav-link" data-scroll-target="#shaper">15. Shaper</a></li>
+  <li><a href="#smuggler" id="toc-smuggler" class="nav-link" data-scroll-target="#smuggler">16. Smuggler</a></li>
+  <li><a href="#techie" id="toc-techie" class="nav-link" data-scroll-target="#techie">17. Techie</a></li>
+  <li><a href="#trader" id="toc-trader" class="nav-link" data-scroll-target="#trader">18. Trader</a></li>
+  <li><a href="#trailblazer" id="toc-trailblazer" class="nav-link" data-scroll-target="#trailblazer">19. Trailblazer</a></li>
+  <li><a href="#voidcutter" id="toc-voidcutter" class="nav-link" data-scroll-target="#voidcutter">20. Voidcutter</a></li>
+  </ul></li>
+  <li><a href="#species" id="toc-species" class="nav-link" data-scroll-target="#species">Species</a>
+  <ul class="collapse">
+  <li><a href="#species-d20" id="toc-species-d20" class="nav-link" data-scroll-target="#species-d20">Species (d20)</a></li>
+  <li><a href="#traits-d20" id="toc-traits-d20" class="nav-link" data-scroll-target="#traits-d20">Traits (d20)</a></li>
+  </ul></li>
+  <li><a href="#gear" id="toc-gear" class="nav-link" data-scroll-target="#gear">Gear</a>
+  <ul class="collapse">
+  <li><a href="#tags" id="toc-tags" class="nav-link" data-scroll-target="#tags">Tags</a></li>
+  <li><a href="#general-equipment" id="toc-general-equipment" class="nav-link" data-scroll-target="#general-equipment">General Equipment</a></li>
+  <li><a href="#weapons" id="toc-weapons" class="nav-link" data-scroll-target="#weapons">Weapons</a></li>
+  <li><a href="#armor" id="toc-armor" class="nav-link" data-scroll-target="#armor">Armor</a></li>
+  <li><a href="#cybernetics" id="toc-cybernetics" class="nav-link" data-scroll-target="#cybernetics">Cybernetics</a></li>
+  </ul></li>
+  <li><a href="#starships-vehicles" id="toc-starships-vehicles" class="nav-link" data-scroll-target="#starships-vehicles">Starships &amp; Vehicles</a>
+  <ul class="collapse">
+  <li><a href="#starships" id="toc-starships" class="nav-link" data-scroll-target="#starships">Starships</a></li>
+  <li><a href="#ships-in-combat" id="toc-ships-in-combat" class="nav-link" data-scroll-target="#ships-in-combat">Ships in Combat</a></li>
+  <li><a href="#damage-effects" id="toc-damage-effects" class="nav-link" data-scroll-target="#damage-effects">Damage Effects</a></li>
+  <li><a href="#vehicles" id="toc-vehicles" class="nav-link" data-scroll-target="#vehicles">Vehicles</a></li>
+  </ul></li>
+  <li><a href="#travel" id="toc-travel" class="nav-link" data-scroll-target="#travel">Travel</a>
+  <ul class="collapse">
+  <li><a href="#living-standards" id="toc-living-standards" class="nav-link" data-scroll-target="#living-standards">Living Standards</a></li>
+  <li><a href="#heat-notoriety" id="toc-heat-notoriety" class="nav-link" data-scroll-target="#heat-notoriety">Heat &amp; Notoriety</a></li>
+  <li><a href="#fuel" id="toc-fuel" class="nav-link" data-scroll-target="#fuel">Fuel</a></li>
+  <li><a href="#oddspace-transit" id="toc-oddspace-transit" class="nav-link" data-scroll-target="#oddspace-transit">Oddspace Transit</a></li>
+  <li><a href="#reactions" id="toc-reactions" class="nav-link" data-scroll-target="#reactions">Reactions</a></li>
+  <li><a href="#space-contingencies" id="toc-space-contingencies" class="nav-link" data-scroll-target="#space-contingencies">Space Contingencies</a></li>
+  <li><a href="#landing-exploration" id="toc-landing-exploration" class="nav-link" data-scroll-target="#landing-exploration">Landing &amp; Exploration</a></li>
+  <li><a href="#salvage" id="toc-salvage" class="nav-link" data-scroll-target="#salvage">Salvage</a></li>
+  <li><a href="#trading" id="toc-trading" class="nav-link" data-scroll-target="#trading">Trading</a></li>
+  <li><a href="#jobs" id="toc-jobs" class="nav-link" data-scroll-target="#jobs">Jobs</a></li>
+  <li><a href="#field-oracles" id="toc-field-oracles" class="nav-link" data-scroll-target="#field-oracles">Field Oracles</a></li>
+  </ul></li>
+  <li><a href="#solo-play" id="toc-solo-play" class="nav-link" data-scroll-target="#solo-play">Solo Play</a>
+  <ul class="collapse">
+  <li><a href="#the-loop" id="toc-the-loop" class="nav-link" data-scroll-target="#the-loop">The Loop</a></li>
+  <li><a href="#session-structure" id="toc-session-structure" class="nav-link" data-scroll-target="#session-structure">Session Structure</a></li>
+  <li><a href="#scene-structure" id="toc-scene-structure" class="nav-link" data-scroll-target="#scene-structure">Scene Structure</a></li>
+  <li><a href="#risk-oracle" id="toc-risk-oracle" class="nav-link" data-scroll-target="#risk-oracle">Risk Oracle</a></li>
+  <li><a href="#question-oracle" id="toc-question-oracle" class="nav-link" data-scroll-target="#question-oracle">Question Oracle</a></li>
+  <li><a href="#sparks" id="toc-sparks" class="nav-link" data-scroll-target="#sparks">Sparks</a></li>
+  <li><a href="#npc-behavior" id="toc-npc-behavior" class="nav-link" data-scroll-target="#npc-behavior">NPC Behavior</a></li>
+  <li><a href="#combat" id="toc-combat" class="nav-link" data-scroll-target="#combat">Combat</a></li>
+  <li><a href="#tracking-the-story" id="toc-tracking-the-story" class="nav-link" data-scroll-target="#tracking-the-story">Tracking the Story</a></li>
+  </ul></li>
+  <li><a href="#appendix" id="toc-appendix" class="nav-link" data-scroll-target="#appendix">Appendix</a>
+  <ul class="collapse">
+  <li><a href="#reading-a-generated-system" id="toc-reading-a-generated-system" class="nav-link" data-scroll-target="#reading-a-generated-system">Reading a Generated System</a></li>
+  </ul></li>
+  <li><a href="#license-credits" id="toc-license-credits" class="nav-link" data-scroll-target="#license-credits">License &amp; Credits</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/zeruhur/the_five_galaxies/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="74xx_oddspace.pdf"><i class="bi bi-file-pdf"></i>Typst</a></li><li><a href="74xx_oddspace.odt"><i class="bi bi-file"></i>OpenOffice</a></li><li><a href="74xx_oddspace.epub"><i class="bi bi-file"></i>ePub</a></li><li><a href="74xx_oddspace-gfm.md"><i class="bi bi-file-code"></i>Github (GFM)</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./74xx_oddspace.html">Games</a></li><li class="breadcrumb-item"><a href="./74xx_oddspace.html">Oddspace</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">74XX ODDSPACE</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Roberto Bisceglie </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">June 3, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>Intrepid spacers ply the vastness of the Five Galaxies in search of fortune and glory. The discovery of <em>oddspace</em> opened the door to interstellar travel, stitching together an impossibly large civilization held in precarious balance by empires, trade guilds, and the endless frontier.</p>
+<p>The systems where law exists, routes are maintained, and transit is taxed are collectively called <strong>Charted Space</strong>. Most settled populations live here. Most of the trade, communication, and political activity that governs them happens here. The cost of using Charted Space’s infrastructure is built into the price of everything.</p>
+<p>Two travel systems connect it. The <strong>Wormhole Access Network</strong>, a grid of artificial wormholes between maintained stations, offers faster, more reliable transit between galaxies, but every node is owned, every node has an operator, and access can be refused. Politically inconvenient vessels use oddspace instead: slower, more demanding, and requiring no permission. The asymmetry is why embargoes are never fully enforceable and why some operators prefer not to appear in WAN transit logs at all.</p>
+<p>Humans are not the dominant species, nor the most ancient. Extinct civilizations have left ruins and artifacts scattered across billions of uncharted systems. The species of known space maintain a cosmopolitan fragility, open enough to trade, volatile enough to war. Out at the fringe, nobody is coming to help you.</p>
+<p>Profits exist everywhere. So does death.</p>
+</section>
+<section id="core-rules" class="level2">
+<h2 class="anchored" data-anchor-id="core-rules">Core Rules</h2>
+<section id="play" class="level3">
+<h3 class="anchored" data-anchor-id="play">Play</h3>
+<p>Players describe what their characters do. The GM advises when their action is impossible, demands a cost or extra steps, or presents a risk. Players can revise plans before committing to adjust their goal or the stakes. Only roll to avoid risk.</p>
+</section>
+<section id="rolling" class="level3">
+<h3 class="anchored" data-anchor-id="rolling">Rolling</h3>
+<p>Roll a skill die, d6 by default, higher with a relevant skill, or d4 if hindered by injury or circumstances. If helped by circumstances, roll an extra d6; if helped by an ally, they roll their skill die and share the risk. Take the highest die.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 5%">
+<col style="width: 94%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Roll</th>
+<th>Result</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1–2</td>
+<td><strong>Disaster.</strong> Suffer the full risk. GM decides if you succeed at all. If risking death, you die.</td>
+</tr>
+<tr class="even">
+<td>3–4</td>
+<td><strong>Setback.</strong> A lesser consequence or partial success. If risking death, you’re injured.</td>
+</tr>
+<tr class="odd">
+<td>5+</td>
+<td><strong>Success.</strong> The higher the roll, the better.</td>
+</tr>
+</tbody>
+</table>
+<p>If success can’t get you what you want, you’ll at least get useful info or set up an advantage.</p>
+</section>
+<section id="load" class="level3">
+<h3 class="anchored" data-anchor-id="load">Load</h3>
+<p>Carry as much as makes sense, but more than one <strong>bulky</strong> item will hinder you.</p>
+</section>
+<section id="advancement" class="level3">
+<h3 class="anchored" data-anchor-id="advancement">Advancement</h3>
+<p>After a job, each character increases a skill (none → d8 → d10 → d12) and gains credits based on the risk taken. The GM declares the tier before the party commits.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Risk</th>
+<th>Earnings</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Routine</td>
+<td>d6 ₡</td>
+</tr>
+<tr class="even">
+<td>Risky</td>
+<td>2d6 ₡</td>
+</tr>
+<tr class="odd">
+<td>Desperate</td>
+<td>3d6 ₡</td>
+</tr>
+</tbody>
+</table>
+<p>Earnings are individual. The party pools them to cover shared expenses.</p>
+</section>
+<section id="defense" class="level3">
+<h3 class="anchored" data-anchor-id="defense">Defense</h3>
+<p>Say how one of your items <strong>breaks</strong> to turn a hit into a brief hindrance. Broken gear is useless until repaired.</p>
+</section>
+<section id="harm" class="level3">
+<h3 class="anchored" data-anchor-id="harm">Harm</h3>
+<p>Injuries take time and/or medical attention to heal. If killed, make a new character to introduce as soon as possible.</p>
+</section>
+<section id="gm" class="level3">
+<h3 class="anchored" data-anchor-id="gm">GM</h3>
+<p>Describe NPCs in terms of behaviors, risks, and obstacles. Telegraph danger clearly: the more serious, the more obvious. Use random tables to develop situations, not plots. Roll a d6 to test for bad luck when appropriate: 1–2 means trouble, 3–4 means signs of it. Present dilemmas you don’t know how to solve.</p>
+<p><strong>The job is the unit of play.</strong> Oddspace is designed for episodic campaigns: the party takes a job, completes it, and moves on to the next. Each session should feel complete in itself. You don’t need a plot that spans months; you need a situation with stakes, a clock, and people with competing interests.</p>
+<p>Everything else in these rules is background pressure, not foreground management: debt, Heat, Notoriety, fuel state, broken gear. It exists to make the next job matter. The ship payment is why the party doesn’t walk away from a risky offer. Heat is why they can’t use their favorite port. Notoriety is why the patron is approaching them instead of someone more reputable. None of it needs to be processed at the table between jobs. It surfaces when the fiction demands it.</p>
+<p>Run the job. Collect the pay. Ask what happens next.</p>
+</section>
+</section>
+<section id="skills" class="level2">
+<h2 class="anchored" data-anchor-id="skills">Skills</h2>
+<p>A skill die starts at d8 when first acquired and advances to d10, then d12 through play. When acting without a relevant skill, roll d6.</p>
+<p>Skills are grouped below for reference only. The groupings carry no mechanical weight.</p>
+<p><strong>Physical:</strong> Fight · Shoot · Sneak · React · Survive · Track</p>
+<p><strong>Technical:</strong> Pilot · Navigate · Repair · Hack · Engineer · Prospect</p>
+<p><strong>Social:</strong> Persuade · Negotiate · Deceive · Command · Translate</p>
+<p><strong>Knowledge:</strong> Analyze · Heal</p>
+<p>Psionic skills do not appear on this list. They are available only to characters who begin play with a psionic archetype.</p>
+</section>
+<section id="character-creation" class="level2">
+<h2 class="anchored" data-anchor-id="character-creation">Character Creation</h2>
+<section id="choose-a-creation-path" class="level3">
+<h3 class="anchored" data-anchor-id="choose-a-creation-path">1. Choose a creation path</h3>
+<p><em>Archetype:</em> Choose one of the twenty archetypes. You gain the listed skills at d8 and the listed starting gear.</p>
+<p><em>Freeform:</em> Choose any three skills from the master skill list at d8. Then choose starting gear freely from the Gear section: one weapon, one armor (or none), and two general items.</p>
+</section>
+<section id="choose-or-roll-species" class="level3">
+<h3 class="anchored" data-anchor-id="choose-or-roll-species">2. Choose or roll species</h3>
+<p>Use the Species table. Non-human characters gain the listed species trait. Human and Transhuman characters gain no trait.</p>
+</section>
+<section id="name-and-background" class="level3">
+<h3 class="anchored" data-anchor-id="name-and-background">3. Name and background</h3>
+<p>Use the Name and Character Trait tables below, or invent your own. Both are descriptive only and carry no mechanical weight.</p>
+</section>
+<section id="starting-credits" class="level3">
+<h3 class="anchored" data-anchor-id="starting-credits">4. Starting credits</h3>
+<p>Start with 3d6 ₡. Pay your first month’s living expenses before play begins. Ship payment and fuel are handled when the fiction demands it (see Travel).</p>
+</section>
+<section id="names-d20" class="level3">
+<h3 class="anchored" data-anchor-id="names-d20">Names (d20)</h3>
+<section id="human-names" class="level4">
+<h4 class="anchored" data-anchor-id="human-names">Human Names</h4>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>d20</th>
+<th>Female</th>
+<th>Male</th>
+<th>Neutral</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Aniet</td>
+<td>Alard</td>
+<td>Ashtot</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Brewda</td>
+<td>Altes</td>
+<td>Baileh</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Carea</td>
+<td>Andrel</td>
+<td>Beagan</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Danoelle</td>
+<td>Annrew</td>
+<td>Brady</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Debfa</td>
+<td>Aqan</td>
+<td>Cyarke</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Debowah</td>
+<td>Asexander</td>
+<td>Kandall</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>Ditha</td>
+<td>Branden</td>
+<td>Kars</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>Emaly</td>
+<td>Daniel</td>
+<td>Kaye</td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td>Emis</td>
+<td>Eroc</td>
+<td>Keagan</td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td>Evelyt</td>
+<td>Hary</td>
+<td>Kin</td>
+</tr>
+<tr class="odd">
+<td>11</td>
+<td>Jelnifer</td>
+<td>Hatold</td>
+<td>Kuagan</td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td>Jenna</td>
+<td>Jase</td>
+<td>Lace</td>
+</tr>
+<tr class="odd">
+<td>13</td>
+<td>Mara</td>
+<td>Jerrey</td>
+<td>Leagan</td>
+</tr>
+<tr class="even">
+<td>14</td>
+<td>Michelle</td>
+<td>Justoph</td>
+<td>Mecah</td>
+</tr>
+<tr class="odd">
+<td>15</td>
+<td>Mile</td>
+<td>Lakrence</td>
+<td>Morgan</td>
+</tr>
+<tr class="even">
+<td>16</td>
+<td>Nica</td>
+<td>Masthew</td>
+<td>Reegan</td>
+</tr>
+<tr class="odd">
+<td>17</td>
+<td>Rebezca</td>
+<td>Raige</td>
+<td>Rib</td>
+</tr>
+<tr class="even">
+<td>18</td>
+<td>Rove</td>
+<td>Terry</td>
+<td>Riw</td>
+</tr>
+<tr class="odd">
+<td>19</td>
+<td>Vandra</td>
+<td>Tine</td>
+<td>Sidgey</td>
+</tr>
+<tr class="even">
+<td>20</td>
+<td>Vean</td>
+<td>Waxter</td>
+<td>So</td>
+</tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>d20</th>
+<th>Surname</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Atson</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Bennes</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Djirhuus</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Edner</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Evuns</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Foore</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>Greber</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>Hoffzann</td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td>Jamos</td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td>Koytovski</td>
+</tr>
+<tr class="odd">
+<td>11</td>
+<td>Lanx</td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td>Mates</td>
+</tr>
+<tr class="odd">
+<td>13</td>
+<td>Muzler</td>
+</tr>
+<tr class="even">
+<td>14</td>
+<td>Niewi</td>
+</tr>
+<tr class="odd">
+<td>15</td>
+<td>Olsen</td>
+</tr>
+<tr class="even">
+<td>16</td>
+<td>Ozdemur</td>
+</tr>
+<tr class="odd">
+<td>17</td>
+<td>Ramoy</td>
+</tr>
+<tr class="even">
+<td>18</td>
+<td>Ronert</td>
+</tr>
+<tr class="odd">
+<td>19</td>
+<td>Turusen</td>
+</tr>
+<tr class="even">
+<td>20</td>
+<td>Wacobs</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="alien-names" class="level4">
+<h4 class="anchored" data-anchor-id="alien-names">Alien Names</h4>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>d20</th>
+<th>Female</th>
+<th>Male</th>
+<th>Neutral</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Anic</td>
+<td>Alfac</td>
+<td>Aeo</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Balhee</td>
+<td>Ascan</td>
+<td>Azon</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Boly</td>
+<td>Barka</td>
+<td>Bani</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Churi</td>
+<td>Dreele</td>
+<td>Drille</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Hile</td>
+<td>Elol</td>
+<td>Henii</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Jata</td>
+<td>Igat</td>
+<td>Heri</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>Kali</td>
+<td>Ilen</td>
+<td>Hisi</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>Lisha</td>
+<td>Kaloo</td>
+<td>Husni</td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td>Madai</td>
+<td>Morphee</td>
+<td>Jori</td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td>Micia</td>
+<td>Nokti</td>
+<td>Kizo</td>
+</tr>
+<tr class="odd">
+<td>11</td>
+<td>Minbe</td>
+<td>Quarkyo</td>
+<td>Kradda</td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td>Quene</td>
+<td>Raskyo</td>
+<td>Mani</td>
+</tr>
+<tr class="odd">
+<td>13</td>
+<td>Sani</td>
+<td>Reeshi</td>
+<td>Mova</td>
+</tr>
+<tr class="even">
+<td>14</td>
+<td>Scata</td>
+<td>Russke</td>
+<td>Mromi</td>
+</tr>
+<tr class="odd">
+<td>15</td>
+<td>Sycia</td>
+<td>Synthua</td>
+<td>Mule</td>
+</tr>
+<tr class="even">
+<td>16</td>
+<td>Vorcia</td>
+<td>Taloo</td>
+<td>Nebra</td>
+</tr>
+<tr class="odd">
+<td>17</td>
+<td>Wani</td>
+<td>Tresi</td>
+<td>Ruugi</td>
+</tr>
+<tr class="even">
+<td>18</td>
+<td>Xara</td>
+<td>Uran</td>
+<td>Shodi</td>
+</tr>
+<tr class="odd">
+<td>19</td>
+<td>Zarboe</td>
+<td>Vanni</td>
+<td>Shurquen</td>
+</tr>
+<tr class="even">
+<td>20</td>
+<td>Zeni</td>
+<td>Xilou</td>
+<td>Skoni</td>
+</tr>
+</tbody>
+</table>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>d20</th>
+<th>Surname</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Alhoock</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>B’Koni</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>C’Goni</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Ch’Alen</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Gr’Anan</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Guri</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>H’Votha</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>Hagi</td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td>Kalle</td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td>Kh’Nari</td>
+</tr>
+<tr class="odd">
+<td>11</td>
+<td>M’Drani</td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td>Morphua</td>
+</tr>
+<tr class="odd">
+<td>13</td>
+<td>Prandi</td>
+</tr>
+<tr class="even">
+<td>14</td>
+<td>Sl’Corvi</td>
+</tr>
+<tr class="odd">
+<td>15</td>
+<td>Sloni</td>
+</tr>
+<tr class="even">
+<td>16</td>
+<td>T’Vorti</td>
+</tr>
+<tr class="odd">
+<td>17</td>
+<td>Th’Keno</td>
+</tr>
+<tr class="even">
+<td>18</td>
+<td>Tr’Edan</td>
+</tr>
+<tr class="odd">
+<td>19</td>
+<td>U’Dora</td>
+</tr>
+<tr class="even">
+<td>20</td>
+<td>V’Sconi</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="character-traits" class="level3">
+<h3 class="anchored" data-anchor-id="character-traits">Character Traits</h3>
+<section id="talent-d20" class="level4">
+<h4 class="anchored" data-anchor-id="talent-d20">Talent (d20)</h4>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>d20</th>
+<th>Talent</th>
+<th>d20</th>
+<th>Talent</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Acrobatic</td>
+<td>11</td>
+<td>Brawler</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Berserker</td>
+<td>12</td>
+<td>Focused</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Charismatic</td>
+<td>13</td>
+<td>Thoughtful</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Educated</td>
+<td>14</td>
+<td>Learned</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Insightful</td>
+<td>15</td>
+<td>Marksman</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Lucky</td>
+<td>16</td>
+<td>Opportunist</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>Resolute</td>
+<td>17</td>
+<td>Perceptive</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>Sneaky</td>
+<td>18</td>
+<td>Empathic</td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td>Tough</td>
+<td>19</td>
+<td>Impulsive</td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td>Vigilant</td>
+<td>20</td>
+<td>Survivalist</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="background-d20" class="level4">
+<h4 class="anchored" data-anchor-id="background-d20">Background (d20)</h4>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>d20</th>
+<th>Background</th>
+<th>d20</th>
+<th>Background</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Technician</td>
+<td>11</td>
+<td>Barbarian</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Clergy</td>
+<td>12</td>
+<td>Politician</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Pilot</td>
+<td>13</td>
+<td>Mercenary</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Noble</td>
+<td>14</td>
+<td>Merchant</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Hacker</td>
+<td>15</td>
+<td>Outlaw</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Explorer</td>
+<td>16</td>
+<td>Performer</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>Cop</td>
+<td>17</td>
+<td>Pickpocket</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>Soldier</td>
+<td>18</td>
+<td>Smuggler</td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td>Gambler</td>
+<td>19</td>
+<td>Student</td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td>Medic</td>
+<td>20</td>
+<td>Thug</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="homeworld-d20" class="level4">
+<h4 class="anchored" data-anchor-id="homeworld-d20">Homeworld (d20)</h4>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>d20</th>
+<th>Homeworld</th>
+<th>d20</th>
+<th>Homeworld</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Space Station</td>
+<td>11</td>
+<td>Gas Giant</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>High-G</td>
+<td>12</td>
+<td>Starship</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Low-G</td>
+<td>13</td>
+<td>Water World</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Zero-G</td>
+<td>14</td>
+<td>Rock</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Desert</td>
+<td>15</td>
+<td>Volcanic</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Arctic</td>
+<td>16</td>
+<td>Huge</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>Jungle</td>
+<td>17</td>
+<td>Asteroid</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>High-Tech</td>
+<td>18–19</td>
+<td>Toxic</td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td>Low-Tech</td>
+<td>20</td>
+<td>Dead</td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td>Colony</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="clothing-d20" class="level4">
+<h4 class="anchored" data-anchor-id="clothing-d20">Clothing (d20)</h4>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>d20</th>
+<th>Clothing</th>
+<th>d20</th>
+<th>Clothing</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Dark</td>
+<td>11</td>
+<td>Tight</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Gaudy</td>
+<td>12</td>
+<td>Formal</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Colourful</td>
+<td>13</td>
+<td>Homespun</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Fur</td>
+<td>14</td>
+<td>Modest</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Leather</td>
+<td>15</td>
+<td>Revealing</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Futuristic</td>
+<td>16</td>
+<td>Sensible</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>Dapper</td>
+<td>17</td>
+<td>Sporty</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>Majestic</td>
+<td>18</td>
+<td>Thermal</td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td>Chic</td>
+<td>19</td>
+<td>Glossy</td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td>Baggy</td>
+<td>20</td>
+<td>Geometric</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="virtue-d20" class="level4">
+<h4 class="anchored" data-anchor-id="virtue-d20">Virtue (d20)</h4>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>d20</th>
+<th>Virtue</th>
+<th>d20</th>
+<th>Virtue</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Ambitious</td>
+<td>11</td>
+<td>Honourable</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Cautious</td>
+<td>12</td>
+<td>Humble</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Colourful</td>
+<td>13</td>
+<td>Idealistic</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Courageous</td>
+<td>14</td>
+<td>Just</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Curious</td>
+<td>15</td>
+<td>Loyal</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Disciplined</td>
+<td>16</td>
+<td>Merciful</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>Focused</td>
+<td>17</td>
+<td>Righteous</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>Generous</td>
+<td>18</td>
+<td>Serene</td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td>Gregarious</td>
+<td>19</td>
+<td>Stoic</td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td>Honest</td>
+<td>20</td>
+<td>Tolerant</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="vice-d20" class="level4">
+<h4 class="anchored" data-anchor-id="vice-d20">Vice (d20)</h4>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>d20</th>
+<th>Vice</th>
+<th>d20</th>
+<th>Vice</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Aggressive</td>
+<td>11</td>
+<td>Lazy</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Arrogant</td>
+<td>12</td>
+<td>Nervous</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Bitter</td>
+<td>13</td>
+<td>Prejudiced</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Cowardly</td>
+<td>14</td>
+<td>Reckless</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Cruel</td>
+<td>15</td>
+<td>Rude</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Deceitful</td>
+<td>16</td>
+<td>Suspicious</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>Flippant</td>
+<td>17</td>
+<td>Vain</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>Gluttonous</td>
+<td>18</td>
+<td>Vengeful</td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td>Greedy</td>
+<td>19</td>
+<td>Wasteful</td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td>Irascible</td>
+<td>20</td>
+<td>Whiny</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="misfortune-d20" class="level4">
+<h4 class="anchored" data-anchor-id="misfortune-d20">Misfortune (d20)</h4>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>d20</th>
+<th>Misfortune</th>
+<th>d20</th>
+<th>Misfortune</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Abandoned</td>
+<td>11</td>
+<td>Framed</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Addicted</td>
+<td>12</td>
+<td>Haunted</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Blackmailed</td>
+<td>13</td>
+<td>Kidnapped</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Condemned</td>
+<td>14</td>
+<td>Mutilated</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Unlucky</td>
+<td>15</td>
+<td>Poor</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Defrauded</td>
+<td>16</td>
+<td>Pursued</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>Demoted</td>
+<td>17</td>
+<td>Rejected</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>Discredited</td>
+<td>18</td>
+<td>Replaced</td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td>Disowned</td>
+<td>19</td>
+<td>Robbed</td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td>Exiled</td>
+<td>20</td>
+<td>Suspected</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+</section>
+<section id="psionics" class="level2">
+<h2 class="anchored" data-anchor-id="psionics">Psionics</h2>
+<p>Psionic ability is innate; it cannot be taught or learned from scratch. It emerges in childhood and requires training to use reliably. Most civilizations treat it as a normal talent. A few are hostile to it. Three implants directly interface with the brain and suppress psionic ability while installed: Cortical Implant, Brain Augmentation, and Neural Datalink.</p>
+<p>Only characters who begin play with a psionic archetype are psionic. They roll psionic skills as any other skill. Through normal advancement, psionic characters may acquire any psionic skill, not only those they started with. They may also advance or acquire regular skills normally.</p>
+<p><strong>On a setback (3–4):</strong> the power works partially, briefly, or at a cost: exhaustion, disorientation, a lesser effect than intended, or an unwanted side consequence.</p>
+<p><strong>On a disaster (1–2):</strong> the power goes seriously wrong: wrong target, uncontrolled cascade, the psion suffers the effect themselves, or something distant felt the disturbance and is now paying attention.</p>
+<section id="psionic-skills" class="level3">
+<h3 class="anchored" data-anchor-id="psionic-skills">Psionic Skills</h3>
+<p><strong>Astral Projection</strong>: You project a conscious presence beyond your body, observing remotely without physical constraints. Your body is defenseless while projecting.</p>
+<p><strong>Clairvoyance</strong>: You perceive events and locate people or objects at a distance.</p>
+<p><strong>Dreamwalking</strong>: You enter the dreams of a sleeping person. You must also be asleep.</p>
+<p><strong>Ergokinesis</strong>: You influence the movement of energy, redirecting or releasing it as a directed blast.</p>
+<p><strong>Levitation</strong>: You lift objects or yourself without contact. Greater mass demands greater effort.</p>
+<p><strong>Materialization</strong>: You cause an object to appear from nothing for a limited duration. It is real while it lasts.</p>
+<p><strong>Mending</strong>: You direct mental energy into healing, in yourself or another.</p>
+<p><strong>Petrification</strong>: You turn an object or person to stone for a duration you control.</p>
+<p><strong>Precognition</strong>: You focus on a question about the future and receive an impression of what may come.</p>
+<p><strong>Psychic Surgery</strong>: You concentrate mental force to work on a target from within, treating injury or inflicting it.</p>
+<p><strong>Psychokinesis</strong>: You move and manipulate objects without touching them. Range is limited to what you can see.</p>
+<p><strong>Psychometry</strong>: You touch a person or object and receive impressions of its history.</p>
+<p><strong>Pyrokinesis</strong>: You control fire and heat, directing flame as a weapon or suppressing it entirely.</p>
+<p><strong>Retrocognition</strong>: You focus on a place or object and receive impressions of past events connected to it.</p>
+<p><strong>Shapeshifting</strong>: You transform your body into another form of equivalent mass. Reversing the change requires concentration.</p>
+<p><strong>Telesthesia</strong>: You perceive a distant or hidden target as clearly as if it were before you.</p>
+<p><strong>Telepathy</strong>: You transmit or receive thoughts. Unwilling targets can resist.</p>
+<p><strong>Teleportation</strong>: You transport yourself and what you wear to any place you can clearly visualize.</p>
+<p><strong>Thought Control</strong>: You seize control of one mind at a time. The subject obeys while you maintain concentration.</p>
+<p><strong>Xenoglossy</strong>: You understand, speak, and write any language, even one entirely unknown to you.</p>
+</section>
+</section>
+<section id="archetypes" class="level2">
+<h2 class="anchored" data-anchor-id="archetypes">Archetypes</h2>
+<p>Archetypes marked <em>[psionic]</em> include psionic skills.</p>
+<p>Some archetype gear packages include specialized items not found in the general equipment list. These represent custom or role-specific equipment and are acquired at character creation only.</p>
+<section id="bounty-hunter" class="level3">
+<h3 class="anchored" data-anchor-id="bounty-hunter">1. Bounty Hunter</h3>
+<p><em>To bring dangerous scoundrels to justice. Incidentally, for good pay.</em></p>
+<p><strong>Skills:</strong> Shoot d8 · Track d8 · Negotiate d8</p>
+<ul>
+<li>Ballistic Gel Coat</li>
+<li>Flechette Rifle (silent, bulky)</li>
+<li>Electrowhip (stun, bulky)</li>
+<li>Stun Pistol</li>
+<li>Portable Containment Field</li>
+<li>Bounty License</li>
+</ul>
+</section>
+<section id="croaker" class="level3">
+<h3 class="anchored" data-anchor-id="croaker">2. Croaker</h3>
+<p><em>A redundant graduate. To repair broken bones, to cure diseases. Out there looking for a job.</em></p>
+<p><strong>Skills:</strong> Heal d8 · Analyze d8</p>
+<ul>
+<li>Trauma Medikit</li>
+<li>Laser Scalpel</li>
+<li>Bioscanner</li>
+<li>White Coat</li>
+<li>Cortical Implant</li>
+<li>Eye Implant</li>
+</ul>
+</section>
+<section id="emissary" class="level3">
+<h3 class="anchored" data-anchor-id="emissary">3. Emissary</h3>
+<p><em>Sometimes useful, sometimes not. Peace rests on their shoulders, not always appreciated.</em></p>
+<p><strong>Skills:</strong> Persuade d8 · Negotiate d8 · Translate d8</p>
+<ul>
+<li>Elegant Clothes</li>
+<li>Diplomatic Passport</li>
+<li>Secured Suitcase</li>
+<li>Universal Translator</li>
+<li>Personal Comms</li>
+</ul>
+</section>
+<section id="expert" class="level3">
+<h3 class="anchored" data-anchor-id="expert">4. Expert</h3>
+<p><em>The subtleties of science have no mystery for them. Every ship should have one.</em></p>
+<p><strong>Skills:</strong> Analyze d8 · Engineer d8 · Hack d8</p>
+<ul>
+<li>Portable Computer</li>
+<li>Portable Analysis Kit</li>
+<li>All-round Digital Library</li>
+<li>Chemical Reagents</li>
+<li>AR Goggles</li>
+<li>Brain Augmentation</li>
+</ul>
+</section>
+<section id="freelancer" class="level3">
+<h3 class="anchored" data-anchor-id="freelancer">5. Freelancer</h3>
+<p><em>A mercenary, looking for the next high-paying client. Nothing more, nothing less.</em></p>
+<p><strong>Skills:</strong> Shoot d8 · Survive d8 · Negotiate d8</p>
+<ul>
+<li>Projectile Rifle (bulky)</li>
+<li>Knife (hidden)</li>
+<li>Boarding Armor (sealed, bulky)</li>
+<li>Survival Kit (bulky)</li>
+<li>Playing Cards</li>
+<li>Smokes</li>
+</ul>
+</section>
+<section id="highborn" class="level3">
+<h3 class="anchored" data-anchor-id="highborn">6. Highborn</h3>
+<p><em>Member of the highest castes, out here by necessity or in search of adventure.</em></p>
+<p><strong>Skills:</strong> Persuade d8 · Command d8 · Negotiate d8</p>
+<ul>
+<li>Iridescent Robes</li>
+<li>Diplomatic Pass</li>
+<li>Foil (hidden)</li>
+<li>Yacht (party asset)</li>
+<li>Manservant (NPC, loyal)</li>
+</ul>
+</section>
+<section id="hitman" class="level3">
+<h3 class="anchored" data-anchor-id="hitman">7. Hitman</h3>
+<p><em>Professional assassin, hired to terminate inconvenient or untouchable targets.</em></p>
+<p><strong>Skills:</strong> Shoot d8 · Sneak d8 · React d8</p>
+<ul>
+<li>IR/Nightvision Goggles</li>
+<li>Binoculars</li>
+<li>Flechette Rifle (silent, bulky)</li>
+<li>Ballistic Vest</li>
+<li>Cloaking Implant</li>
+</ul>
+</section>
+<section id="jarhead" class="level3">
+<h3 class="anchored" data-anchor-id="jarhead">8. Jarhead</h3>
+<p><em>Wardog devoted to high-risk missions. Strong survival instinct, ready to die.</em></p>
+<p><strong>Skills:</strong> Fight d8 · Shoot d8 · React d8</p>
+<ul>
+<li>Survival Knife (hidden)</li>
+<li>Frag Grenade (blast)</li>
+<li>Energy Rifle (bulky)</li>
+<li>Tactical Body Armor (sealed)</li>
+<li>Direct Neural Interface</li>
+<li>Cortical Implant</li>
+</ul>
+</section>
+<section id="matterjammer-psionic" class="level3">
+<h3 class="anchored" data-anchor-id="matterjammer-psionic">9. Matterjammer <em>[psionic]</em></h3>
+<p><em>Master of the mental manipulation of matter. You don’t want one as an opponent.</em></p>
+<p><strong>Skills:</strong> Ergokinesis d8 · Psychokinesis d8 · Pyrokinesis d8</p>
+<ul>
+<li>Insulating Gloves</li>
+<li>Gas Mask</li>
+<li>Ballistic Vest</li>
+</ul>
+</section>
+<section id="mindbender-psionic" class="level3">
+<h3 class="anchored" data-anchor-id="mindbender-psionic">10. Mindbender <em>[psionic]</em></h3>
+<p><em>The mind of others has no secrets for them. They’ll persuade you that you’re an arachnid.</em></p>
+<p><strong>Skills:</strong> Telepathy d8 · Thought Control d8 · Dreamwalking d8</p>
+<ul>
+<li>Staff</li>
+<li>Sunglasses</li>
+<li>Raincoat</li>
+</ul>
+</section>
+<section id="operative" class="level3">
+<h3 class="anchored" data-anchor-id="operative">11. Operative</h3>
+<p><em>Exotic places, deadly missions. For the sake of the galaxy.</em></p>
+<p><strong>Skills:</strong> Sneak d8 · Shoot d8 · Deceive d8</p>
+<ul>
+<li>Projectile Pistol (hidden)</li>
+<li>Silencer</li>
+<li>Ballistic Vest</li>
+<li>Cloaking Implant</li>
+<li>Eye Implant</li>
+<li>Mindshield Implant</li>
+</ul>
+</section>
+<section id="rockhopper" class="level3">
+<h3 class="anchored" data-anchor-id="rockhopper">12. Rockhopper</h3>
+<p><em>Asteroid to asteroid, collecting minerals for resale at the nearest base.</em></p>
+<p><strong>Skills:</strong> Prospect d8 · Pilot d8 · Survive d8</p>
+<ul>
+<li>Standard Spacesuit (sealed, bulky)</li>
+<li>Laser Drill/Cutter</li>
+<li>Vacuum Emergency Kit</li>
+<li>Stimulants Dispenser Implant</li>
+<li>Detoxifier Implant</li>
+<li>Miner (ship, party asset)</li>
+</ul>
+</section>
+<section id="routeplanner" class="level3">
+<h3 class="anchored" data-anchor-id="routeplanner">13. Routeplanner</h3>
+<p><em>Human interface of the on-board computers, tracing routes through oddspace.</em></p>
+<p><strong>Skills:</strong> Navigate d8 · Hack d8 · Analyze d8</p>
+<ul>
+<li>Spacesense Implant</li>
+<li>Neural Datalink Implant</li>
+<li>Brain Augmentation</li>
+<li>Integrated Comms Implant</li>
+<li>Cortical Implant</li>
+</ul>
+</section>
+<section id="savage" class="level3">
+<h3 class="anchored" data-anchor-id="savage">14. Savage</h3>
+<p><em>Born on a low-tech planet, skyrocketed while keeping a primal survival instinct.</em></p>
+<p><strong>Skills:</strong> Fight d8 · Survive d8 · Track d8</p>
+<ul>
+<li>Survival Kit (bulky)</li>
+<li>Arrows ×20</li>
+<li>Bow (silent, bulky)</li>
+<li>Mace</li>
+<li>Old-fashioned Clothes</li>
+<li>Standard Spacesuit (sealed, bulky)</li>
+</ul>
+</section>
+<section id="shaper" class="level3">
+<h3 class="anchored" data-anchor-id="shaper">15. Shaper</h3>
+<p><em>Wiring or engines, it doesn’t matter. If it’s broken, they’ll fix it.</em></p>
+<p><strong>Skills:</strong> Repair d8 · Engineer d8 · Pilot d8</p>
+<ul>
+<li>Toolkit (bulky)</li>
+<li>Hand Scanner</li>
+<li>Flashlight</li>
+<li>Laser Cutter</li>
+<li>Personal Comms</li>
+<li>Mechanic’s Overalls</li>
+</ul>
+</section>
+<section id="smuggler" class="level3">
+<h3 class="anchored" data-anchor-id="smuggler">16. Smuggler</h3>
+<p><em>Smuggling is certainly not legal, but it’s exciting and romantic, isn’t it?</em></p>
+<p><strong>Skills:</strong> Pilot d8 · Deceive d8 · React d8</p>
+<ul>
+<li>Personal Drone</li>
+<li>Energy Pistol</li>
+<li>Electrowhip (stun, bulky)</li>
+<li>Air Filter Implant</li>
+<li>Stimulants Dispenser Implant</li>
+<li>Ballistic Cloth Jacket</li>
+</ul>
+</section>
+<section id="techie" class="level3">
+<h3 class="anchored" data-anchor-id="techie">17. Techie</h3>
+<p><em>Computers and electronics have no secrets for them, hardware or software.</em></p>
+<p><strong>Skills:</strong> Hack d8 · Analyze d8 · Deceive d8</p>
+<ul>
+<li>Toolkit (bulky)</li>
+<li>Neural Datalink Implant</li>
+<li>Duct Tape</li>
+<li>Flashlight</li>
+<li>Portable Computer</li>
+</ul>
+</section>
+<section id="trader" class="level3">
+<h3 class="anchored" data-anchor-id="trader">18. Trader</h3>
+<p><em>Perilous routes, distant planets. One of the most ancient professions in the universe.</em></p>
+<p><strong>Skills:</strong> Negotiate d8 · Translate d8 · Pilot d8</p>
+<ul>
+<li>Commercial License</li>
+<li>Guild Uniform</li>
+<li>Boarding Blade (hidden)</li>
+<li>Stun Pistol</li>
+<li>Ear Implant</li>
+<li>Universal Translator</li>
+</ul>
+</section>
+<section id="trailblazer" class="level3">
+<h3 class="anchored" data-anchor-id="trailblazer">19. Trailblazer</h3>
+<p><em>Undiscovered voids and unknown planets are their bread and butter.</em></p>
+<p><strong>Skills:</strong> Survive d8 · Track d8 · Analyze d8</p>
+<ul>
+<li>Stun Pistol</li>
+<li>Synthetic Mesh</li>
+<li>Universal Translator</li>
+<li>Environment Mask</li>
+<li>First Aid Kit</li>
+<li>Personal Comms</li>
+</ul>
+</section>
+<section id="voidcutter" class="level3">
+<h3 class="anchored" data-anchor-id="voidcutter">20. Voidcutter</h3>
+<p><em>The backbone of transgalactic civilization, pilots of the sidereal expanses.</em></p>
+<p><strong>Skills:</strong> Pilot d8 · React d8 · Fight d8</p>
+<ul>
+<li>Augmented Reflexes Implant</li>
+<li>Cortical Implant</li>
+<li>Eye Implant</li>
+<li>Integrated Comms Implant</li>
+<li>Direct Neural Interface</li>
+<li>Heated Uniform</li>
+</ul>
+</section>
+</section>
+<section id="species" class="level2">
+<h2 class="anchored" data-anchor-id="species">Species</h2>
+<p>Roll d20 or choose. Non-human characters roll or choose one trait from the Traits table. Human characters gain no trait. Transhuman characters gain no trait but start with one additional cybernetic implant of their choice.</p>
+<p>Species traits are innate and passive. Where a trait resembles a psionic skill, such as Telepathy or Telekinesis, the species version is always-on and instinctive; the psionic skill is active, trained, and rolled.</p>
+<p><strong>Symbiont</strong> characters do not roll for a trait. They have a fixed trait: they bond with a willing host organism, granting them accelerated healing and enhanced resilience for as long as the bond holds; severing the bond is possible but distressing for both parties.</p>
+<p>The entries below are archetypes, not catalogues. A Saurian character might be a Tesu; an Insectoid might be a Korvan or a young Omale; Energy maps directly to the Zynthari. For named species, their societies, internal fractures, and how outsiders experience them, refer to <em>The Five Galaxies</em>.</p>
+<section id="species-d20" class="level3">
+<h3 class="anchored" data-anchor-id="species-d20">Species (d20)</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>d20</th>
+<th>Species</th>
+<th>d20</th>
+<th>Species</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1–4</td>
+<td>Humanoid</td>
+<td>12</td>
+<td>Feline</td>
+</tr>
+<tr class="even">
+<td>5</td>
+<td>Transhuman</td>
+<td>13</td>
+<td>Amorphous</td>
+</tr>
+<tr class="odd">
+<td>6</td>
+<td>Insectoid</td>
+<td>14</td>
+<td>Symbiont</td>
+</tr>
+<tr class="even">
+<td>7</td>
+<td>Icthyoid</td>
+<td>15</td>
+<td>Quadruped</td>
+</tr>
+<tr class="odd">
+<td>8</td>
+<td>Saurian</td>
+<td>16</td>
+<td>Cetacean</td>
+</tr>
+<tr class="even">
+<td>9</td>
+<td>Ursine</td>
+<td>17</td>
+<td>Energy</td>
+</tr>
+<tr class="odd">
+<td>10</td>
+<td>Vulpine</td>
+<td>18</td>
+<td>Amphibious</td>
+</tr>
+<tr class="even">
+<td>11</td>
+<td>Canine</td>
+<td>19–20</td>
+<td>Human</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="traits-d20" class="level3">
+<h3 class="anchored" data-anchor-id="traits-d20">Traits (d20)</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 2%">
+<col style="width: 8%">
+<col style="width: 89%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>d20</th>
+<th>Trait</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Aggressive</td>
+<td>When you intimidate through violence or its credible threat, roll an extra d6.</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Mimic</td>
+<td>You can alter your appearance to convincingly mimic any humanoid form.</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Invisibility</td>
+<td>You can render yourself transparent to the naked eye for short periods.</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Multiform</td>
+<td>You have a secondary physical form with meaningfully different capabilities; shifting takes a moment.</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Hive Mind</td>
+<td>You passively share sensory information with others of your species within range.</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Weakness</td>
+<td>You have a specific vulnerability set by the GM at creation, such as a toxin, energy type, or condition. Enemies who know it roll an extra d6 against you.</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>Multi-limb</td>
+<td>Extra limbs let you carry, operate, or manipulate things simultaneously that others cannot.</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>Regenerate</td>
+<td>Minor injuries heal within hours without medical attention; serious injuries within days.</td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td>Blink</td>
+<td>Once per scene, you can instantly relocate to any point within your line of sight.</td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td>Parasitic</td>
+<td>You require a host organism to sustain yourself; without one, all your rolls are hindered.</td>
+</tr>
+<tr class="odd">
+<td>11</td>
+<td>Telepathy</td>
+<td>You can send and receive thoughts with willing individuals in proximity, without speaking.</td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td>Logic</td>
+<td>When analyzing, calculating, or solving structured problems, roll an extra d6.</td>
+</tr>
+<tr class="odd">
+<td>13</td>
+<td>Climbing</td>
+<td>You can scale any surface, including sheer walls and ceilings, without equipment.</td>
+</tr>
+<tr class="even">
+<td>14</td>
+<td>Immunity</td>
+<td>You are immune to one category of harm, chosen at creation: toxins, extreme temperature, vacuum, radiation, or disease.</td>
+</tr>
+<tr class="odd">
+<td>15</td>
+<td>Poisonous</td>
+<td>Your body produces a natural toxin; a successful attack or bite inflicts a lasting condition unless treated.</td>
+</tr>
+<tr class="even">
+<td>16</td>
+<td>Ethereal</td>
+<td>You can pass through solid matter briefly; passing through large masses is exhausting.</td>
+</tr>
+<tr class="odd">
+<td>17</td>
+<td>Telekinesis</td>
+<td>You can move small objects with your mind at will; larger objects require effort and a roll.</td>
+</tr>
+<tr class="even">
+<td>18</td>
+<td>Reputation</td>
+<td>Your species carries a strong galactic reputation, opening doors or marking you as a target depending on who’s watching.</td>
+</tr>
+<tr class="odd">
+<td>19</td>
+<td>Healer</td>
+<td>When you tend another’s injuries, they recover significantly faster than medical attention alone would achieve.</td>
+</tr>
+<tr class="even">
+<td>20</td>
+<td>Conspicuous</td>
+<td>Your species or appearance marks you immediately in any setting; you cannot go unnoticed in a crowd, and anyone searching for you gains an extra d6.</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="gear" class="level2">
+<h2 class="anchored" data-anchor-id="gear">Gear</h2>
+<p>All prices are in standard credits (₡). The economic loop covers upkeep, fuel, and debt; see Travel.</p>
+<section id="tags" class="level3">
+<h3 class="anchored" data-anchor-id="tags">Tags</h3>
+<p><strong>Blast</strong>: Affects all nearby targets; roll separately for each. <strong>Bulky</strong>: Requires two hands or significant carrying space; more than one bulky item hinders you. <strong>Hidden</strong>: Concealable on the body; found only with a thorough search. <strong>Sealed</strong>: Provides immunity to environmental threats (vacuum, toxins, extreme temperature) while intact. <strong>Silent</strong>: Audible only to those in the same room; does not draw wider attention. <strong>Stun</strong>: Incapacitates rather than kills; already-injured targets may be killed instead.</p>
+</section>
+<section id="general-equipment" class="level3">
+<h3 class="anchored" data-anchor-id="general-equipment">General Equipment</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Item</th>
+<th>Tags</th>
+<th>₡</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Binoculars</td>
+<td></td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td>Chemical Lightstick</td>
+<td></td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td>Climbing Kit</td>
+<td>bulky</td>
+<td>5</td>
+</tr>
+<tr class="even">
+<td>Cold Weather Clothing</td>
+<td>bulky</td>
+<td>5</td>
+</tr>
+<tr class="odd">
+<td>Desert Suit</td>
+<td>bulky</td>
+<td>10</td>
+</tr>
+<tr class="even">
+<td>Distress Flare</td>
+<td></td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td>Diving Hardsuit</td>
+<td>sealed, bulky</td>
+<td>200</td>
+</tr>
+<tr class="even">
+<td>Duct Tape</td>
+<td></td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td>Environment Mask</td>
+<td></td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td>First Aid Kit</td>
+<td></td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td>Flashlight</td>
+<td></td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td>Grapnel Launcher &amp; Cable</td>
+<td>bulky</td>
+<td>2</td>
+</tr>
+<tr class="odd">
+<td>Hand Scanner</td>
+<td></td>
+<td>20</td>
+</tr>
+<tr class="even">
+<td>IR/Nightvision Goggles</td>
+<td></td>
+<td>8</td>
+</tr>
+<tr class="odd">
+<td>Laser Drill/Cutter</td>
+<td></td>
+<td>2</td>
+</tr>
+<tr class="even">
+<td>Neural Link Cyberdeck</td>
+<td>bulky</td>
+<td>50</td>
+</tr>
+<tr class="odd">
+<td>Parachute</td>
+<td>bulky</td>
+<td>5</td>
+</tr>
+<tr class="even">
+<td>Gravchute</td>
+<td>bulky</td>
+<td>25</td>
+</tr>
+<tr class="odd">
+<td>Personal Comms</td>
+<td></td>
+<td>2</td>
+</tr>
+<tr class="even">
+<td>Personal Drone</td>
+<td>bulky</td>
+<td>5–100</td>
+</tr>
+<tr class="odd">
+<td>Portable Computer</td>
+<td></td>
+<td>5</td>
+</tr>
+<tr class="even">
+<td>Portable Micro-fusion Generator</td>
+<td>bulky</td>
+<td>110</td>
+</tr>
+<tr class="odd">
+<td>Prefabricated Cabin</td>
+<td>bulky</td>
+<td>20</td>
+</tr>
+<tr class="even">
+<td>Space Rescue Ball</td>
+<td>bulky</td>
+<td>2</td>
+</tr>
+<tr class="odd">
+<td>Surgical Medikit</td>
+<td>bulky</td>
+<td>40</td>
+</tr>
+<tr class="even">
+<td>Survival Kit</td>
+<td>bulky</td>
+<td>2</td>
+</tr>
+<tr class="odd">
+<td>Toolkit</td>
+<td>bulky</td>
+<td>4</td>
+</tr>
+<tr class="even">
+<td>Trauma Medikit</td>
+<td>bulky</td>
+<td>5</td>
+</tr>
+<tr class="odd">
+<td>Universal Translator</td>
+<td></td>
+<td>25</td>
+</tr>
+<tr class="even">
+<td>Language Pack</td>
+<td></td>
+<td>5</td>
+</tr>
+<tr class="odd">
+<td>Vacuum Emergency Kit</td>
+<td></td>
+<td>5</td>
+</tr>
+<tr class="even">
+<td>Wingsuit</td>
+<td>bulky</td>
+<td>5</td>
+</tr>
+</tbody>
+</table>
+<p><strong>First Aid Kit</strong>: Enables recovery from minor injuries in the field. <strong>Surgical Medikit</strong>: Requires medical attention for serious injuries. <strong>Trauma Medikit</strong>: Stabilizes a dying character immediately. <strong>Neural Link Cyberdeck</strong>: Required for hacking physical systems without a Neural Datalink implant. <strong>Personal Drone</strong>: Functions as armor while active; breaks as armor.</p>
+</section>
+<section id="weapons" class="level3">
+<h3 class="anchored" data-anchor-id="weapons">Weapons</h3>
+<p>Weapons have no damage values. The fictional weight of what you carry, a knife versus a rocket launcher, determines what’s possible. Tags define the rest.</p>
+<section id="blades-bludgeons" class="level4">
+<h4 class="anchored" data-anchor-id="blades-bludgeons">Blades &amp; Bludgeons</h4>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Weapon</th>
+<th>Tags</th>
+<th>₡</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Dagger, Knife, Boarding Blade</td>
+<td>hidden</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td>Brass Knuckles</td>
+<td></td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td>Spear, Sword, Mace, Axe</td>
+<td></td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td>Staff</td>
+<td></td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td>Halberd, War Hammer, Long Sword, Battle Axe</td>
+<td>bulky</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td>Monofilament Blade</td>
+<td></td>
+<td>25</td>
+</tr>
+<tr class="odd">
+<td>Force Sword</td>
+<td></td>
+<td>—</td>
+</tr>
+<tr class="even">
+<td>Stun Baton</td>
+<td>stun</td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td>Electrowhip</td>
+<td>stun, bulky</td>
+<td>2</td>
+</tr>
+<tr class="even">
+<td>Chainsaw</td>
+<td>bulky</td>
+<td>2</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Force Sword</strong>: An artifact-grade weapon; not available for purchase.</p>
+</section>
+<section id="sidearms" class="level4">
+<h4 class="anchored" data-anchor-id="sidearms">Sidearms</h4>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Weapon</th>
+<th>Tags</th>
+<th>₡</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Projectile Pistol</td>
+<td></td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td>Energy Pistol</td>
+<td></td>
+<td>2</td>
+</tr>
+<tr class="odd">
+<td>Stun Pistol</td>
+<td>stun</td>
+<td>2</td>
+</tr>
+<tr class="even">
+<td>Flechette Pistol</td>
+<td>silent</td>
+<td>2</td>
+</tr>
+<tr class="odd">
+<td>Gyrojet Pistol</td>
+<td></td>
+<td>5</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="long-arms" class="level4">
+<h4 class="anchored" data-anchor-id="long-arms">Long Arms</h4>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Weapon</th>
+<th>Tags</th>
+<th>₡</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Bow</td>
+<td>silent, bulky</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td>Crossbow</td>
+<td>bulky</td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td>Shotgun</td>
+<td>bulky</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td>Projectile Rifle</td>
+<td>bulky</td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td>Energy Rifle</td>
+<td>bulky</td>
+<td>2</td>
+</tr>
+<tr class="even">
+<td>Stun Rifle</td>
+<td>stun, bulky</td>
+<td>3</td>
+</tr>
+<tr class="odd">
+<td>Flechette Rifle</td>
+<td>silent, bulky</td>
+<td>3</td>
+</tr>
+<tr class="even">
+<td>Gyrojet Rifle</td>
+<td>bulky</td>
+<td>13</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="heavy-weapons" class="level4">
+<h4 class="anchored" data-anchor-id="heavy-weapons">Heavy Weapons</h4>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Weapon</th>
+<th>Tags</th>
+<th>₡</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Projectile Support Weapon</td>
+<td>bulky</td>
+<td>3</td>
+</tr>
+<tr class="even">
+<td>Energy Support Weapon</td>
+<td>bulky</td>
+<td>4</td>
+</tr>
+<tr class="odd">
+<td>Incinerator</td>
+<td>blast, bulky</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td>Rocket Launcher</td>
+<td>blast, bulky</td>
+<td>4</td>
+</tr>
+<tr class="odd">
+<td>Man-Portable Missile</td>
+<td>blast, bulky</td>
+<td>80</td>
+</tr>
+<tr class="even">
+<td>Mortar</td>
+<td>blast, bulky</td>
+<td>2</td>
+</tr>
+<tr class="odd">
+<td>Sentry Gun</td>
+<td>blast, bulky</td>
+<td>50</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Sentry Gun</strong>: AI-controlled; covers an area autonomously once deployed. No roll required unless something goes wrong.</p>
+</section>
+<section id="grenades-accessories" class="level4">
+<h4 class="anchored" data-anchor-id="grenades-accessories">Grenades &amp; Accessories</h4>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Item</th>
+<th>Tags</th>
+<th>₡</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Frag Grenade</td>
+<td>blast</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td>Stun Grenade</td>
+<td>blast, stun</td>
+<td>2</td>
+</tr>
+<tr class="odd">
+<td>Smoke Grenade</td>
+<td>blast</td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td>EMP Grenade</td>
+<td>blast</td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td>Arrows ×20</td>
+<td></td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td>Grenade Launcher</td>
+<td></td>
+<td>2</td>
+</tr>
+<tr class="odd">
+<td>Silencer</td>
+<td></td>
+<td>2</td>
+</tr>
+<tr class="even">
+<td>Smartlink</td>
+<td></td>
+<td>5</td>
+</tr>
+<tr class="odd">
+<td>Security Module</td>
+<td></td>
+<td>2</td>
+</tr>
+</tbody>
+</table>
+<p><strong>EMP Grenade</strong>: Affects electronics only. <strong>Grenade Launcher</strong>: Adds grenade delivery to any rifle or support weapon. <strong>Silencer</strong>: Adds silent to any projectile weapon. <strong>Smartlink</strong>: When circumstances wouldn’t normally permit an extra d6 for a careful aimed shot, you get one anyway. <strong>Security Module</strong>: Only the registered user can operate this weapon.</p>
+</section>
+</section>
+<section id="armor" class="level3">
+<h3 class="anchored" data-anchor-id="armor">Armor</h3>
+<p>All armor functions as defense: say how it breaks to turn a hit into a hindrance. Sealed armor also protects against environmental threats while intact. Broken armor must be repaired before it functions again.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Armor</th>
+<th>Tags</th>
+<th>₡</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Ballistic Gel Coat</td>
+<td></td>
+<td>15</td>
+</tr>
+<tr class="even">
+<td>Ballistic Cloth Jacket</td>
+<td></td>
+<td>30</td>
+</tr>
+<tr class="odd">
+<td>Ballistic Cloth Coat</td>
+<td></td>
+<td>60</td>
+</tr>
+<tr class="even">
+<td>Ballistic Vest</td>
+<td></td>
+<td>40</td>
+</tr>
+<tr class="odd">
+<td>Synthetic Mesh</td>
+<td></td>
+<td>60</td>
+</tr>
+<tr class="even">
+<td>Chainmail</td>
+<td></td>
+<td>12</td>
+</tr>
+<tr class="odd">
+<td>Half Plate</td>
+<td>bulky</td>
+<td>40</td>
+</tr>
+<tr class="even">
+<td>Full Plate</td>
+<td>bulky</td>
+<td>80</td>
+</tr>
+<tr class="odd">
+<td>Helmet</td>
+<td></td>
+<td>1</td>
+</tr>
+<tr class="even">
+<td>Shield</td>
+<td></td>
+<td>1</td>
+</tr>
+<tr class="odd">
+<td>Emergency Spacesuit</td>
+<td>sealed</td>
+<td>30</td>
+</tr>
+<tr class="even">
+<td>Standard Spacesuit</td>
+<td>sealed, bulky</td>
+<td>10</td>
+</tr>
+<tr class="odd">
+<td>Environment Suit</td>
+<td>sealed, bulky</td>
+<td>50</td>
+</tr>
+<tr class="even">
+<td>Boarding Armor</td>
+<td>sealed, bulky</td>
+<td>30</td>
+</tr>
+<tr class="odd">
+<td>Tactical Body Armor</td>
+<td>sealed</td>
+<td>100</td>
+</tr>
+<tr class="even">
+<td>EOD Suit</td>
+<td>sealed, bulky</td>
+<td>100</td>
+</tr>
+<tr class="odd">
+<td>Re-entry Armor</td>
+<td>sealed, bulky</td>
+<td>200</td>
+</tr>
+<tr class="even">
+<td>Combat Exoskeleton</td>
+<td>bulky</td>
+<td>300</td>
+</tr>
+<tr class="odd">
+<td>Power Armor</td>
+<td>sealed, bulky</td>
+<td>150</td>
+</tr>
+</tbody>
+</table>
+<p><strong>EOD Suit</strong>: Hinders all actions requiring fine motor control while worn. <strong>Combat Exoskeleton</strong>: While intact, lets you perform feats of strength beyond normal human limits. <strong>Power Armor</strong>: While intact, lets you perform feats of strength beyond normal human limits; sealed against all environmental threats. <strong>Chameleon Skin</strong> (add to any high-tech armor, 50₡): Provides camouflage in natural environments. <strong>Camouflage Generator</strong> (add to any high-tech armor, 50₡): Provides active visual invisibility. <strong>HUD</strong> (add to any sealed armor, 10₡): Integrates with implants; displays tactical and environmental data.</p>
+</section>
+<section id="cybernetics" class="level3">
+<h3 class="anchored" data-anchor-id="cybernetics">Cybernetics</h3>
+<p>Implants take no inventory space. Installation requires 1d6 days of recovery. Implants that malfunction must be serviced or removed.</p>
+<ol type="1">
+<li><strong>Air Filter</strong> (100₡): You breathe freely in toxic or non-breathable atmospheres.</li>
+<li><strong>Augmented Reflexes</strong> (150₡): When fast reaction is the deciding factor, roll an extra d6.</li>
+<li><strong>Blade Implant</strong> (30₡): A melee weapon of your choice is concealed within your body until deployed.</li>
+<li><strong>Brain Augmentation</strong> (300₡): When analyzing, recalling, or reasoning under pressure, roll an extra d6.</li>
+<li><strong>Cloaking</strong> (250₡): You bend light around yourself to become visually invisible for up to 10 minutes per day; works only when unclothed.</li>
+<li><strong>Cortical Implant</strong> (50₡): A HUD overlays your vision, integrating with your other implants and displaying vital functions.</li>
+<li><strong>Dermal Plating</strong> (200₡): Subdermal armor always in place; functions as armor that cannot be removed. Breaks normally but restoring it requires a medical procedure, not just repair.</li>
+<li><strong>Detoxifier</strong> (30₡): Your body neutralizes any toxin or radioactive substance automatically.</li>
+<li><strong>Direct Neural Interface</strong> (40₡): You interface with weapons, vehicles, and ship systems using thought alone.</li>
+<li><strong>Ear Implant</strong> (20₡): You hear subsonic and ultrasonic frequencies and identify sounds at great distance.</li>
+<li><strong>Eye Implant</strong> (20₡): You see in infrared, ultraviolet, and complete darkness.</li>
+<li><strong>Firearm Implant</strong> (70₡): A ranged weapon of your choice is concealed within your body until deployed.</li>
+<li><strong>Integrated Comms</strong> (10₡): A long-range communicator is built into your auditory system.</li>
+<li><strong>Mindshield</strong> (300₡): Psionic talents cannot read or control your mind.</li>
+<li><strong>Neural Datalink</strong> (60₡): You interface with networks and cyberspace directly using thought alone.</li>
+<li><strong>Prosthetic Limb</strong> (150₡): A replacement limb of greater power; when raw strength or precise manipulation matters, roll an extra d6.</li>
+<li><strong>Reinforced Skeleton</strong> (350₡): Your bones cannot be broken by ordinary means; you withstand impacts that would destroy an unaugmented body.</li>
+<li><strong>Repair Nanobots</strong> (50₡): Minor injuries close within minutes; you stabilize automatically when dying.</li>
+<li><strong>Spacesense</strong> (100₡): You always know your position in space and can plot routes instinctively.</li>
+<li><strong>Stimulants Dispenser</strong> (30₡): Twice per day you trigger a burst of enhanced reflexes lasting one scene; roll an extra d6 on React for its duration.</li>
+</ol>
+</section>
+</section>
+<section id="starships-vehicles" class="level2">
+<h2 class="anchored" data-anchor-id="starships-vehicles">Starships &amp; Vehicles</h2>
+<section id="starships" class="level3">
+<h3 class="anchored" data-anchor-id="starships">Starships</h3>
+<p>A ship is a party asset, not personal gear. Most crews don’t own their ship outright; they’re paying off a loan, work for someone who does, or fly something they found, inherited, or stole. A financed ship requires a monthly payment of roughly 0.5% of its value.</p>
+<p>All ships can travel through normal space. Only ships with an <strong>Odd Drive</strong> can jump to oddspace and travel between star systems. 1 parsec takes 1 hour in oddspace.</p>
+<p>One cargo slot holds 100 tons of freight or 2 passengers. Crew does not occupy cargo slots. Refuel cost covers a full tank at any starport or station.</p>
+<p>Each ship has two combat stats: <strong>Agility</strong> (how hard it is to hit) and <strong>Firepower</strong> (how hard it hits back).</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 22%">
+<col style="width: 10%">
+<col style="width: 11%">
+<col style="width: 14%">
+<col style="width: 9%">
+<col style="width: 10%">
+<col style="width: 9%">
+<col style="width: 11%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Type</th>
+<th>Size</th>
+<th>Agility</th>
+<th>Firepower</th>
+<th>Cargo</th>
+<th>Refuel</th>
+<th>Price</th>
+<th>Monthly</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Courier</td>
+<td>Small</td>
+<td>d10</td>
+<td>1</td>
+<td>3</td>
+<td>2</td>
+<td>2,000</td>
+<td>10</td>
+</tr>
+<tr class="even">
+<td>Fighter</td>
+<td>Small</td>
+<td>d8</td>
+<td>2</td>
+<td>—</td>
+<td>2</td>
+<td>1,400</td>
+<td>7</td>
+</tr>
+<tr class="odd">
+<td>Racer</td>
+<td>Small</td>
+<td>d12</td>
+<td>0</td>
+<td>—</td>
+<td>2</td>
+<td>1,800</td>
+<td>9</td>
+</tr>
+<tr class="even">
+<td>Explorer</td>
+<td>Medium</td>
+<td>d6</td>
+<td>2</td>
+<td>6</td>
+<td>10</td>
+<td>4,700</td>
+<td>24</td>
+</tr>
+<tr class="odd">
+<td>Miner</td>
+<td>Medium</td>
+<td>d4</td>
+<td>0</td>
+<td>11</td>
+<td>10</td>
+<td>4,400</td>
+<td>22</td>
+</tr>
+<tr class="even">
+<td>Passenger Cargo</td>
+<td>Medium</td>
+<td>d6</td>
+<td>1</td>
+<td>10</td>
+<td>10</td>
+<td>4,500</td>
+<td>23</td>
+</tr>
+<tr class="odd">
+<td>Trader</td>
+<td>Medium</td>
+<td>d6</td>
+<td>1</td>
+<td>11</td>
+<td>10</td>
+<td>4,300</td>
+<td>22</td>
+</tr>
+<tr class="even">
+<td>Yacht</td>
+<td>Medium</td>
+<td>d8</td>
+<td>0</td>
+<td>11</td>
+<td>10</td>
+<td>4,100</td>
+<td>21</td>
+</tr>
+<tr class="odd">
+<td>Freighter</td>
+<td>Large</td>
+<td>d4</td>
+<td>1</td>
+<td>10</td>
+<td>20</td>
+<td>7,500</td>
+<td>38</td>
+</tr>
+<tr class="even">
+<td>Cruiser</td>
+<td>Large</td>
+<td>d6</td>
+<td>4</td>
+<td>14</td>
+<td>20</td>
+<td>9,400</td>
+<td>47</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Courier</strong>: Ultra-fast vessel for information and small cargo. Has emergency backup power and an escape pod. No crew quarters; not suited for long hauls.</p>
+<p><strong>Explorer</strong>: Designed for long autonomous voyages into uncharted space. Has crew quarters, scientific analysis equipment, stasis chambers for extended travel, medical facilities, and a cargo bay.</p>
+<p><strong>Fighter</strong>: Two-seater combat vessel. Has no odd drive; it cannot jump independently and must be carried by a ship with a flight deck. No cargo, no quarters.</p>
+<p><strong>Freighter</strong>: Long-haul cargo hauler. Has crew quarters, a large cargo bay, and medical facilities. Slow and durable.</p>
+<p><strong>Miner</strong>: Built for asteroid and planetary extraction. Has a large cargo bay for ore but no crew quarters. Short-range work ship.</p>
+<p><strong>Passenger Cargo</strong>: Carries both freight and paying passengers. Has crew quarters, passenger quarters, medical facilities, and an escape pod.</p>
+<p><strong>Racer</strong>: Stripped to essentials for speed. Has an odd drive and life support, nothing else.</p>
+<p><strong>Trader</strong>: The workhorse of medium-distance commerce. Has crew quarters, a cargo bay, and medical facilities.</p>
+<p><strong>Yacht</strong>: Luxurious private transport. Has crew quarters, premium passenger quarters, medical facilities, emergency backup power, and an escape pod.</p>
+<p><strong>Cruiser</strong>: Full combat vessel. Has crew quarters, medical facilities, a flight deck for fighters, electronic warfare capability, missile interception systems, and a self-destruct. Requires a large crew to operate effectively.</p>
+</section>
+<section id="ships-in-combat" class="level3">
+<h3 class="anchored" data-anchor-id="ships-in-combat">Ships in Combat</h3>
+<p>Ship combat uses the ship’s own stats, not individual crew skills. Crew skills provide edge, not the baseline.</p>
+<p><strong>Each round, both sides declare their action simultaneously, then resolve.</strong></p>
+<section id="attack" class="level4">
+<h4 class="anchored" data-anchor-id="attack">Attack</h4>
+<p>The attacking ship rolls its Firepower dice, each a d6. Take the highest result. A crew member with <strong>Shoot d8+</strong> adds one extra d6 to the attack roll.</p>
+<ul>
+<li><strong>1–2: Disaster.</strong> Weapon malfunction, dangerous overshot, or exposed position. The GM introduces a complication for the attacker.</li>
+<li><strong>3–4: Setback.</strong> A partial hit. The defender takes a glancing blow: choose to absorb it as a broken module or pull back and lose ground.</li>
+<li><strong>5+: Hit.</strong> The defending ship takes a hit. The defender’s crew chooses which module breaks.</li>
+</ul>
+</section>
+<section id="evasion" class="level4">
+<h4 class="anchored" data-anchor-id="evasion">Evasion</h4>
+<p>Rather than accepting a hit, the defending ship’s pilot can declare evasion. Roll the ship’s <strong>Agility die</strong>. A crew member with <strong>Pilot d8+</strong> adds one extra d6.</p>
+<ul>
+<li><strong>5+:</strong> Clean evasion. No hit.</li>
+<li><strong>3–4:</strong> Partial evasion. The hit still lands but the defender chooses which module breaks.</li>
+<li><strong>1–2:</strong> Failed evasion. The hit lands and the attacker gains a positional advantage; add d6 to their next attack.</li>
+</ul>
+<p>Evasion replaces the standard defense (break mechanic) for ships. The break mechanic applies when the ship is hit and the crew chooses which module absorbs it.</p>
+</section>
+<section id="other-crew-actions" class="level4">
+<h4 class="anchored" data-anchor-id="other-crew-actions">Other Crew Actions</h4>
+<p>Each round, crew members not piloting or manning guns can take one action:</p>
+<ul>
+<li><strong>Repair (d8+):</strong> Attempt to restore one broken module. On 5+, it comes back online. On 3–4, it’s jury-rigged for d6 rounds.</li>
+<li><strong>Hack (d8+):</strong> Attempt electronic warfare. On 5+, the enemy’s Agility die steps down one (d10→d8→d6→d4) until end of round.</li>
+<li><strong>Command (d8+):</strong> Coordinate the crew. On 5+, one other crew member gets an extra d6 on their action this round.</li>
+</ul>
+</section>
+<section id="chase-escape" class="level4">
+<h4 class="anchored" data-anchor-id="chase-escape">Chase &amp; Escape</h4>
+<p>To disengage, both ships roll their Agility die; Pilot d8+ adds an extra d6. Take the highest. The winner chooses: maintain pursuit, or break away cleanly. A ship with Firepower 0 always applies its Agility die to escape; it has nothing to gain by staying.</p>
+</section>
+</section>
+<section id="damage-effects" class="level3">
+<h3 class="anchored" data-anchor-id="damage-effects">Damage Effects</h3>
+<p>When a module breaks and the crew cannot or will not absorb it, roll 1d6:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 4%">
+<col style="width: 95%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>d6</th>
+<th>Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>A secondary module goes offline until repaired.</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>A weapon is disabled until repaired.</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Fire breaks out aboard. Anyone in the area takes harm each round until extinguished.</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Engines hit. The ship cannot maneuver; if in atmosphere, it falls.</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Hull breached. Anyone in the affected area is exposed to vacuum or the external atmosphere.</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Controls explode. Any crew member at the controls takes harm immediately.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="vehicles" class="level3">
+<h3 class="anchored" data-anchor-id="vehicles">Vehicles</h3>
+<p>Ground, water, and air vehicles use the same defense rule as ships. They carry no fuel cost; running costs are abstracted into living expenses.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Vehicle</th>
+<th>Tags</th>
+<th>₡</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Bicycle</td>
+<td></td>
+<td>8</td>
+</tr>
+<tr class="even">
+<td>Motorcycle</td>
+<td></td>
+<td>200</td>
+</tr>
+<tr class="odd">
+<td>Ground Car</td>
+<td></td>
+<td>400</td>
+</tr>
+<tr class="even">
+<td>Marauder</td>
+<td></td>
+<td>250</td>
+</tr>
+<tr class="odd">
+<td>Jet Bike</td>
+<td></td>
+<td>600</td>
+</tr>
+<tr class="even">
+<td>Grav Flyer</td>
+<td></td>
+<td>1,200</td>
+</tr>
+<tr class="odd">
+<td>Air Balloon</td>
+<td></td>
+<td>350</td>
+</tr>
+<tr class="even">
+<td>Hovercraft</td>
+<td></td>
+<td>300</td>
+</tr>
+<tr class="odd">
+<td>Motor Boat</td>
+<td></td>
+<td>600</td>
+</tr>
+<tr class="even">
+<td>Rowboat</td>
+<td></td>
+<td>50</td>
+</tr>
+<tr class="odd">
+<td>Mini Sub</td>
+<td></td>
+<td>800</td>
+</tr>
+<tr class="even">
+<td>Amphibious Vehicle</td>
+<td></td>
+<td>500</td>
+</tr>
+<tr class="odd">
+<td>Half Track ATV</td>
+<td></td>
+<td>2,000</td>
+</tr>
+<tr class="even">
+<td>Helicopter</td>
+<td></td>
+<td>2,500</td>
+</tr>
+<tr class="odd">
+<td>Drone</td>
+<td></td>
+<td>2,000</td>
+</tr>
+<tr class="even">
+<td>Jet Airplane</td>
+<td></td>
+<td>4,000</td>
+</tr>
+<tr class="odd">
+<td>Tracked Explorer</td>
+<td></td>
+<td>4,000</td>
+</tr>
+<tr class="even">
+<td>APC</td>
+<td>bulky</td>
+<td>3,500</td>
+</tr>
+<tr class="odd">
+<td>Riot Tank</td>
+<td>bulky</td>
+<td>2,100</td>
+</tr>
+<tr class="even">
+<td>Combat Walker</td>
+<td>bulky</td>
+<td>8,000</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="travel" class="level2">
+<h2 class="anchored" data-anchor-id="travel">Travel</h2>
+<p>Spacers take jobs to cover expenses. Expenses eat what they earn. This is the engine of play.</p>
+<p>After each job, every character gains credits based on the risk taken and increases one skill. The GM declares the risk tier before the party commits — routine, risky, or desperate — so the choice is informed. The party pools earnings to cover shared costs: ship payment, living expenses, and any debts coming due.</p>
+<p>Routine jobs keep you hungry. Risky jobs keep you afloat. Desperate jobs are for when you’re behind.</p>
+<p>The sections below govern specific moments in play. <strong>Living Standards</strong> calibrates what different quality of life costs — use it to understand what your earnings actually buy. <strong>Fuel</strong> is a narrative state — full, adequate, low, or empty — not a per-jump cost. <strong>Heat &amp; Notoriety</strong> track what follows you: Heat is per-jurisdiction and can be cooled; Notoriety is galactic and compounds.</p>
+<p>When you jump, roll <strong>Oddspace Transit</strong>, then roll 2d6 on <strong>Space Contingencies</strong> on arrival. Roll <strong>Reactions</strong> when the party meets someone whose attitude isn’t obvious. On the ground, roll 2d6 on <strong>Landing &amp; Exploration</strong> each travel day; boarding or searching a derelict, roll 2d6 on <strong>Salvage</strong> per area.</p>
+<p>For cargo income between patron jobs, see <strong>Trading</strong>. To generate a patron and mission, use <strong>Jobs</strong>; for encounters and locations during a job, use <strong>Field Oracles</strong>. If you are using the Sector Generation System’s SEP profiles, <strong>Reading a Generated System</strong> in the Appendix translates those codes into Oddspace mechanics.</p>
+<section id="living-standards" class="level3">
+<h3 class="anchored" data-anchor-id="living-standards">Living Standards</h3>
+<p>Use this table to calibrate what earnings actually mean. A d6 ₡ from a routine job barely clears a Poor month; 2d6 covers Average; 3d6 lets someone live well or start building a cushion.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Standard</th>
+<th>₡/month</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Poor</td>
+<td>4</td>
+</tr>
+<tr class="even">
+<td>Low</td>
+<td>10</td>
+</tr>
+<tr class="odd">
+<td>Average</td>
+<td>12</td>
+</tr>
+<tr class="even">
+<td>Good</td>
+<td>15</td>
+</tr>
+<tr class="odd">
+<td>High</td>
+<td>20</td>
+</tr>
+<tr class="even">
+<td>Rich</td>
+<td>50</td>
+</tr>
+<tr class="odd">
+<td>Royal</td>
+<td>200</td>
+</tr>
+</tbody>
+</table>
+<p>What standard a character maintains is a fiction choice. It shapes what they spend on between jobs, what they’re willing to sacrifice when credits run short, and what it means when they can’t afford their usual way of living.</p>
+</section>
+<section id="heat-notoriety" class="level3">
+<h3 class="anchored" data-anchor-id="heat-notoriety">Heat &amp; Notoriety</h3>
+<p>Actions have consequences. The Five Galaxies are vast but not anonymous.</p>
+<section id="heat" class="level4">
+<h4 class="anchored" data-anchor-id="heat">Heat</h4>
+<p>Heat measures how much trouble you’ve drawn from a specific <strong>jurisdiction</strong>: a government, a corporation, a criminal syndicate, a species authority, or any other power with reach and memory. Heat is tracked per jurisdiction, not per location. Two different factions may operate out of the same starport; you can be cold with one and hot with the other.</p>
+<p><strong>Heat levels:</strong></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Heat</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>0</td>
+<td>Clear: no attention</td>
+</tr>
+<tr class="even">
+<td>1</td>
+<td>Noticed: being watched, questions asked</td>
+</tr>
+<tr class="odd">
+<td>2</td>
+<td>Hot: the jurisdiction acts against you</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Gain Heat (+1) from:</strong></p>
+<ul>
+<li>Violence or public crimes in a jurisdiction’s territory</li>
+<li>Breaking a deal with the jurisdiction or its members</li>
+<li>Being identified as responsible for a setback or disaster that harms them</li>
+<li>Carrying flagged cargo through their checkpoints</li>
+</ul>
+<p><strong>When Hot:</strong> Docking, trading, or operating openly in that jurisdiction’s territory requires a roll. On 5+, you pass without incident. On a setback, you pass but attract surveillance. On a disaster, you’re detained, fined, or worse. Heat drops by 1 after a full month away from that jurisdiction’s territory. It resets to Clear immediately when you make things right.</p>
+<p>In solo play, Heat can also increase passively while you’re docked and not working; jurisdictions have long memories and time to act. See Tracking the Story in Solo Play.</p>
+</section>
+<section id="notoriety" class="level4">
+<h4 class="anchored" data-anchor-id="notoriety">Notoriety</h4>
+<p>Notoriety is persistent galactic reputation. It follows you everywhere, accumulated across incidents and jurisdictions. Track it as a running total.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 11%">
+<col style="width: 88%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Notoriety</th>
+<th>Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>0–2</td>
+<td>No issues</td>
+</tr>
+<tr class="even">
+<td>3–5</td>
+<td>Some ports and factions refuse to deal with you openly</td>
+</tr>
+<tr class="odd">
+<td>6–8</td>
+<td>Most legitimate ports deny docking; prices rise for everything</td>
+</tr>
+<tr class="even">
+<td>9+</td>
+<td>Hunted: bounty hunters, rival crews, and hostile jurisdictions actively seek you out</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Gain Notoriety (+1) from:</strong></p>
+<ul>
+<li>Destroying a ship with witnesses</li>
+<li>A major crime that becomes public knowledge across multiple systems</li>
+<li>Betraying a high-profile contract in a way that gets talked about</li>
+<li>Becoming known as the cause of a significant political or economic incident</li>
+</ul>
+<p><strong>Reduce Notoriety (–1) by:</strong></p>
+<ul>
+<li>Completing three legitimate jobs for a major faction or jurisdiction you wronged</li>
+<li>Lying low for a full month with no jobs and no incidents</li>
+<li>Paying a fixer to quietly bury the record (cost at GM’s discretion, expensive)</li>
+</ul>
+</section>
+</section>
+<section id="fuel" class="level3">
+<h3 class="anchored" data-anchor-id="fuel">Fuel</h3>
+<p>Fuel is a narrative resource, not a per-jump deduction. The party tracks whether the ship’s tanks are full, adequate, low, or empty. Refuelling costs are paid when the fiction demands it: docking at a starport, bribing a station for emergency fuel, or siphoning from a derelict.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Ship Size</th>
+<th>Refuel Cost</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Small</td>
+<td>2 ₡</td>
+</tr>
+<tr class="even">
+<td>Medium</td>
+<td>10 ₡</td>
+</tr>
+<tr class="odd">
+<td>Large</td>
+<td>20 ₡</td>
+</tr>
+</tbody>
+</table>
+<p>Running low on fuel is a complication. Running dry in transit is a disaster.</p>
+</section>
+<section id="oddspace-transit" class="level3">
+<h3 class="anchored" data-anchor-id="oddspace-transit">Oddspace Transit</h3>
+<p>To jump to another system, the ship must have an Odd Drive and enough fuel. The navigator or pilot rolls Navigate (or Pilot if no navigator is aboard).</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 4%">
+<col style="width: 95%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Roll</th>
+<th>Result</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1–2</td>
+<td><strong>Crisis.</strong> Something goes seriously wrong: lost in oddspace, drive failure, fuel emergency, forced exit in the wrong system.</td>
+</tr>
+<tr class="even">
+<td>3–4</td>
+<td><strong>Complication.</strong> Delayed, off-course exit, or a minor system problem that needs attention on arrival.</td>
+</tr>
+<tr class="odd">
+<td>5+</td>
+<td><strong>Clean arrival.</strong> The ship exits oddspace at the destination.</td>
+</tr>
+</tbody>
+</table>
+<p>Speed in oddspace is 1 parsec per hour. On arrival, roll 2d6 on the Space Contingencies table.</p>
+<p>Alternatively, ships may travel between galaxies via the <strong>Wormhole Access Network</strong>. WAN transit is faster and more reliable than oddspace but requires docking at a maintained node and the approval of whoever operates it. WAN travel generates transit records and is subject to inspection, access denial, and political closure without notice. No roll is required for WAN transit unless the jurisdiction has reason to refuse entry; in that case the GM calls for a relevant skill roll and applies Heat if things go badly.</p>
+</section>
+<section id="reactions" class="level3">
+<h3 class="anchored" data-anchor-id="reactions">Reactions</h3>
+<p>When the party encounters someone whose attitude is not obvious, the GM rolls 2d6.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>2</th>
+<th>3–5</th>
+<th>6–8</th>
+<th>9–11</th>
+<th>12</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Hostile</td>
+<td>Wary</td>
+<td>Curious</td>
+<td>Kind</td>
+<td>Helpful</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="space-contingencies" class="level3">
+<h3 class="anchored" data-anchor-id="space-contingencies">Space Contingencies</h3>
+<p>Roll 2d6 each time the ship exits oddspace.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 6%">
+<col style="width: 93%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>2d6</th>
+<th>Event</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>2–3</td>
+<td>Ship malfunction: a module goes offline until repaired.</td>
+</tr>
+<tr class="even">
+<td>4–6</td>
+<td>Space anomaly: a solar storm, debris field, or gravitational hazard complicates the situation.</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>Encounter: roll on Reactions.</td>
+</tr>
+<tr class="even">
+<td>8–10</td>
+<td>Distress call: someone nearby needs help, or wants you to think they do.</td>
+</tr>
+<tr class="odd">
+<td>11–12</td>
+<td>Advantage: a friendly hail, a patrol that owes you, a lucky sensor reading.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="landing-exploration" class="level3">
+<h3 class="anchored" data-anchor-id="landing-exploration">Landing &amp; Exploration</h3>
+<p>Roll 2d6 each travel day spent on a planet or installation.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 7%">
+<col style="width: 92%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>2d6</th>
+<th>Event</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>2–3</td>
+<td>Transport malfunction: a vehicle or piece of equipment fails at the worst moment.</td>
+</tr>
+<tr class="even">
+<td>4–6</td>
+<td>Weather shift: conditions change; what was safe may no longer be.</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>Encounter: roll on Reactions.</td>
+</tr>
+<tr class="even">
+<td>8–10</td>
+<td>Clue: something points toward the next threat or opportunity.</td>
+</tr>
+<tr class="odd">
+<td>11–12</td>
+<td>Advantage: useful information, unexpected help, or a lucky find.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="salvage" class="level3">
+<h3 class="anchored" data-anchor-id="salvage">Salvage</h3>
+<p>Roll 2d6 for each area or room explored during a salvage or boarding mission.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 6%">
+<col style="width: 93%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>2d6</th>
+<th>Event</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>2–3</td>
+<td>Exhaustion: the crew must rest before continuing.</td>
+</tr>
+<tr class="even">
+<td>4–6</td>
+<td>Local change: a door that was open is now locked, a sound from the next compartment, something has shifted.</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>Encounter: roll on Reactions.</td>
+</tr>
+<tr class="even">
+<td>8–10</td>
+<td>Clue: something points toward the next threat or opportunity.</td>
+</tr>
+<tr class="odd">
+<td>11–12</td>
+<td>Advantage: a useful cache, a safe room, an unexpected ally.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="trading" class="level3">
+<h3 class="anchored" data-anchor-id="trading">Trading</h3>
+<p>Cargo runs are an alternative income stream to patron jobs. The upside is independence: you find the cargo, you set the route. The downside is capital risk and market unpredictability. A bad market roll on a hold full of electronics hurts.</p>
+<p>Standard cargo runs do not generate advancement credits or skill progression on their own; they generate money. Treat a cargo run as a job only when it carries real danger (special cargo, contested routes, smuggling under heat). In that case the GM declares a risk tier and the full job structure applies alongside the cargo economics.</p>
+<section id="cargo-types" class="level4">
+<h4 class="anchored" data-anchor-id="cargo-types">Cargo Types</h4>
+<p>Each cargo slot holds 100 tons. Buy price is per slot. Availability depends on the source world.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 17%">
+<col style="width: 23%">
+<col style="width: 25%">
+<col style="width: 32%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Goods</th>
+<th>Buy Price (₡/slot)</th>
+<th>Source World</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Raw Materials</td>
+<td>5</td>
+<td>Mining</td>
+<td>Bulky, always available</td>
+</tr>
+<tr class="even">
+<td>Foodstuffs</td>
+<td>8</td>
+<td>Agricultural</td>
+<td>Perishable</td>
+</tr>
+<tr class="odd">
+<td>Textiles</td>
+<td>10</td>
+<td>Agricultural</td>
+<td>Seasonal demand</td>
+</tr>
+<tr class="even">
+<td>Chemicals</td>
+<td>15</td>
+<td>Industrial</td>
+<td>May be hazardous</td>
+</tr>
+<tr class="odd">
+<td>Machinery</td>
+<td>20</td>
+<td>Industrial</td>
+<td>Heavy</td>
+</tr>
+<tr class="even">
+<td>Electronics</td>
+<td>40</td>
+<td>Industrial/High-Tech</td>
+<td>Fragile</td>
+</tr>
+<tr class="odd">
+<td>Luxuries</td>
+<td>60</td>
+<td>Core</td>
+<td>High demand everywhere</td>
+</tr>
+<tr class="even">
+<td>Biotech</td>
+<td>80</td>
+<td>Medical/Core</td>
+<td>Restricted in some systems</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="what-worlds-produce-and-need" class="level4">
+<h4 class="anchored" data-anchor-id="what-worlds-produce-and-need">What Worlds Produce and Need</h4>
+<p>This table drives both buying and selling. A world is rich in what it produces and short on what it needs.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 17%">
+<col style="width: 42%">
+<col style="width: 40%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>World Type</th>
+<th>Produces</th>
+<th>Needs</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Agricultural</td>
+<td>Food, Textiles</td>
+<td>Electronics, Machinery, Biotech</td>
+</tr>
+<tr class="even">
+<td>Industrial</td>
+<td>Electronics, Machinery, Chemicals</td>
+<td>Food, Raw Materials</td>
+</tr>
+<tr class="odd">
+<td>Mining</td>
+<td>Raw Materials</td>
+<td>Food, Electronics, Machinery</td>
+</tr>
+<tr class="even">
+<td>Core/Central</td>
+<td>Luxuries, Biotech</td>
+<td>Raw Materials, Food</td>
+</tr>
+<tr class="odd">
+<td>Frontier</td>
+<td>Little</td>
+<td>Almost everything</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="buying" class="level4">
+<h4 class="anchored" data-anchor-id="buying">Buying</h4>
+<p>The GM decides what’s on offer based on the world’s economy and the table above. A mining colony will have raw materials and nothing else; a core world trade hub will have almost everything.</p>
+<p>A good the world <strong>produces</strong> is abundant: buy it at <strong>−25%</strong> (round to the nearest credit). A good the world <strong>needs</strong> is usually not for sale there at all; if the GM does offer it, it costs <strong>+25%</strong>. Everything else is at list price.</p>
+<p>The whole game of trading is the spread: buy what’s cheap where it’s made, carry it to where it’s scarce. Before you commit capital, you can ask the Oracle in the <strong>Prepare</strong> step where a good is in demand, or follow a Rumor to a buyer. Knowing the route before you fly it is the difference between a haul and a gamble.</p>
+</section>
+<section id="selling" class="level4">
+<h4 class="anchored" data-anchor-id="selling">Selling</h4>
+<p>When you arrive at a destination and try to sell, roll d6 for market conditions:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>d6</th>
+<th>Market</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Crash: flooded market, political crisis</td>
+<td>50%</td>
+</tr>
+<tr class="even">
+<td>2–3</td>
+<td>Slow</td>
+<td>75%</td>
+</tr>
+<tr class="odd">
+<td>4–5</td>
+<td>Standard</td>
+<td>100%</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Boom</td>
+<td>150%</td>
+</tr>
+</tbody>
+</table>
+<p>Use the produce/needs table above:</p>
+<ul>
+<li>Selling goods the destination world <strong>produces</strong> (abundant supply): roll 2d6, take the <strong>lower</strong>.</li>
+<li>Selling goods the destination world <strong>needs</strong> (scarce supply): roll 2d6, take the <strong>higher</strong>.</li>
+</ul>
+</section>
+<section id="special-cargo" class="level4">
+<h4 class="anchored" data-anchor-id="special-cargo">Special Cargo</h4>
+<p>Patrons sometimes offer unusual or illegal cargo. Roll d6 or choose when a job involves something out of the ordinary.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 3%">
+<col style="width: 23%">
+<col style="width: 61%">
+<col style="width: 12%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>d6</th>
+<th>Cargo</th>
+<th>Complication</th>
+<th>Value Modifier</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Illegal weapons or contraband</td>
+<td>Customs attention; gain Heat +1 with local jurisdiction if discovered</td>
+<td>×3</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Live specimens</td>
+<td>Require life support; roll d6 on arrival, on 1–2 something got loose</td>
+<td>×2</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Unstable materials</td>
+<td>Hazardous; any ship damage roll has a chance of triggering catastrophe</td>
+<td>×4</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Time-sensitive</td>
+<td>Must deliver within a strict deadline; late delivery means partial or no payment</td>
+<td>×2</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>VIP passenger</td>
+<td>Demanding and potentially dangerous; may be wanted by someone</td>
+<td>×3</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Stolen property</td>
+<td>Original owners are looking for it; may be tracked</td>
+<td>×3</td>
+</tr>
+</tbody>
+</table>
+<p>Value modifier applies to the sell roll result. A special cargo run is a job for advancement purposes; the GM declares a risk tier (typically risky or desperate) before the party commits, which determines both the advancement credit roll and how seriously to take the danger. Cargo sale proceeds and advancement credits are separate income streams; both apply after a successful run.</p>
+<p>When you’re carrying contraband or Flagged cargo, an <strong>Authority checkpoint</strong> (Arrival table, result 1) is no longer routine; it’s a Heat check. Pass and you’re through; a disaster means seizure, a fine, and Heat with that jurisdiction. This is what makes a smuggling spread pay triple: the markup is hazard pay.</p>
+</section>
+<section id="cargo-properties" class="level4">
+<h4 class="anchored" data-anchor-id="cargo-properties">Cargo Properties</h4>
+<p>The GM may add one or more of these to any cargo for texture:</p>
+<ul>
+<li><strong>Fragile</strong>: A ship hit during transport reduces cargo value by 25%.</li>
+<li><strong>Perishable</strong>: Loses 25% value per week in transit beyond the first.</li>
+<li><strong>Contraband</strong>: Illegal in some or all systems; carrying it is a Heat gain when discovered.</li>
+<li><strong>Flagged</strong>: Attracts inspection from military and law enforcement on sight.</li>
+<li><strong>Valuable</strong>: Pirates and rivals may target the ship specifically.</li>
+</ul>
+</section>
+</section>
+<section id="jobs" class="level3">
+<h3 class="anchored" data-anchor-id="jobs">Jobs</h3>
+<p>Jobs are how the party pays its bills. A patron approaches with an offer, or the crew hunts for work themselves through cargo markets and rumors. Either way, the job is the unit of play: a situation with stakes, a clock, and people with competing interests.</p>
+<section id="generating-a-job" class="level4">
+<h4 class="anchored" data-anchor-id="generating-a-job">Generating a Job</h4>
+<p>Roll or choose on each table. Combine results before interpreting.</p>
+<p><strong>Patron (2d6)</strong></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>2d6</th>
+<th>Patron</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>2</td>
+<td>Corporate executive, desperate</td>
+</tr>
+<tr class="even">
+<td>3</td>
+<td>Criminal syndicate representative</td>
+</tr>
+<tr class="odd">
+<td>4</td>
+<td>Government official, mid-level</td>
+</tr>
+<tr class="even">
+<td>5</td>
+<td>Independent merchant</td>
+</tr>
+<tr class="odd">
+<td>6</td>
+<td>Researcher or scientist</td>
+</tr>
+<tr class="even">
+<td>7</td>
+<td>Ship captain between jobs</td>
+</tr>
+<tr class="odd">
+<td>8</td>
+<td>Colony leader</td>
+</tr>
+<tr class="even">
+<td>9</td>
+<td>Military officer, active duty</td>
+</tr>
+<tr class="odd">
+<td>10</td>
+<td>Religious figure</td>
+</tr>
+<tr class="even">
+<td>11</td>
+<td>Information broker</td>
+</tr>
+<tr class="odd">
+<td>12</td>
+<td>Wealthy private citizen</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Motivation (d6)</strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 5%">
+<col style="width: 94%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>d6</th>
+<th>Motivation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Profit: pays standard rates, needs it done economically</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Survival: desperate situation, pays extra, may withhold details</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Revenge: personal vendetta; key facts may be omitted</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Duty: following orders; bureaucratic complications likely</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Curiosity: flexible on methods, interested in outcome</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Secrecy: cannot be officially involved; pays premium for discretion</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Reliability (d6)</strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 5%">
+<col style="width: 75%">
+<col style="width: 19%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>d6</th>
+<th>Reliability</th>
+<th>Tier Modifier</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Deceitful: major details are lies or deliberate omissions</td>
+<td>+2</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Selective: truthful but not forthcoming</td>
+<td>+1</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Honest: tells what they know, which may be incomplete</td>
+<td>—</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Thorough: complete briefing, answers questions directly</td>
+<td>—</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Generous: honest and provides extra resources</td>
+<td>−1</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Connected: honest, resourceful, and opens doors</td>
+<td>−2</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Job Type (d6)</strong></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>d6</th>
+<th>Job</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Cargo delivery: risky, illegal, or time-sensitive</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Passenger transport: criminal, noble, sick, or secretive</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Investigate: missing ship, missing person, corporate leak</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Salvage: derelict wreck, ruins, debris field</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Conflict: escort, raid, defend, or destabilize</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Exploration: survey uncharted world, first contact, anomaly</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Location (d6)</strong></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>d6</th>
+<th>Location</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Pirate base or lawless station</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Nearby colony or outpost</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Faraway system, multiple jumps</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Derelict ship or abandoned installation</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Government or corporate facility</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Drifter fleet or mobile community</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Hook (d6)</strong></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>d6</th>
+<th>Hook</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>The patron comes to them directly</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>An old acquaintance makes the introduction</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>A rumor overheard in a cantina or starport</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>It’s the condition of their release</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>It wasn’t planned; the situation unfolded</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>An object or message they found points the way</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="risk-tier" class="level4">
+<h4 class="anchored" data-anchor-id="risk-tier">Risk Tier</h4>
+<p>Roll 2d6 and add the Reliability modifier. Declare the result before the party commits — this is the contract.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Modified Roll</th>
+<th>Tier</th>
+<th>Earnings</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>4 or less</td>
+<td>Routine</td>
+<td>d6 ₡ each</td>
+</tr>
+<tr class="even">
+<td>5–9</td>
+<td>Risky</td>
+<td>2d6 ₡ each</td>
+</tr>
+<tr class="odd">
+<td>10 or more</td>
+<td>Desperate</td>
+<td>3d6 ₡ each</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="reading-the-combination" class="level4">
+<h4 class="anchored" data-anchor-id="reading-the-combination">Reading the Combination</h4>
+<p>Read the full result before you play it. A Colony Leader with Survival motivation and Deceitful reliability is hiding a threat to their people; the job is real but the briefing is missing its most important detail. A Military Officer with Duty and Thorough is exactly what they appear to be — the complication, if any, is institutional. A Researcher with Curiosity and Connected probably wants to see what you find as much as they need it delivered. A Criminal Syndicate representative with Secrecy motivation is never the last party with an interest in the outcome.</p>
+<p>Ask: <em>Is the patron telling us what we need to know?</em> Roll the Reliability die — Deceitful = d4, Selective = d6, Honest = d8, Thorough = d10, Generous or Connected = d12.</p>
+<ul>
+<li><strong>5+:</strong> The briefing is accurate.</li>
+<li><strong>3–4:</strong> Incomplete. The patron didn’t lie, but left something out. Surface a complication mid-job.</li>
+<li><strong>1–2:</strong> There’s a false layer. Roll Hidden Complication.</li>
+</ul>
+</section>
+<section id="hidden-complication" class="level4">
+<h4 class="anchored" data-anchor-id="hidden-complication">Hidden Complication</h4>
+<p>Roll d6 secretly. On 1–2, roll again:</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 4%">
+<col style="width: 95%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>d6</th>
+<th>Complication</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>The item or target isn’t what the party was told</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>A rival party is after the same objective</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>The target is more dangerous than described</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>A jurisdiction has interest in the job: inspectors, soldiers, or bounty hunters</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>The target is alive, active, or fighting back</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>The patron’s enemy knows what’s happening and is moving against it</td>
+</tr>
+</tbody>
+</table>
+<p>Don’t reveal the complication upfront. Let it surface as a detail that doesn’t fit — a name that doesn’t match, a sealed container that weighs wrong, an NPC who reacts with recognition instead of surprise.</p>
+</section>
+<section id="rumors" class="level4">
+<h4 class="anchored" data-anchor-id="rumors">Rumors</h4>
+<p>Work that doesn’t come from a patron. Roll d6 when the crew spends time at a starport, cantina, or anywhere people gather.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 4%">
+<col style="width: 86%">
+<col style="width: 9%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>d6</th>
+<th>Rumor</th>
+<th>True on</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>A job opening, third-hand — the last crew dropped out</td>
+<td>4-in-6</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Local trouble that’s opened an opportunity</td>
+<td>3-in-6</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>A buyer desperate for specific cargo, paying over market</td>
+<td>3-in-6</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>The location of something worth having — a derelict, a cache, a contact</td>
+<td>2-in-6</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>A warning: a route, system, or port has turned dangerous</td>
+<td>4-in-6</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>An old story: a lost colony, an artifact, something that shouldn’t exist anymore</td>
+<td>1-in-6</td>
+</tr>
+</tbody>
+</table>
+<p>Roll d6. At or below the listed number, the rumor is accurate. Above it, it’s false, exaggerated, or missing the part that matters. A true rumor is a situation, not a contract — no patron, no briefing, no guaranteed pay, but also no one else knows what you know.</p>
+</section>
+</section>
+<section id="field-oracles" class="level3">
+<h3 class="anchored" data-anchor-id="field-oracles">Field Oracles</h3>
+<p>Roll during play when you need an encounter, a location’s contents, or a complication the fiction doesn’t yet provide.</p>
+<section id="space-encounters-2d6" class="level4">
+<h4 class="anchored" data-anchor-id="space-encounters-2d6">Space Encounters (2d6)</h4>
+<p>Roll when exiting oddspace or when the GM calls for a traffic check. Apply the column for the system type.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>2d6</th>
+<th>Core System</th>
+<th>Settled System</th>
+<th>Frontier System</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>2</td>
+<td>Naval squadron</td>
+<td>Naval patrol</td>
+<td>Distress beacon</td>
+</tr>
+<tr class="even">
+<td>3</td>
+<td>Passenger liner</td>
+<td>System defense</td>
+<td>Research vessel</td>
+</tr>
+<tr class="odd">
+<td>4</td>
+<td>Corporate fleet</td>
+<td>Merchant convoy</td>
+<td>Independent trader</td>
+</tr>
+<tr class="even">
+<td>5</td>
+<td>Merchant convoy</td>
+<td>Corporate ship</td>
+<td>Scout ship</td>
+</tr>
+<tr class="odd">
+<td>6</td>
+<td>Patrol vessel</td>
+<td>Independent trader</td>
+<td>Mining operation</td>
+</tr>
+<tr class="even">
+<td>7</td>
+<td>Independent trader</td>
+<td>Scout ship</td>
+<td>Prospector</td>
+</tr>
+<tr class="odd">
+<td>8</td>
+<td>Private yacht</td>
+<td>Mining operation</td>
+<td>Scout ship</td>
+</tr>
+<tr class="even">
+<td>9</td>
+<td>Research vessel</td>
+<td>Patrol vessel</td>
+<td>Salvage operator</td>
+</tr>
+<tr class="odd">
+<td>10</td>
+<td>Scout ship</td>
+<td>Passenger ship</td>
+<td>Distress beacon</td>
+</tr>
+<tr class="even">
+<td>11</td>
+<td>Salvage operation</td>
+<td>Smuggler</td>
+<td>Pirate</td>
+</tr>
+<tr class="odd">
+<td>12</td>
+<td>Experimental craft</td>
+<td>Pirate</td>
+<td>Derelict</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Encounter posture (d6):</strong> 1–2 Aggressive: moving to intercept, weapons ready. 3–4 Cautious: hailing, keeping distance. 5–6 Ignoring: on their own business, will respond to hails.</p>
+</section>
+<section id="starport-encounters-d20" class="level4">
+<h4 class="anchored" data-anchor-id="starport-encounters-d20">Starport Encounters (d20)</h4>
+<p>Roll when the party arrives at a port or spends time in a public area.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 22%">
+<col style="width: 50%">
+<col style="width: 27%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>d20</th>
+<th>Encounter</th>
+<th>Hook</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Familiar ship arrives</td>
+<td>Old friend, rival, or enemy aboard</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Law enforcement patrol</td>
+<td>Random inspection or looking for someone</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Ship repair crew</td>
+<td>Offering services or warning of a defect on your vessel</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Merchant consortium</td>
+<td>Buying, selling, or recruiting</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Pirates, out of uniform</td>
+<td>Scouting targets or lying low</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Refugees</td>
+<td>Need transport; have no credits</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>Wealthy travelers slumming</td>
+<td>Need discreet help</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>Military personnel, off-duty</td>
+<td>Recruiting, celebrating, or drunk and dangerous</td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td>Journalists</td>
+<td>Investigating something; want an interview</td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td>Religious group</td>
+<td>Seeking an artifact or making converts</td>
+</tr>
+<tr class="odd">
+<td>11</td>
+<td>Brokers</td>
+<td>Have job offers or cargo leads</td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td>Down-on-luck spacers</td>
+<td>Genuine need or a con</td>
+</tr>
+<tr class="odd">
+<td>13</td>
+<td>Performers or entertainers</td>
+<td>Cover, distraction, or celebration</td>
+</tr>
+<tr class="even">
+<td>14</td>
+<td>Research team</td>
+<td>Need transport or local knowledge</td>
+</tr>
+<tr class="odd">
+<td>15</td>
+<td>Dock workers</td>
+<td>Information network; know something useful</td>
+</tr>
+<tr class="even">
+<td>16</td>
+<td>Tourists</td>
+<td>Easy marks or innocent witnesses</td>
+</tr>
+<tr class="odd">
+<td>17</td>
+<td>Colonists</td>
+<td>Seeking transport or supplies</td>
+</tr>
+<tr class="even">
+<td>18</td>
+<td>Prospectors</td>
+<td>Have a strike or need backing</td>
+</tr>
+<tr class="odd">
+<td>19</td>
+<td>Government envoys</td>
+<td>Need discreet transport or protection</td>
+</tr>
+<tr class="even">
+<td>20</td>
+<td>Patron</td>
+<td>Roll on the Jobs tables</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="derelict-contents-d66" class="level4">
+<h4 class="anchored" data-anchor-id="derelict-contents-d66">Derelict Contents (d66)</h4>
+<p>Roll 2–3 times when exploring an abandoned vessel. First die is tens, second is units.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 15%">
+<col style="width: 18%">
+<col style="width: 66%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>d66</th>
+<th>Find</th>
+<th>Opportunity / Danger</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>11</td>
+<td>Intact cargo</td>
+<td>Sellable goods: roll cargo type</td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td>Ship’s log</td>
+<td>Last moments, nav data, or a secret</td>
+</tr>
+<tr class="odd">
+<td>13</td>
+<td>Survivors</td>
+<td>Potential crew, passengers, or problem</td>
+</tr>
+<tr class="even">
+<td>14</td>
+<td>Bodies</td>
+<td>Personal effects, IDs, unanswered questions</td>
+</tr>
+<tr class="odd">
+<td>15</td>
+<td>Working module</td>
+<td>Functional component worth salvaging</td>
+</tr>
+<tr class="even">
+<td>16</td>
+<td>Smuggler’s cache</td>
+<td>Hidden contraband; someone wants it back</td>
+</tr>
+<tr class="odd">
+<td>21</td>
+<td>Sealed medical section</td>
+<td>Quarantine markings; reason unknown</td>
+</tr>
+<tr class="even">
+<td>22</td>
+<td>Armed intruders</td>
+<td>Salvagers or pirates already aboard</td>
+</tr>
+<tr class="odd">
+<td>23</td>
+<td>Active AI</td>
+<td>Ship’s computer is running and has opinions</td>
+</tr>
+<tr class="even">
+<td>24</td>
+<td>Experimental tech</td>
+<td>Prototype: may be illegal, unstable, or both</td>
+</tr>
+<tr class="odd">
+<td>25</td>
+<td>Alien artifact</td>
+<td>Unknown origin; unknown function</td>
+</tr>
+<tr class="even">
+<td>26</td>
+<td>Escape pod</td>
+<td>Emergency craft, possibly already used</td>
+</tr>
+<tr class="odd">
+<td>31</td>
+<td>Frozen crew</td>
+<td>Cryo-pods active; occupants alive</td>
+</tr>
+<tr class="even">
+<td>32</td>
+<td>Fuel reserves</td>
+<td>Usable fuel remaining in tanks</td>
+</tr>
+<tr class="odd">
+<td>33</td>
+<td>Flight recorder</td>
+<td>What actually happened on this ship</td>
+</tr>
+<tr class="even">
+<td>34</td>
+<td>Weapons locker</td>
+<td>Small arms cache</td>
+</tr>
+<tr class="odd">
+<td>35</td>
+<td>Locked container</td>
+<td>Heavy, sealed, no markings</td>
+</tr>
+<tr class="even">
+<td>36</td>
+<td>Distress signal</td>
+<td>Still broadcasting; how long?</td>
+</tr>
+<tr class="odd">
+<td>41</td>
+<td>Medical supplies</td>
+<td>Trauma kits, drugs, surgical equipment</td>
+</tr>
+<tr class="even">
+<td>42</td>
+<td>Engineering tools</td>
+<td>Repair equipment, spare parts</td>
+</tr>
+<tr class="odd">
+<td>43</td>
+<td>Personal quarters</td>
+<td>Crew belongings; letters, photos, a name</td>
+</tr>
+<tr class="even">
+<td>44</td>
+<td>Navigation charts</td>
+<td>Star maps, some of them hand-annotated</td>
+</tr>
+<tr class="odd">
+<td>45</td>
+<td>Hull damage</td>
+<td>Breaches throughout; vacuum risk</td>
+</tr>
+<tr class="even">
+<td>46</td>
+<td>Failing power</td>
+<td>Systems flickering, life support unstable</td>
+</tr>
+<tr class="odd">
+<td>51</td>
+<td>Infestation</td>
+<td>Something is living here now</td>
+</tr>
+<tr class="even">
+<td>52</td>
+<td>Booby traps</td>
+<td>Set by previous visitors</td>
+</tr>
+<tr class="odd">
+<td>53</td>
+<td>Evidence of mutiny</td>
+<td>Crew turned on each other</td>
+</tr>
+<tr class="even">
+<td>54</td>
+<td>Biological contamination</td>
+<td>Pathogen, spore, or unknown agent</td>
+</tr>
+<tr class="odd">
+<td>55</td>
+<td>Salvage claim marker</td>
+<td>Someone already has legal rights to this wreck</td>
+</tr>
+<tr class="even">
+<td>56</td>
+<td>No explanation</td>
+<td>Ship abandoned in perfect order; no sign of what happened</td>
+</tr>
+<tr class="odd">
+<td>61</td>
+<td>Overload risk</td>
+<td>Something in the reactor is about to go wrong</td>
+</tr>
+<tr class="even">
+<td>62</td>
+<td>Coordinates</td>
+<td>To somewhere the crew didn’t want found</td>
+</tr>
+<tr class="odd">
+<td>63</td>
+<td>Military vessel</td>
+<td>Classified designation; marked restricted</td>
+</tr>
+<tr class="even">
+<td>64</td>
+<td>Cult markings</td>
+<td>Ritual objects; a community lived here</td>
+</tr>
+<tr class="odd">
+<td>65</td>
+<td>Research data</td>
+<td>Scientific files; someone will want these</td>
+</tr>
+<tr class="even">
+<td>66</td>
+<td>The ship responds</td>
+<td>Damaged AI, hostile, and aware you’re aboard</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Derelict condition (d6):</strong> 1 Days abandoned. 2 Weeks. 3 Months. 4 Years. 5 Decades. 6 Pristine, which is wrong.</p>
+</section>
+<section id="planet-surface-features-d66" class="level4">
+<h4 class="anchored" data-anchor-id="planet-surface-features-d66">Planet Surface Features (d66)</h4>
+<p>Roll when the party lands on a world and explores beyond the port.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 13%">
+<col style="width: 25%">
+<col style="width: 61%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>d66</th>
+<th>Feature</th>
+<th>Opportunity / Danger</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>11</td>
+<td>Crashed starship</td>
+<td>Salvage available / Hostile survivors or AI</td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td>Ancient structure</td>
+<td>Alien technology / Unstable ruins</td>
+</tr>
+<tr class="odd">
+<td>13</td>
+<td>Settlement ruins</td>
+<td>Historical data / Something still lives here</td>
+</tr>
+<tr class="even">
+<td>14</td>
+<td>Active volcano</td>
+<td>Geothermal power / Lava flows</td>
+</tr>
+<tr class="odd">
+<td>15</td>
+<td>Crystal formations</td>
+<td>Valuable minerals / Cave-ins</td>
+</tr>
+<tr class="even">
+<td>16</td>
+<td>Underground river</td>
+<td>Fresh water / Flooding</td>
+</tr>
+<tr class="odd">
+<td>21</td>
+<td>Abandoned mine</td>
+<td>Ore deposits / Unstable tunnels</td>
+</tr>
+<tr class="even">
+<td>22</td>
+<td>Damaged weather station</td>
+<td>Shelter / Losing atmosphere</td>
+</tr>
+<tr class="odd">
+<td>23</td>
+<td>Military bunker</td>
+<td>Weapons cache / Automated defenses</td>
+</tr>
+<tr class="even">
+<td>24</td>
+<td>Research outpost</td>
+<td>Scientific data / Failed experiments</td>
+</tr>
+<tr class="odd">
+<td>25</td>
+<td>Geothermal vent</td>
+<td>Power source / Toxic gases</td>
+</tr>
+<tr class="even">
+<td>26</td>
+<td>Ice sheet</td>
+<td>Pure water / Hidden crevasses</td>
+</tr>
+<tr class="odd">
+<td>31</td>
+<td>Dense jungle</td>
+<td>Medicinal plants / Dangerous fauna</td>
+</tr>
+<tr class="even">
+<td>32</td>
+<td>Salt flat</td>
+<td>Landing zone / Heat exposure</td>
+</tr>
+<tr class="odd">
+<td>33</td>
+<td>Canyon system</td>
+<td>Shelter from weather / Easy ambush</td>
+</tr>
+<tr class="even">
+<td>34</td>
+<td>Meteor crater</td>
+<td>Rare metals / Radiation</td>
+</tr>
+<tr class="odd">
+<td>35</td>
+<td>Ruins of a port</td>
+<td>Old nav data / Contested salvage claims</td>
+</tr>
+<tr class="even">
+<td>36</td>
+<td>Tar pits</td>
+<td>Fuel source / Traps</td>
+</tr>
+<tr class="odd">
+<td>41</td>
+<td>Relay tower</td>
+<td>Communications access / Draws attention</td>
+</tr>
+<tr class="even">
+<td>42</td>
+<td>Monolith</td>
+<td>Ancient and inexplicable / Psionic interference</td>
+</tr>
+<tr class="odd">
+<td>43</td>
+<td>Geyser field</td>
+<td>Spectacular / Burns</td>
+</tr>
+<tr class="even">
+<td>44</td>
+<td>Magnetic anomaly</td>
+<td>Rich ore / Equipment failure</td>
+</tr>
+<tr class="odd">
+<td>45</td>
+<td>Sandstorm zone</td>
+<td>Sensor cover / Abrasive damage</td>
+</tr>
+<tr class="even">
+<td>46</td>
+<td>Bioluminescent terrain</td>
+<td>Beautiful / Attracts predators at night</td>
+</tr>
+<tr class="odd">
+<td>51</td>
+<td>Quicksand</td>
+<td>— / Traps vehicles</td>
+</tr>
+<tr class="even">
+<td>52</td>
+<td>Sacred site</td>
+<td>Archaeological value / Local population is watching</td>
+</tr>
+<tr class="odd">
+<td>53</td>
+<td>Battlefield</td>
+<td>Military salvage / Unexploded ordnance</td>
+</tr>
+<tr class="even">
+<td>54</td>
+<td>Underground city</td>
+<td>Shelter / Inhabitants unknown</td>
+</tr>
+<tr class="odd">
+<td>55</td>
+<td>Active dam</td>
+<td>Hydroelectric power / Flood risk</td>
+</tr>
+<tr class="even">
+<td>56</td>
+<td>Alien garden</td>
+<td>Xenobotany samples / Dangerous flora</td>
+</tr>
+<tr class="odd">
+<td>61</td>
+<td>Shipyard graveyard</td>
+<td>Parts for days / Toxic contamination</td>
+</tr>
+<tr class="even">
+<td>62</td>
+<td>Volcanic glass field</td>
+<td>Sharp tools / Cuts equipment and suits</td>
+</tr>
+<tr class="odd">
+<td>63</td>
+<td>Alien garden, cultivated</td>
+<td>Someone tends this / Who?</td>
+</tr>
+<tr class="even">
+<td>64</td>
+<td>Floating terrain</td>
+<td>Gravity anomaly / Hard to access, hard to leave</td>
+</tr>
+<tr class="odd">
+<td>65</td>
+<td>Time distortion</td>
+<td>Research value / Crew ages at wrong rate</td>
+</tr>
+<tr class="even">
+<td>66</td>
+<td>Dimensional rift</td>
+<td>Passage to somewhere else / Unstable</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+</section>
+<section id="solo-play" class="level2">
+<h2 class="anchored" data-anchor-id="solo-play">Solo Play</h2>
+<p><em>74XX Oddspace</em> can be played alone. You take on both the protagonist and the world: making decisions as your character, then stepping back to let the setting respond through the oracles below.</p>
+<p>The <strong>Risk Oracle</strong> tells you how much friction the world offers before you commit to an action. The <strong>Question Oracle</strong> lets the world answer questions you can’t resolve alone (what an NPC does, whether the docking bay is sealed, if the cargo matches the manifest). <strong>Sparks</strong> give you a prompt when you need direction or momentum.</p>
+<p>Trust the results. When an oracle contradicts what you expected, that’s where the story is.</p>
+<section id="the-loop" class="level3">
+<h3 class="anchored" data-anchor-id="the-loop">The Loop</h3>
+<p>Solo play runs on a set of interlocking tools. Here is what each one is for:</p>
+<ul>
+<li><strong>Session Structure</strong> — the map of a full session from finding work to collecting pay and advancing.</li>
+<li><strong>Scene Structure</strong> — how to open, run, and cut individual scenes within a job.</li>
+<li><strong>Risk Oracle</strong> — before you act, roll to find out how much friction the situation carries. High roll means it just happens; low roll means a real chance of things going wrong.</li>
+<li><strong>Question Oracle</strong> — when you need the world to answer something your character didn’t cause (does the docking bay seal, does the NPC know who you are, is the cargo what the manifest says), ask a yes/no question and roll based on the odds.</li>
+<li><strong>Sparks</strong> — when momentum stalls and you don’t know what happens next, combine an Action and a Theme for a prompt.</li>
+<li><strong>NPC Behavior</strong> — what NPCs do when their disposition is unclear; use this instead of deciding for them.</li>
+<li><strong>Combat</strong> — how enemies behave each round; what makes them break off.</li>
+<li><strong>Tracking the Story</strong> — what to note between sessions so threads stay live.</li>
+</ul>
+<p>For generating jobs and patron offers, use <strong>Jobs</strong> in the Travel section.</p>
+<p>Each time your character acts:</p>
+<ol type="1">
+<li><strong>Declare your action.</strong> What are you doing, and what do you want to happen?</li>
+<li><strong>Assess the situation.</strong> Roll the Risk Oracle to read how much is at stake. On 5+, no roll needed — it just happens.</li>
+<li><strong>Roll if needed.</strong> On Volatile or Friction, make your standard skill roll and apply the result.</li>
+<li><strong>Interpret the outcome.</strong> Let the result shape the fiction. When you need to know how the world responds to something outside your character’s action, use the Question Oracle.</li>
+</ol>
+</section>
+<section id="session-structure" class="level3">
+<h3 class="anchored" data-anchor-id="session-structure">Session Structure</h3>
+<p>Each session follows this structure. Skip steps that don’t apply.</p>
+<section id="find-work" class="level4">
+<h4 class="anchored" data-anchor-id="find-work">1. Find Work</h4>
+<p>Use the <strong>Jobs</strong> section in Travel. Choose one:</p>
+<ul>
+<li>Generate a patron offer: roll Patron, Motivation, Reliability, Job Type, Location, and Hook.</li>
+<li>Check the cargo market at your current world and plan a trade run.</li>
+<li>Roll on the Rumors table and follow where it leads.</li>
+</ul>
+</section>
+<section id="prepare" class="level4">
+<h4 class="anchored" data-anchor-id="prepare">2. Prepare</h4>
+<p>Spend time and credits to improve your odds before committing. Ask the Oracle whether intel is available and how reliable it is. Buy gear if you need it. Decide your approach before you roll anything.</p>
+</section>
+<section id="travel-1" class="level4">
+<h4 class="anchored" data-anchor-id="travel-1">3. Travel</h4>
+<p>Roll Navigate (or Pilot if alone) for the oddspace jump. On 1–2: Crisis. On 3–4: Complication. On 5+: Clean arrival. Then roll on the Space Contingencies table.</p>
+</section>
+<section id="arrive" class="level4">
+<h4 class="anchored" data-anchor-id="arrive">4. Arrive</h4>
+<p>Roll on the Arrival table to find out what’s waiting.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>d6</th>
+<th>Local Situation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Authority checkpoint: inspections, papers, questions</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Quarantine or blockade: no easy docking</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Political unrest: curfews, factions at each other</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Rival crew: same job, same place, hostile intentions</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Heat finds you: a jurisdiction you wronged has agents here</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Clean arrival: no immediate complications</td>
+</tr>
+</tbody>
+</table>
+<p>If your Notoriety is 6+, always roll on this table and apply the result.</p>
+</section>
+<section id="execute" class="level4">
+<h4 class="anchored" data-anchor-id="execute">5. Execute</h4>
+<p>Run the job as a sequence of 3–5 scenes. Use Scene Framing to open each scene and the Twist table when things need to turn.</p>
+</section>
+<section id="get-paid" class="level4">
+<h4 class="anchored" data-anchor-id="get-paid">6. Get Paid</h4>
+<p>Collect job earnings at the declared risk tier. If running cargo, sell it and take the market roll result. Apply any partial success modifiers from the job resolution.</p>
+</section>
+<section id="pay-expenses" class="level4">
+<h4 class="anchored" data-anchor-id="pay-expenses">7. Pay Expenses</h4>
+<p>Deduct ship payment if due. Deduct monthly living expenses. Deduct any repair costs.</p>
+</section>
+<section id="advance" class="level4">
+<h4 class="anchored" data-anchor-id="advance">8. Advance</h4>
+<p>Each character increases one skill and records earnings. Note any Heat or Notoriety gained. Note any new contacts, enemies, or leads.</p>
+</section>
+</section>
+<section id="scene-structure" class="level3">
+<h3 class="anchored" data-anchor-id="scene-structure">Scene Structure</h3>
+<p>Every job unfolds across scenes. Each scene has a purpose and an end point. Don’t linger: when the goal is achieved, the decision is made, or the moment breaks, cut.</p>
+<p><strong>Opening a scene:</strong> Answer two or three of these before rolling anything.</p>
+<ul>
+<li>Where exactly am I?</li>
+<li>Why am I here?</li>
+<li>What could go wrong?</li>
+<li>Who else is here?</li>
+</ul>
+<p><strong>Complications:</strong> After each scene, ask the Oracle whether a complication occurs. Start with d4 (unlikely) on the first scene and step up one die size each scene after.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Scene</th>
+<th>Complication Die</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1st</td>
+<td>d4</td>
+</tr>
+<tr class="even">
+<td>2nd</td>
+<td>d6</td>
+</tr>
+<tr class="odd">
+<td>3rd</td>
+<td>d8</td>
+</tr>
+<tr class="even">
+<td>4th+</td>
+<td>d10</td>
+</tr>
+</tbody>
+</table>
+<p>On Yes (5+ on the die): roll on Mission Complications.</p>
+<p><strong>Mission Complications (d6):</strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 5%">
+<col style="width: 94%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>d6</th>
+<th>Complication</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>The item or target isn’t what you were told</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>A rival got here first</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>The cargo or target is larger, stranger, or more dangerous than expected</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>A jurisdiction’s agents arrive: inspectors, soldiers, or bounty hunters</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>The target is alive, active, or fighting back</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>The patron’s enemy knows what you’re doing and is moving to stop it</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Twists:</strong> When a scene feels stuck or flat, roll d6 for a twist.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>d6</th>
+<th>Twist</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Someone arrives unexpectedly</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Time pressure suddenly increases</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>A truth is revealed</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Equipment or a module fails at the worst moment</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>An authority or faction takes interest</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Unexpected help appears</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="risk-oracle" class="level3">
+<h3 class="anchored" data-anchor-id="risk-oracle">Risk Oracle</h3>
+<p>Before your character acts, roll to assess how much control you have over the situation.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Situation</th>
+<th>Die</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Chaotic</td>
+<td>d4</td>
+</tr>
+<tr class="even">
+<td>Precarious</td>
+<td>d6</td>
+</tr>
+<tr class="odd">
+<td>Manageable</td>
+<td>d8</td>
+</tr>
+<tr class="even">
+<td>Predictable</td>
+<td>d10</td>
+</tr>
+<tr class="odd">
+<td>Stable</td>
+<td>d12</td>
+</tr>
+</tbody>
+</table>
+<p>Interpret the result:</p>
+<ul>
+<li><strong>1-2: Volatile.</strong> The situation is unstable. Make your standard roll, and failure hits hard.</li>
+<li><strong>3-4: Friction.</strong> Something could go wrong. Make your standard roll.</li>
+<li><strong>5+: Clean.</strong> The situation is in hand. No roll needed; it happens.</li>
+</ul>
+</section>
+<section id="question-oracle" class="level3">
+<h3 class="anchored" data-anchor-id="question-oracle">Question Oracle</h3>
+<p>When the outcome isn’t about what your character <em>does</em> (NPC reactions, world states, things off-screen), ask a yes/no question and roll based on the odds.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Likelihood</th>
+<th>Die</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Very Unlikely</td>
+<td>d4</td>
+</tr>
+<tr class="even">
+<td>Unlikely</td>
+<td>d6</td>
+</tr>
+<tr class="odd">
+<td>Likely</td>
+<td>d8</td>
+</tr>
+<tr class="even">
+<td>Very Likely</td>
+<td>d10</td>
+</tr>
+<tr class="odd">
+<td>Almost Certain</td>
+<td>d12</td>
+</tr>
+</tbody>
+</table>
+<p>Interpret the result:</p>
+<ul>
+<li><strong>1-2: No, and…</strong> It doesn’t happen, and things get worse.</li>
+<li><strong>3-4: Yes, but…</strong> It happens, but with a complication.</li>
+<li><strong>5+: Yes, and…</strong> It happens, and something else opens up.</li>
+</ul>
+</section>
+<section id="sparks" class="level3">
+<h3 class="anchored" data-anchor-id="sparks">Sparks</h3>
+<p>When you need a fresh angle or you’re stuck, combine an Action and a Theme to generate a prompt.</p>
+<section id="action" class="level4">
+<h4 class="anchored" data-anchor-id="action">Action</h4>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>D20</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Investigate</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Rescue</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Sabotage</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Pursue</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Retrieve</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Expose</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>Defend</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>Infiltrate</td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td>Negotiate</td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td>Escape</td>
+</tr>
+<tr class="odd">
+<td>11</td>
+<td>Salvage</td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td>Intercept</td>
+</tr>
+<tr class="odd">
+<td>13</td>
+<td>Protect</td>
+</tr>
+<tr class="even">
+<td>14</td>
+<td>Extract</td>
+</tr>
+<tr class="odd">
+<td>15</td>
+<td>Confront</td>
+</tr>
+<tr class="even">
+<td>16</td>
+<td>Transport</td>
+</tr>
+<tr class="odd">
+<td>17</td>
+<td>Warn</td>
+</tr>
+<tr class="even">
+<td>18</td>
+<td>Steal</td>
+</tr>
+<tr class="odd">
+<td>19</td>
+<td>Betray</td>
+</tr>
+<tr class="even">
+<td>20</td>
+<td>Survey</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="theme" class="level4">
+<h4 class="anchored" data-anchor-id="theme">Theme</h4>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>D20</th>
+<th>Theme</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Derelict</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Fugitive</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Conspiracy</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Contraband</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Agent</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Artifact</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>Outpost</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>Syndicate</td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td>Contact</td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td>Cargo</td>
+</tr>
+<tr class="odd">
+<td>11</td>
+<td>Survivor</td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td>Rival</td>
+</tr>
+<tr class="odd">
+<td>13</td>
+<td>Anomaly</td>
+</tr>
+<tr class="even">
+<td>14</td>
+<td>Station</td>
+</tr>
+<tr class="odd">
+<td>15</td>
+<td>Ruins</td>
+</tr>
+<tr class="even">
+<td>16</td>
+<td>Mutiny</td>
+</tr>
+<tr class="odd">
+<td>17</td>
+<td>Blockade</td>
+</tr>
+<tr class="even">
+<td>18</td>
+<td>Vacuum</td>
+</tr>
+<tr class="odd">
+<td>19</td>
+<td>Signal</td>
+</tr>
+<tr class="even">
+<td>20</td>
+<td>Claim</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="npc-behavior" class="level3">
+<h3 class="anchored" data-anchor-id="npc-behavior">NPC Behavior</h3>
+<p>When you need to know what an NPC does, roll a die based on the context of the encounter.</p>
+<p><strong>Disposition die:</strong></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Context</th>
+<th>Die</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Hostile situation, bad history with this faction</td>
+<td>d4</td>
+</tr>
+<tr class="even">
+<td>Neutral encounter, no prior relationship</td>
+<td>d6</td>
+</tr>
+<tr class="odd">
+<td>Friendly situation, good history, or same species/culture</td>
+<td>d8</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Disposition result:</strong></p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Result</th>
+<th>Attitude</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1–2</td>
+<td>Hostile: attack, demand, or threaten</td>
+</tr>
+<tr class="even">
+<td>3–5</td>
+<td>Neutral: watchful, transactional, noncommittal</td>
+</tr>
+<tr class="odd">
+<td>6+</td>
+<td>Friendly: helpful, open, may offer more than asked</td>
+</tr>
+</tbody>
+</table>
+<p>For each subsequent interaction in the same scene, step the die up one (d4→d6→d8→d10) if things are going well, or down one if things are deteriorating.</p>
+<p><strong>What they do next (d6, after establishing attitude):</strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 4%">
+<col style="width: 32%">
+<col style="width: 33%">
+<col style="width: 29%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>d6</th>
+<th>Hostile action</th>
+<th>Neutral action</th>
+<th>Friendly action</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Attack or escalate</td>
+<td>Demand credentials or purpose</td>
+<td>Offer useful information</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Issue ultimatum</td>
+<td>Watch and wait</td>
+<td>Offer aid or resource</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Call for backup</td>
+<td>Ask pointed questions</td>
+<td>Introduce to someone else</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Attempt to detain</td>
+<td>Make a guarded offer</td>
+<td>Make a direct offer</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Attempt to steal or sabotage</td>
+<td>Disengage</td>
+<td>Share a rumor or lead</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Flee and report</td>
+<td>Reluctantly cooperate</td>
+<td>Become a contact</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="combat" class="level3">
+<h3 class="anchored" data-anchor-id="combat">Combat</h3>
+<p>When fighting NPCs, roll for their behavior each round after the first. The initial approach is set by their Disposition.</p>
+<p><strong>Ground combat behavior (d6):</strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 30%">
+<col style="width: 69%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>d6</th>
+<th>Behavior</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1–2</td>
+<td><strong>Aggressive</strong>: charge, press the attack, take risks</td>
+</tr>
+<tr class="even">
+<td>3–4</td>
+<td><strong>Tactical</strong>: use cover, coordinate, attack from advantage</td>
+</tr>
+<tr class="odd">
+<td>5–6</td>
+<td><strong>Cautious</strong>: hold position, retreat if injured, prioritize survival</td>
+</tr>
+</tbody>
+</table>
+<p>After any significant setback (a complication or a broken defense), ask the Oracle “Do they continue fighting?” Use d4 for hired muscle or civilians, d6 for soldiers, d8 for fanatics or those with no exit.</p>
+<p><strong>Ship combat behavior</strong></p>
+<p>Before ship combat begins, roll d6 for the enemy captain’s style. This determines how they act each round.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 35%">
+<col style="width: 45%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>d6</th>
+<th>Style</th>
+<th>Behavior</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1–2</td>
+<td><strong>Aggressive</strong>: attacks every round, never breaks off</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>3–4</td>
+<td><strong>Opportunist</strong>: attacks if their Agility ≥ yours, flees if losing</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>5–6</td>
+<td><strong>Cautious</strong>: attempts to escape first; only fights if cornered</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Aggressive:</strong> Roll Firepower dice and attack. Always.</p>
+<p><strong>Opportunist:</strong> Compare ship Agility dice. If theirs is equal or larger, they attack. If yours is larger, they attempt to disengage (Chase roll). After their first broken module, ask Oracle “Do they continue?” with d6.</p>
+<p><strong>Cautious:</strong> Always opens with a Chase roll to escape. If they cannot escape, they attack once, then try again. After any hit, they flee without checking Oracle.</p>
+<p><strong>Morale:</strong> After the first module breaks on any ship, roll Oracle for any combatant who isn’t Aggressive:</p>
+<ul>
+<li>Military crew: d8</li>
+<li>Hired crew or pirates: d6</li>
+<li>Civilians: d4</li>
+</ul>
+</section>
+<section id="tracking-the-story" class="level3">
+<h3 class="anchored" data-anchor-id="tracking-the-story">Tracking the Story</h3>
+<p>Keep a running note between sessions of:</p>
+<ul>
+<li><strong>Current world</strong> and jurisdiction Heat levels</li>
+<li><strong>Notoriety</strong> total</li>
+<li><strong>Ship status</strong>: which modules are broken, fuel state</li>
+<li><strong>Open leads</strong>: unresolved rumors, promised jobs, outstanding debts</li>
+<li><strong>Contacts</strong>: who owes you, who you owe, who wants you dead</li>
+</ul>
+<p>Between sessions, roll d6. On 1–2, something changed while you were docked: a contact moved on, a jurisdiction’s Heat toward you increased by 1, or a rumored opportunity closed. On 3+, nothing changed.</p>
+</section>
+</section>
+<section id="appendix" class="level2">
+<h2 class="anchored" data-anchor-id="appendix">Appendix</h2>
+<section id="reading-a-generated-system" class="level3">
+<h3 class="anchored" data-anchor-id="reading-a-generated-system">Reading a Generated System</h3>
+<p>Oddspace delegates system and sector generation to external tools: the <strong>Sector Generation System</strong> for sector mapping and system profiles, and <strong>System Detail Expansion</strong> for translating those profiles into planets, stations, habitats, and settlements.</p>
+<p>Every generated system produces a SEP profile string, nine characters encoding what the system is and how it functions in the network. Four of those fields translate directly into Oddspace mechanics:</p>
+<p><strong>Ac (Access) → Heat.</strong> A system with Ac 3–5 is one where a jurisdiction actively controls entry. Operating there is exactly what Heat 2 describes: roll required to dock, disaster means detention or worse. High-Ac systems are where Heat matters most.</p>
+<p><strong>Tn (Tension) → Risk tier.</strong> Tn 0–1 systems generate routine jobs. Tn 2–3 generate risky ones. Tn 4–5 generate desperate ones. Read the Tn value and declare the tier before the party commits.</p>
+<p><strong>Rx (Resource) → Cargo type.</strong> Rx = M means raw materials are cheap and available; electronics are scarce and valuable. Rx = B means foodstuffs and textiles are the local product. Rx = X means special cargo territory: unusual, restricted, and worth the premium. Use the Rx field to set what’s on offer at a given world without rolling.</p>
+<p><strong>Pw (Power) → Jurisdiction identity.</strong> Pw = C means the Heat jurisdiction is a corporation. Pw = H means a hegemonic power; their Heat tends to follow you across systems, not just locally. Pw = A means authority is contested and fragmented; multiple factions may each hold a piece of your Heat record. Pw = V means no jurisdiction and no Heat, but also no law, no services, and no rescue.</p>
+<p>The Ni and Nr fields tell you the system’s network role. A Ni 4–5 system with Nr = K is a chokepoint hub: high-stakes, well-watched, where desperate jobs originate and powerful patrons operate with low reliability. A Ni 0–1 system with Nr = B is where you go to lie low, take routine work, and stay off the grid.</p>
+</section>
+</section>
+<section id="license-credits" class="level2">
+<h2 class="anchored" data-anchor-id="license-credits">License &amp; Credits</h2>
+<p>© 2026 Roberto Bisceglie</p>
+<p><em>74XX Oddspace</em> is based on <strong>24XX</strong> by Jason Tocci (CC BY 4.0) and <strong>Plerion</strong> by Roberto Bisceglie (CC-BY-SA 4.0), which derives from <strong>Cairn</strong> by Yochai Gal and <strong>Spacer</strong> by Paul Umbers.</p>
+<p>This work is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a>.</p>
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></div></div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/zeruhur\.github\.io\/the_five_galaxies\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Roberto Bisceglie — <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/zeruhur/the_five_galaxies/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div>
+    <div class="nav-footer-right">
+<p>Derived from <em>Plerion: The Five Galaxies</em></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

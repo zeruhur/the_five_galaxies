@@ -1,0 +1,1478 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.38">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Roberto Bisceglie">
+<meta name="dcterms.date" content="2026-06-03">
+
+<title>74XX GREY CHANNEL – The Five Galaxies</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-5b1c58e66ef74a4b994079585d538883.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-97cace2ba407a1d0b23a291a3ef258f9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-5b1c58e66ef74a4b994079585d538883.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500&amp;family=Orbitron:wght@400;500;700;900&amp;display=swap" rel="stylesheet">
+
+
+</head>
+
+<body class="nav-sidebar docked nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">The Five Galaxies</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./setting/the_five_galaxies.html" aria-current="page"> 
+<span class="menu-text">Setting</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./maps.html"> 
+<span class="menu-text">Maps</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./74xx_oddspace.html"> 
+<span class="menu-text">Games</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./setting/GLOSSARY.html"> 
+<span class="menu-text">Glossary</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/zeruhur/the_five_galaxies"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./74xx_oddspace.html">Games</a></li><li class="breadcrumb-item"><a href="./74xx_grey_channel.html">Grey Channel</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">Setting</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./setting/the_five_galaxies.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">The Five Galaxies</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
+ <span class="menu-text">Reference</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./maps.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Maps</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./setting/GLOSSARY.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Glossary</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./orion_timeline.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Beyond The Stars Timeline</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+ <span class="menu-text">Games</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./74xx_oddspace.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Oddspace</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./74xx_space_cadets.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Space Cadets</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./74xx_grey_channel.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Grey Channel</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./74xx_cold_signal.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cold Signal</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./74xx_star_trader.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Star Trader</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#the-premise" id="toc-the-premise" class="nav-link active" data-scroll-target="#the-premise">THE PREMISE</a></li>
+  <li><a href="#characters" id="toc-characters" class="nav-link" data-scroll-target="#characters">CHARACTERS</a></li>
+  <li><a href="#gear" id="toc-gear" class="nav-link" data-scroll-target="#gear">GEAR</a></li>
+  <li><a href="#details" id="toc-details" class="nav-link" data-scroll-target="#details">DETAILS</a></li>
+  <li><a href="#how-to-play" id="toc-how-to-play" class="nav-link" data-scroll-target="#how-to-play">HOW TO PLAY</a></li>
+  <li><a href="#ties" id="toc-ties" class="nav-link" data-scroll-target="#ties">TIES</a></li>
+  <li><a href="#cover" id="toc-cover" class="nav-link" data-scroll-target="#cover">COVER</a></li>
+  <li><a href="#heat" id="toc-heat" class="nav-link" data-scroll-target="#heat">HEAT</a></li>
+  <li><a href="#operations" id="toc-operations" class="nav-link" data-scroll-target="#operations">OPERATIONS</a></li>
+  <li><a href="#between-operations" id="toc-between-operations" class="nav-link" data-scroll-target="#between-operations">BETWEEN OPERATIONS</a></li>
+  <li><a href="#solo-play" id="toc-solo-play" class="nav-link" data-scroll-target="#solo-play">SOLO PLAY</a></li>
+  <li><a href="#sparks" id="toc-sparks" class="nav-link" data-scroll-target="#sparks">SPARKS</a></li>
+  <li><a href="#license" id="toc-license" class="nav-link" data-scroll-target="#license">License</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/zeruhur/the_five_galaxies/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div><div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="74xx_grey_channel.pdf"><i class="bi bi-file-pdf"></i>Typst</a></li><li><a href="74xx_grey_channel.odt"><i class="bi bi-file"></i>OpenOffice</a></li><li><a href="74xx_grey_channel.epub"><i class="bi bi-file"></i>ePub</a></li><li><a href="74xx_grey_channel-gfm.md"><i class="bi bi-file-code"></i>Github (GFM)</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./74xx_oddspace.html">Games</a></li><li class="breadcrumb-item"><a href="./74xx_grey_channel.html">Grey Channel</a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title">74XX GREY CHANNEL</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Roberto Bisceglie </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">June 3, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="the-premise" class="level2">
+<h2 class="anchored" data-anchor-id="the-premise">THE PREMISE</h2>
+<p>You are intelligence operators working in the space between official records. The Five Galaxies runs on what its polities cannot acknowledge they need done — disputes that cannot be filed, assets that cannot be extracted through sanctioned channels, intelligence that cannot appear in WAN transit logs. GCP administrators route grey operations through cutouts. The Void Consortium moves information alongside cargo. Polities run proxy networks in each other’s territory while denying it in every formal session. That denial is where you work.</p>
+<p>Your employers have names you may or may not know. Your objectives are stated in terms that omit the parts that matter. Your covers are only as solid as the last time someone checked. None of this is unusual. This is the job.</p>
+</section>
+<section id="characters" class="level2">
+<h2 class="anchored" data-anchor-id="characters">CHARACTERS</h2>
+<p><strong>&gt; Choose your character’s specialty.</strong></p>
+<p><strong>Handler</strong>: Runs assets and coordinates operations from a position of distance. Skilled in Analysis (d8), Coordination (d8). Take encrypted communicator and secure relay node access.</p>
+<p><strong>Field Agent</strong>: Direct contact, movement through hostile territory, close-range persuasion. Skilled in Persuasion (d8), Combat (d8). Take concealed weapon and emergency extraction kit.</p>
+<p><strong>Tech</strong>: Electronic surveillance, WAN node exploitation, signals intercept and jamming. Skilled in Electronics (d8), Signals (d8). Take surveillance kit (bulky) and signal jammer.</p>
+<p><strong>Infiltrator</strong>: Physical intrusion, sustained cover maintenance, social engineering at depth. Skilled in Stealth (d8), Deception (d8). Take forgery tools and biometric spoof kit.</p>
+<p><strong>Analyst</strong>: Pattern recognition, multi-species language and protocol, cover identity construction. Skilled in Investigation (d8), Languages (d8). Take data core and analytical decryption suite.</p>
+<p><strong>Courier</strong>: Moving people, cargo, and intelligence without leaving records. Skilled in Piloting (d8), Navigation (d8). Take modified ship (no WAN transponder) and dead zone route charts.</p>
+<p><strong>&gt; Choose your character’s background.</strong></p>
+<p><strong>Former Service</strong>: You worked officially for a registered polity before going grey. Start with one Institutional Contact TIE (+1). Your original cover is strained from the transition — start at d8 rather than d10. Increase 1 skill.</p>
+<p><strong>Independent</strong>: No polity, no flag. Start with an extra Cover identity (d8). Increase 2 skills.</p>
+<p><strong>Burned Asset</strong>: Someone else’s operative, until they burned you. Start with one Opposition TIE (-1) — whoever burned you — and encrypted files worth one operation’s intelligence. Increase 1 skill.</p>
+<p><strong>GCP Adjacent</strong>: You know which filing queue leads nowhere and which reaches an actual decision-maker. Start with a Procedural Access TIE (+1) with GCP administrative infrastructure. Increase 1 skill.</p>
+<p><strong>Consortium Affiliated</strong>: The Void Consortium trained you and still calls. Start with a Corporate Handler TIE (+1) and luxury gear (₡2 value). Increase 1 skill, but owe favors.</p>
+<p><strong>Ghost</strong>: Your real identity is functionally nonexistent — no registered biometrics, no records on file, no verifiable history. Start with two Cover identities (d8 each) and no institutional TIEs. Increase 1 skill.</p>
+<p><strong>&gt; Choose or invent skills (if prompted by background).</strong></p>
+<p>Analysis, Athletics, Combat, Coordination, Deception, Electronics, Engineering, Infiltration, Investigation, Languages, Medicine, Navigation, Persuasion, Piloting, Signals, Stealth, Survival</p>
+</section>
+<section id="gear" class="level2">
+<h2 class="anchored" data-anchor-id="gear">GEAR</h2>
+<p><strong>&gt; Take an encrypted communicator, false credentials (one Cover at d8), and ₡2. Most items cost ₡1 each. A fully documented Cover identity — biometrics, polity records, registered history — costs ₡2 and starts at d10.</strong></p>
+<p><strong>Operative Loadout</strong>: Standard issue (pick 3): - Concealed Pulse Weapon - Counter-Surveillance Scanner - Biometric Spoof Kit - Forgery Tools (bulky) - Signal Jammer - Dead Drop Relay - Surveillance Drone (miniature, bulky) - Extraction Kit (emergency credits, escape route, single-use WAN transit pass)</p>
+<p><strong>Weapons</strong>: Concealed Pulse Weapon, Neural Disruptor (stun only), Micro-EMP (destroys nearby electronics, single use), Monofilament Wire.</p>
+<p><strong>Tools</strong>: Surveillance Kit (bulky, audio and visual at range), Code-Cracker (bypasses standard WAN encryption), Signal Interceptor (taps WAN node transmissions), Medical Stabilizer.</p>
+<p><strong>Cover Infrastructure</strong>: Additional Cover identities cost ₡1 each (d8). A fully documented Cover costs ₡2 and starts at d10. Cover can be purchased between operations.</p>
+<p><strong>Vehicles</strong>: Modified Courier Ship — no WAN transponder, hidden compartment, dead zone route charts (₡5).</p>
+</section>
+<section id="details" class="level2">
+<h2 class="anchored" data-anchor-id="details">DETAILS</h2>
+<p><strong>&gt; Invent or roll for personal details.</strong></p>
+<p><strong>Operational Callsign</strong> 1. Ariel, 2. Bishop, 3. Cipher, 4. Dagger, 5. Eclipse, 6. Falcon, 7. Ghost, 8. Haze, 9. Iris, 10. Jackal, 11. Knell, 12. Liminal, 13. Moth, 14. Null, 15. Oracle, 16. Prism, 17. Quiet, 18. Raven, 19. Shade, 20. Veil</p>
+<p><strong>Cover Profession</strong> 1. Trade Broker, 2. GCP Administrative Clerk, 3. Survey Contractor, 4. Medical Technician, 5. Freight Courier, 6. Academic Researcher, 7. Station Maintenance Crew, 8. Diplomatic Attaché, 9. Corporate Auditor, 10. Independent Pilot, 11. Journalist, 12. Salvage Operator</p>
+<p><strong>Operative Trait</strong> 1. Methodical, 2. Instinctive, 3. Cold, 4. Paranoid, 5. Adaptable, 6. Loyal — to whom?, 7. Mercenary, 8. Principled, 9. Calculating, 10. Reckless, 11. Patient, 12. Haunted</p>
+<p><strong>True Allegiance</strong> 1. GCP grey operations division, 2. Void Consortium, 3. Technocratic Union of Skopalia, 4. United Federation of Avaros, 5. Dominion of Aquilaria, 6. Empire of Wrulis, 7. Ethereal Enclave, 8. Order of Ascendancy, 9. Terran Compact, 10. Confederacy of Enthor, 11. No one — strictly mercenary, 12. You don’t fully know</p>
+</section>
+<section id="how-to-play" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-play">HOW TO PLAY</h2>
+<p><strong>Play</strong>: Players describe what their characters do. The GM advises when their action is impossible, demands a cost or extra steps, or presents a risk. Players can revise plans before committing so as to change goal/stakes. Only roll to avoid risk.</p>
+<p><strong>Rolling</strong>: Roll a skill die — d6 by default, higher with a relevant skill, or d4 if hindered by injury or circumstances. If helped by circumstances, roll an extra d6; if helped by an ally, they roll their skill die and share the risk. Take the highest die.</p>
+<p><em>Before rolling, check if any of your TIEs apply to the situation. Add the TIE value to your result if relevant.</em></p>
+<p>1–2 Disaster. Suffer the full risk. GM decides if you succeed at all. If risking death, you die. 3–4 Setback. A lesser consequence or partial success. If risking death, you’re injured. 5+ Success. The higher the roll, the better.</p>
+<p>If success can’t get you what you want, you’ll at least get useful info or set up an advantage.</p>
+<p><strong>Load</strong>: Carry as much as makes sense, but more than one bulky item may hinder you at times.</p>
+<p><strong>Advancement</strong>: After an operation, each character increases a skill (none⮕d8⮕d10⮕d12) and gains d6 credits (₡).</p>
+<p><strong>Defense</strong>: Say how one of your items breaks to turn a hit into a brief hindrance. Broken gear is useless until repaired.</p>
+<p><strong>Harm</strong>: Injuries take time and/or medical attention to heal. If killed, make a new character to introduce ASAP. Favor inclusion over realism.</p>
+<p><strong>GM</strong>: Describe characters in terms of behaviors, risks, and obstacles, not skill dice. Information in espionage is always incomplete — give players something real, never everything. NPCs have agendas they don’t announce; reveal them through behavior. Test for ambient surveillance, recognition, and bad luck (1–2 trouble, 3–4 signs of it). Lead the group in setting lines not to cross. Fast-forward, pause, or rewind/redo for pacing and safety. Present dilemmas you don’t know how to solve. Improvise rulings; revise unsatisfactory ones on a break.</p>
+</section>
+<section id="ties" class="level2">
+<h2 class="anchored" data-anchor-id="ties">TIES</h2>
+<p>Each operative tracks up to 3 TIEs — key relationships with a role label (Handler, Asset, Opposition), a numeric value (-2 to +2), and a trait tag (e.g., Reliable, Compromised, Volatile). TIE value adds to or subtracts from any roll where that relationship is directly in play. TIEs shift by ±1 after significant interactions.</p>
+<p>When a TIE would go beyond ±2: a +3 Asset becomes someone you’d risk the operation to protect; a -3 Opposition becomes a personal hunt that overrides operational judgment.</p>
+</section>
+<section id="cover" class="level2">
+<h2 class="anchored" data-anchor-id="cover">COVER</h2>
+<p>Each operative maintains one or more <strong>Cover identities</strong> — fabricated names, manufactured histories, false credentials. A Cover has a die rating:</p>
+<ul>
+<li><strong>d10</strong>: Solid. Background checks pass. Your story holds under direct questioning.</li>
+<li><strong>d8</strong>: Strained. Minor inconsistencies exist. Someone is asking questions.</li>
+<li><strong>d6</strong>: Fragile. Under active scrutiny. One contradiction ends it.</li>
+<li><strong>d4</strong>: Blown. Your identity is compromised. Extract or face exposure.</li>
+</ul>
+<p><strong>Stepping Down</strong>: Step your Cover die down one step when you: - Fail a roll that puts your identity at risk - Use real credentials or skills that contradict your cover story - The GM tests for surveillance and finds trouble - Act against your stated purpose in front of a witness</p>
+<p><strong>Burning Cover</strong>: You may voluntarily step your Cover die down by 1 to gain an extra d6 on any roll where your real identity and skills give you an edge — when dropping the act is worth the exposure.</p>
+<p><strong>Blown</strong>: If Cover would step down from d4, it’s gone. You cannot use that identity again. Until you establish a new one, treat all social rolls in territory where you’re known as d4.</p>
+<p><strong>Rebuilding</strong>: Between operations, spend ₡1 and downtime to establish a new Cover at d8. A fully documented Cover (₡2, plus a TIE willing to vouch for you) starts at d10.</p>
+</section>
+<section id="heat" class="level2">
+<h2 class="anchored" data-anchor-id="heat">HEAT</h2>
+<p><strong>Heat</strong> tracks how much attention the team’s operations have attracted. Heat is shared across the team.</p>
+<p>Advance Heat by 1 when: - An operative’s Cover is blown during an operation - A target survives and can identify team members - Physical evidence links back to the team - A contact is compromised and interrogated</p>
+<p><strong>Heat Effects</strong>: - <strong>1–2</strong>: Background noise. No mechanical effect. - <strong>3–4</strong>: Someone is actively investigating. Complications arrive between operations. - <strong>5</strong>: A named antagonist is hunting the team. The GM generates them now.</p>
+<p><strong>Clearing Heat</strong>: Between operations, clear 1 Heat by burning a TIE (that contact is gone permanently), spending ₡2 on deliberate misdirection, or going dark for a full operation cycle — no income, no advancement that cycle.</p>
+</section>
+<section id="operations" class="level2">
+<h2 class="anchored" data-anchor-id="operations">OPERATIONS</h2>
+<p><strong>Roll d6 for operation assignment. Spend ₡1 to request a different type.</strong></p>
+<p>1–2 Surveillance or intelligence gathering 3–4 Extraction, insertion, or courier run 5–6 Choose between two operations, both with complications</p>
+<p><strong>Operation Structure</strong>:</p>
+<ol type="1">
+<li><strong>Briefing</strong>: The client states the objective. Information is always incomplete.</li>
+<li><strong>Planning</strong>: The team establishes Cover, approach route, and gear allocation.</li>
+<li><strong>Execution</strong>: Scenes unfold. Roll only when risk is present.</li>
+<li><strong>Extraction</strong>: Get out. A clean extraction leaves no trace. A messy one advances Heat.</li>
+</ol>
+<p><strong>Operation Generator</strong>: Roll d20 for each:</p>
+<p><strong>Client/Employer</strong></p>
+<ol type="1">
+<li>GCP grey operations division — must remain deniable</li>
+<li>Void Consortium logistics arm</li>
+<li>Terran Compact intelligence bureau</li>
+<li>Dominion of Aquilaria noble house</li>
+<li>Order of Ascendancy research cell</li>
+<li>United Federation of Avaros council member (unofficial capacity)</li>
+<li>Technocratic Union dissident researcher</li>
+<li>Confederacy of Enthor clan representative</li>
+<li>Commonwealth of Elyros colony council</li>
+<li>Ethereal Enclave handler (contact made through implant network)</li>
+<li>Independent corporate interest — identity withheld</li>
+<li>Empire of Wrulis extraction facility commander</li>
+</ol>
+<p><strong>Objective</strong></p>
+<ol type="1">
+<li>Extract an asset before they’re taken</li>
+<li>Intercept a data package in transit</li>
+<li>Plant evidence that alters a GCP registry filing</li>
+<li>Recruit a contact inside a target organization</li>
+<li>Surveil a meeting and document all participants</li>
+<li>Retrieve physical materials from a secured facility</li>
+<li>Eliminate a surveillance operation without attribution</li>
+<li>Verify the true identity of an unknown operative</li>
+<li>Deliver intelligence without appearing in any record</li>
+<li>Prevent a diplomatic communication from being transmitted</li>
+<li>Establish a safe house network in hostile territory</li>
+<li>Identify the source of a compromise in an existing network</li>
+</ol>
+<p><strong>Target</strong></p>
+<ol type="1">
+<li>GCP dispute registry administrator</li>
+<li>Skopalian monitoring station crew</li>
+<li>Void Consortium transit hub operation</li>
+<li>Hetsusian Enclave access broker</li>
+<li>Ethereal Enclave recruiter</li>
+<li>Lynem noble house diplomatic staff</li>
+<li>Order of Ascendancy field research team</li>
+<li>Terran Compact frontier outpost command</li>
+<li>Rift Reavers safe harbor operation</li>
+<li>Avaros Federation council member’s senior staff</li>
+<li>Imperial extraction facility management chain</li>
+<li>Unknown operative — allegiance unconfirmed</li>
+</ol>
+<p><strong>Location</strong></p>
+<ol type="1">
+<li>GCP neutral station (monitored, procedurally complex)</li>
+<li>Avaros trade hub (crowded, multi-species, overlapping jurisdictions)</li>
+<li>WAN corridor maintenance station (isolated, technical access required)</li>
+<li>Hetsusian Enclave fringe station (clan-ruled, no standard protocols)</li>
+<li>Aquilarian-controlled Andromeda outpost (hierarchical, under continuous surveillance)</li>
+<li>Dead zone (no WAN, oddspace only, no external communication possible)</li>
+<li>Skopalian research station (credential-controlled, meritocratic access)</li>
+<li>Terran Compact orbital station (dual administrative authority, contested jurisdiction)</li>
+<li>Void Consortium transit hub (grey-market infrastructure, eyes everywhere)</li>
+<li>Commonwealth colony at polity border (autonomous, poorly documented)</li>
+<li>Imperial extraction facility in LMC border territory (frontier discretion applies)</li>
+<li>Derelict vessel or debris field (unmapped, physical hazard, no witnesses)</li>
+</ol>
+<p><strong>Complication</strong></p>
+<ol type="1">
+<li>A second team is running a parallel operation against the same target</li>
+<li>Your client contact has been replaced — or was never real</li>
+<li>The target already knows someone is coming</li>
+<li>An unexpected polity patrol has increased presence in the area</li>
+<li>One operative’s Cover has a gap the target has already identified</li>
+<li>The asset you’re extracting doesn’t want to leave</li>
+<li>The operation’s true objective differs from what the client stated</li>
+<li>A former TIE is now actively working for the opposition</li>
+<li>There is no clean extraction route — improvise or go dark</li>
+<li>The target has Ethereal Enclave implant coverage you didn’t account for</li>
+<li>Physical evidence of a previous operation links back to this team</li>
+<li>Two of your clients have contradictory interests in this operation</li>
+</ol>
+</section>
+<section id="between-operations" class="level2">
+<h2 class="anchored" data-anchor-id="between-operations">BETWEEN OPERATIONS</h2>
+<p>Each operative picks one downtime action:</p>
+<ul>
+<li><strong>Rebuild Cover</strong>: Establish or repair a Cover identity (see Cover rules)</li>
+<li><strong>Work the Network</strong>: Create a new TIE or shift an existing TIE by ±1</li>
+<li><strong>Go Dark</strong>: Clear 1 Heat; gain no other benefit this cycle</li>
+<li><strong>Study</strong>: Increase a skill</li>
+<li><strong>Recover</strong>: Heal injuries or repair gear</li>
+</ul>
+</section>
+<section id="solo-play" class="level2">
+<h2 class="anchored" data-anchor-id="solo-play">SOLO PLAY</h2>
+<p>In a solo game, use these steps to guide your scenes:</p>
+<ol type="1">
+<li><strong>Set Expectations</strong>: Consider your operative’s cover, objective, and what obstacles the target likely has in place.</li>
+<li><strong>Test Uncertainty</strong>: When the world’s response is genuinely unclear, ask the oracle a closed question.</li>
+<li><strong>Interpret the Outcome</strong>: If it matches expectations, proceed. If not, let the unexpected result shift the scene.</li>
+</ol>
+<p>For closed questions, roll a die based on likelihood:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Likelihood</th>
+<th>Die</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Very Unlikely</td>
+<td>1d4</td>
+</tr>
+<tr class="even">
+<td>Unlikely</td>
+<td>1d6</td>
+</tr>
+<tr class="odd">
+<td>Uncertain</td>
+<td>1d8</td>
+</tr>
+<tr class="even">
+<td>Likely</td>
+<td>1d10</td>
+</tr>
+<tr class="odd">
+<td>Very Likely</td>
+<td>1d12</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>1–2 No, and…</strong>: What you expected doesn’t happen, and things get worse.</li>
+<li><strong>3–4 Yes, but…</strong>: What you expected happens, but with a complication.</li>
+<li><strong>5+ Yes, and…</strong>: What you expected happens, plus something useful.</li>
+</ul>
+</section>
+<section id="sparks" class="level2">
+<h2 class="anchored" data-anchor-id="sparks">SPARKS</h2>
+<p>Use these tables to spark operation ideas. Combine an Action with a Theme.</p>
+<section id="action" class="level4">
+<h4 class="anchored" data-anchor-id="action">ACTION</h4>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>d20</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Intercept</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Extract</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Infiltrate</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Surveil</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Recruit</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Deceive</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>Plant</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>Defect</td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td>Expose</td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td>Retrieve</td>
+</tr>
+<tr class="odd">
+<td>11</td>
+<td>Eliminate</td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td>Protect</td>
+</tr>
+<tr class="odd">
+<td>13</td>
+<td>Transmit</td>
+</tr>
+<tr class="even">
+<td>14</td>
+<td>Fabricate</td>
+</tr>
+<tr class="odd">
+<td>15</td>
+<td>Impersonate</td>
+</tr>
+<tr class="even">
+<td>16</td>
+<td>Follow</td>
+</tr>
+<tr class="odd">
+<td>17</td>
+<td>Disappear</td>
+</tr>
+<tr class="even">
+<td>18</td>
+<td>Verify</td>
+</tr>
+<tr class="odd">
+<td>19</td>
+<td>Burn</td>
+</tr>
+<tr class="even">
+<td>20</td>
+<td>Meet</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="theme" class="level4">
+<h4 class="anchored" data-anchor-id="theme">THEME</h4>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>d20</th>
+<th>Theme</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Archive</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Allegiance</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Signal</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Memory</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Border</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Debt</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>Identity</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>Exposure</td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td>Trust</td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td>Silence</td>
+</tr>
+<tr class="odd">
+<td>11</td>
+<td>Transit</td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td>Legacy</td>
+</tr>
+<tr class="odd">
+<td>13</td>
+<td>Network</td>
+</tr>
+<tr class="even">
+<td>14</td>
+<td>Contact</td>
+</tr>
+<tr class="odd">
+<td>15</td>
+<td>Record</td>
+</tr>
+<tr class="even">
+<td>16</td>
+<td>Cover</td>
+</tr>
+<tr class="odd">
+<td>17</td>
+<td>Extraction</td>
+</tr>
+<tr class="even">
+<td>18</td>
+<td>Surveillance</td>
+</tr>
+<tr class="odd">
+<td>19</td>
+<td>Protocol</td>
+</tr>
+<tr class="even">
+<td>20</td>
+<td>Defection</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="npc-prompts" class="level4">
+<h4 class="anchored" data-anchor-id="npc-prompts">NPC PROMPTS</h4>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 3%">
+<col style="width: 96%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>d20</th>
+<th>Prompt</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>A contact requests a meeting on a channel you didn’t give them.</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Your handler goes silent mid-operation.</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>An asset claims they’ve been burned — but no burn order exists in any record.</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Someone using your Cover identity checked into a station you’ve never visited.</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>A known opposition operative offers to share intelligence.</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>A client wants to meet in person. Clients never want to meet in person.</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>An NPC recognizes you — but uses a name from a Cover you’ve already retired.</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>A new operative turns up in your network with credentials you can’t verify.</td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td>Your asset has been feeding the same intelligence to two other teams.</td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td>Someone is clearing Heat on your behalf. You don’t know who or why.</td>
+</tr>
+<tr class="odd">
+<td>11</td>
+<td>A target offers to defect — to you, specifically, by your real name.</td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td>A dead contact’s encrypted files surface in a registry you monitor.</td>
+</tr>
+<tr class="odd">
+<td>13</td>
+<td>An opposition operative asks for extraction. Their information may be genuine.</td>
+</tr>
+<tr class="even">
+<td>14</td>
+<td>Your client’s stated objective and their actual behavior don’t match.</td>
+</tr>
+<tr class="odd">
+<td>15</td>
+<td>A contact vouches for your Cover — then warns you the person who asked wasn’t GCP.</td>
+</tr>
+<tr class="even">
+<td>16</td>
+<td>Someone is running the same operation you’re running, one step ahead.</td>
+</tr>
+<tr class="odd">
+<td>17</td>
+<td>An NPC you burned three operations ago appears, alive, with an offer.</td>
+</tr>
+<tr class="even">
+<td>18</td>
+<td>A target doesn’t exist in any registry — but they appear on every surveillance feed.</td>
+</tr>
+<tr class="odd">
+<td>19</td>
+<td>Your handler asks you to surveil another member of your own team.</td>
+</tr>
+<tr class="even">
+<td>20</td>
+<td>The operation’s true client reveals themselves. You’ve worked for them before.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="operational-complications" class="level4">
+<h4 class="anchored" data-anchor-id="operational-complications">OPERATIONAL COMPLICATIONS</h4>
+<p>Roll d12 mid-operation when things go sideways.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 3%">
+<col style="width: 96%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>d12</th>
+<th>Complication</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Surveillance coverage is more extensive than the briefing indicated</td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Your contact is already being watched when you arrive</td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>The physical layout doesn’t match the intelligence you were given</td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>A routine check triggers an automated alert</td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Someone else is extracting the same asset</td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>The asset’s information turns out to be the operation itself</td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>The extraction window closes early</td>
+</tr>
+<tr class="even">
+<td>8</td>
+<td>A team member’s Cover draws unexpected recognition</td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td>The client communicates a change of objective mid-operation</td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td>Physical evidence of a previous team’s failure is present at the site</td>
+</tr>
+<tr class="odd">
+<td>11</td>
+<td>An uninvolved civilian witnesses something they shouldn’t</td>
+</tr>
+<tr class="even">
+<td>12</td>
+<td>The operation is exactly what it appears to be — which means something else is wrong</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="license" class="level2">
+<h2 class="anchored" data-anchor-id="license">License</h2>
+<p>© 2026 Roberto Bisceglie</p>
+<p>This work is released under the Creative Commons Attribution Share-Alike 4.0 International license</p>
+<p>This work is based on 24XX rules CC BY Jason Tocci.</p>
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Reuse</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></div></div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/zeruhur\.github\.io\/the_five_galaxies\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Roberto Bisceglie — <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a></p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/zeruhur/the_five_galaxies/issues/new" class="toc-action"><i class="bi bi-github"></i>Report an issue</a></li></ul></div></div>
+    <div class="nav-footer-right">
+<p>Derived from <em>Plerion: The Five Galaxies</em></p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
