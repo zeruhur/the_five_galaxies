@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 570" width="100%">
+  <style>
+    text { font-family: Arial, Helvetica, sans-serif; fill: #111; }
+    .map-title { font-size: 13px; font-weight: bold; letter-spacing: 2px; }
+    .subtitle { font-size: 9px; fill: #555; }
+    .territory-name { font-size: 11px; font-weight: bold; letter-spacing: 1px; }
+    .territory-type { font-size: 8px; font-style: italic; fill: #666; }
+    .loc-label { font-size: 8.5px; }
+    .loc-note { font-size: 7.5px; font-style: italic; fill: #555; }
+    .wan-label { font-size: 8px; fill: #444; }
+    .border-s { stroke: #555; stroke-width: 0.8; fill: none; }
+    .border-d { stroke: #888; stroke-width: 0.8; fill: none; stroke-dasharray: 5,4; }
+    .galaxy { fill: #f9f9f9; stroke: #111; stroke-width: 1.5; }
+    .dot { fill: #111; }
+    .wan-node { fill: white; stroke: #111; stroke-width: 1; }
+    .legend-label { font-size: 8px; fill: #444; }
+    .credit { font-size: 8px; fill: #bbb; }
+  </style>
+
+  <rect width="920" height="570" fill="white"/>
+
+  <text x="460" y="27" class="map-title" text-anchor="middle">ANDROMEDA — POLITICAL ZONES</text>
+  <text x="460" y="43" class="subtitle" text-anchor="middle">SY 5.151.267 · schematic · territorial extents approximate</text>
+
+  <!-- Galaxy ellipse -->
+  <ellipse class="galaxy" cx="460" cy="305" rx="380" ry="218"/>
+
+  <!-- Territory borders -->
+  <!-- Aquilaria / Skopalia: dashed (Cormorant Array zone, access contested) -->
+  <line class="border-d" x1="493" y1="96" x2="690" y2="350"/>
+  <!-- Aquilaria / Elyros outer colonies: solid (outer ring boundary) -->
+  <line class="border-s" x1="690" y1="350" x2="510" y2="512"/>
+
+  <!-- Territory labels -->
+  <text x="320" y="295" class="territory-name" text-anchor="middle">DOMINION OF</text>
+  <text x="320" y="310" class="territory-name" text-anchor="middle">AQUILARIA</text>
+  <text x="320" y="325" class="territory-type" text-anchor="middle">Lynem · monarchical empire</text>
+
+  <text x="655" y="218" class="territory-name" text-anchor="middle">TECH. UNION</text>
+  <text x="655" y="233" class="territory-name" text-anchor="middle">OF SKOPALIA</text>
+  <text x="655" y="248" class="territory-type" text-anchor="middle">Che-esune · technocracy</text>
+
+  <text x="648" y="415" class="territory-name" text-anchor="middle">CWLTH. OF ELYROS</text>
+  <text x="648" y="430" class="territory-type" text-anchor="middle">Wrulisu · outer ring colonies</text>
+  <text x="648" y="443" class="territory-type" text-anchor="middle">growing independence from Triangulum admin.</text>
+
+  <!-- Notable locations -->
+  <circle class="dot" cx="545" cy="190" r="3.5"/>
+  <text x="553" y="187" class="loc-label">The Cormorant Array</text>
+  <text x="553" y="198" class="loc-note">Celestial Dominion ruin — exterior monitored; interior sealed since Collapse</text>
+
+  <circle class="dot" cx="390" cy="248" r="3.5"/>
+  <text x="398" y="245" class="loc-label">Avaros Station Meridian</text>
+  <text x="398" y="256" class="loc-note">neutral ground — life-support below treaty minimums; supply contracts stalled</text>
+
+  <circle class="dot" cx="258" cy="278" r="3.5"/>
+  <text x="266" y="275" class="loc-label">The Aquilarian Sacred Belt</text>
+  <text x="266" y="286" class="loc-note">restricted heritage zone — four Skopalian survey challenges, all unresolved</text>
+
+  <!-- WAN inter-galaxy nodes (open circles on galaxy boundary) -->
+  <circle class="wan-node" cx="191" cy="458" r="4"/>
+  <text x="200" y="472" class="wan-label">→ Milky Way WAN</text>
+
+  <circle class="wan-node" cx="788" cy="196" r="4"/>
+  <text x="754" y="184" class="wan-label" text-anchor="end">→ Triangulum WAN</text>
+
+  <!-- Legend -->
+  <g transform="translate(30, 542)">
+    <line x1="0" y1="0" x2="28" y2="0" class="border-d"/>
+    <text x="35" y="4" class="legend-label">disputed border</text>
+    <line x1="160" y1="0" x2="188" y2="0" class="border-s"/>
+    <text x="195" y="4" class="legend-label">established border</text>
+    <circle cx="345" cy="0" r="3.5" fill="#111"/>
+    <text x="353" y="4" class="legend-label">notable location</text>
+    <circle cx="480" cy="0" r="4" fill="white" stroke="#111" stroke-width="1"/>
+    <text x="488" y="4" class="legend-label">WAN inter-galaxy node</text>
+  </g>
+
+  <text x="890" y="560" class="credit" text-anchor="end">Roberto Bisceglie · CC BY-SA 4.0</text>
+</svg>

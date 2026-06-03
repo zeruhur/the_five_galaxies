@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1050 650" width="100%">
+  <style>
+    text { font-family: Arial, Helvetica, sans-serif; fill: #111; }
+    .galaxy-label { font-size: 11px; font-weight: bold; letter-spacing: 2px; }
+    .galaxy-label-sm { font-size: 10px; font-weight: bold; letter-spacing: 1px; }
+    .polity { font-size: 9px; }
+    .note { font-size: 8px; font-style: italic; fill: #444; }
+    .wan { stroke: #111; stroke-width: 1; stroke-dasharray: 7,4; fill: none; }
+    .wan-dot { fill: #111; }
+    .galaxy { fill: white; stroke: #111; stroke-width: 1.5; }
+    .rule { stroke: #999; stroke-width: 0.5; }
+    .title { font-size: 13px; font-weight: bold; letter-spacing: 2px; }
+    .subtitle { font-size: 9px; fill: #555; }
+    .legend-label { font-size: 9px; fill: #333; }
+    .credit { font-size: 8px; fill: #aaa; }
+  </style>
+
+  <rect width="1050" height="650" fill="white"/>
+
+  <!-- Title -->
+  <text x="525" y="30" class="title" text-anchor="middle">THE LOCAL GROUP — POLITICAL OVERVIEW</text>
+  <text x="525" y="46" class="subtitle" text-anchor="middle">SY 5.151.267  ·  WAN inter-galaxy corridors shown  ·  not to scale</text>
+
+  <!-- ════════════════════════════════════════
+       WAN INTER-GALAXY CORRIDORS
+       (drawn first, behind galaxy shapes)
+       ════════════════════════════════════════ -->
+
+  <!-- Andromeda — Triangulum -->
+  <line class="wan" x1="355" y1="181" x2="490" y2="164"/>
+
+  <!-- Andromeda — Milky Way -->
+  <line class="wan" x1="278" y1="269" x2="285" y2="384"/>
+
+  <!-- Triangulum — Milky Way -->
+  <line class="wan" x1="531" y1="218" x2="468" y2="390"/>
+
+  <!-- Milky Way — Large Magellanic Cloud -->
+  <line class="wan" x1="528" y1="488" x2="580" y2="513"/>
+
+  <!-- Large — Small Magellanic Cloud -->
+  <line class="wan" x1="783" y1="508" x2="825" y2="477"/>
+
+
+  <!-- ════════════════════════════════════════
+       ANDROMEDA
+       cx=200, cy=188, rx=155, ry=95
+       ════════════════════════════════════════ -->
+  <ellipse class="galaxy" cx="200" cy="188" rx="155" ry="95"/>
+  <text x="200" y="120" class="galaxy-label" text-anchor="middle">ANDROMEDA</text>
+  <line class="rule" x1="72" y1="133" x2="328" y2="133"/>
+  <text x="200" y="151" class="polity" text-anchor="middle">Dominion of Aquilaria</text>
+  <text x="200" y="165" class="polity" text-anchor="middle">United Federation of Avaros</text>
+  <text x="200" y="179" class="polity" text-anchor="middle">Technocratic Union of Skopalia</text>
+  <text x="200" y="193" class="polity" text-anchor="middle">Commonwealth of Elyros ◆</text>
+  <text x="200" y="213" class="note" text-anchor="middle">◆ outer colonies; expanding</text>
+
+
+  <!-- ════════════════════════════════════════
+       TRIANGULUM
+       cx=600, cy=158, rx=110, ry=72
+       ════════════════════════════════════════ -->
+  <ellipse class="galaxy" cx="600" cy="158" rx="110" ry="72"/>
+  <text x="600" y="104" class="galaxy-label" text-anchor="middle">TRIANGULUM</text>
+  <line class="rule" x1="510" y1="116" x2="690" y2="116"/>
+  <text x="600" y="133" class="polity" text-anchor="middle">Technocratic Union of Skopalia</text>
+  <text x="600" y="148" class="polity" text-anchor="middle">Commonwealth of Elyros</text>
+  <text x="600" y="163" class="polity" text-anchor="middle">Confederacy of Enthor</text>
+  <text x="600" y="181" class="note" text-anchor="middle">Xalith ruins — access controlled</text>
+
+
+  <!-- ════════════════════════════════════════
+       MILKY WAY
+       cx=370, cy=470, rx=165, ry=100
+       ════════════════════════════════════════ -->
+  <ellipse class="galaxy" cx="370" cy="470" rx="165" ry="100"/>
+  <text x="370" y="403" class="galaxy-label" text-anchor="middle">MILKY WAY</text>
+  <line class="rule" x1="233" y1="415" x2="507" y2="415"/>
+  <text x="370" y="433" class="polity" text-anchor="middle">United Federation of Avaros</text>
+  <text x="370" y="447" class="polity" text-anchor="middle">Terran Compact  (Orion's Arm)</text>
+  <text x="370" y="461" class="polity" text-anchor="middle">Empire of Wrulis  (outposts)</text>
+  <text x="370" y="479" class="note" text-anchor="middle">Union of Praovin — isolated, uncontacted</text>
+  <text x="370" y="492" class="note" text-anchor="middle">Accord Station  (WAN node, contested)</text>
+
+
+  <!-- ════════════════════════════════════════
+       LARGE MAGELLANIC CLOUD
+       cx=680, cy=528, rx=105, ry=68
+       ════════════════════════════════════════ -->
+  <ellipse class="galaxy" cx="680" cy="528" rx="105" ry="68"/>
+  <text x="680" y="480" class="galaxy-label-sm" text-anchor="middle">LARGE MAGELLANIC</text>
+  <text x="680" y="492" class="galaxy-label-sm" text-anchor="middle">CLOUD</text>
+  <line class="rule" x1="590" y1="503" x2="770" y2="503"/>
+  <text x="680" y="518" class="polity" text-anchor="middle">Empire of Wrulis</text>
+  <text x="680" y="533" class="polity" text-anchor="middle">Confederacy of Enthor</text>
+  <text x="680" y="549" class="note" text-anchor="middle">border regions contested</text>
+  <text x="680" y="562" class="note" text-anchor="middle">Elysian vaults — sealed</text>
+
+
+  <!-- ════════════════════════════════════════
+       SMALL MAGELLANIC CLOUD
+       cx=905, cy=460, rx=82, ry=52
+       ════════════════════════════════════════ -->
+  <ellipse class="galaxy" cx="905" cy="460" rx="82" ry="52"/>
+  <text x="905" y="430" class="galaxy-label-sm" text-anchor="middle">SMALL MAGELLANIC</text>
+  <text x="905" y="442" class="galaxy-label-sm" text-anchor="middle">CLOUD</text>
+  <line class="rule" x1="838" y1="452" x2="972" y2="452"/>
+  <text x="905" y="464" class="polity" text-anchor="middle">Commonwealth of Elyros</text>
+  <text x="905" y="475" class="polity" text-anchor="middle">Empire of Wrulis</text>
+  <text x="905" y="486" class="polity" text-anchor="middle">Confederacy of Enthor</text>
+  <text x="905" y="497" class="polity" text-anchor="middle">Omalian Collective</text>
+
+
+  <!-- ════════════════════════════════════════
+       WAN NODE DOTS (on top of galaxy shapes)
+       ════════════════════════════════════════ -->
+
+  <!-- Andromeda — Triangulum -->
+  <circle class="wan-dot" cx="355" cy="181" r="3"/>
+  <circle class="wan-dot" cx="490" cy="164" r="3"/>
+
+  <!-- Andromeda — Milky Way -->
+  <circle class="wan-dot" cx="278" cy="269" r="3"/>
+  <circle class="wan-dot" cx="285" cy="384" r="3"/>
+
+  <!-- Triangulum — Milky Way -->
+  <circle class="wan-dot" cx="531" cy="218" r="3"/>
+  <circle class="wan-dot" cx="468" cy="390" r="3"/>
+
+  <!-- Milky Way — LMC -->
+  <circle class="wan-dot" cx="528" cy="488" r="3"/>
+  <circle class="wan-dot" cx="580" cy="513" r="3"/>
+
+  <!-- LMC — SMC -->
+  <circle class="wan-dot" cx="783" cy="508" r="3"/>
+  <circle class="wan-dot" cx="825" cy="477" r="3"/>
+
+
+  <!-- ════════════════════════════════════════
+       LEGEND
+       ════════════════════════════════════════ -->
+  <g transform="translate(30, 620)">
+    <circle class="wan-dot" cx="0" cy="0" r="3"/>
+    <line class="wan" x1="0" y1="0" x2="38" y2="0"/>
+    <circle class="wan-dot" cx="38" cy="0" r="3"/>
+    <text x="48" y="4" class="legend-label">WAN inter-galaxy corridor  (bidirectional; access can be denied)</text>
+  </g>
+
+  <!-- Attribution -->
+  <text x="1020" y="640" class="credit" text-anchor="end">Roberto Bisceglie · CC BY-SA 4.0</text>
+
+</svg>

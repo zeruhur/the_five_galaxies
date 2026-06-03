@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 570" width="100%">
+  <style>
+    text { font-family: Arial, Helvetica, sans-serif; fill: #111; }
+    .map-title { font-size: 13px; font-weight: bold; letter-spacing: 2px; }
+    .subtitle { font-size: 9px; fill: #555; }
+    .territory-name { font-size: 11px; font-weight: bold; letter-spacing: 1px; }
+    .territory-type { font-size: 8px; font-style: italic; fill: #666; }
+    .loc-label { font-size: 8.5px; }
+    .loc-note { font-size: 7.5px; font-style: italic; fill: #555; }
+    .wan-label { font-size: 8px; fill: #444; }
+    .border-d { stroke: #999; stroke-width: 0.8; fill: none; stroke-dasharray: 5,4; }
+    .galaxy { fill: #f9f9f9; stroke: #111; stroke-width: 1.5; }
+    .dot { fill: #111; }
+    .dot-ihc { fill: none; stroke: #111; stroke-width: 1; }
+    .wan-node-dead { fill: #eee; stroke: #888; stroke-width: 1; stroke-dasharray: 3,2; }
+    .legend-label { font-size: 8px; fill: #444; }
+    .credit { font-size: 8px; fill: #bbb; }
+  </style>
+
+  <rect width="920" height="570" fill="white"/>
+
+  <text x="460" y="27" class="map-title" text-anchor="middle">SMALL MAGELLANIC CLOUD — POLITICAL ZONES</text>
+  <text x="460" y="43" class="subtitle" text-anchor="middle">SY 5.151.267 · four overlapping claims · no dominant power · schematic</text>
+
+  <!-- Galaxy ellipse -->
+  <ellipse class="galaxy" cx="460" cy="305" rx="380" ry="218"/>
+
+  <!-- All borders dashed: no stable territorial division -->
+  <!-- Elyros / Wrulis: upper-left boundary -->
+  <line class="border-d" x1="360" y1="96" x2="420" y2="305"/>
+  <!-- Wrulis / Enthor: upper-right -->
+  <line class="border-d" x1="500" y1="92" x2="500" y2="305"/>
+  <!-- Elyros / Omalian: lower-left -->
+  <line class="border-d" x1="420" y1="305" x2="380" y2="438"/>
+  <!-- Omalian / Enthor: lower-right -->
+  <line class="border-d" x1="500" y1="305" x2="540" y2="438"/>
+  <!-- All borders meet at the contested center around (460, 305) -->
+
+  <!-- Territory labels -->
+  <text x="215" y="340" class="territory-name" text-anchor="middle">CWLTH. OF ELYROS</text>
+  <text x="215" y="355" class="territory-type" text-anchor="middle">Wrulisu · colony clusters</text>
+  <text x="215" y="368" class="territory-type" text-anchor="middle">primary Commonwealth territory</text>
+  <text x="215" y="381" class="territory-type" text-anchor="middle">bilateral deals not authorized by center</text>
+
+  <text x="460" y="175" class="territory-name" text-anchor="middle">EMPIRE OF WRULIS</text>
+  <text x="460" y="190" class="territory-type" text-anchor="middle">Tesu · secondary territory · outpost commanders unsupervised</text>
+
+  <text x="680" y="295" class="territory-name" text-anchor="middle">CONFEDERACY</text>
+  <text x="680" y="310" class="territory-name" text-anchor="middle">OF ENTHOR</text>
+  <text x="680" y="325" class="territory-type" text-anchor="middle">Hetsu clans · primary territory</text>
+  <text x="680" y="338" class="territory-type" text-anchor="middle">clans near Wrulis border: Omalian alignment</text>
+  <text x="680" y="351" class="territory-type" text-anchor="middle">clans near IHC stations: independent ops</text>
+
+  <text x="455" y="380" class="territory-name" text-anchor="middle">OMALIAN</text>
+  <text x="455" y="395" class="territory-name" text-anchor="middle">COLLECTIVE</text>
+  <text x="455" y="410" class="territory-type" text-anchor="middle">Omale · neutral; controls luminaite</text>
+  <text x="455" y="423" class="territory-type" text-anchor="middle">neutrality agreement not yet signed</text>
+
+  <!-- Independent Human Colony stations (open circles = no territory) -->
+  <circle class="dot-ihc" cx="265" cy="228" r="4"/>
+  <circle class="dot-ihc" cx="295" cy="400" r="4"/>
+  <text x="271" y="222" class="loc-note" font-style="normal">IHC stations</text>
+  <text x="271" y="232" class="loc-note">(neutrality: provisional)</text>
+
+  <!-- Notable locations -->
+  <circle class="dot" cx="462" cy="338" r="3.5"/>
+  <text x="454" y="328" class="loc-label" text-anchor="end">The Omalian Nexus</text>
+  <text x="454" y="339" class="loc-note" text-anchor="end">luminaite deposits — all transit logged; unauthorized entry reported to all parties same day</text>
+
+  <circle class="dot" cx="756" cy="305" r="3.5"/>
+  <text x="748" y="295" class="loc-label" text-anchor="end">Colony Station Margin</text>
+  <text x="748" y="306" class="loc-note" text-anchor="end">largest IHC station; informal neutral trading post; usefulness calculation shifting</text>
+
+  <circle class="dot" cx="638" cy="192" r="3.5"/>
+  <text x="630" y="182" class="loc-label" text-anchor="end">The Supernova Corridor</text>
+  <text x="630" y="193" class="loc-note" text-anchor="end">gap where LMC-SMC WAN node stood; destroyed 3 yrs ago; charts not updated since</text>
+
+  <!-- WAN inter-galaxy node (destroyed — dashed outline) -->
+  <circle class="wan-node-dead" cx="151" cy="273" r="4"/>
+  <!-- X mark over dead node -->
+  <line x1="148" y1="270" x2="154" y2="276" stroke="#888" stroke-width="1"/>
+  <line x1="154" y1="270" x2="148" y2="276" stroke="#888" stroke-width="1"/>
+  <text x="159" y="270" class="wan-label">LMC WAN — destroyed (SY 5.151.264)</text>
+  <text x="159" y="280" class="wan-label" font-style="italic">rebuild blocked by competing claims</text>
+
+  <!-- Legend -->
+  <g transform="translate(30, 542)">
+    <line x1="0" y1="0" x2="28" y2="0" class="border-d"/>
+    <text x="35" y="4" class="legend-label">contested boundary (all borders approximate and disputed)</text>
+    <circle cx="355" cy="0" r="3.5" fill="#111"/>
+    <text x="363" y="4" class="legend-label">notable location</text>
+    <circle cx="445" cy="0" r="4" fill="none" stroke="#111" stroke-width="1"/>
+    <text x="453" y="4" class="legend-label">IHC station (no territory)</text>
+    <circle cx="565" cy="0" r="4" fill="#eee" stroke="#888" stroke-width="1" stroke-dasharray="3,2"/>
+    <text x="573" y="4" class="legend-label">WAN node (destroyed)</text>
+  </g>
+
+  <text x="890" y="560" class="credit" text-anchor="end">Roberto Bisceglie · CC BY-SA 4.0</text>
+</svg>

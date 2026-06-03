@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1020 700">
+  <title>Orion's Arm — Human Space, SY 5.151.267 (7,396 CE)</title>
+  <defs>
+    <pattern id="zynthHatch" width="8" height="8" patternTransform="rotate(-45)" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="0" y2="8" stroke="#bbbbbb" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1020" height="700" fill="white"/>
+
+  <!-- Subtle starfield -->
+  <g fill="#dddddd">
+    <circle cx="38"  cy="28"  r="0.7"/><circle cx="95"  cy="72"  r="0.5"/>
+    <circle cx="155" cy="48"  r="0.8"/><circle cx="288" cy="35"  r="0.6"/>
+    <circle cx="420" cy="22"  r="0.7"/><circle cx="558" cy="58"  r="0.5"/>
+    <circle cx="672" cy="38"  r="0.8"/><circle cx="780" cy="25"  r="0.6"/>
+    <circle cx="890" cy="48"  r="0.5"/><circle cx="982" cy="30"  r="0.7"/>
+    <circle cx="48"  cy="148" r="0.5"/><circle cx="128" cy="125" r="0.7"/>
+    <circle cx="245" cy="162" r="0.5"/><circle cx="395" cy="138" r="0.6"/>
+    <circle cx="520" cy="115" r="0.8"/><circle cx="655" cy="145" r="0.5"/>
+    <circle cx="758" cy="125" r="0.7"/><circle cx="848" cy="155" r="0.5"/>
+    <circle cx="955" cy="128" r="0.6"/><circle cx="62"  cy="225" r="0.6"/>
+    <circle cx="180" cy="205" r="0.5"/><circle cx="335" cy="232" r="0.7"/>
+    <circle cx="485" cy="210" r="0.5"/><circle cx="608" cy="238" r="0.6"/>
+    <circle cx="740" cy="218" r="0.8"/><circle cx="868" cy="228" r="0.5"/>
+    <circle cx="990" cy="215" r="0.7"/><circle cx="30"  cy="325" r="0.5"/>
+    <circle cx="118" cy="348" r="0.6"/><circle cx="310" cy="338" r="0.7"/>
+    <circle cx="558" cy="312" r="0.5"/><circle cx="700" cy="355" r="0.6"/>
+    <circle cx="850" cy="322" r="0.8"/><circle cx="975" cy="340" r="0.5"/>
+    <circle cx="55"  cy="428" r="0.7"/><circle cx="198" cy="442" r="0.5"/>
+    <circle cx="358" cy="418" r="0.6"/><circle cx="548" cy="445" r="0.7"/>
+    <circle cx="688" cy="430" r="0.5"/><circle cx="820" cy="415" r="0.6"/>
+    <circle cx="968" cy="440" r="0.8"/><circle cx="42"  cy="525" r="0.5"/>
+    <circle cx="155" cy="548" r="0.7"/><circle cx="285" cy="535" r="0.6"/>
+    <circle cx="450" cy="552" r="0.5"/><circle cx="618" cy="528" r="0.8"/>
+    <circle cx="762" cy="545" r="0.6"/><circle cx="895" cy="532" r="0.5"/>
+    <circle cx="985" cy="555" r="0.7"/><circle cx="72"  cy="618" r="0.6"/>
+    <circle cx="225" cy="638" r="0.5"/><circle cx="380" cy="648" r="0.7"/>
+    <circle cx="542" cy="625" r="0.5"/><circle cx="705" cy="640" r="0.6"/>
+    <circle cx="840" cy="622" r="0.8"/><circle cx="960" cy="645" r="0.5"/>
+  </g>
+
+  <!-- Zynthari Space (upper-right Deep Rim, unchanged) -->
+  <ellipse cx="948" cy="158" rx="82" ry="105" fill="url(#zynthHatch)" stroke="#999999" stroke-width="1"/>
+
+  <!-- Zone dividers -->
+  <line x1="342" y1="72" x2="342" y2="685" stroke="#cccccc" stroke-width="0.8" stroke-dasharray="5,18"/>
+  <line x1="582" y1="72" x2="582" y2="685" stroke="#cccccc" stroke-width="0.8" stroke-dasharray="5,18"/>
+  <!-- x=802: Rim Concord boundary — styled more prominently than a zone divider -->
+  <line x1="802" y1="72" x2="802" y2="685" stroke="#888888" stroke-width="1.5" stroke-dasharray="6,5"/>
+
+  <!-- Zone labels -->
+  <text x="171" y="88" text-anchor="middle" fill="#aaaaaa" font-size="10" font-family="Courier New, monospace" letter-spacing="3">CORE SYSTEMS</text>
+  <text x="462" y="88" text-anchor="middle" fill="#aaaaaa" font-size="10" font-family="Courier New, monospace" letter-spacing="3">MID-RIM</text>
+  <text x="692" y="82" text-anchor="middle" fill="#aaaaaa" font-size="10" font-family="Courier New, monospace" letter-spacing="2">FRONTIER</text>
+  <text x="692" y="95" text-anchor="middle" fill="#aaaaaa" font-size="8"  font-family="Courier New, monospace" letter-spacing="1">Avaros Federation outer governance</text>
+  <text x="912" y="82" text-anchor="middle" fill="#aaaaaa" font-size="10" font-family="Courier New, monospace" letter-spacing="2">DEEP RIM</text>
+
+  <!-- Rim Concord boundary label (rotated, on the x=802 line) -->
+  <text x="802" y="570" text-anchor="middle" fill="#666666" font-size="8.5" font-family="Courier New, monospace" letter-spacing="1"
+        transform="rotate(-90,802,570)">— RIM CONCORD BOUNDARY —</text>
+
+  <!-- ═══════════════════════════════════════════
+       TRAVEL ROUTES (oddspace)
+       ═══════════════════════════════════════════ -->
+  <g fill="none" stroke="#555555" stroke-width="1.2" stroke-dasharray="5,9">
+    <line x1="215" y1="305" x2="165" y2="385"/> <!-- Sol — α Cen -->
+    <line x1="215" y1="305" x2="178" y2="242"/> <!-- Sol — Keid -->
+    <line x1="215" y1="305" x2="128" y2="508"/> <!-- Sol — τ Ceti -->
+    <line x1="215" y1="305" x2="300" y2="215"/> <!-- Sol — Sirius -->
+    <line x1="300" y1="215" x2="510" y2="268"/> <!-- Sirius — Chara/Nova Terra -->
+    <line x1="510" y1="268" x2="388" y2="348"/> <!-- Chara — Accord Station -->
+    <line x1="215" y1="305" x2="388" y2="348"/> <!-- Sol — Accord Station -->
+    <line x1="510" y1="268" x2="650" y2="328"/> <!-- Chara — Frontier (Avaros-side) -->
+    <line x1="650" y1="328" x2="726" y2="398"/> <!-- Frontier — Precursor Belts -->
+  </g>
+
+  <!-- WAN uplink from Accord Station to inter-galaxy network -->
+  <line x1="388" y1="342" x2="388" y2="72" stroke="#222222" stroke-width="1.5" stroke-dasharray="10,5"/>
+  <text x="394" y="108" fill="#333333" font-size="8" font-family="Courier New, monospace">WAN LINK</text>
+  <text x="394" y="119" fill="#333333" font-size="8" font-family="Courier New, monospace">↑ inter-galaxy</text>
+
+  <!-- Praovin Corridor (thin, dotted — intermittently blocked) -->
+  <line x1="760" y1="405" x2="868" y2="448" stroke="#aaaaaa" stroke-width="1" stroke-dasharray="3,5"/>
+  <text x="785" y="418" fill="#aaaaaa" font-size="7.5" font-family="Courier New, monospace" transform="rotate(22,785,418)">Praovin Corridor</text>
+
+  <!-- ═══════════════════════════════════════════
+       TERRAN COMPACT SYSTEMS
+       ═══════════════════════════════════════════ -->
+
+  <!-- Sol / Earth — primary, large filled circle -->
+  <circle cx="215" cy="305" r="8" fill="black"/>
+  <text x="228" y="300" fill="black"    font-size="12" font-family="Courier New, monospace" font-weight="bold">Sol</text>
+  <text x="228" y="313" fill="#555555" font-size="9"  font-family="Courier New, monospace">Earth — legacy authority</text>
+  <text x="228" y="324" fill="#888888" font-size="8"  font-family="Courier New, monospace">Terran Compact</text>
+
+  <!-- Alpha Centauri -->
+  <circle cx="165" cy="385" r="4" fill="black"/>
+  <text x="153" y="383" text-anchor="end" fill="#333333" font-size="10" font-family="Courier New, monospace">α Centauri</text>
+
+  <!-- Keid (40 Eri) -->
+  <circle cx="178" cy="242" r="3.5" fill="black"/>
+  <text x="166" y="240" text-anchor="end" fill="#333333" font-size="9.5" font-family="Courier New, monospace">Keid</text>
+
+  <!-- Tau Ceti -->
+  <circle cx="128" cy="508" r="4" fill="black"/>
+  <text x="116" y="506" text-anchor="end" fill="#333333" font-size="10" font-family="Courier New, monospace">τ Ceti</text>
+
+  <!-- Sirius system -->
+  <circle cx="300" cy="215" r="5" fill="black"/>
+  <text x="313" y="213" fill="#333333" font-size="10" font-family="Courier New, monospace">Sirius</text>
+  <text x="313" y="224" fill="#888888" font-size="8"  font-family="Courier New, monospace">Terran Compact</text>
+
+  <!-- Chara / Nova Terra — effective governing center, diamond -->
+  <polygon points="510,257 522,268 510,279 498,268" fill="black"/>
+  <text x="526" y="263" fill="black"    font-size="12" font-family="Courier New, monospace" font-weight="bold">Chara</text>
+  <text x="526" y="275" fill="#555555" font-size="9"  font-family="Courier New, monospace">Nova Terra — effective gov. center</text>
+  <text x="526" y="286" fill="#888888" font-size="8"  font-family="Courier New, monospace">Terran Compact (authority disputed with Earth)</text>
+
+  <!-- ═══════════════════════════════════════════
+       ACCORD STATION — WAN node, open square
+       ═══════════════════════════════════════════ -->
+  <rect x="382" y="341" width="12" height="12" fill="white" stroke="black" stroke-width="2"/>
+  <text x="399" y="347" fill="black"    font-size="10" font-family="Courier New, monospace" font-weight="bold">Accord Station</text>
+  <text x="399" y="358" fill="#555555" font-size="8.5" font-family="Courier New, monospace">WAN node — neutral system</text>
+  <text x="399" y="368" fill="#888888" font-size="8"   font-family="Courier New, monospace">dual Compact authority; Avaros access disputes unresolved</text>
+
+  <!-- ═══════════════════════════════════════════
+       FRONTIER / AVAROS ZONE
+       ═══════════════════════════════════════════ -->
+
+  <!-- Bellatrix (Avaros-administered) — open circle -->
+  <circle cx="650" cy="328" r="4" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="658" y="326" fill="#333333" font-size="10" font-family="Courier New, monospace">Bellatrix</text>
+  <text x="658" y="337" fill="#888888" font-size="8"  font-family="Courier New, monospace">Avaros-administered</text>
+
+  <!-- Precursor Belts — diamond symbol (ruins) -->
+  <polygon points="726,390 733,398 726,406 719,398" fill="black"/>
+  <text x="738" y="396" fill="#333333" font-size="9.5" font-family="Courier New, monospace">Precursor Belts</text>
+  <text x="738" y="407" fill="#888888" font-size="8"   font-family="Courier New, monospace">pre-galactic ruins — Rim Concord partial overlap</text>
+
+  <!-- Wrulis extraction outposts (triangles) -->
+  <polygon points="618,250 626,265 610,265" fill="black"/>
+  <polygon points="658,407 666,422 650,422" fill="black"/>
+  <text x="670" y="256" fill="#333333" font-size="9"  font-family="Courier New, monospace">Wrulis outposts</text>
+  <text x="670" y="418" fill="#888888" font-size="8"  font-family="Courier New, monospace">(manifests show wrong materials;</text>
+  <text x="670" y="428" fill="#888888" font-size="8"  font-family="Courier New, monospace"> Avaros demands unresolved)</text>
+
+  <!-- ═══════════════════════════════════════════
+       DEEP RIM
+       ═══════════════════════════════════════════ -->
+
+  <!-- Union of Praovin — dashed-outline circle (unknown/uncontacted) -->
+  <circle cx="870" cy="452" r="6" fill="white" stroke="#666666" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <text x="858" y="438" text-anchor="end" fill="#333333" font-size="10"  font-family="Courier New, monospace">Union of Praovin</text>
+  <text x="858" y="449" text-anchor="end" fill="#888888" font-size="8"   font-family="Courier New, monospace">no contact granted — species unidentified</text>
+  <text x="858" y="459" text-anchor="end" fill="#888888" font-size="8"   font-family="Courier New, monospace">Praovin Corridor: intermittently blocked</text>
+
+  <!-- Zynthari Space labels -->
+  <text x="948" y="142" text-anchor="middle" fill="#333333" font-size="11" font-family="Courier New, monospace" font-weight="bold" letter-spacing="1">ZYNTHARI SPACE</text>
+  <text x="948" y="156" text-anchor="middle" fill="#666666" font-size="8.5" font-family="Courier New, monospace">Rim Concord (treaty boundary)</text>
+  <text x="948" y="168" text-anchor="middle" fill="#888888" font-size="8"   font-family="Courier New, monospace">frontier coalition demands renegotiation;</text>
+  <text x="948" y="178" text-anchor="middle" fill="#888888" font-size="8"   font-family="Courier New, monospace">Nova Terra refuses to table revision</text>
+
+  <!-- Rimward direction indicator -->
+  <text x="1010" y="370" text-anchor="middle" fill="#bbbbbb" font-size="9" font-family="Courier New, monospace"
+        transform="rotate(90,1010,370)" letter-spacing="2">RIMWARD →</text>
+
+  <!-- ═══════════════════════════════════════════
+       LEGEND
+       ═══════════════════════════════════════════ -->
+  <rect x="18" y="570" width="258" height="118" rx="4" fill="white" stroke="#aaaaaa" stroke-width="1"/>
+  <text x="28" y="587" fill="#777777" font-size="9" font-family="Courier New, monospace" letter-spacing="2.5">SYMBOLS</text>
+
+  <!-- Left column -->
+  <circle cx="32" cy="601" r="6" fill="black"/>
+  <text x="43" y="605" fill="#333333" font-size="9" font-family="Courier New, monospace">Terran Compact (major center)</text>
+
+  <circle cx="32" cy="617" r="4" fill="black"/>
+  <text x="43" y="621" fill="#333333" font-size="9" font-family="Courier New, monospace">Terran Compact system</text>
+
+  <polygon points="32,628 40,638 32,648 24,638" fill="black"/>
+  <text x="43" y="641" fill="#333333" font-size="9" font-family="Courier New, monospace">Nova Terra / Chara</text>
+
+  <rect x="26" y="653" width="12" height="12" fill="white" stroke="black" stroke-width="2"/>
+  <text x="43" y="663" fill="#333333" font-size="9" font-family="Courier New, monospace">Accord Station (WAN)</text>
+
+  <circle cx="32" cy="677" r="5" fill="white" stroke="#666666" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <text x="43" y="681" fill="#333333" font-size="9" font-family="Courier New, monospace">Praovin (no contact)</text>
+
+  <!-- Right column -->
+  <polygon points="148,596 156,610 140,610" fill="black"/>
+  <text x="162" y="607" fill="#333333" font-size="9" font-family="Courier New, monospace">Wrulis outpost ▲</text>
+
+  <polygon points="148,619 155,627 148,635 141,627" fill="black"/>
+  <text x="162" y="630" fill="#333333" font-size="9" font-family="Courier New, monospace">Precursor ruins ◆</text>
+
+  <circle cx="148" cy="647" r="4" fill="white" stroke="black" stroke-width="1.5"/>
+  <text x="162" y="651" fill="#333333" font-size="9" font-family="Courier New, monospace">Avaros-administered</text>
+
+  <line x1="140" y1="663" x2="162" y2="663" stroke="#555555" stroke-width="1.2" stroke-dasharray="5,9"/>
+  <text x="167" y="667" fill="#555555" font-size="9" font-family="Courier New, monospace">oddspace route</text>
+
+  <line x1="140" y1="679" x2="162" y2="679" stroke="#222222" stroke-width="1.5" stroke-dasharray="10,5"/>
+  <text x="167" y="683" fill="#333333" font-size="9" font-family="Courier New, monospace">WAN link</text>
+
+  <!-- ═══════════════════════════════════════════
+       TITLE
+       ═══════════════════════════════════════════ -->
+  <text x="510" y="32" text-anchor="middle" fill="black"    font-size="16"  font-family="Courier New, monospace" font-weight="bold" letter-spacing="2">ORION'S ARM — HUMAN SPACE</text>
+  <text x="510" y="50" text-anchor="middle" fill="#777777"  font-size="9.5" font-family="Courier New, monospace" letter-spacing="3">SY 5.151.267 (7,396 CE)  ·  SCHEMATIC — DISTANCES NOT TO SCALE</text>
+
+  <!-- Footer -->
+  <text x="1005" y="687" text-anchor="end" fill="#999999" font-size="8.5" font-family="Courier New, monospace">Rim Concord outer limit · Avaros Federation beyond Compact borders</text>
+</svg>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 570" width="100%">
+  <style>
+    text { font-family: Arial, Helvetica, sans-serif; fill: #111; }
+    .map-title { font-size: 13px; font-weight: bold; letter-spacing: 2px; }
+    .subtitle { font-size: 9px; fill: #555; }
+    .section-label { font-size: 9px; font-weight: bold; letter-spacing: 1.5px; fill: #333; }
+    .species-name { font-size: 10px; font-weight: bold; }
+    .species-type { font-size: 8px; font-style: italic; fill: #666; }
+    .galaxy-header { font-size: 8.5px; font-weight: bold; letter-spacing: 1px; fill: #444; }
+    .cell-text { font-size: 7px; }
+    .grid-line { stroke: #ddd; stroke-width: 0.8; fill: none; }
+    .grid-major { stroke: #999; stroke-width: 1.2; fill: none; }
+    .primary { fill: #111; }
+    .secondary { fill: none; stroke: #111; stroke-width: 1.5; }
+    .legend-label { font-size: 8px; fill: #444; }
+    .credit { font-size: 8px; fill: #bbb; }
+  </style>
+
+  <rect width="920" height="570" fill="white"/>
+
+  <!-- Title -->
+  <text x="460" y="27" class="map-title" text-anchor="middle">SPECIES DISTRIBUTION — FIVE GALAXIES</text>
+  <text x="460" y="43" class="subtitle" text-anchor="middle">SY 5.151.267 · major and minor species by galaxy · filled = primary territory · open = secondary presence</text>
+
+  <!-- Vertical column dividers -->
+  <line x1="185" y1="52" x2="185" y2="540" class="grid-major"/>
+  <line x1="327" y1="52" x2="327" y2="540" class="grid-line"/>
+  <line x1="472" y1="52" x2="472" y2="540" class="grid-line"/>
+  <line x1="617" y1="52" x2="617" y2="540" class="grid-line"/>
+  <line x1="762" y1="52" x2="762" y2="540" class="grid-line"/>
+
+  <!-- Galaxy column headers (centers: AND=255, MW=400, TRI=545, LMC=690, SMC=835) -->
+  <text x="255" y="63" class="galaxy-header" text-anchor="middle">ANDROMEDA</text>
+  <text x="400" y="63" class="galaxy-header" text-anchor="middle">MILKY WAY</text>
+  <text x="545" y="63" class="galaxy-header" text-anchor="middle">TRIANGULUM</text>
+  <text x="690" y="63" class="galaxy-header" text-anchor="middle">LMC</text>
+  <text x="835" y="63" class="galaxy-header" text-anchor="middle">SMC</text>
+  <line x1="10" y1="70" x2="910" y2="70" class="grid-major"/>
+
+  <!-- ═══ MAJOR SPECIES ═══ -->
+  <text x="15" y="83" class="section-label">MAJOR SPECIES</text>
+  <line x1="10" y1="88" x2="910" y2="88" class="grid-line"/>
+
+  <!-- Row heights: 35px — centers at 105, 140, 175, 210, 245, 280 -->
+  <!-- Cell top = row_center - 9; cell text y = row_center + 4 -->
+
+  <!-- Lynem (row y=88–123, center y=105) -->
+  <text x="15" y="103" class="species-name">Lynem</text>
+  <text x="15" y="115" class="species-type">Dominion of Aquilaria</text>
+  <!-- AND: primary -->
+  <rect x="246" y="96" width="18" height="18" class="primary"/>
+  <text x="255" y="109" class="cell-text" fill="white" text-anchor="middle">Aq.</text>
+  <!-- MW: secondary (colonial) -->
+  <rect x="391" y="96" width="18" height="18" class="secondary"/>
+  <text x="400" y="109" class="cell-text" fill="#555" text-anchor="middle">col.</text>
+  <line x1="10" y1="123" x2="910" y2="123" class="grid-line"/>
+
+  <!-- Che-esune (row y=123–158, center y=140) -->
+  <text x="15" y="138" class="species-name">Che-esune</text>
+  <text x="15" y="150" class="species-type">Technocratic Union of Skopalia</text>
+  <!-- AND: secondary (satellite factions) -->
+  <rect x="246" y="131" width="18" height="18" class="secondary"/>
+  <text x="255" y="144" class="cell-text" fill="#555" text-anchor="middle">sat.</text>
+  <!-- MW: secondary (satellite factions) -->
+  <rect x="391" y="131" width="18" height="18" class="secondary"/>
+  <text x="400" y="144" class="cell-text" fill="#555" text-anchor="middle">sat.</text>
+  <!-- TRI: primary -->
+  <rect x="536" y="131" width="18" height="18" class="primary"/>
+  <text x="545" y="144" class="cell-text" fill="white" text-anchor="middle">Sk.</text>
+  <line x1="10" y1="158" x2="910" y2="158" class="grid-line"/>
+
+  <!-- Tesu (row y=158–193, center y=175) -->
+  <text x="15" y="173" class="species-name">Tesu</text>
+  <text x="15" y="185" class="species-type">Empire of Wrulis</text>
+  <!-- MW: secondary (outposts) -->
+  <rect x="391" y="166" width="18" height="18" class="secondary"/>
+  <text x="400" y="179" class="cell-text" fill="#555" text-anchor="middle">Wr.</text>
+  <!-- LMC: primary -->
+  <rect x="681" y="166" width="18" height="18" class="primary"/>
+  <text x="690" y="179" class="cell-text" fill="white" text-anchor="middle">Wr.</text>
+  <!-- SMC: secondary -->
+  <rect x="826" y="166" width="18" height="18" class="secondary"/>
+  <text x="835" y="179" class="cell-text" fill="#555" text-anchor="middle">Wr.</text>
+  <line x1="10" y1="193" x2="910" y2="193" class="grid-line"/>
+
+  <!-- Wrulisu (row y=193–228, center y=210) -->
+  <text x="15" y="208" class="species-name">Wrulisu</text>
+  <text x="15" y="220" class="species-type">Commonwealth of Elyros</text>
+  <!-- AND: secondary (colonies drifting toward bilateral deals) -->
+  <rect x="246" y="201" width="18" height="18" class="secondary"/>
+  <text x="255" y="214" class="cell-text" fill="#555" text-anchor="middle">El.</text>
+  <!-- TRI: primary -->
+  <rect x="536" y="201" width="18" height="18" class="primary"/>
+  <text x="545" y="214" class="cell-text" fill="white" text-anchor="middle">El.</text>
+  <!-- SMC: secondary -->
+  <rect x="826" y="201" width="18" height="18" class="secondary"/>
+  <text x="835" y="214" class="cell-text" fill="#555" text-anchor="middle">El.</text>
+  <line x1="10" y1="228" x2="910" y2="228" class="grid-line"/>
+
+  <!-- Omale (row y=228–263, center y=245) -->
+  <text x="15" y="243" class="species-name">Omale</text>
+  <text x="15" y="255" class="species-type">Omalian Collective</text>
+  <!-- SMC: primary -->
+  <rect x="826" y="236" width="18" height="18" class="primary"/>
+  <text x="835" y="249" class="cell-text" fill="white" text-anchor="middle">Om.</text>
+  <line x1="10" y1="263" x2="910" y2="263" class="grid-line"/>
+
+  <!-- Hetsu (row y=263–298, center y=280) -->
+  <text x="15" y="278" class="species-name">Hetsu</text>
+  <text x="15" y="290" class="species-type">Confederacy of Enthor</text>
+  <!-- TRI: secondary (Hetsusian Enclave) -->
+  <rect x="536" y="271" width="18" height="18" class="secondary"/>
+  <text x="545" y="284" class="cell-text" fill="#555" text-anchor="middle">En.</text>
+  <!-- LMC: secondary (border clans) -->
+  <rect x="681" y="271" width="18" height="18" class="secondary"/>
+  <text x="690" y="284" class="cell-text" fill="#555" text-anchor="middle">En.</text>
+  <!-- SMC: primary -->
+  <rect x="826" y="271" width="18" height="18" class="primary"/>
+  <text x="835" y="284" class="cell-text" fill="white" text-anchor="middle">En.</text>
+  <line x1="10" y1="298" x2="910" y2="298" class="grid-line-major"/>
+
+  <!-- Section separator -->
+  <line x1="10" y1="298" x2="910" y2="298" class="grid-major"/>
+
+  <!-- ═══ MINOR SPECIES ═══ -->
+  <text x="15" y="313" class="section-label">MINOR SPECIES</text>
+  <line x1="10" y1="318" x2="910" y2="318" class="grid-line"/>
+
+  <!-- Row heights: 30px — centers at 333, 363, 393, 423, 453, 483, 513 -->
+  <!-- Cell top = row_center - 7 (14×14 cells); no text inside (too small) -->
+
+  <!-- Humans (row y=318–348, center y=333) -->
+  <text x="15" y="330" class="species-name" font-size="9">Humans</text>
+  <text x="15" y="342" class="species-type" font-size="7.5">Terran Compact / IHC</text>
+  <!-- AND: secondary -->
+  <rect x="248" y="326" width="14" height="14" class="secondary"/>
+  <!-- MW: primary -->
+  <rect x="393" y="326" width="14" height="14" class="primary"/>
+  <!-- TRI: secondary -->
+  <rect x="538" y="326" width="14" height="14" class="secondary"/>
+  <!-- LMC: secondary -->
+  <rect x="683" y="326" width="14" height="14" class="secondary"/>
+  <!-- SMC: secondary (IHC stations) -->
+  <rect x="828" y="326" width="14" height="14" class="secondary"/>
+  <line x1="10" y1="348" x2="910" y2="348" class="grid-line"/>
+
+  <!-- Korvans (row y=348–378, center y=363) -->
+  <text x="15" y="360" class="species-name" font-size="9">Korvans</text>
+  <text x="15" y="372" class="species-type" font-size="7.5">engineering specialists</text>
+  <!-- MW: primary -->
+  <rect x="393" y="356" width="14" height="14" class="primary"/>
+  <line x1="10" y1="378" x2="910" y2="378" class="grid-line"/>
+
+  <!-- Glimmerians (row y=378–408, center y=393) -->
+  <text x="15" y="390" class="species-name" font-size="9">Glimmerians</text>
+  <text x="15" y="402" class="species-type" font-size="7.5">precision energy contractors</text>
+  <!-- TRI: primary -->
+  <rect x="538" y="386" width="14" height="14" class="primary"/>
+  <line x1="10" y1="408" x2="910" y2="408" class="grid-line"/>
+
+  <!-- Drakorians (row y=408–438, center y=423) -->
+  <text x="15" y="420" class="species-name" font-size="9">Drakorians</text>
+  <text x="15" y="432" class="species-type" font-size="7.5">security / field contractors</text>
+  <!-- SMC: primary -->
+  <rect x="828" y="416" width="14" height="14" class="primary"/>
+  <line x1="10" y1="438" x2="910" y2="438" class="grid-line"/>
+
+  <!-- Zynthari (row y=438–468, center y=453) -->
+  <text x="15" y="450" class="species-name" font-size="9">Zynthari</text>
+  <text x="15" y="462" class="species-type" font-size="7.5">ancient · outer Orion's Arm enclave</text>
+  <!-- MW: secondary (defined enclave, no expansion) -->
+  <rect x="393" y="446" width="14" height="14" class="secondary"/>
+  <line x1="10" y1="468" x2="910" y2="468" class="grid-line"/>
+
+  <!-- Litharians (row y=468–498, center y=483) -->
+  <text x="15" y="480" class="species-name" font-size="9">Litharians</text>
+  <text x="15" y="492" class="species-type" font-size="7.5">crystalline · sole navigation component source</text>
+  <!-- LMC: primary -->
+  <rect x="683" y="476" width="14" height="14" class="primary"/>
+  <line x1="10" y1="498" x2="910" y2="498" class="grid-line"/>
+
+  <!-- Aerians (row y=498–528, center y=513) -->
+  <text x="15" y="510" class="species-name" font-size="9">Aerians</text>
+  <text x="15" y="522" class="species-type" font-size="7.5">gas-giant cities · atmospheric monitoring</text>
+  <!-- AND: primary -->
+  <rect x="248" y="506" width="14" height="14" class="primary"/>
+  <line x1="10" y1="528" x2="910" y2="528" class="grid-line"/>
+
+  <!-- Bottom border -->
+  <line x1="10" y1="538" x2="910" y2="538" class="grid-major"/>
+
+  <!-- Legend -->
+  <rect x="246" y="96" width="0" height="0" fill="none"/>
+  <g transform="translate(18, 546)">
+    <rect x="0" y="0" width="12" height="12" fill="#111"/>
+    <text x="17" y="10" class="legend-label">primary territory / native range</text>
+    <rect x="175" y="0" width="12" height="12" fill="none" stroke="#111" stroke-width="1.5"/>
+    <text x="192" y="10" class="legend-label">secondary presence / outpost</text>
+    <text x="362" y="10" class="legend-label">absent: no cell shown</text>
+    <text x="500" y="10" class="legend-label">Aq.=Aquilaria  Av.=Avaros  Sk.=Skopalia  El.=Elyros  Wr.=Wrulis  En.=Enthor  Om.=Omalian  TC=Terran Compact</text>
+  </g>
+
+  <text x="890" y="560" class="credit" text-anchor="end">Roberto Bisceglie · CC BY-SA 4.0</text>
+</svg>

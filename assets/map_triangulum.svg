@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 570" width="100%">
+  <style>
+    text { font-family: Arial, Helvetica, sans-serif; fill: #111; }
+    .map-title { font-size: 13px; font-weight: bold; letter-spacing: 2px; }
+    .subtitle { font-size: 9px; fill: #555; }
+    .territory-name { font-size: 11px; font-weight: bold; letter-spacing: 1px; }
+    .territory-type { font-size: 8px; font-style: italic; fill: #666; }
+    .loc-label { font-size: 8.5px; }
+    .loc-note { font-size: 7.5px; font-style: italic; fill: #555; }
+    .wan-label { font-size: 8px; fill: #444; }
+    .border-d { stroke: #888; stroke-width: 0.8; fill: none; stroke-dasharray: 5,4; }
+    .galaxy { fill: #f9f9f9; stroke: #111; stroke-width: 1.5; }
+    .dot { fill: #111; }
+    .wan-node { fill: white; stroke: #111; stroke-width: 1; }
+    .legend-label { font-size: 8px; fill: #444; }
+    .credit { font-size: 8px; fill: #bbb; }
+  </style>
+
+  <rect width="920" height="570" fill="white"/>
+
+  <text x="460" y="27" class="map-title" text-anchor="middle">TRIANGULUM — POLITICAL ZONES</text>
+  <text x="460" y="43" class="subtitle" text-anchor="middle">SY 5.151.267 · schematic · territorial extents approximate</text>
+
+  <!-- Galaxy ellipse -->
+  <ellipse class="galaxy" cx="460" cy="305" rx="380" ry="218"/>
+
+  <!-- Territory borders (all dashed — all contested or unstable) -->
+  <!-- Skopalia / Elyros: Skopalian Cluster border, access disputes ongoing -->
+  <line class="border-d" x1="400" y1="94" x2="415" y2="512"/>
+  <!-- Elyros / Enthor (Hetsusian Enclave): clan-by-clan access, not uniform -->
+  <line class="border-d" x1="575" y1="100" x2="560" y2="512"/>
+
+  <!-- Territory labels -->
+  <text x="265" y="295" class="territory-name" text-anchor="middle">TECH. UNION</text>
+  <text x="265" y="310" class="territory-name" text-anchor="middle">OF SKOPALIA</text>
+  <text x="265" y="325" class="territory-type" text-anchor="middle">Che-esune · technocracy</text>
+  <text x="265" y="338" class="territory-type" text-anchor="middle">controls Xalith access; gravitite deposits</text>
+
+  <text x="487" y="348" class="territory-name" text-anchor="middle">CWLTH.</text>
+  <text x="487" y="363" class="territory-name" text-anchor="middle">OF ELYROS</text>
+  <text x="487" y="378" class="territory-type" text-anchor="middle">Wrulisu · primary territory</text>
+  <text x="487" y="391" class="territory-type" text-anchor="middle">border colonies negotiating with Skopalia</text>
+
+  <text x="678" y="295" class="territory-name" text-anchor="middle">CONFEDERACY</text>
+  <text x="678" y="310" class="territory-name" text-anchor="middle">OF ENTHOR</text>
+  <text x="678" y="325" class="territory-type" text-anchor="middle">Hetsu clans · Hetsusian Enclave</text>
+  <text x="678" y="338" class="territory-type" text-anchor="middle">clan access rights sold independently</text>
+
+  <!-- Notable locations -->
+  <circle class="dot" cx="240" cy="228" r="3.5"/>
+  <text x="248" y="225" class="loc-label">Skopalian Cluster</text>
+  <text x="248" y="236" class="loc-note">Skopalia's administrative and research core; gravitite extraction center</text>
+
+  <circle class="dot" cx="488" cy="248" r="3.5"/>
+  <text x="480" y="238" class="loc-label" text-anchor="end">Elyrian Prime</text>
+  <text x="480" y="249" class="loc-note" text-anchor="end">Elyros admin. center — between Skopalian and Enthor territories; difficult to defend</text>
+
+  <circle class="dot" cx="688" cy="218" r="3.5"/>
+  <text x="680" y="208" class="loc-label" text-anchor="end">The Xalith Rift</text>
+  <text x="680" y="219" class="loc-note" text-anchor="end">anomalous oddspace; Skopalian survey restriction; SY-7 last transmission classified</text>
+
+  <circle class="dot" cx="700" cy="385" r="3.5"/>
+  <text x="692" y="375" class="loc-label" text-anchor="end">The Hetsusian Enclave</text>
+  <text x="692" y="386" class="loc-note" text-anchor="end">Xalith ruins cluster; clan access agreements do not bind neighboring clans</text>
+
+  <!-- WAN inter-galaxy nodes -->
+  <circle class="wan-node" cx="200" cy="462" r="4"/>
+  <text x="208" y="476" class="wan-label">→ Milky Way WAN</text>
+
+  <circle class="wan-node" cx="200" cy="148" r="4"/>
+  <text x="208" y="145" class="wan-label">→ Andromeda WAN</text>
+
+  <!-- Legend -->
+  <g transform="translate(30, 542)">
+    <line x1="0" y1="0" x2="28" y2="0" class="border-d"/>
+    <text x="35" y="4" class="legend-label">contested border (clan access non-uniform)</text>
+    <circle cx="310" cy="0" r="3.5" fill="#111"/>
+    <text x="318" y="4" class="legend-label">notable location</text>
+    <circle cx="415" cy="0" r="4" fill="white" stroke="#111" stroke-width="1"/>
+    <text x="423" y="4" class="legend-label">WAN inter-galaxy node</text>
+  </g>
+
+  <text x="890" y="560" class="credit" text-anchor="end">Roberto Bisceglie · CC BY-SA 4.0</text>
+</svg>

@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 570" width="100%">
+  <style>
+    text { font-family: Arial, Helvetica, sans-serif; fill: #111; }
+    .map-title { font-size: 13px; font-weight: bold; letter-spacing: 2px; }
+    .subtitle { font-size: 9px; fill: #555; }
+    .territory-name { font-size: 11px; font-weight: bold; letter-spacing: 1px; }
+    .territory-type { font-size: 8px; font-style: italic; fill: #666; }
+    .loc-label { font-size: 8.5px; }
+    .loc-note { font-size: 7.5px; font-style: italic; fill: #555; }
+    .wan-label { font-size: 8px; fill: #444; }
+    .border-s { stroke: #555; stroke-width: 0.8; fill: none; }
+    .border-d { stroke: #888; stroke-width: 0.8; fill: none; stroke-dasharray: 5,4; }
+    .border-dot { stroke: #aaa; stroke-width: 0.8; fill: none; stroke-dasharray: 2,3; }
+    .galaxy { fill: #f9f9f9; stroke: #111; stroke-width: 1.5; }
+    .dot { fill: #111; }
+    .dot-wrulis { fill: #111; stroke: #111; stroke-width: 0.5; }
+    .wan-node { fill: white; stroke: #111; stroke-width: 1; }
+    .legend-label { font-size: 8px; fill: #444; }
+    .credit { font-size: 8px; fill: #bbb; }
+  </style>
+
+  <rect width="920" height="570" fill="white"/>
+
+  <text x="460" y="27" class="map-title" text-anchor="middle">MILKY WAY — POLITICAL ZONES</text>
+  <text x="460" y="43" class="subtitle" text-anchor="middle">SY 5.151.267 · schematic · territorial extents approximate</text>
+
+  <!-- Galaxy ellipse -->
+  <ellipse class="galaxy" cx="460" cy="305" rx="380" ry="218"/>
+
+  <!-- Territory borders -->
+  <!-- Avaros / Terran Compact: solid (Rim Concord treaty-defined) -->
+  <line class="border-s" x1="540" y1="152" x2="728" y2="450"/>
+  <!-- Rim Concord outer limit (dotted: treaty boundary with Zynthari) -->
+  <line class="border-dot" x1="620" y1="130" x2="834" y2="370"/>
+
+  <!-- Territory labels -->
+  <text x="310" y="298" class="territory-name" text-anchor="middle">UNITED FED.</text>
+  <text x="310" y="313" class="territory-name" text-anchor="middle">OF AVAROS</text>
+  <text x="310" y="328" class="territory-type" text-anchor="middle">multispecies · representative democracy</text>
+  <text x="310" y="341" class="territory-type" text-anchor="middle">primary governance framework; no enforcement mechanism</text>
+
+  <text x="680" y="378" class="territory-name" text-anchor="middle">TERRAN COMPACT</text>
+  <text x="680" y="393" class="territory-type" text-anchor="middle">Human · Orion's Arm · federal compact</text>
+  <text x="680" y="406" class="territory-type" text-anchor="middle">outer edge defined by Rim Concord (Zynthari)</text>
+
+  <!-- Wrulis outposts (individual dots, no territory) -->
+  <circle class="dot-wrulis" cx="500" cy="248" r="3" fill="#111"/>
+  <circle class="dot-wrulis" cx="538" cy="310" r="3" fill="#111"/>
+  <circle class="dot-wrulis" cx="472" cy="368" r="3" fill="#111"/>
+  <text x="560" y="245" class="loc-note" font-style="normal">Wrulis extraction outposts</text>
+  <text x="560" y="256" class="loc-note">(expanding before treaty locks borders)</text>
+
+  <!-- Notable locations -->
+  <circle class="dot" cx="618" cy="220" r="3.5"/>
+  <text x="610" y="210" class="loc-label" text-anchor="end">Union of Praovin</text>
+  <text x="610" y="221" class="loc-note" text-anchor="end">single system; no contact granted; species unidentified</text>
+
+  <circle class="dot" cx="660" cy="468" r="3.5"/>
+  <text x="652" y="458" class="loc-label" text-anchor="end">Accord Station</text>
+  <text x="652" y="469" class="loc-note" text-anchor="end">Terran Compact WAN node — dual authority, access disputed with Avaros</text>
+
+  <circle class="dot" cx="370" cy="220" r="3.5"/>
+  <text x="378" y="217" class="loc-label">Warshaa</text>
+  <text x="378" y="228" class="loc-note">contested system — Lynem and Tesu interests, no stable authority</text>
+
+  <circle class="dot" cx="730" cy="318" r="3.5"/>
+  <text x="722" y="308" class="loc-label" text-anchor="end">Precursor Belts</text>
+  <text x="722" y="319" class="loc-note" text-anchor="end">Orion's Arm ruins; predate all galactic records; partial Rim Concord overlap</text>
+
+  <!-- WAN inter-galaxy nodes -->
+  <circle class="wan-node" cx="200" cy="148" r="4"/>
+  <text x="208" y="145" class="wan-label">→ Andromeda WAN</text>
+
+  <circle class="wan-node" cx="680" cy="128" r="4"/>
+  <text x="672" y="118" class="wan-label" text-anchor="end">→ Triangulum WAN</text>
+
+  <circle class="wan-node" cx="810" cy="388" r="4"/>
+  <text x="818" y="385" class="wan-label">→ LMC WAN</text>
+
+  <!-- Legend -->
+  <g transform="translate(30, 542)">
+    <line x1="0" y1="0" x2="28" y2="0" class="border-s"/>
+    <text x="35" y="4" class="legend-label">Rim Concord / treaty border</text>
+    <line x1="195" y1="0" x2="223" y2="0" class="border-dot"/>
+    <text x="230" y="4" class="legend-label">treaty outer limit (Zynthari)</text>
+    <circle cx="388" cy="0" r="3" fill="#111"/>
+    <text x="395" y="4" class="legend-label">Wrulis outpost</text>
+    <circle cx="490" cy="0" r="3.5" fill="#111"/>
+    <text x="498" y="4" class="legend-label">notable location</text>
+    <circle cx="590" cy="0" r="4" fill="white" stroke="#111" stroke-width="1"/>
+    <text x="598" y="4" class="legend-label">WAN inter-galaxy node</text>
+  </g>
+
+  <text x="890" y="560" class="credit" text-anchor="end">Roberto Bisceglie · CC BY-SA 4.0</text>
+</svg>
