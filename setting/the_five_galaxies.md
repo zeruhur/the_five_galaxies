@@ -74,6 +74,25 @@ Artificial wormholes require ongoing maintenance. A node that is not serviced wi
 
 The major powers maintain separate route networks that partially overlap. Aquilarian routes concentrate in Andromeda with extensions to Triangulum and the Milky Way. Avaros routes center on the Milky Way and reach into Triangulum and the Large Magellanic Cloud. Skopalian infrastructure focuses in Triangulum. The Empire of Wrulis operates primarily in the Large Magellanic Cloud with Milky Way extensions. The Commonwealth of Elyros links Triangulum and the Small Magellanic Cloud, with a growing Andromeda presence. The Confederacy of Enthor maintains minimal routes in the Small Magellanic Cloud, prioritizing resource exchange over connectivity. The points where these networks intersect are among the most contested locations in the Five Galaxies — every such junction is a chokepoint that someone controls and someone else wants.
 
+#### WAN Network Topology
+
+Four active inter-galaxy corridors. One dark for three years. Each corridor is operated by whichever powers control the nodes at both ends — and any of them can deny access. The destroyed LMC–SMC link has three competing rebuild claims and no construction started.
+
+```{mermaid}
+graph LR
+    AND["**Andromeda**<br/>Aquilaria · Avaros<br/>Skopalia · Elyros"]
+    TRI["**Triangulum**<br/>Skopalia · Elyros · Enthor"]
+    MW["**Milky Way**<br/>Avaros · Terran Compact<br/>Wrulis outposts"]
+    LMC["**Large Magellanic Cloud**<br/>Wrulis · Enthor"]
+    SMC["**Small Magellanic Cloud**<br/>Enthor · Omalian<br/>Elyros · Wrulis"]
+
+    AND -- "Aquilaria / Avaros" --- MW
+    AND -- "Aquilaria / Skopalia / Elyros" --- TRI
+    TRI -- "Skopalia / Avaros" --- MW
+    MW -- "Avaros / Wrulis" --- LMC
+    LMC -. "destroyed · SY 5.151.264<br/>3 yrs dark · rebuild blocked<br/>by competing claims" .- SMC
+```
+
 ### Oddspace
 
 Oddspace is the FTL medium ships traverse when not transiting through WAN wormholes. It is not a shortcut — it is a separate dimension of space entered and exited by drives that consume fuel. Within oddspace, conventional distances do not apply, but traversal still takes time, requires navigation, and requires fuel for the return to normal space.
@@ -480,6 +499,34 @@ An Aerian floating city has been adjusting its position and altitude over a Cele
 ## Major Empires and Powers
 
 Six polities dominate the political structure of the Five Galaxies. Each holds power differently and is losing it differently. These profiles describe current state: what each power is pursuing, what it depends on, what it is hiding, and what it will offer to someone who can be useful.
+
+### Faction Relationships
+
+Six major polities, three minor ones, and the relationships that define who can go where and at what cost. Solid lines are treaties or cooperation. Dashed lines are active disputes or rivalries. Arrows show direction of constraint or dependency.
+
+```{mermaid}
+graph TD
+    AQ["**Dominion of Aquilaria**<br/>Lynem · Andromeda"]
+    AV["**United Federation of Avaros**<br/>Multispecies · Milky Way"]
+    SK["**Technocratic Union of Skopalia**<br/>Che-esune · Triangulum"]
+    EL["**Commonwealth of Elyros**<br/>Wrulisu · Triangulum / SMC"]
+    WR["**Empire of Wrulis**<br/>Tesu · LMC"]
+    EN["**Confederacy of Enthor**<br/>Hetsu · SMC / LMC"]
+    TC["**Terran Compact**<br/>Human · Milky Way"]
+    OM["**Omalian Collective**<br/>Omale · SMC"]
+    ZY["**Zynthari**<br/>ancient · Milky Way outer rim"]
+
+    AQ -. "adversarial equilibrium<br/>(centuries)" .- AV
+    AQ -. "rivals: ruins access<br/>40-yr blockade" .- SK
+    AQ -. "blocks colony recognition" .- EL
+    SK -- "nominally cooperative<br/>(fracturing)" --- EL
+    EL -- "quiet alignment<br/>(non-aligned bloc)" --- OM
+    EL -- "overlapping territory" --- EN
+    AV -. "containment pressure" .- WR
+    WR -. "border dispute · 40 yr" .- EN
+    AV -->|"diplomatic relay"| ZY
+    ZY -- "Rim Concord<br/>(constrains Compact)" --- TC
+```
 
 ------------------------------------------------------------------------
 
