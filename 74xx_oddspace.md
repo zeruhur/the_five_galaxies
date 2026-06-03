@@ -1,10 +1,30 @@
-﻿# 74XX ODDSPACE
+---
+title: 74XX ODDSPACE
+author: Roberto Bisceglie
+date: 2026-06-03
+lang: en
+license: CC BY-SA 4.0
+version: "1.0"
+format:
+  html: {}
+  typst:
+    toc: true
+    toc-depth: 2
+    number-sections: false
+    fontsize: 11pt
+    tbl-colwidths: auto
+    template: _extensions/typst-template.typ
+    template-partials:
+      - _extensions/typst-show.typ
+  odt:
+    toc: true
+  epub:
+    toc: true
+  gfm:
+    toc: false
+---
 
-*Space Opera in the Five Galaxies*
-
-Based on [24XX](https://jasontocci.itch.io/24xx) by Jason Tocci (CC BY 4.0) and [Plerion](https://zeruhur.itch.io/plerion) by Roberto Bisceglie (CC-BY-SA 4.0). This work is licensed under CC-BY-SA 4.0.
-
-## The Five Galaxies
+## Introduction
 
 Intrepid spacers ply the vastness of the Five Galaxies in search of fortune and glory. The discovery of *oddspace* opened the door to interstellar travel, stitching together an impossibly large civilization held in precarious balance by empires, trade guilds, and the endless frontier.
 
@@ -26,11 +46,11 @@ Players describe what their characters do. The GM advises when their action is i
 
 Roll a skill die, d6 by default, higher with a relevant skill, or d4 if hindered by injury or circumstances. If helped by circumstances, roll an extra d6; if helped by an ally, they roll their skill die and share the risk. Take the highest die.
 
-| Roll | Result |
-|------|--------|
-| 1–2 | **Disaster.** Suffer the full risk. GM decides if you succeed at all. If risking death, you die. |
-| 3–4 | **Setback.** A lesser consequence or partial success. If risking death, you're injured. |
-| 5+ | **Success.** The higher the roll, the better. |
+| Roll | Result                                                                                           |
+|------|--------------------------------------------------------------------------------------------------|
+| 1–2  | **Disaster.** Suffer the full risk. GM decides if you succeed at all. If risking death, you die. |
+| 3–4  | **Setback.** A lesser consequence or partial success. If risking death, you're injured.          |
+| 5+   | **Success.** The higher the roll, the better.                                                    |
 
 If success can't get you what you want, you'll at least get useful info or set up an advantage.
 
@@ -42,11 +62,11 @@ Carry as much as makes sense, but more than one **bulky** item will hinder you.
 
 After a job, each character increases a skill (none → d8 → d10 → d12) and gains credits based on the risk taken. The GM declares the tier before the party commits.
 
-| Risk | Earnings |
-|------|----------|
-| Routine | d6 ₡ |
-| Risky | 2d6 ₡ |
-| Desperate | 3d6 ₡ |
+| Risk      | Earnings |
+|-----------|----------|
+| Routine   | d6 ₡     |
+| Risky     | 2d6 ₡    |
+| Desperate | 3d6 ₡    |
 
 Earnings are individual. The party pools them to cover shared expenses.
 
@@ -103,8 +123,6 @@ Use the Name and Character Trait tables below, or invent your own. Both are desc
 ### 4. Starting credits
 
 Start with 3d6 ₡. Pay your first month's living expenses before play begins. Ship payment and fuel are handled when the fiction demands it (see Travel).
-
----
 
 ### Names (d20)
 
@@ -203,8 +221,6 @@ Start with 3d6 ₡. Pay your first month's living expenses before play begins. S
 | 18  | Tr'Edan  |
 | 19  | U'Dora   |
 | 20  | V'Sconi  |
-
----
 
 ### Character Traits
 
@@ -364,8 +380,6 @@ Only characters who begin play with a psionic archetype are psionic. They roll p
 **Thought Control**: You seize control of one mind at a time. The subject obeys while you maintain concentration.
 
 **Xenoglossy**: You understand, speak, and write any language, even one entirely unknown to you.
-
----
 
 ## Archetypes
 
@@ -1486,8 +1500,6 @@ Roll when the party lands on a world and explores beyond the port.
 | 65 | Time distortion | Research value / Crew ages at wrong rate |
 | 66 | Dimensional rift | Passage to somewhere else / Unstable |
 
----
-
 ## Solo Play
 
 *74XX Oddspace* can be played alone. You take on both the protagonist and the world: making decisions as your character, then stepping back to let the setting respond through the oracles below.
@@ -1801,8 +1813,6 @@ Every generated system produces a SEP profile string, nine characters encoding w
 **Pw (Power) → Jurisdiction identity.** Pw = C means the Heat jurisdiction is a corporation. Pw = H means a hegemonic power; their Heat tends to follow you across systems, not just locally. Pw = A means authority is contested and fragmented; multiple factions may each hold a piece of your Heat record. Pw = V means no jurisdiction and no Heat, but also no law, no services, and no rescue.
 
 The Ni and Nr fields tell you the system's network role. A Ni 4–5 system with Nr = K is a chokepoint hub: high-stakes, well-watched, where desperate jobs originate and powerful patrons operate with low reliability. A Ni 0–1 system with Nr = B is where you go to lie low, take routine work, and stay off the grid.
-
----
 
 ## License & Credits
 
