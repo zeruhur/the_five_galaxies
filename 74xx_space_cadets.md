@@ -1,7 +1,35 @@
+---
+title: 74XX SPACE CADETS
+author: Roberto Bisceglie
+date: 2026-06-03
+lang: en
+license: CC BY-SA 4.0
+version: "1.0"
+format:
+  html: {}
+  typst:
+    toc: true
+    toc-depth: 2
+    number-sections: false
+    fontsize: 11pt
+    tbl-colwidths: auto
+    template: _extensions/typst-template.typ
+    template-partials:
+      - _extensions/typst-show.typ
+  odt:
+    toc: true
+  epub:
+    toc: true
+  gfm:
+    toc: false
+---
+
 # 74XX SPACE CADETS
+
 Version 1.0
 
 ## THE PREMISE
+
 You are cadets at the GCP Combined Services Academy, a joint institution where member polities of the Galactic Coalition of Peace train officers for shared coalition operations. Your fellow cadets come from a dozen worlds and half as many species. Between rigorous classes, surprise inspections, and interpersonal drama, you'll face real emergencies that test everything you've learned. Manage the politics of polity and species alongside the mechanics of command, forge lasting alliances and bitter rivalries, and prove you have what it takes to graduate and earn your commission among the stars.
 
 ## CHARACTERS
@@ -45,6 +73,7 @@ Analysis, Athletics, Combat Tactics, Communications, Diplomacy, Electronics, Eng
 **> Take a comm unit, academy uniform, and ₡2. Most items and upgrades cost ₡1 each. Ignore microcredit transactions like snacks or personal items.**
 
 **Cadet Loadout**: Standard-issue items (pick 3):
+
 - Training Pulse Rifle (bulky)
 - Tactical Scanner
 - Body Glove (light armor)
@@ -76,15 +105,19 @@ Analysis, Athletics, Combat Tactics, Communications, Diplomacy, Electronics, Eng
 **> Invent or roll for personal details.**
 
 **Academy Callsign**
+
 1. Alpha, 2. Beacon, 3. Comet, 4. Delta, 5. Echo, 6. Falcon, 7. Ghost, 8. Hunter, 9. Ion, 10. Jericho, 11. Knight, 12. Lance, 13. Meteor, 14. Nova, 15. Omega, 16. Phoenix, 17. Quantum, 18. Ranger, 19. Star, 20. Thunder
 
 **Academy Rank**
+
 1. Cadet Fourth Class, 2. Cadet Third Class, 3. Cadet Second Class, 4. Cadet First Class, 5. Acting Squad Leader, 6. Honor Guard
 
 **Personality Trait**
+
 1. Ambitious, 2. Analytical, 3. Brave, 4. Cautious, 5. Competitive, 6. Diplomatic, 7. Eager, 8. Focused, 9. Gentle, 10. Hardy, 11. Idealistic, 12. Joking, 13. Kind, 14. Loyal, 15. Methodical, 16. Noble, 17. Optimistic, 18. Practical, 19. Quiet, 20. Rebellious
 
 **Academy Division**
+
 1. Astrogation, 2. Combat, 3. Communications, 4. Engineering, 5. Intelligence, 6. Medical, 7. Pilot, 8. Research, 9. Security, 10. Strategic, 11. Tactical, 12. Technical
 
 ## HOW TO PLAY
@@ -95,9 +128,9 @@ Analysis, Athletics, Combat Tactics, Communications, Diplomacy, Electronics, Eng
 
 *Before rolling, check if any of your TIEs apply to the situation. Add the TIE value to your result if relevant.*
 
-1–2	Disaster. Suffer the full risk. GM decides if you succeed at all. If risking death, you die.
-3–4	Setback. A lesser consequence or partial success. If risking death, you're injured.
-5+	Success. The higher the roll, the better.
+1–2 Disaster. Suffer the full risk. GM decides if you succeed at all. If risking death, you die.
+3–4 Setback. A lesser consequence or partial success. If risking death, you're injured.
+5+ Success. The higher the roll, the better.
 
 If success can't get you what you want (you make the shot, but it's bulletproof!), you'll at least get useful info or set up an advantage.
 
@@ -112,7 +145,6 @@ If success can't get you what you want (you make the shot, but it's bulletproof!
 **GM**: Describe characters in terms of behaviors, risks, and obstacles, not skill dice. Lead the group in setting lines not to cross in play. Fast-forward, pause, or rewind/redo for pacing and safety; invite players to do likewise. Present dilemmas you don't know how to solve. Shift focus so every character gets time in the scene. Test as needed for bad luck (e.g., equipment failure, surprise inspections); roll a die to check for (1–2) trouble or (3–4) signs of it. Improvise rulings to cover gaps in rules; on a break, revise unsatisfactory rulings as a group.
 
 **The GCP Combined Services Academy** is not a neutral institution. Member polities argue over funding, curriculum priority, and whose history gets taught as standard doctrine. Some instructors were placed here as political appointments; others arrived as punishment postings; a few because no one else would take the assignment. When a regulation seems arbitrary or two instructors give contradictory orders, the answer is usually the same: three polities wrote those rules and couldn't agree on a compromise. That tension is part of the setting, not background noise.
-
 
 ## TIES & REPUTATION
 
@@ -149,6 +181,7 @@ Each PC tracks up to 3 TIEs to NPCs or other PCs. A TIE has: a role label (Mento
 ## OPTIONAL TACTICAL RULES
 
 **Tactical Combat Roles**: Before a mission, choose:
+
 - **Assault**: +1 effect on direct attacks
 - **Recon**: Avoid first threat of the mission  
 - **Support**: Assist twice per mission day
@@ -156,7 +189,8 @@ Each PC tracks up to 3 TIEs to NPCs or other PCs. A TIE has: a role label (Mento
 
 **Enemy Clocks**: Use 4–6 segment clocks for key threats that build over time.
 
-**Positioning**: 
+**Positioning**:
+
 - **Cover**: +1 to defense, -1 to offense
 - **Exposed**: -1 to defense, +1 to offense
 
@@ -395,9 +429,9 @@ When you need a fresh angle or you're stuck, combine an Action and a Theme to ge
 
 **Roll d6 to get mission assignment. Decrease reputation by 1 to request different assignment.**
 
-1–2	Routine training exercise with unexpected complications
-3–4	Real emergency requiring cadet response
-5–6	Choose between two urgent missions
+1–2 Routine training exercise with unexpected complications
+3–4 Real emergency requiring cadet response
+5–6 Choose between two urgent missions
 
 **Mission Generator**: Roll d20 for client, mission type, d20 for location, d20 for complication:
 
@@ -493,9 +527,6 @@ When you need a fresh angle or you're stuck, combine an Action and a Theme to ge
 19. Academy reputation at stake
 20. Personal grudge motivates antagonist
 
-
-
-
 # CADET YEARBOOKS
 
 *Rival schools. Elective drama. Faction loyalties. Expand the setting, not the rules.*
@@ -508,10 +539,10 @@ Each entry is designed for plug-and-play use across solo and group campaigns.
 
 ## USING THIS MODULE
 
-* Drop an academy into your setting to create an immediate rival faction.
-* Use rival cadets as recurring NPCs, unexpected allies, or TIE shifters.
-* Treat clubs as internal factions for roleplay and downtime variety.
-* Seed future campaigns or legacy arcs with post-graduation conflicts among these institutions.
+- Drop an academy into your setting to create an immediate rival faction.
+- Use rival cadets as recurring NPCs, unexpected allies, or TIE shifters.
+- Treat clubs as internal factions for roleplay and downtime variety.
+- Seed future campaigns or legacy arcs with post-graduation conflicts among these institutions.
 
 ## RIVAL ACADEMIES
 
@@ -521,78 +552,78 @@ Each rival academy includes a short profile, traits, custom TIE hooks, and a cad
 
 *”Influence is just strategy in slower motion.”*
 
-* **Sponsor:** Dominion of Aquilaria
-* **Focus:** Political manipulation, rhetorical combat, interstellar diplomacy.
-* **Traits:** Elegant, subtle, hierarchical.
-* **Known For:** Producing envoys and puppetmasters. Noble house connections are assumed; those without them learn to manufacture them.
-* **Cadet Rival (NPC):** **Siran Vos**: poised, vicious in debate, secretly disgraced Lynem royalty.
-* **Custom TIE Hooks:**
+- **Sponsor:** Dominion of Aquilaria
+- **Focus:** Political manipulation, rhetorical combat, interstellar diplomacy.
+- **Traits:** Elegant, subtle, hierarchical.
+- **Known For:** Producing envoys and puppetmasters. Noble house connections are assumed; those without them learn to manufacture them.
+- **Cadet Rival (NPC):** **Siran Vos**: poised, vicious in debate, secretly disgraced Lynem royalty.
+- **Custom TIE Hooks:**
 
-  * “They humiliated me during the ethics tribunal.”
-  * “We bonded over subverting a planetary blockade.”
+  - “They humiliated me during the ethics tribunal.”
+  - “We bonded over subverting a planetary blockade.”
 
 ### 2. Wrulis Imperial Combat Institute
 
 *”Precision. Obedience. Firepower.”*
 
-* **Sponsor:** Empire of Wrulis
-* **Focus:** Tactical operations, mech piloting, siege warfare.
-* **Traits:** Brutal, efficient, patriotic.
-* **Known For:** High dropout rate. Ruthless competence. Royal Guard officers often rotate through as instructors, and treat students accordingly.
-* **Cadet Rival (NPC):** **Tamsin Rez**: ex-mercenary, stoic, leads training duels that get *too* real.
-* **Custom TIE Hooks:**
+- **Sponsor:** Empire of Wrulis
+- **Focus:** Tactical operations, mech piloting, siege warfare.
+- **Traits:** Brutal, efficient, patriotic.
+- **Known For:** High dropout rate. Ruthless competence. Royal Guard officers often rotate through as instructors, and treat students accordingly.
+- **Cadet Rival (NPC):** **Tamsin Rez**: ex-mercenary, stoic, leads training duels that get *too* real.
+- **Custom TIE Hooks:**
 
-  * “They saved my life, then claimed the credit.”
-  * “We sparred until one of us bled.”
+  - “They saved my life, then claimed the credit.”
+  - “We sparred until one of us bled.”
 
 ### 3. Hetsusian Institute of Xenology
 
 *”To understand is to outlast.”*
 
-* **Sponsor:** Confederacy of Enthor
-* **Focus:** Alien diplomacy, xeno-psychology, pre-collapse site interpretation.
-* **Traits:** Curious, eccentric, non-hierarchical.
-* **Known For:** Producing cryptic advisors and xenolinguists. Direct access to Xalith ruin sites gives students fieldwork opportunities no other institution can match, and some don't come back unchanged.
-* **Cadet Rival (NPC):** **Alun Nirel**: wears a living organism as clothing, speaks only in questions.
-* **Custom TIE Hooks:**
+- **Sponsor:** Confederacy of Enthor
+- **Focus:** Alien diplomacy, xeno-psychology, pre-collapse site interpretation.
+- **Traits:** Curious, eccentric, non-hierarchical.
+- **Known For:** Producing cryptic advisors and xenolinguists. Direct access to Xalith ruin sites gives students fieldwork opportunities no other institution can match, and some don't come back unchanged.
+- **Cadet Rival (NPC):** **Alun Nirel**: wears a living organism as clothing, speaks only in questions.
+- **Custom TIE Hooks:**
 
-  * “They unlocked a memory I didn't know I had.”
-  * “We studied the same creature, and fought over how to treat it.”
+  - “They unlocked a memory I didn't know I had.”
+  - “We studied the same creature, and fought over how to treat it.”
 
 ### 4. Avaros Federation Defense Conservatory
 
 *”There is no strength without unity.”*
 
-* **Sponsor:** United Federation of Avaros
-* **Focus:** Homeland defense, logistics, mass-coordination warfare.
-* **Traits:** Collective-focused, ideological, austere.
-* **Known For:** Producing tacticians who treat command as a consensus problem. The Conservatory's multi-species cohort structure is a feature, not an accident; Federation policy is baked into the curriculum.
-* **Cadet Rival (NPC):** **Uten Bray**: fervent, magnetic, under covert surveillance by their own superiors.
-* **Custom TIE Hooks:**
+- **Sponsor:** United Federation of Avaros
+- **Focus:** Homeland defense, logistics, mass-coordination warfare.
+- **Traits:** Collective-focused, ideological, austere.
+- **Known For:** Producing tacticians who treat command as a consensus problem. The Conservatory's multi-species cohort structure is a feature, not an accident; Federation policy is baked into the curriculum.
+- **Cadet Rival (NPC):** **Uten Bray**: fervent, magnetic, under covert surveillance by their own superiors.
+- **Custom TIE Hooks:**
 
-  * “They turned my own squad against me.”
-  * “We were once inseparable, until the Loyalty Test.”
+  - “They turned my own squad against me.”
+  - “We were once inseparable, until the Loyalty Test.”
 
 ### 5. Void Consortium Contractor School
 
 *”Get in, get paid, get out.”*
 
-* **Sponsor:** Void Consortium
-* **Focus:** Freelance cadets trained for corporate ops, salvage missions, and grey-area logistics.
-* **Traits:** Sarcastic, pragmatic, mercenary.
-* **Known For:** Losing half their cadets to off-world gigs mid-course. Graduates go where the Consortium points them; the curriculum is the contract.
-* **Cadet Rival (NPC):** **Cass “Slip” Kael**: smooth-talking hacker with 3 conflicting loyalties.
-* **Custom TIE Hooks:**
+- **Sponsor:** Void Consortium
+- **Focus:** Freelance cadets trained for corporate ops, salvage missions, and grey-area logistics.
+- **Traits:** Sarcastic, pragmatic, mercenary.
+- **Known For:** Losing half their cadets to off-world gigs mid-course. Graduates go where the Consortium points them; the curriculum is the contract.
+- **Cadet Rival (NPC):** **Cass “Slip” Kael**: smooth-talking hacker with 3 conflicting loyalties.
+- **Custom TIE Hooks:**
 
-  * “They hacked my records and made it look like an accident.”
-  * “We pulled a job together, and barely walked out.”
+  - “They hacked my records and made it look like an accident.”
+  - “We pulled a job together, and barely walked out.”
 
 ## ELECTIVE CLUBS
 
 Clubs are informal factions that can shape downtime, mission priorities, and social reputation. Cadets may join one club at a time. Each club offers:
 
-* A **perk**: mechanical or narrative.
-* A **risk**: reputational or interpersonal.
+- A **perk**: mechanical or narrative.
+- A **risk**: reputational or interpersonal.
 
 ### DEBATE CORPS
 
@@ -629,9 +660,9 @@ Winning raises Reputation; losing shifts TIEs or triggers special Events.
 
 Cadets may declare loyalty to one faction. This counts as a starting TIE (+1) with that body and a TIE (-1) with its primary rival. Alliances shift through play like any other TIE.
 
-* **Galactic Coalition of Peace**: institutional legitimacy, neutral-party access, procedural cover.
-* **Corporate Liaison Board**: gear contacts, corporate resources, off-book favors.
-* **Free Colonies Pact**: morale networks, colonial contacts, resistance to central authority.
+- **Galactic Coalition of Peace**: institutional legitimacy, neutral-party access, procedural cover.
+- **Corporate Liaison Board**: gear contacts, corporate resources, off-book favors.
+- **Free Colonies Pact**: morale networks, colonial contacts, resistance to central authority.
 
 ## ACADEMY PROMPT TABLES
 
@@ -699,18 +730,17 @@ Roll when two schools cross paths: missions, tournaments, exchange programs.
 
 **Mission Logs** is a campaign supplement for *74XX: Space Cadets* featuring pre-structured but flexible mission packs. Each one includes:
 
-* A core premise (*Briefing*)
-* Optional complications and scene scaffolding
-* Fallout mechanics and escalation clocks
-* Thematic hooks that plug directly into the tone of cadet training
+- A core premise (*Briefing*)
+- Optional complications and scene scaffolding
+- Fallout mechanics and escalation clocks
+- Thematic hooks that plug directly into the tone of cadet training
 
 **Using This Module:**
 
-* Drop one pack as a one-shot with little prep.
-* Tie 2–3 packs together into a mini-campaign arc.
-* Allow mission outcomes to influence Reputation, TIEs, and club/faction dynamics.
-* Clocks offer consequences, but also momentum toward graduation or institutional failure.
-
+- Drop one pack as a one-shot with little prep.
+- Tie 2–3 packs together into a mini-campaign arc.
+- Allow mission outcomes to influence Reputation, TIEs, and club/faction dynamics.
+- Clocks offer consequences, but also momentum toward graduation or institutional failure.
 
 ## MISSION PACK 01: **MISFIRE PROTOCOL**
 
@@ -721,17 +751,17 @@ Roll when two schools cross paths: missions, tournaments, exchange programs.
 
 A xenoarchaeological survey ship sends a distress signal from the surface of a quarantined world. Cadets are dispatched to assist, under strict observation from both the GCP and the Hetsusian Institute of Xenology.
 
-### Scene Seeds:
+### Scene Seeds
 
-* Derelict comms post with alien graffiti
-* Panicked researchers trying to cover something up
-* A wounded alien caught between predator and drone net
+- Derelict comms post with alien graffiti
+- Panicked researchers trying to cover something up
+- A wounded alien caught between predator and drone net
 
 ### COMPLICATIONS
 
-* The “distress signal” was a xeno-ritual
-* Your academy is being framed for cultural interference
-* One cadet begins experiencing non-verbal hallucinations
+- The “distress signal” was a xeno-ritual
+- Your academy is being framed for cultural interference
+- One cadet begins experiencing non-verbal hallucinations
 
 ### FALLOUT CLOCK
 
@@ -748,15 +778,15 @@ A training mission turns real as the orbital station *Chariot-6* suffers cascadi
 
 ### SCENE SEEDS
 
-* A centrifuge module spinning out of control
-* A flooded maintenance crawlspace with a trapped engineer
-* A crowd of civilians rioting over escape pods
+- A centrifuge module spinning out of control
+- A flooded maintenance crawlspace with a trapped engineer
+- A crowd of civilians rioting over escape pods
 
 ### COMPLICATIONS
 
-* AI fails to recognize cadet authority
-* Reactor breach countdown begins
-* Someone on board wants the habitat to fail
+- AI fails to recognize cadet authority
+- Reactor breach countdown begins
+- Someone on board wants the habitat to fail
 
 ### FALLOUT CLOCK
 
@@ -773,15 +803,15 @@ A GCP intelligence asset embedded in your academy believes a cadet has been flip
 
 ### SCENE SEEDS
 
-* Intercepted encrypted comms on the training net
-* A hidden surveillance drone in the cadet dorms
-* A strange jump in simulated exam scores
+- Intercepted encrypted comms on the training net
+- A hidden surveillance drone in the cadet dorms
+- A strange jump in simulated exam scores
 
 ### COMPLICATIONS
 
-* The mole might be one of you
-* The evidence has been planted, or is it?
-* An instructor is implicated and begins covering tracks
+- The mole might be one of you
+- The evidence has been planted, or is it?
+- An instructor is implicated and begins covering tracks
 
 ### FALLOUT CLOCK
 
@@ -798,15 +828,15 @@ Power surges, false alarms, and reactor hiccups: someone is testing the limits o
 
 ### SCENE SEEDS
 
-* Explosive test rig wired to trip under specific cadet patterns
-* Blackout in the cafeteria wing during dinner hour
-* A lab door welded shut from the inside
+- Explosive test rig wired to trip under specific cadet patterns
+- Blackout in the cafeteria wing during dinner hour
+- A lab door welded shut from the inside
 
 ### COMPLICATIONS
 
-* The saboteur is a respected upperclass cadet
-* A mentor you trust wants this buried
-* Multiple parties are acting independently
+- The saboteur is a respected upperclass cadet
+- A mentor you trust wants this buried
+- Multiple parties are acting independently
 
 ### FALLOUT CLOCK
 
@@ -823,15 +853,15 @@ Cadets must escort a non-aligned dignitary from a disputed sector to an off-worl
 
 ### SCENE SEEDS
 
-* Smuggling the dignitary out in a disguised cargo crate
-* Crossing paths with your academy’s official delegation
-* Navigating an open-air bazaar with eyes everywhere
+- Smuggling the dignitary out in a disguised cargo crate
+- Crossing paths with your academy’s official delegation
+- Navigating an open-air bazaar with eyes everywhere
 
 ### COMPLICATIONS
 
-* The dignitary doesn’t want to be rescued
-* One cadet sympathizes with the opposing side
-* Another academy tries to intercept
+- The dignitary doesn’t want to be rescued
+- One cadet sympathizes with the opposing side
+- Another academy tries to intercept
 
 ### FALLOUT CLOCK
 
@@ -848,15 +878,15 @@ A rogue unit of expelled cadets, rumored to be running freelance ops for an unal
 
 ### SCENE SEEDS
 
-* A scorched training ground that mirrors your own routines
-* A former instructor hiding evidence
-* One of the targets recognizes you… and spares you
+- A scorched training ground that mirrors your own routines
+- A former instructor hiding evidence
+- One of the targets recognizes you… and spares you
 
 ### COMPLICATIONS
 
-* They're using your own academy’s playbook
-* Their demands are morally compelling
-* They're broadcasting your failures to the network
+- They're using your own academy’s playbook
+- Their demands are morally compelling
+- They're broadcasting your failures to the network
 
 ### FALLOUT CLOCK
 
@@ -866,15 +896,15 @@ A rogue unit of expelled cadets, rumored to be running freelance ops for an unal
 
 Each mission includes a custom 3–6 segment **Fallout Clock** that represents:
 
-* Reputational damage
-* Institutional instability
-* External consequences
+- Reputational damage
+- Institutional instability
+- External consequences
 
 Advance the clock on:
 
-* Failed rolls with significant stakes
-* Choosing expedient over ethical solutions
-* Conflicts between cadets unresolved in play
+- Failed rolls with significant stakes
+- Choosing expedient over ethical solutions
+- Conflicts between cadets unresolved in play
 
 At full clock: trigger a narrative shift, change in cadet status, or escalation into the next mission.
 
@@ -885,4 +915,3 @@ At full clock: trigger a narrative shift, change in cadet status, or escalation 
 This work is released under the Creative Commons Attribution Share-Alike 4.0 International license
 
 This work is based on 24XX rules CC BY Jason Tocci.
-
