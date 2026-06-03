@@ -1,0 +1,59 @@
+---
+pagetitle: "The Five Galaxies"
+description: "A system-agnostic space opera setting bible"
+page-layout: full
+format:
+  html:
+    toc: false
+format-links: false
+---
+
+::: {.text-center .py-5}
+# The Five Galaxies
+
+**A system-agnostic space opera setting bible**
+
+Five galaxies. Three million light-years of contested space. One crumbling network holding it together.
+:::
+
+---
+
+::: {.grid .gap-4 .py-4}
+
+::: {.g-col-12 .g-col-md-4}
+::: {.card .p-4 .h-100}
+#### The Setting
+
+The Local Group spans five connected galaxies — the Milky Way, Andromeda, Triangulum, and the Magellanic Clouds. Each is politically distinct. Each is described at the level of powers, pressures, and available stories.
+
+[Start with the Introduction →](setting/the_five_galaxies.html)
+:::
+:::
+
+::: {.g-col-12 .g-col-md-4}
+::: {.card .p-4 .h-100}
+#### Species & Factions
+
+Dozens of species. Empires built on denial and debt. Factions that operate across galaxy lines. Humans are a minor player.
+
+[Major Species →](setting/the_five_galaxies.html#major-species) · [Factions →](setting/the_five_galaxies.html#major-factions)
+:::
+:::
+
+::: {.g-col-12 .g-col-md-4}
+::: {.card .p-4 .h-100}
+#### Infrastructure
+
+The Wormhole Access Network binds charted space together — and access can be revoked. Oddspace is the FTL medium ships traverse at cost and risk. Both are leverage.
+
+[Travel & Trade →](setting/the_five_galaxies.html#travel-and-trade) · [Technology →](setting/the_five_galaxies.html#technology-and-resources)
+:::
+:::
+
+:::
+
+---
+
+::: {.text-muted .small .text-center}
+Derived from *Plerion: The Five Galaxies* by Roberto Bisceglie — [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+:::

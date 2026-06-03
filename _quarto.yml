@@ -1,0 +1,83 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - index.qmd
+    - setting/the_five_galaxies.md
+    - setting/GLOSSARY.md
+    - maps.qmd
+    - 74xx_oddspace.md
+    - 74xx_space_cadets.md
+    - 74xx_grey_channel.md
+    - 74xx_cold_signal.md
+    - 74xx_grey_channel.md
+    - 74xx_star_trader.md
+
+website:
+  title: "The Five Galaxies"
+  description: "A system-agnostic space opera setting bible"
+  site-url: "https://zeruhur.github.io/the_five_galaxies/"
+  repo-url: "https://github.com/zeruhur/the_five_galaxies"
+  repo-actions: [issue]
+
+  navbar:
+    left:
+      - text: "Setting"
+        href: setting/the_five_galaxies.html
+      - text: "Maps"
+        href: maps.html
+      - text: "Games"
+        href: 74xx_oddspace.html
+      - text: "Glossary"
+        href: setting/GLOSSARY.html
+    right:
+      - icon: github
+        href: https://github.com/zeruhur/the_five_galaxies
+
+  sidebar:
+    style: "docked"
+    background: "dark"
+    title: "Navigation"
+    contents:
+      - section: "Setting"
+        contents:
+          - text: "The Five Galaxies"
+            href: setting/the_five_galaxies.html
+      - section: "Reference"
+        contents:
+          - text: "Maps"
+            href: maps.html
+          - text: "Glossary"
+            href: setting/GLOSSARY.html
+          - text: "Beyond The Stars Timeline"
+            href: orion_timeline.html
+      - section: "Games"
+        contents:
+          - text: "Oddspace"
+            href: 74xx_oddspace.html
+          - text: "Space Cadets"
+            href: 74xx_space_cadets.html
+          - text: "Grey Channel"
+            href: 74xx_grey_channel.html
+          - text: "Cold Signal"
+            href: 74xx_cold_signal.html
+          - text: "Star Trader"
+            href: 74xx_star_trader.html
+
+  page-footer:
+    left: "Roberto Bisceglie — [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)"
+    right: "Derived from *Plerion: The Five Galaxies*"
+
+brand: _brand.yml
+
+filters:
+  - _extensions/gfm-callout.lua
+
+format:
+  html:
+    theme:
+      light: [cosmo, assets/custom.scss]
+      dark:  [darkly, assets/custom.scss]
+    toc: true
+    toc-depth: 3
+    include-in-header: assets/fonts.html

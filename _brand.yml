@@ -1,0 +1,24 @@
+meta:
+  name: "The Five Galaxies"
+  author: "Roberto Bisceglie"
+
+color:
+  palette:
+    deep-space: "#0d0f1a"
+    nebula: "#1a1f3a"
+    accent: "#4a9eff"
+    accent-warm: "#ff7e47"
+    text-primary: "#e8eaf6"
+    text-muted: "#9098b8"
+  primary: accent
+  secondary: accent-warm
+
+typography:
+  fonts:
+    - family: Orbitron
+      source: google
+    - family: Lexend
+      source: google
+  headings:
+    family: Orbitron
+    weight: 500
