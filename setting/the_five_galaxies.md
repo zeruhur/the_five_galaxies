@@ -42,6 +42,8 @@ The situations this setting generates are already in motion.
 
 ## The Charted Space
 
+![Local Group political overview](../assets/local_group_map.svg)
+
 ### What Charted Space Is
 
 Charted Space is not a geographic boundary — it is a set of agreements. A system is "charted" when it has been surveyed, registered with at least one recognized polity, and connected to the infrastructure of regular transit. In practice: someone mapped it, claimed it or logged it, and a route exists that can be serviced.
@@ -136,6 +138,8 @@ The Local Group spans approximately three million light-years. Five galaxies wit
 
 ### Andromeda
 
+![Andromeda political zones](../assets/map_andromeda.svg)
+
 Andromeda is where old empires manage ancient rivalries while arguing over ruins that neither of them can open.
 
 **Political climate.** Four major powers have occupied Andromeda long enough that their territorial boundaries look permanent on maps and function as flashpoints in practice. The Dominion of Aquilaria and the United Federation of Avaros have maintained an adversarial equilibrium for centuries — Aquilaria expanding through military pressure, Avaros resisting through diplomatic frameworks that Aquilaria ignores when convenient. The Technocratic Union of Skopalia and the Commonwealth of Elyros share a nominally cooperative relationship that fractures whenever a pre-collapse Celestial Dominion site becomes accessible. Aquilaria controls the approaches to the most intact Celestial Dominion megastructures and has used that control to block Skopalian survey requests for the past forty years without formally rejecting them.
@@ -170,6 +174,8 @@ An Elyros colony in Andromeda's outer ring has ceased reporting to the Commonwea
 
 ### Milky Way
 
+![Milky Way political zones](../assets/map_milky_way.svg)
+
 The Milky Way is where the Lynem and Tesu have been contesting dominance for longer than most polities have kept records, and where a third party controls a system no one has successfully described.
 
 **Political climate.** No single power controls a majority of the Milky Way. The United Federation of Avaros functions as the primary governance framework for the multispecies population, but its authority depends on continued trade and has no enforcement mechanism against a determined unilateral actor. Lynem colonial interests extend from Andromeda; Tesu interests extend from the Large Magellanic Cloud. Neither can commit fully here while managing obligations elsewhere. The Terran Compact holds Orion's Arm territory built through centuries of independent expansion and operates its own FTL infrastructure; its outer edge is defined by the Rim Concord with the Zynthari — a constraint the Compact did not choose and has not been able to revise. The Union of Praovin controls a single system and has declined every formal diplomatic contact from any registered power.
@@ -201,9 +207,13 @@ A Wrulis extraction outpost in a nominally Avaros-registered system has been ope
 -   **The Praovin Corridor** — the only charted approach to the Union of Praovin's home system; traffic is intermittently closed without notice, and no vessel that has passed through under Union authorization has subsequently reported on what it found.
 -   **The Precursor Belts** — Orion's Arm systems containing ruins of a local extinct civilization distinct from the Celestial Dominion, Xalith, and Elysian; the oldest sites predate reliable galactic records by a margin instrumentation cannot resolve. Partial translation of Precursor records is ongoing in Terran Compact research institutions. Several of the most intact sites fall within Rim Concord restricted zones, which the Zynthari have designated under ancient claims without specifying their nature.
 
+![Orion's Arm human space](../assets/map_orion_arm.svg)
+
 ------------------------------------------------------------------------
 
 ### Triangulum
+
+![Triangulum political zones](../assets/map_triangulum.svg)
 
 Triangulum is where two powers have been fighting over ruins they cannot read for two centuries, while a third controls the only reliable access to both.
 
@@ -237,6 +247,8 @@ An Elyros colony near the Skopalian Cluster border has been receiving regular su
 
 ### Large Magellanic Cloud
 
+![Large Magellanic Cloud political zones](../assets/map_lmc.svg)
+
 The Large Magellanic Cloud belongs to the Empire of Wrulis in the core systems and to no one reliably in the border regions, where Hetsu clans and Tesu extraction crews have been contesting the same territory for centuries.
 
 **Political climate.** The Empire of Wrulis controls most of the LMC but has never incorporated the Hetsu-held border regions. The Confederacy of Enthor maintains secondary territory here alongside the Small Magellanic Cloud, and Hetsu border clans have proven more durable than any Imperial pacification campaign has managed. The current Emperor has no confirmed heir; the Council of Advisors is factionally divided; and a succession question that should be internal is becoming a regional destabilizer as outside parties begin positioning for post-transition access agreements. The Commonwealth of Elyros has been attempting to reach the Elysian genetic vaults in the LMC for decades and the Empire has not formally explained why it will not grant access.
@@ -266,6 +278,8 @@ A Commonwealth of Elyros expedition has been operating in the Tarantula Nebula b
 ------------------------------------------------------------------------
 
 ### Small Magellanic Cloud
+
+![Small Magellanic Cloud political zones](../assets/map_smc.svg)
 
 The Small Magellanic Cloud has four overlapping territorial claims, no dominant power, a galaxy that periodically destroys its own infrastructure through supernovae, and the only party with a neutral position is the one everyone needs for access to the resource they all want.
 
@@ -300,6 +314,8 @@ One of the Independent Human Colonies has been transmitting on an encrypted freq
 -   **Colony Station Margin** — the largest Independent Human Colony in the SMC, operating as an informal neutral trading post; its neutrality is maintained by its usefulness to all parties, and the calculation of that usefulness has been shifting as each major power's priorities change.
 
 ## Major Species
+
+![Species distribution across the Five Galaxies](../assets/map_species.svg)
 
 Six species dominate the political and demographic landscape of the Five Galaxies. They are described here as they exist under current conditions — under resource pressure, with active internal conflicts, and in ongoing friction with each other and the wider galaxy. Each entry covers what is observable, what is contested, and what remains unknown.
 
