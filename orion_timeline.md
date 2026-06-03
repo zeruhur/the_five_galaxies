@@ -1,7 +1,8 @@
-# Conquest of Orion Timeline
+# Beyond the Stars
 
 ## The Age of Settlement (1957–2090)
-*NASA 1970s retrofuturism — hard engineering, continuous space race, industrial optimism*
+
+**Inspiration:** *NASA 1970s retrofuturism — hard engineering, continuous space race, industrial optimism*
 
 - **1957**: Soviet Union launches Sputnik 1, initiating a space race that never ends.
 - **1961**: Yuri Gagarin becomes first human to orbit Earth aboard Vostok 1.
@@ -27,10 +28,9 @@
 - **2085**: First Saturn moon outpost (Titan-1) establishes methane mining operation.
 - **2090**: Total system population reaches 200,000. Rising tensions between Earth-centered institutions and outer settlements over taxation and autonomy.
 
-***
-
 ## The Age of Expansion (2090–2400)
-*Terran Trade Authority — gritty logistics, gate-based FTL, commerce shaping politics*
+
+**Inspiration:** *Terran Trade Authority — gritty logistics, gate-based FTL, commerce shaping politics*
 
 ### 2090–2240: The Era of Consolidation
 
@@ -60,6 +60,7 @@
 - **2258**: First frontier cultural bloc forms (Belt Cultural Alliance); 200,000 members across 3 systems.
 - **2270**: Frontier systems form trade alliance (Frontier Commerce Pact); bypasses Sol Union gate tolls via black market.
 - **2280**: Frontier systems begin forming own cultural blocs, distinct from Earth and Sol core. Belt, Alpha Centauri, Sirius, and Tau Ceti develop unique dialects and political identities.
+- **2285**: Nova Terra in Chara system settled as first truly Earth-like world beyond Sol. Gravity 0.98g, atmosphere 95% Earth-compatible. Becomes cultural and scientific hub of the frontier worlds.
 - **2290**: Systems Conflict erupts over trade bottlenecks, customs control, and gate access. Frontier systems blockade Alpha Centauri Gate; Sol Union responds with fleet. War lasts 6 months, 5,000 deaths. Ends with Frontier Autonomy Accord; frontier systems gain 60% voting power, tolls reduced to 4%.
 - **2295**: Alien ruins discovered on Delta Pavonis (300-meter stone structures, 50,000-year-old). Shifts humanity's attention from expansion to ancient history and vanished civilizations.
 - **2297**: First Precursor artifact recovered (metal alloy unknown to human science).
@@ -71,15 +72,13 @@
 - **2378**: First Precursor technology reconstruction success (Kappa Ceti-3 energy generator, 10% efficiency).
 - **2380**: Interstellar economy fully stabilized. Gate traffic, ruin archaeology, and frontier industries each 30% of GDP.
 - **2385**: Second ruin site found on Kappa Ceti (15-km complex, 1 million-year-old). Intensifies search for Precursor history.
-- **2390**: Nova Terra in Chara system settled as first truly Earth-like world beyond Sol. 100,000 colonists arrive. Gravity 0.98g, atmosphere 95% Earth-compatible. Becomes cultural and scientific hub.
 - **2393**: First Nova Terra government (Chara Assembly) established; 100 representatives.
 - **2398**: First Nova Terra cultural identity forms (Nova Terran Nationalism); 30% support.
 - **2400**: Human civilization established across 85+ systems. Total population: 5 billion (4 billion interstellar). Sol Union controls 50% of gates, Frontier Coalition 30%, independent systems 20%. Meaning of unity now cultural as much as political.
 
-***
-
 ## The Age of Orion (2400–4000)
-*Alliance/Union — fragmented polities, political intrigue, transhumanism as controversial faction*
+
+**Inspiration:** *Alliance/Union — fragmented polities, political intrigue, transhumanism as controversial faction*
 
 ### 2400–2750: The Era of Divergence
 
@@ -94,13 +93,16 @@
 - **2625**: Chara Accords signed; Nova Terra independent, Sol Union retains gate control. First uploaded citizen (Nova-Uploaded-1) becomes first legally recognized post-human. **Controversial**; Sol Union declares illegal, religious polities condemn.
 - **2628**: First post-human rights law (Nova Transhuman Rights Act) grants uploaded minds full citizenship. **Only in Nova Terra**.
 - **2632**: First post-human cultural identity (Transhuman Nation) declared; 30% of Nova Terra population.
+- **2638**: Nova Terra researchers document the first reproducible psionic phenomena — weak emotional sensing and limited telepathy — arising in individuals undergoing radical neural augmentation combined with prolonged exposure to Precursor resonance fields. The Sol Union dismisses the findings; the Nova Terra Assembly begins covert systematic study.
 - **2655**: Total uploaded population 100 million; **0.5% of total human space**. Still élite technology, controversial.
+- **2660**: Nova Terra's Resonance Institute formalizes psi-sensitive training. *Resonants* — individuals with measurable psionic capability — number in the thousands, almost exclusively Nova Terran. Outer polities treat resonants with suspicion or hostility; religious polities condemn them outright.
 - **2680**: Rival human polities emerge: corporate (AutoMine Corp territories), civic (Sol Union), transhumanist (Nova Terra), religious (Faith Coalition, 100 systems). Total polities: 500+. **Biological humans remain overwhelming majority**.
 - **2750**: Long-cycle breakthroughs in mind uploading, biological longevity, and machine governance spread through advanced polities. **Uploads remain 1% of total human space**, concentrated in Nova Terra and 20 transhumanist polities. Most human space remains 100% biological.
 
 ### 2750–3200: The Era of Systems and Thresholds
 
-- **2785**: Unified Accord on Interstellar Ethics (UAIE) adopted as moral baseline. Standardizes alien rights, AI rights, post-human rights. **Compliance varies widely**: Sol Union 90%, Frontier Coalition 60%, corporate polities 30%. Uploads have "limited personhood" — can own property, vote in transhumanist polities only.
+- **2785**: Unified Accord on Interstellar Ethics (UAIE) adopted as moral baseline. Standardizes alien rights, AI rights, post-human rights, and resonant status. **Compliance varies widely**: Sol Union 90%, Frontier Coalition 60%, corporate polities 30%. Uploads have "limited personhood" — can own property, vote in transhumanist polities only. Resonants classified as "augmented humans" with full rights in compliant polities.
+- **2820**: Psionic research expands beyond Nova Terra as data leaks. Small resonant communities emerge in Sirius Compact territories and isolated frontier worlds. Psi-Ops operatives — resonant intelligence agents — become an open secret among major factions.
 - **2840**: Human exploration reaches rimward systems of Orion's Arm. Encounters multiple alien species and biospheres (12 species identified, 3 sentient). Ethical dilemmas over subjugation vs cooperation spark conflict across stellar nations.
 - **2850**: First rimward alien protection law bans exploitation of 3 sentient species.
 - **2925**: Ark of Precursor Knowledge discovered in Zeta Reticuli system. 10-km megastructure, 10 million-year-old, contains data on Precursor civilization. Meaning only partly understood; first translation attempt fails.
@@ -124,47 +126,3 @@
 - **3950**: Zynthari Observation Directive enforced, placing human space under indirect surveillance. Zynthari actions suggest they faced similar existential challenges.
 - **3990**: Orion's Arm becomes mosaic of ultra-advanced post-scarcity civilizations, fiercely independent frontier worlds, rogue AI collectives, and enigmatic Zynthari enclaves. **Political and cultural fragmentation persists**.
 - **4000**: Humanity commands technologies approaching god-like capabilities (Dyson swarms, habitat worlds, distributed consciousness). **Still fragmented**: core worlds, frontier enclaves, rogue AIs, long-memory alien powers coexist uneasily. Threats loom: inscrutable Zynthari, Varnon Swarm, rogue AIs, Precursor mysteries. Humanity remains major but not supreme power in Orion's Arm.
-
-***
-
-## The Age of Horizons (4000–7396 CE)
-*Jack Vance and Mass Effect — grand civilizational scope, the discovery of smallness, politics older than humanity's first cities*
-
-### 4000–5400: The Long Watch
-
-- **4080**: Eclipse Network fragments — rogue AI collectives scattered by the 3890 spacetime incident — continue disrupting rimward systems. Multiple human polities convene the Rimward Emergency Compact to coordinate containment.
-- **4140**: Zynthari intervention dissolves the Eclipse Network's core architecture without explanation, leaving no survivors. Human AI development doctrine shifts permanently toward tight constraint models; "Eclipse Protocol" enters governance vocabulary as shorthand for existential AI failure.
-- **4200**: Varnon Swarm pressure intensifies at the rimward frontier. Precursor translation breakthrough: partial records reveal the Precursors encountered and documented the Swarm approximately 800,000 years prior. The data describes not a weapon but a routing strategy — navigational attractants capable of redirecting Swarm propagation.
-- **4280**: Coalition of Orion's Arm polities deploys Precursor-derived attractor networks at the rimward edge. The Varnon Swarm begins redirecting away from inhabited systems over the following century. Not destroyed — diverted. Its current location and eventual destination are unconfirmed.
-- **4350**: Precursor translation effectively complete. The records suggest the Precursors did not collapse but chose when to end, leaving their archive specifically to be found. The purpose of that choice remains debated.
-- **4600**: Phase Resonance Drives reach full maturity across Orion's Arm. Human civilization is functionally integrated internally for the first time — a single economic and communication network, ~900 trillion people, 500+ nominal polities, most too small to govern independently. Nova Terra's cultural and economic primacy over inner Orion's Arm is now generational rather than contested.
-- **4750**: First Phase Resonance probe crosses out of Orion's Arm. Returns no contact — but maps inhabited systems no human instrument has previously reached. The reports are classified within the hour.
-- **4900**: First crewed Phase Resonance expeditions reach systems outside Orion's Arm. No contact initiated; observation only. The scale of what they observe — infrastructure, traffic patterns, signals in frequencies humans have not used — triggers what historians later call the Silence: a decade of classified governmental debate about what to do next.
-- **5000**: Nova Terra proposes the First Terran Accord — a framework to present a unified polity to whatever lies outside. Over 200 polities ratify immediately. 150 resist. The debate is not yet resolved.
-- **5200**: Second-generation expeditions make first passive communication contact: a four-second signal exchange with what is later identified as an Avaros survey vessel. Neither party knows what the other is.
-- **5350**: An Avaros survey expedition traces the signal origin to Orion's Arm and finds a human colony station. First face-to-face contact between humanity and a major galactic species. The Avaros survey team spends three weeks in the system before departing; their report classifies Orion's Arm as "inhabited by a minor unregistered civilization with indigenous FTL capability."
-
-### 5400–6500: The Opening
-
-- **5400**: Avaros diplomatic mission arrives in Orion's Arm. Humanity learns: five galaxies are connected by the Wormhole Access Network; the Local Group is fully charted and politically organized; Orion's Arm is an unregistered enclave at the edge of Milky Way Charted Space. The psychological impact on human civilization is not immediately measurable — but it is total.
-- **5450**: First Terran ship reaches an Avaros core world. Crew of twelve. They describe returning as "permanently changed." The phrase recurs in nearly every subsequent account of first contact with the wider galaxy.
-- **5480**: Terran explorers reach Lynem colonial space. First contact with a second major species. The Lynem classify humans as "client-adjacent" — a diplomatic category implying subordinate status without formal dependency. The classification is not explained to the Terran delegation; they learn it from Avaros intermediaries.
-- **5500**: The major galactic species share assessments of the Zynthari with Terran diplomats. What Terrans believed was a bilateral oddity — their ancient perimeter treaty — is recognized across Charted Space as one of the oldest continuously enforced constraints in the Local Group. The Rim Concord's restricted zones are respected by every registered power. No one explains why, beyond "we have read the records."
-- **5520**: Terran Compact ratified. Nova Terra is the administrative seat; Earth holds formal institutional precedence in the founding documents. The text does not resolve which authority supersedes the other. The drafters could not agree and needed a document that could be signed.
-- **5550**: Terran Compact registers as an official minor polity through Avaros sponsorship in the WAN registry. Humanity officially joins Charted Space. The registration lists Compact territory as "Orion's Arm, Milky Way — extent to be surveyed."
-- **5600**: First WAN connection established to Terran Compact space. The node location is determined through four years of political dispute between Earth's legacy institutions and Nova Terra's governing bloc, resolved by placing it at a point neither party considers ideal. Both claim partial credit.
-- **5650**: First galactic-scale trade agreements. Compact exports: Phase Resonance Drive schematics, Precursor translation data, Nova Terran biotech. Compact imports: WAN access protocols, galactic navigation charts, and the knowledge that Terrans have been observed from outside for approximately 700 years.
-- **5800**: The major galactic powers formally acknowledge Rim Concord terms as binding on all registered polities in Milky Way space. The Zynthari did not request this acknowledgment. They did not respond when notified. The acknowledgment stands.
-- **5900**: Earth's institutional decline accelerates. The Compact's economic and political weight is entirely at Nova Terra. The term "Old Terra" enters common usage outside official documents.
-- **6000**: First independent human colonies established outside Orion's Arm — in the Small Magellanic Cloud, at positions of incidental strategic value. They register independently. Their relationship to the Compact is undefined, and this suits all parties.
-
-### 6500–7396: The Long Integration
-
-- **6500**: Terran Compact is a functioning minor polity in Charted Space. It controls its own FTL infrastructure, maintains one WAN node, and has established trade relationships with Avaros, Skopalia, and several minor species. It does not control territory outside Orion's Arm. It is not attempting to.
-- **6600**: Second generation of Terran diplomats — born after contact, trained in galactic protocol — begin replacing the first-contact generation. The shift is visible in policy. The first-contact generation asked: "how do we survive in this?" The second generation asks: "what do we want?"
-- **6800**: A Terran frontier coalition attempts survey access to a Zynthari-restricted system containing confirmed Precursor ruins. Three ships enter. Two return. The third's last transmission describes a phenomenon inconsistent with any known Zynthari technology. The Compact issues a formal apology; the coalition's leadership is tried under Compact law. The Zynthari do not respond.
-- **6900**: Avaros formally classifies humanity as a "registered minor species" in the Five Galaxies compendium. The classification triggers a decade of political debate in Terran culture. The debate eventually subsides — not resolved, absorbed.
-- **7100**: Human diaspora populations outside Orion's Arm are present across all five galaxies, mostly as individuals and small communities within larger polities. The Compact does not govern them. It occasionally advocates for them through Avaros channels, with mixed results.
-- **7200**: The Compact's single WAN node becomes a source of ongoing institutional friction. Earth's legacy administrators and Nova Terra's governing bloc each claim authority over non-human traffic through it. Avaros has filed three formal objections to contradictory access policies; none have been resolved.
-- **7396**: Current date. The Terran Compact is 1,876 years old. Nova Terra is the dominant human system in economic output by a margin that has not narrowed in four centuries. Earth retains formal constitutional precedence it has never successfully exercised. The Rim Concord is 3,596 years old. It has been violated twice — both times by Terrans, both times at cost.
-
