@@ -1,10 +1,8 @@
-# 74XX ODDSPACE
+﻿# 74XX ODDSPACE
 
 *Space Opera in the Five Galaxies*
 
 Based on [24XX](https://jasontocci.itch.io/24xx) by Jason Tocci (CC BY 4.0) and [Plerion](https://zeruhur.itch.io/plerion) by Roberto Bisceglie (CC-BY-SA 4.0). This work is licensed under CC-BY-SA 4.0.
-
----
 
 ## The Five Galaxies
 
@@ -17,8 +15,6 @@ Two travel systems connect it. The **Wormhole Access Network**, a grid of artifi
 Humans are not the dominant species, nor the most ancient. Extinct civilizations have left ruins and artifacts scattered across billions of uncharted systems. The species of known space maintain a cosmopolitan fragility, open enough to trade, volatile enough to war. Out at the fringe, nobody is coming to help you.
 
 Profits exist everywhere. So does death.
-
----
 
 ## Core Rules
 
@@ -72,8 +68,6 @@ Everything else in these rules is background pressure, not foreground management
 
 Run the job. Collect the pay. Ask what happens next.
 
----
-
 ## Skills
 
 A skill die starts at d8 when first acquired and advances to d10, then d12 through play. When acting without a relevant skill, roll d6.
@@ -90,326 +84,234 @@ Skills are grouped below for reference only. The groupings carry no mechanical w
 
 Psionic skills do not appear on this list. They are available only to characters who begin play with a psionic archetype.
 
----
-
 ## Character Creation
 
-**1. Choose a creation path**
+### 1. Choose a creation path
 
 *Archetype:* Choose one of the twenty archetypes. You gain the listed skills at d8 and the listed starting gear.
 
-*Freeform:* Choose any two skills from the master skill list at d8. Then roll once on each of the four personal gear tables in the Tables section: Armor, Weapons, Tech, and Gear. Optionally roll on the Vehicle table as well.
+*Freeform:* Choose any three skills from the master skill list at d8. Then choose starting gear freely from the Gear section: one weapon, one armor (or none), and two general items.
 
-**2. Choose or roll species**
+### 2. Choose or roll species
 
 Use the Species table. Non-human characters gain the listed species trait. Human and Transhuman characters gain no trait.
 
-**3. Name and background**
+### 3. Name and background
 
-Use the name and background tables or invent your own. Both are descriptive only and carry no mechanical weight.
+Use the Name and Character Trait tables below, or invent your own. Both are descriptive only and carry no mechanical weight.
 
-**4. Starting credits**
+### 4. Starting credits
 
 Start with 3d6 ₡. Pay your first month's living expenses before play begins. Ship payment and fuel are handled when the fiction demands it (see Travel).
 
 ---
 
-## Archetypes
+### Names (d20)
 
-Archetypes marked *[psionic]* include psionic skills. Only characters who begin play with one of these archetypes are psionic.
+#### Human Names
 
-Some archetype gear packages include specialized items not found in the general equipment list. These represent custom or role-specific equipment and are acquired at character creation only.
+| d20 | Female   | Male      | Neutral |
+|-----|----------|-----------|---------|
+| 1   | Aniet    | Alard     | Ashtot  |
+| 2   | Brewda   | Altes     | Baileh  |
+| 3   | Carea    | Andrel    | Beagan  |
+| 4   | Danoelle | Annrew    | Brady   |
+| 5   | Debfa    | Aqan      | Cyarke  |
+| 6   | Debowah  | Asexander | Kandall |
+| 7   | Ditha    | Branden   | Kars    |
+| 8   | Emaly    | Daniel    | Kaye    |
+| 9   | Emis     | Eroc      | Keagan  |
+| 10  | Evelyt   | Hary      | Kin     |
+| 11  | Jelnifer | Hatold    | Kuagan  |
+| 12  | Jenna    | Jase      | Lace    |
+| 13  | Mara     | Jerrey    | Leagan  |
+| 14  | Michelle | Justoph   | Mecah   |
+| 15  | Mile     | Lakrence  | Morgan  |
+| 16  | Nica     | Masthew   | Reegan  |
+| 17  | Rebezca  | Raige     | Rib     |
+| 18  | Rove     | Terry     | Riw     |
+| 19  | Vandra   | Tine      | Sidgey  |
+| 20  | Vean     | Waxter    | So      |
 
----
+| d20 | Surname   |
+|-----|-----------|
+| 1   | Atson     |
+| 2   | Bennes    |
+| 3   | Djirhuus  |
+| 4   | Edner     |
+| 5   | Evuns     |
+| 6   | Foore     |
+| 7   | Greber    |
+| 8   | Hoffzann  |
+| 9   | Jamos     |
+| 10  | Koytovski |
+| 11  | Lanx      |
+| 12  | Mates     |
+| 13  | Muzler    |
+| 14  | Niewi     |
+| 15  | Olsen     |
+| 16  | Ozdemur   |
+| 17  | Ramoy     |
+| 18  | Ronert    |
+| 19  | Turusen   |
+| 20  | Wacobs    |
 
-### 1. Bounty Hunter
+#### Alien Names
 
-*To bring dangerous scoundrels to justice. Incidentally, for good pay.*
+| d20 | Female | Male    | Neutral  |
+|-----|--------|---------|----------|
+| 1   | Anic   | Alfac   | Aeo      |
+| 2   | Balhee | Ascan   | Azon     |
+| 3   | Boly   | Barka   | Bani     |
+| 4   | Churi  | Dreele  | Drille   |
+| 5   | Hile   | Elol    | Henii    |
+| 6   | Jata   | Igat    | Heri     |
+| 7   | Kali   | Ilen    | Hisi     |
+| 8   | Lisha  | Kaloo   | Husni    |
+| 9   | Madai  | Morphee | Jori     |
+| 10  | Micia  | Nokti   | Kizo     |
+| 11  | Minbe  | Quarkyo | Kradda   |
+| 12  | Quene  | Raskyo  | Mani     |
+| 13  | Sani   | Reeshi  | Mova     |
+| 14  | Scata  | Russke  | Mromi    |
+| 15  | Sycia  | Synthua | Mule     |
+| 16  | Vorcia | Taloo   | Nebra    |
+| 17  | Wani   | Tresi   | Ruugi    |
+| 18  | Xara   | Uran    | Shodi    |
+| 19  | Zarboe | Vanni   | Shurquen |
+| 20  | Zeni   | Xilou   | Skoni    |
 
-**Skills:** Shoot d8 · Track d8 · Negotiate d8
-
-- Ballistic Gel Coat
-- Flechette Rifle (silent, bulky)
-- Electrowhip (stun, bulky)
-- Stun Pistol
-- Portable Containment Field
-- Bounty License
-
----
-
-### 2. Croaker
-
-*A redundant graduate. To repair broken bones, to cure diseases. Out there looking for a job.*
-
-**Skills:** Heal d8 · Analyze d8
-
-- Trauma Medikit
-- Laser Scalpel
-- Bioscanner
-- White Coat
-- Cortical Implant
-- Eye Implant
-
----
-
-### 3. Emissary
-
-*Sometimes useful, sometimes not. Peace rests on their shoulders, not always appreciated.*
-
-**Skills:** Persuade d8 · Negotiate d8 · Translate d8
-
-- Elegant Clothes
-- Diplomatic Passport
-- Secured Suitcase
-- Universal Translator
-- Personal Comms
-
----
-
-### 4. Expert
-
-*The subtleties of science have no mystery for them. Every ship should have one.*
-
-**Skills:** Analyze d8 · Engineer d8 · Hack d8
-
-- Portable Computer
-- Portable Analysis Kit
-- All-round Digital Library
-- Chemical Reagents
-- AR Goggles
-- Brain Augmentation
-
----
-
-### 5. Freelancer
-
-*A mercenary, looking for the next high-paying client. Nothing more, nothing less.*
-
-**Skills:** Shoot d8 · Survive d8 · Negotiate d8
-
-- Projectile Rifle (bulky)
-- Knife (hidden)
-- Boarding Armor (sealed, bulky)
-- Survival Kit (bulky)
-- Playing Cards
-- Smokes
-
----
-
-### 6. Highborn
-
-*Member of the highest castes, out here by necessity or in search of adventure.*
-
-**Skills:** Persuade d8 · Command d8 · Negotiate d8
-
-- Iridescent Robes
-- Diplomatic Pass
-- Foil (hidden)
-- Yacht (party asset)
-- Manservant (NPC, loyal)
-
----
-
-### 7. Hitman
-
-*Professional assassin, hired to terminate inconvenient or untouchable targets.*
-
-**Skills:** Shoot d8 · Sneak d8 · React d8
-
-- IR/Nightvision Goggles
-- Binoculars
-- Flechette Rifle (silent, bulky)
-- Ballistic Vest
-- Cloaking Implant
+| d20 | Surname  |
+|-----|----------|
+| 1   | Alhoock  |
+| 2   | B'Koni   |
+| 3   | C'Goni   |
+| 4   | Ch'Alen  |
+| 5   | Gr'Anan  |
+| 6   | Guri     |
+| 7   | H'Votha  |
+| 8   | Hagi     |
+| 9   | Kalle    |
+| 10  | Kh'Nari  |
+| 11  | M'Drani  |
+| 12  | Morphua  |
+| 13  | Prandi   |
+| 14  | Sl'Corvi |
+| 15  | Sloni    |
+| 16  | T'Vorti  |
+| 17  | Th'Keno  |
+| 18  | Tr'Edan  |
+| 19  | U'Dora   |
+| 20  | V'Sconi  |
 
 ---
 
-### 8. Jarhead
-
-*Wardog devoted to high-risk missions. Strong survival instinct, ready to die.*
-
-**Skills:** Fight d8 · Shoot d8 · React d8
-
-- Survival Knife (hidden)
-- Frag Grenade (blast)
-- Energy Rifle (bulky)
-- Tactical Body Armor (sealed)
-- Direct Neural Interface
-- Cortical Implant
-
----
-
-### 9. Matterjammer *[psionic]*
-
-*Master of the mental manipulation of matter. You don't want one as an opponent.*
-
-**Skills:** Ergokinesis d8 · Psychokinesis d8 · Pyrokinesis d8
-
-- Insulating Gloves
-- Gas Mask
-- Ballistic Vest
-
----
-
-### 10. Mindbender *[psionic]*
-
-*The mind of others has no secrets for them. They'll persuade you that you're an arachnid.*
-
-**Skills:** Telepathy d8 · Thought Control d8 · Dreamwalking d8
-
-- Staff
-- Sunglasses
-- Raincoat
-
----
-
-### 11. Operative
-
-*Exotic places, deadly missions. For the sake of the galaxy.*
-
-**Skills:** Sneak d8 · Shoot d8 · Deceive d8
-
-- Projectile Pistol (hidden)
-- Silencer
-- Ballistic Vest
-- Cloaking Implant
-- Eye Implant
-- Mindshield Implant
-
----
-
-### 12. Rockhopper
-
-*Asteroid to asteroid, collecting minerals for resale at the nearest base.*
-
-**Skills:** Prospect d8 · Pilot d8 · Survive d8
-
-- Standard Spacesuit (sealed, bulky)
-- Laser Drill/Cutter
-- Vacuum Emergency Kit
-- Stimulants Dispenser Implant
-- Detoxifier Implant
-- Miner (ship, party asset)
-
----
-
-### 13. Routeplanner
-
-*Human interface of the on-board computers, tracing routes through oddspace.*
-
-**Skills:** Navigate d8 · Hack d8 · Analyze d8
-
-- Spacesense Implant
-- Neural Datalink Implant
-- Brain Augmentation
-- Integrated Comms Implant
-- Cortical Implant
-
----
-
-### 14. Savage
-
-*Born on a low-tech planet, skyrocketed while keeping a primal survival instinct.*
-
-**Skills:** Fight d8 · Survive d8 · Track d8
-
-- Survival Kit (bulky)
-- Arrows ×20
-- Bow (silent, bulky)
-- Mace
-- Old-fashioned Clothes
-- Chainmail
-
----
-
-### 15. Shaper
-
-*Wiring or engines, it doesn't matter. If it's broken, they'll fix it.*
-
-**Skills:** Repair d8 · Engineer d8 · Pilot d8
-
-- Toolkit (bulky)
-- Hand Scanner
-- Flashlight
-- Laser Cutter
-- Personal Comms
-- Mechanic's Overalls
-
----
-
-### 16. Smuggler
-
-*Smuggling is certainly not legal, but it's exciting and romantic, isn't it?*
-
-**Skills:** Pilot d8 · Deceive d8 · React d8
-
-- Personal Drone
-- Energy Pistol
-- Electrowhip (stun, bulky)
-- Air Filter Implant
-- Stimulants Dispenser Implant
-- Ballistic Cloth Jacket
-
----
-
-### 17. Techie
-
-*Computers and electronics have no secrets for them, hardware or software.*
-
-**Skills:** Hack d8 · Analyze d8 · Deceive d8
-
-- Toolkit (bulky)
-- Neural Datalink Implant
-- Duct Tape
-- Flashlight
-- Portable Computer
-
----
-
-### 18. Trader
-
-*Perilous routes, distant planets. One of the most ancient professions in the universe.*
-
-**Skills:** Negotiate d8 · Translate d8 · Pilot d8
-
-- Commercial License
-- Guild Uniform
-- Boarding Blade (hidden)
-- Stun Pistol
-- Ear Implant
-- Universal Translator
-
----
-
-### 19. Trailblazer
-
-*Undiscovered voids and unknown planets are their bread and butter.*
-
-**Skills:** Survive d8 · Track d8 · Analyze d8
-
-- Stun Pistol
-- Synthetic Mesh
-- Universal Translator
-- Environment Mask
-- First Aid Kit
-- Personal Comms
-
----
-
-### 20. Voidcutter
-
-*The backbone of transgalactic civilization, pilots of the sidereal expanses.*
-
-**Skills:** Pilot d8 · React d8 · Fight d8
-
-- Augmented Reflexes Implant
-- Cortical Implant
-- Eye Implant
-- Integrated Comms Implant
-- Direct Neural Interface
-- Heated Uniform
-
----
+### Character Traits
+
+#### Talent (d20)
+
+| d20 | Talent      | d20 | Talent      |
+|-----|-------------|-----|-------------|
+| 1   | Acrobatic   | 11  | Brawler     |
+| 2   | Berserker   | 12  | Focused     |
+| 3   | Charismatic | 13  | Thoughtful  |
+| 4   | Educated    | 14  | Learned     |
+| 5   | Insightful  | 15  | Marksman    |
+| 6   | Lucky       | 16  | Opportunist |
+| 7   | Resolute    | 17  | Perceptive  |
+| 8   | Sneaky      | 18  | Empathic    |
+| 9   | Tough       | 19  | Impulsive   |
+| 10  | Vigilant    | 20  | Survivalist |
+
+#### Background (d20)
+
+| d20 | Background | d20 | Background |
+|-----|------------|-----|------------|
+| 1   | Technician | 11  | Barbarian  |
+| 2   | Clergy     | 12  | Politician |
+| 3   | Pilot      | 13  | Mercenary  |
+| 4   | Noble      | 14  | Merchant   |
+| 5   | Hacker     | 15  | Outlaw     |
+| 6   | Explorer   | 16  | Performer  |
+| 7   | Cop        | 17  | Pickpocket |
+| 8   | Soldier    | 18  | Smuggler   |
+| 9   | Gambler    | 19  | Student    |
+| 10  | Medic      | 20  | Thug       |
+
+#### Homeworld (d20)
+
+| d20 | Homeworld     | d20   | Homeworld   |
+|-----|---------------|-------|-------------|
+| 1   | Space Station | 11    | Gas Giant   |
+| 2   | High-G        | 12    | Starship    |
+| 3   | Low-G         | 13    | Water World |
+| 4   | Zero-G        | 14    | Rock        |
+| 5   | Desert        | 15    | Volcanic    |
+| 6   | Arctic        | 16    | Huge        |
+| 7   | Jungle        | 17    | Asteroid    |
+| 8   | High-Tech     | 18–19 | Toxic       |
+| 9   | Low-Tech      | 20    | Dead        |
+| 10  | Colony        |       |             |
+
+#### Clothing (d20)
+
+| d20 | Clothing   | d20 | Clothing  |
+|-----|------------|-----|-----------|
+| 1   | Dark       | 11  | Tight     |
+| 2   | Gaudy      | 12  | Formal    |
+| 3   | Colourful  | 13  | Homespun  |
+| 4   | Fur        | 14  | Modest    |
+| 5   | Leather    | 15  | Revealing |
+| 6   | Futuristic | 16  | Sensible  |
+| 7   | Dapper     | 17  | Sporty    |
+| 8   | Majestic   | 18  | Thermal   |
+| 9   | Chic       | 19  | Glossy    |
+| 10  | Baggy      | 20  | Geometric |
+
+#### Virtue (d20)
+
+| d20 | Virtue      | d20 | Virtue     |
+|-----|-------------|-----|------------|
+| 1   | Ambitious   | 11  | Honourable |
+| 2   | Cautious    | 12  | Humble     |
+| 3   | Colourful   | 13  | Idealistic |
+| 4   | Courageous  | 14  | Just       |
+| 5   | Curious     | 15  | Loyal      |
+| 6   | Disciplined | 16  | Merciful   |
+| 7   | Focused     | 17  | Righteous  |
+| 8   | Generous    | 18  | Serene     |
+| 9   | Gregarious  | 19  | Stoic      |
+| 10  | Honest      | 20  | Tolerant   |
+
+#### Vice (d20)
+
+| d20 | Vice       | d20 | Vice       |
+|-----|------------|-----|------------|
+| 1   | Aggressive | 11  | Lazy       |
+| 2   | Arrogant   | 12  | Nervous    |
+| 3   | Bitter     | 13  | Prejudiced |
+| 4   | Cowardly   | 14  | Reckless   |
+| 5   | Cruel      | 15  | Rude       |
+| 6   | Deceitful  | 16  | Suspicious |
+| 7   | Flippant   | 17  | Vain       |
+| 8   | Gluttonous | 18  | Vengeful   |
+| 9   | Greedy     | 19  | Wasteful   |
+| 10  | Irascible  | 20  | Whiny      |
+
+#### Misfortune (d20)
+
+| d20 | Misfortune  | d20 | Misfortune |
+|-----|-------------|-----|------------|
+| 1   | Abandoned   | 11  | Framed     |
+| 2   | Addicted    | 12  | Haunted    |
+| 3   | Blackmailed | 13  | Kidnapped  |
+| 4   | Condemned   | 14  | Mutilated  |
+| 5   | Unlucky     | 15  | Poor       |
+| 6   | Defrauded   | 16  | Pursued    |
+| 7   | Demoted     | 17  | Rejected   |
+| 8   | Discredited | 18  | Replaced   |
+| 9   | Disowned    | 19  | Robbed     |
+| 10  | Exiled      | 20  | Suspected  |
 
 ## Psionics
 
@@ -465,6 +367,261 @@ Only characters who begin play with a psionic archetype are psionic. They roll p
 
 ---
 
+## Archetypes
+
+Archetypes marked *[psionic]* include psionic skills.
+
+Some archetype gear packages include specialized items not found in the general equipment list. These represent custom or role-specific equipment and are acquired at character creation only.
+
+### 1. Bounty Hunter
+
+*To bring dangerous scoundrels to justice. Incidentally, for good pay.*
+
+**Skills:** Shoot d8 · Track d8 · Negotiate d8
+
+- Ballistic Gel Coat
+- Flechette Rifle (silent, bulky)
+- Electrowhip (stun, bulky)
+- Stun Pistol
+- Portable Containment Field
+- Bounty License
+
+### 2. Croaker
+
+*A redundant graduate. To repair broken bones, to cure diseases. Out there looking for a job.*
+
+**Skills:** Heal d8 · Analyze d8
+
+- Trauma Medikit
+- Laser Scalpel
+- Bioscanner
+- White Coat
+- Cortical Implant
+- Eye Implant
+
+### 3. Emissary
+
+*Sometimes useful, sometimes not. Peace rests on their shoulders, not always appreciated.*
+
+**Skills:** Persuade d8 · Negotiate d8 · Translate d8
+
+- Elegant Clothes
+- Diplomatic Passport
+- Secured Suitcase
+- Universal Translator
+- Personal Comms
+
+### 4. Expert
+
+*The subtleties of science have no mystery for them. Every ship should have one.*
+
+**Skills:** Analyze d8 · Engineer d8 · Hack d8
+
+- Portable Computer
+- Portable Analysis Kit
+- All-round Digital Library
+- Chemical Reagents
+- AR Goggles
+- Brain Augmentation
+
+### 5. Freelancer
+
+*A mercenary, looking for the next high-paying client. Nothing more, nothing less.*
+
+**Skills:** Shoot d8 · Survive d8 · Negotiate d8
+
+- Projectile Rifle (bulky)
+- Knife (hidden)
+- Boarding Armor (sealed, bulky)
+- Survival Kit (bulky)
+- Playing Cards
+- Smokes
+
+### 6. Highborn
+
+*Member of the highest castes, out here by necessity or in search of adventure.*
+
+**Skills:** Persuade d8 · Command d8 · Negotiate d8
+
+- Iridescent Robes
+- Diplomatic Pass
+- Foil (hidden)
+- Yacht (party asset)
+- Manservant (NPC, loyal)
+
+### 7. Hitman
+
+*Professional assassin, hired to terminate inconvenient or untouchable targets.*
+
+**Skills:** Shoot d8 · Sneak d8 · React d8
+
+- IR/Nightvision Goggles
+- Binoculars
+- Flechette Rifle (silent, bulky)
+- Ballistic Vest
+- Cloaking Implant
+
+### 8. Jarhead
+
+*Wardog devoted to high-risk missions. Strong survival instinct, ready to die.*
+
+**Skills:** Fight d8 · Shoot d8 · React d8
+
+- Survival Knife (hidden)
+- Frag Grenade (blast)
+- Energy Rifle (bulky)
+- Tactical Body Armor (sealed)
+- Direct Neural Interface
+- Cortical Implant
+
+### 9. Matterjammer *[psionic]*
+
+*Master of the mental manipulation of matter. You don't want one as an opponent.*
+
+**Skills:** Ergokinesis d8 · Psychokinesis d8 · Pyrokinesis d8
+
+- Insulating Gloves
+- Gas Mask
+- Ballistic Vest
+
+### 10. Mindbender *[psionic]*
+
+*The mind of others has no secrets for them. They'll persuade you that you're an arachnid.*
+
+**Skills:** Telepathy d8 · Thought Control d8 · Dreamwalking d8
+
+- Staff
+- Sunglasses
+- Raincoat
+
+### 11. Operative
+
+*Exotic places, deadly missions. For the sake of the galaxy.*
+
+**Skills:** Sneak d8 · Shoot d8 · Deceive d8
+
+- Projectile Pistol (hidden)
+- Silencer
+- Ballistic Vest
+- Cloaking Implant
+- Eye Implant
+- Mindshield Implant
+
+### 12. Rockhopper
+
+*Asteroid to asteroid, collecting minerals for resale at the nearest base.*
+
+**Skills:** Prospect d8 · Pilot d8 · Survive d8
+
+- Standard Spacesuit (sealed, bulky)
+- Laser Drill/Cutter
+- Vacuum Emergency Kit
+- Stimulants Dispenser Implant
+- Detoxifier Implant
+- Miner (ship, party asset)
+
+### 13. Routeplanner
+
+*Human interface of the on-board computers, tracing routes through oddspace.*
+
+**Skills:** Navigate d8 · Hack d8 · Analyze d8
+
+- Spacesense Implant
+- Neural Datalink Implant
+- Brain Augmentation
+- Integrated Comms Implant
+- Cortical Implant
+
+### 14. Savage
+
+*Born on a low-tech planet, skyrocketed while keeping a primal survival instinct.*
+
+**Skills:** Fight d8 · Survive d8 · Track d8
+
+- Survival Kit (bulky)
+- Arrows ×20
+- Bow (silent, bulky)
+- Mace
+- Old-fashioned Clothes
+- Standard Spacesuit (sealed, bulky)
+
+### 15. Shaper
+
+*Wiring or engines, it doesn't matter. If it's broken, they'll fix it.*
+
+**Skills:** Repair d8 · Engineer d8 · Pilot d8
+
+- Toolkit (bulky)
+- Hand Scanner
+- Flashlight
+- Laser Cutter
+- Personal Comms
+- Mechanic's Overalls
+
+### 16. Smuggler
+
+*Smuggling is certainly not legal, but it's exciting and romantic, isn't it?*
+
+**Skills:** Pilot d8 · Deceive d8 · React d8
+
+- Personal Drone
+- Energy Pistol
+- Electrowhip (stun, bulky)
+- Air Filter Implant
+- Stimulants Dispenser Implant
+- Ballistic Cloth Jacket
+
+### 17. Techie
+
+*Computers and electronics have no secrets for them, hardware or software.*
+
+**Skills:** Hack d8 · Analyze d8 · Deceive d8
+
+- Toolkit (bulky)
+- Neural Datalink Implant
+- Duct Tape
+- Flashlight
+- Portable Computer
+
+### 18. Trader
+
+*Perilous routes, distant planets. One of the most ancient professions in the universe.*
+
+**Skills:** Negotiate d8 · Translate d8 · Pilot d8
+
+- Commercial License
+- Guild Uniform
+- Boarding Blade (hidden)
+- Stun Pistol
+- Ear Implant
+- Universal Translator
+
+### 19. Trailblazer
+
+*Undiscovered voids and unknown planets are their bread and butter.*
+
+**Skills:** Survive d8 · Track d8 · Analyze d8
+
+- Stun Pistol
+- Synthetic Mesh
+- Universal Translator
+- Environment Mask
+- First Aid Kit
+- Personal Comms
+
+### 20. Voidcutter
+
+*The backbone of transgalactic civilization, pilots of the sidereal expanses.*
+
+**Skills:** Pilot d8 · React d8 · Fight d8
+
+- Augmented Reflexes Implant
+- Cortical Implant
+- Eye Implant
+- Integrated Comms Implant
+- Direct Neural Interface
+- Heated Uniform
+
 ## Species
 
 Roll d20 or choose. Non-human characters roll or choose one trait from the Traits table. Human characters gain no trait. Transhuman characters gain no trait but start with one additional cybernetic implant of their choice.
@@ -477,43 +634,41 @@ The entries below are archetypes, not catalogues. A Saurian character might be a
 
 ### Species (d20)
 
-| d20 | Species | d20 | Species |
-|-----|---------|-----|---------|
-| 1–4 | Humanoid | 12 | Feline |
-| 5 | Transhuman | 13 | Amorphous |
-| 6 | Insectoid | 14 | Symbiont |
-| 7 | Icthyoid | 15 | Quadruped |
-| 8 | Saurian | 16 | Cetacean |
-| 9 | Ursine | 17 | Energy |
-| 10 | Vulpine | 18 | Amphibious |
-| 11 | Canine | 19–20 | Human |
+| d20 | Species    | d20   | Species    |
+|-----|------------|-------|------------|
+| 1–4 | Humanoid   | 12    | Feline     |
+| 5   | Transhuman | 13    | Amorphous  |
+| 6   | Insectoid  | 14    | Symbiont   |
+| 7   | Icthyoid   | 15    | Quadruped  |
+| 8   | Saurian    | 16    | Cetacean   |
+| 9   | Ursine     | 17    | Energy     |
+| 10  | Vulpine    | 18    | Amphibious |
+| 11  | Canine     | 19–20 | Human      |
 
 ### Traits (d20)
 
-| d20 | Trait | Description |
-|-----|-------|-------------|
-| 1 | Aggressive | When you intimidate through violence or its credible threat, roll an extra d6. |
-| 2 | Shapeshifter | You can alter your appearance to convincingly mimic any humanoid form. |
-| 3 | Invisibility | You can render yourself transparent to the naked eye for short periods. |
-| 4 | Multiform | You have a secondary physical form with meaningfully different capabilities; shifting takes a moment. |
-| 5 | Hive Mind | You passively share sensory information with others of your species within range. |
-| 6 | Weakness | You have a specific vulnerability set by the GM at creation, such as a toxin, energy type, or condition. Enemies who know it roll an extra d6 against you. |
-| 7 | Multi-limb | Extra limbs let you carry, operate, or manipulate things simultaneously that others cannot. |
-| 8 | Regenerate | Minor injuries heal within hours without medical attention; serious injuries within days. |
-| 9 | Teleport | Once per scene, you can instantly relocate to any point within your line of sight. |
-| 10 | Parasitic | You require a host organism to sustain yourself; without one, all your rolls are hindered. |
-| 11 | Telepathy | You can send and receive thoughts with willing individuals in proximity, without speaking. |
-| 12 | Logic | When analyzing, calculating, or solving structured problems, roll an extra d6. |
-| 13 | Climbing | You can scale any surface, including sheer walls and ceilings, without equipment. |
-| 14 | Immunity | You are immune to one category of harm, chosen at creation: toxins, extreme temperature, vacuum, radiation, or disease. |
-| 15 | Poisonous | Your body produces a natural toxin; a successful attack or bite inflicts a lasting condition unless treated. |
-| 16 | Ethereal | You can pass through solid matter briefly; passing through large masses is exhausting. |
-| 17 | Telekinesis | You can move small objects with your mind at will; larger objects require effort and a roll. |
-| 18 | Reputation | Your species carries a strong galactic reputation, opening doors or marking you as a target depending on who's watching. |
-| 19 | Healer | When you tend another's injuries, they recover significantly faster than medical attention alone would achieve. |
-| 20 | Weak Spot | You have an obvious physical vulnerability; enemies who identify it roll an extra d6 against you in combat. |
-
----
+| d20 | Trait        | Description                                                                                                                                                |
+|-----|--------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1   | Aggressive   | When you intimidate through violence or its credible threat, roll an extra d6.                                                                             |
+| 2   | Mimic        | You can alter your appearance to convincingly mimic any humanoid form.                                                                                     |
+| 3   | Invisibility | You can render yourself transparent to the naked eye for short periods.                                                                                    |
+| 4   | Multiform    | You have a secondary physical form with meaningfully different capabilities; shifting takes a moment.                                                      |
+| 5   | Hive Mind    | You passively share sensory information with others of your species within range.                                                                          |
+| 6   | Weakness     | You have a specific vulnerability set by the GM at creation, such as a toxin, energy type, or condition. Enemies who know it roll an extra d6 against you. |
+| 7   | Multi-limb   | Extra limbs let you carry, operate, or manipulate things simultaneously that others cannot.                                                                |
+| 8   | Regenerate   | Minor injuries heal within hours without medical attention; serious injuries within days.                                                                  |
+| 9   | Blink        | Once per scene, you can instantly relocate to any point within your line of sight.                                                                         |
+| 10  | Parasitic    | You require a host organism to sustain yourself; without one, all your rolls are hindered.                                                                 |
+| 11  | Telepathy    | You can send and receive thoughts with willing individuals in proximity, without speaking.                                                                 |
+| 12  | Logic        | When analyzing, calculating, or solving structured problems, roll an extra d6.                                                                             |
+| 13  | Climbing     | You can scale any surface, including sheer walls and ceilings, without equipment.                                                                          |
+| 14  | Immunity     | You are immune to one category of harm, chosen at creation: toxins, extreme temperature, vacuum, radiation, or disease.                                    |
+| 15  | Poisonous    | Your body produces a natural toxin; a successful attack or bite inflicts a lasting condition unless treated.                                               |
+| 16  | Ethereal     | You can pass through solid matter briefly; passing through large masses is exhausting.                                                                     |
+| 17  | Telekinesis  | You can move small objects with your mind at will; larger objects require effort and a roll.                                                               |
+| 18  | Reputation   | Your species carries a strong galactic reputation, opening doors or marking you as a target depending on who's watching.                                   |
+| 19  | Healer       | When you tend another's injuries, they recover significantly faster than medical attention alone would achieve.                                            |
+| 20  | Conspicuous  | Your species or appearance marks you immediately in any setting; you cannot go unnoticed in a crowd, and anyone searching for you gains an extra d6.        |
 
 ## Gear
 
@@ -528,44 +683,42 @@ All prices are in standard credits (₡). The economic loop covers upkeep, fuel,
 **Silent**: Audible only to those in the same room; does not draw wider attention.
 **Stun**: Incapacitates rather than kills; already-injured targets may be killed instead.
 
----
-
 ### General Equipment
 
-| Item | Tags | ₡ |
-|------|------|---|
-| Binoculars | | 1 |
-| Chemical Lightstick | | 1 |
-| Climbing Kit | bulky | 5 |
-| Cold Weather Clothing | bulky | 5 |
-| Desert Suit | bulky | 10 |
-| Distress Flare | | 1 |
-| Diving Hardsuit | sealed, bulky | 200 |
-| Duct Tape | | 1 |
-| Environment Mask | | 1 |
-| First Aid Kit | | 1 |
-| Flashlight | | 1 |
-| Grapnel Launcher & Cable | bulky | 2 |
-| Hand Scanner | | 20 |
-| IR/Nightvision Goggles | | 8 |
-| Laser Drill/Cutter | | 2 |
-| Neural Link Cyberdeck | bulky | 50 |
-| Parachute | bulky | 5 |
-| Gravchute | bulky | 25 |
-| Personal Comms | | 2 |
-| Personal Drone | bulky | 5–100 |
-| Portable Computer | | 5 |
-| Portable Micro-fusion Generator | bulky | 110 |
-| Prefabricated Cabin | bulky | 20 |
-| Space Rescue Ball | bulky | 2 |
-| Surgical Medikit | bulky | 40 |
-| Survival Kit | bulky | 2 |
-| Toolkit | bulky | 4 |
-| Trauma Medikit | bulky | 5 |
-| Universal Translator | | 25 |
-| Language Pack | | 5 |
-| Vacuum Emergency Kit | | 5 |
-| Wingsuit | bulky | 5 |
+| Item                            | Tags          | ₡     |
+|---------------------------------|---------------|-------|
+| Binoculars                      |               | 1     |
+| Chemical Lightstick             |               | 1     |
+| Climbing Kit                    | bulky         | 5     |
+| Cold Weather Clothing           | bulky         | 5     |
+| Desert Suit                     | bulky         | 10    |
+| Distress Flare                  |               | 1     |
+| Diving Hardsuit                 | sealed, bulky | 200   |
+| Duct Tape                       |               | 1     |
+| Environment Mask                |               | 1     |
+| First Aid Kit                   |               | 1     |
+| Flashlight                      |               | 1     |
+| Grapnel Launcher & Cable        | bulky         | 2     |
+| Hand Scanner                    |               | 20    |
+| IR/Nightvision Goggles          |               | 8     |
+| Laser Drill/Cutter              |               | 2     |
+| Neural Link Cyberdeck           | bulky         | 50    |
+| Parachute                       | bulky         | 5     |
+| Gravchute                       | bulky         | 25    |
+| Personal Comms                  |               | 2     |
+| Personal Drone                  | bulky         | 5–100 |
+| Portable Computer               |               | 5     |
+| Portable Micro-fusion Generator | bulky         | 110   |
+| Prefabricated Cabin             | bulky         | 20    |
+| Space Rescue Ball               | bulky         | 2     |
+| Surgical Medikit                | bulky         | 40    |
+| Survival Kit                    | bulky         | 2     |
+| Toolkit                         | bulky         | 4     |
+| Trauma Medikit                  | bulky         | 5     |
+| Universal Translator            |               | 25    |
+| Language Pack                   |               | 5     |
+| Vacuum Emergency Kit            |               | 5     |
+| Wingsuit                        | bulky         | 5     |
 
 **First Aid Kit**: Enables recovery from minor injuries in the field.
 **Surgical Medikit**: Requires medical attention for serious injuries.
@@ -573,79 +726,77 @@ All prices are in standard credits (₡). The economic loop covers upkeep, fuel,
 **Neural Link Cyberdeck**: Required for hacking physical systems without a Neural Datalink implant.
 **Personal Drone**: Functions as armor while active; breaks as armor.
 
----
-
 ### Weapons
 
 Weapons have no damage values. The fictional weight of what you carry, a knife versus a rocket launcher, determines what's possible. Tags define the rest.
 
 #### Blades & Bludgeons
 
-| Weapon | Tags | ₡ |
-|--------|------|---|
-| Dagger, Knife, Boarding Blade | hidden | 1 |
-| Brass Knuckles | | 1 |
-| Spear, Sword, Mace, Axe | | 1 |
-| Staff | | 1 |
-| Halberd, War Hammer, Long Sword, Battle Axe | bulky | 1 |
-| Monofilament Blade | | 25 |
-| Force Sword | | — |
-| Stun Baton | stun | 1 |
-| Electrowhip | stun, bulky | 2 |
-| Chainsaw | silent, bulky | 2 |
+| Weapon                                      | Tags          | ₡  |
+|---------------------------------------------|---------------|----|
+| Dagger, Knife, Boarding Blade               | hidden        | 1  |
+| Brass Knuckles                              |               | 1  |
+| Spear, Sword, Mace, Axe                     |               | 1  |
+| Staff                                       |               | 1  |
+| Halberd, War Hammer, Long Sword, Battle Axe | bulky         | 1  |
+| Monofilament Blade                          |               | 25 |
+| Force Sword                                 |               | —  |
+| Stun Baton                                  | stun          | 1  |
+| Electrowhip                                 | stun, bulky   | 2  |
+| Chainsaw                                    | bulky         | 2  |
 
 **Force Sword**: An artifact-grade weapon; not available for purchase.
 
 #### Sidearms
 
-| Weapon | Tags | ₡ |
-|--------|------|---|
-| Projectile Pistol | | 1 |
-| Energy Pistol | | 2 |
-| Stun Pistol | stun | 2 |
-| Flechette Pistol | silent | 2 |
-| Gyrojet Pistol | | 5 |
+| Weapon            | Tags   | ₡ |
+|-------------------|--------|---|
+| Projectile Pistol |        | 1 |
+| Energy Pistol     |        | 2 |
+| Stun Pistol       | stun   | 2 |
+| Flechette Pistol  | silent | 2 |
+| Gyrojet Pistol    |        | 5 |
 
 #### Long Arms
 
-| Weapon | Tags | ₡ |
-|--------|------|---|
-| Bow | silent, bulky | 1 |
-| Crossbow | bulky | 1 |
-| Shotgun | bulky | 1 |
-| Projectile Rifle | bulky | 1 |
-| Energy Rifle | bulky | 2 |
-| Stun Rifle | stun, bulky | 3 |
-| Flechette Rifle | silent, bulky | 3 |
-| Gyrojet Rifle | bulky | 13 |
+| Weapon           | Tags          | ₡  |
+|------------------|---------------|----|
+| Bow              | silent, bulky | 1  |
+| Crossbow         | bulky         | 1  |
+| Shotgun          | bulky         | 1  |
+| Projectile Rifle | bulky         | 1  |
+| Energy Rifle     | bulky         | 2  |
+| Stun Rifle       | stun, bulky   | 3  |
+| Flechette Rifle  | silent, bulky | 3  |
+| Gyrojet Rifle    | bulky         | 13 |
 
 #### Heavy Weapons
 
-| Weapon | Tags | ₡ |
-|--------|------|---|
-| Projectile Support Weapon | bulky | 3 |
-| Energy Support Weapon | bulky | 4 |
-| Incinerator | blast, bulky | 1 |
-| Rocket Launcher | blast, bulky | 4 |
-| Man-Portable Missile | blast, bulky | 80 |
-| Mortar | blast, bulky | 2 |
-| Sentry Gun | blast, bulky | 50 |
+| Weapon                    | Tags         | ₡  |
+|---------------------------|--------------|----|
+| Projectile Support Weapon | bulky        | 3  |
+| Energy Support Weapon     | bulky        | 4  |
+| Incinerator               | blast, bulky | 1  |
+| Rocket Launcher           | blast, bulky | 4  |
+| Man-Portable Missile      | blast, bulky | 80 |
+| Mortar                    | blast, bulky | 2  |
+| Sentry Gun                | blast, bulky | 50 |
 
 **Sentry Gun**: AI-controlled; covers an area autonomously once deployed. No roll required unless something goes wrong.
 
 #### Grenades & Accessories
 
-| Item | Tags | ₡ |
-|------|------|---|
-| Frag Grenade | blast | 1 |
-| Stun Grenade | blast, stun | 2 |
-| Smoke Grenade | blast | 1 |
-| EMP Grenade | blast | 1 |
-| Arrows ×20 | | 1 |
-| Grenade Launcher | | 2 |
-| Silencer | | 2 |
-| Smartlink | | 5 |
-| Security Module | | 2 |
+| Item             | Tags        | ₡ |
+|------------------|-------------|---|
+| Frag Grenade     | blast       | 1 |
+| Stun Grenade     | blast, stun | 2 |
+| Smoke Grenade    | blast       | 1 |
+| EMP Grenade      | blast       | 1 |
+| Arrows ×20       |             | 1 |
+| Grenade Launcher |             | 2 |
+| Silencer         |             | 2 |
+| Smartlink        |             | 5 |
+| Security Module  |             | 2 |
 
 **EMP Grenade**: Affects electronics only.
 **Grenade Launcher**: Adds grenade delivery to any rifle or support weapon.
@@ -653,33 +804,31 @@ Weapons have no damage values. The fictional weight of what you carry, a knife v
 **Smartlink**: When circumstances wouldn't normally permit an extra d6 for a careful aimed shot, you get one anyway.
 **Security Module**: Only the registered user can operate this weapon.
 
----
-
 ### Armor
 
 All armor functions as defense: say how it breaks to turn a hit into a hindrance. Sealed armor also protects against environmental threats while intact. Broken armor must be repaired before it functions again.
 
-| Armor | Tags | ₡ |
-|-------|------|---|
-| Ballistic Gel Coat | | 15 |
-| Ballistic Cloth Jacket | | 30 |
-| Ballistic Cloth Coat | | 60 |
-| Ballistic Vest | | 40 |
-| Synthetic Mesh | | 60 |
-| Chainmail | | 12 |
-| Half Plate | bulky | 40 |
-| Full Plate | bulky | 80 |
-| Helmet | | 1 |
-| Shield | | 1 |
-| Emergency Spacesuit | sealed | 30 |
-| Standard Spacesuit | sealed, bulky | 10 |
-| Environment Suit | sealed, bulky | 50 |
-| Boarding Armor | sealed, bulky | 30 |
-| Tactical Body Armor | sealed | 100 |
-| EOD Suit | sealed, bulky | 100 |
-| Re-entry Armor | sealed, bulky | 200 |
-| Combat Exoskeleton | bulky | 300 |
-| Power Armor | sealed, bulky | 150 |
+| Armor                  | Tags          | ₡   |
+|------------------------|---------------|-----|
+| Ballistic Gel Coat     |               | 15  |
+| Ballistic Cloth Jacket |               | 30  |
+| Ballistic Cloth Coat   |               | 60  |
+| Ballistic Vest         |               | 40  |
+| Synthetic Mesh         |               | 60  |
+| Chainmail              |               | 12  |
+| Half Plate             | bulky         | 40  |
+| Full Plate             | bulky         | 80  |
+| Helmet                 |               | 1   |
+| Shield                 |               | 1   |
+| Emergency Spacesuit    | sealed        | 30  |
+| Standard Spacesuit     | sealed, bulky | 10  |
+| Environment Suit       | sealed, bulky | 50  |
+| Boarding Armor         | sealed, bulky | 30  |
+| Tactical Body Armor    | sealed        | 100 |
+| EOD Suit               | sealed, bulky | 100 |
+| Re-entry Armor         | sealed, bulky | 200 |
+| Combat Exoskeleton     | bulky         | 300 |
+| Power Armor            | sealed, bulky | 150 |
 
 **EOD Suit**: Hinders all actions requiring fine motor control while worn.
 **Combat Exoskeleton**: While intact, lets you perform feats of strength beyond normal human limits.
@@ -687,8 +836,6 @@ All armor functions as defense: say how it breaks to turn a hit into a hindrance
 **Chameleon Skin** (add to any high-tech armor, 50₡): Provides camouflage in natural environments.
 **Camouflage Generator** (add to any high-tech armor, 50₡): Provides active visual invisibility.
 **HUD** (add to any sealed armor, 10₡): Integrates with implants; displays tactical and environmental data.
-
----
 
 ### Cybernetics
 
@@ -715,8 +862,6 @@ Implants take no inventory space. Installation requires 1d6 days of recovery. Im
 19. **Spacesense** (100₡): You always know your position in space and can plot routes instinctively.
 20. **Stimulants Dispenser** (30₡): Twice per day you trigger a burst of enhanced reflexes lasting one scene; roll an extra d6 on React for its duration.
 
----
-
 ## Starships & Vehicles
 
 ### Starships
@@ -729,20 +874,18 @@ One cargo slot holds 100 tons of freight or 2 passengers. Crew does not occupy c
 
 Each ship has two combat stats: **Agility** (how hard it is to hit) and **Firepower** (how hard it hits back).
 
-| Type | Size | Agility | Firepower | Cargo | Refuel | Price | Monthly |
-|------|------|---------|-----------|-------|--------|-------|---------|
-| Courier | Small | d10 | 1 | 3 | 2 | 2,000 | 10 |
-| Fighter | Small | d8 | 2 | — | 2 | 1,400 | 7 |
-| Racer | Small | d12 | 0 | — | 2 | 1,800 | 9 |
-| Explorer | Medium | d6 | 2 | 6 | 10 | 4,700 | 24 |
-| Miner | Medium | d4 | 0 | 11 | 10 | 4,400 | 22 |
-| Passenger Cargo | Medium | d6 | 1 | 10 | 10 | 4,500 | 23 |
-| Trader | Medium | d6 | 1 | 11 | 10 | 4,300 | 22 |
-| Yacht | Medium | d8 | 0 | 11 | 10 | 4,100 | 21 |
-| Freighter | Large | d4 | 1 | 10 | 20 | 7,500 | 38 |
-| Cruiser | Large | d6 | 4 | 14 | 20 | 9,400 | 47 |
-
----
+| Type            | Size   | Agility | Firepower | Cargo | Refuel | Price | Monthly |
+|-----------------|--------|---------|-----------|-------|--------|-------|---------|
+| Courier         | Small  | d10     | 1         | 3     | 2      | 2,000 | 10      |
+| Fighter         | Small  | d8      | 2         | —     | 2      | 1,400 | 7       |
+| Racer           | Small  | d12     | 0         | —     | 2      | 1,800 | 9       |
+| Explorer        | Medium | d6      | 2         | 6     | 10     | 4,700 | 24      |
+| Miner           | Medium | d4      | 0         | 11    | 10     | 4,400 | 22      |
+| Passenger Cargo | Medium | d6      | 1         | 10    | 10     | 4,500 | 23      |
+| Trader          | Medium | d6      | 1         | 11    | 10     | 4,300 | 22      |
+| Yacht           | Medium | d8      | 0         | 11    | 10     | 4,100 | 21      |
+| Freighter       | Large  | d4      | 1         | 10    | 20     | 7,500 | 38      |
+| Cruiser         | Large  | d6      | 4         | 14    | 20     | 9,400 | 47      |
 
 **Courier**: Ultra-fast vessel for information and small cargo. Has emergency backup power and an escape pod. No crew quarters; not suited for long hauls.
 
@@ -763,8 +906,6 @@ Each ship has two combat stats: **Agility** (how hard it is to hit) and **Firepo
 **Yacht**: Luxurious private transport. Has crew quarters, premium passenger quarters, medical facilities, emergency backup power, and an escape pod.
 
 **Cruiser**: Full combat vessel. Has crew quarters, medical facilities, a flight deck for fighters, electronic warfare capability, missile interception systems, and a self-destruct. Requires a large crew to operate effectively.
-
----
 
 ### Ships in Combat
 
@@ -802,81 +943,75 @@ Each round, crew members not piloting or manning guns can take one action:
 
 To disengage, both ships roll their Agility die; Pilot d8+ adds an extra d6. Take the highest. The winner chooses: maintain pursuit, or break away cleanly. A ship with Firepower 0 always applies its Agility die to escape; it has nothing to gain by staying.
 
----
-
 ### Damage Effects
 
 When a module breaks and the crew cannot or will not absorb it, roll 1d6:
 
-| d6 | Effect |
-|----|--------|
-| 1 | A secondary module goes offline until repaired. |
-| 2 | A weapon is disabled until repaired. |
-| 3 | Fire breaks out aboard. Anyone in the area takes harm each round until extinguished. |
-| 4 | Engines hit. The ship cannot maneuver; if in atmosphere, it falls. |
-| 5 | Hull breached. Anyone in the affected area is exposed to vacuum or the external atmosphere. |
-| 6 | Controls explode. Any crew member at the controls takes harm immediately. |
-
----
+| d6 | Effect                                                                                      |
+|----|---------------------------------------------------------------------------------------------|
+| 1  | A secondary module goes offline until repaired.                                             |
+| 2  | A weapon is disabled until repaired.                                                        |
+| 3  | Fire breaks out aboard. Anyone in the area takes harm each round until extinguished.        |
+| 4  | Engines hit. The ship cannot maneuver; if in atmosphere, it falls.                          |
+| 5  | Hull breached. Anyone in the affected area is exposed to vacuum or the external atmosphere. |
+| 6  | Controls explode. Any crew member at the controls takes harm immediately.                   |
 
 ### Vehicles
 
 Ground, water, and air vehicles use the same defense rule as ships. They carry no fuel cost; running costs are abstracted into living expenses.
 
-| Vehicle | Tags | ₡ |
-|---------|------|---|
-| Bicycle | | 8 |
-| Motorcycle | | 200 |
-| Ground Car | | 400 |
-| Marauder | | 250 |
-| Jet Bike | | 600 |
-| Grav Flyer | | 1,200 |
-| Air Balloon | | 350 |
-| Hovercraft | | 300 |
-| Motor Boat | | 600 |
-| Rowboat | | 50 |
-| Mini Sub | | 800 |
-| Amphibious Vehicle | | 500 |
-| Half Track ATV | | 2,000 |
-| Helicopter | | 2,500 |
-| Drone | | 2,000 |
-| Jet Airplane | | 4,000 |
-| Tracked Explorer | | 4,000 |
-| APC | bulky | 3,500 |
-| Riot Tank | bulky | 2,100 |
-| Combat Walker | bulky | 8,000 |
-
----
+| Vehicle            | Tags  | ₡     |
+|--------------------|-------|-------|
+| Bicycle            |       | 8     |
+| Motorcycle         |       | 200   |
+| Ground Car         |       | 400   |
+| Marauder           |       | 250   |
+| Jet Bike           |       | 600   |
+| Grav Flyer         |       | 1,200 |
+| Air Balloon        |       | 350   |
+| Hovercraft         |       | 300   |
+| Motor Boat         |       | 600   |
+| Rowboat            |       | 50    |
+| Mini Sub           |       | 800   |
+| Amphibious Vehicle |       | 500   |
+| Half Track ATV     |       | 2,000 |
+| Helicopter         |       | 2,500 |
+| Drone              |       | 2,000 |
+| Jet Airplane       |       | 4,000 |
+| Tracked Explorer   |       | 4,000 |
+| APC                | bulky | 3,500 |
+| Riot Tank          | bulky | 2,100 |
+| Combat Walker      | bulky | 8,000 |
 
 ## Travel
 
-### The Loop
-
 Spacers take jobs to cover expenses. Expenses eat what they earn. This is the engine of play.
 
-After each job, every character gains credits based on the risk taken and increases one skill. The GM declares the risk tier before the party commits, routine, risky, or desperate, so the choice is informed. The party pools earnings to cover shared costs: ship payment, living expenses, and any debts coming due.
+After each job, every character gains credits based on the risk taken and increases one skill. The GM declares the risk tier before the party commits — routine, risky, or desperate — so the choice is informed. The party pools earnings to cover shared costs: ship payment, living expenses, and any debts coming due.
 
 Routine jobs keep you hungry. Risky jobs keep you afloat. Desperate jobs are for when you're behind.
 
----
+The sections below govern specific moments in play. **Living Standards** calibrates what different quality of life costs — use it to understand what your earnings actually buy. **Fuel** is a narrative state — full, adequate, low, or empty — not a per-jump cost. **Heat & Notoriety** track what follows you: Heat is per-jurisdiction and can be cooled; Notoriety is galactic and compounds.
 
-### Monthly Upkeep
+When you jump, roll **Oddspace Transit**, then roll 2d6 on **Space Contingencies** on arrival. Roll **Reactions** when the party meets someone whose attitude isn't obvious. On the ground, roll 2d6 on **Landing & Exploration** each travel day; boarding or searching a derelict, roll 2d6 on **Salvage** per area.
 
-Each character pays living expenses once per month at whatever standard they choose to maintain.
+For cargo income between patron jobs, see **Trading**. To generate a patron and mission, use **Jobs**; for encounters and locations during a job, use **Field Oracles**. If you are using the Sector Generation System's SEP profiles, **Reading a Generated System** in the Appendix translates those codes into Oddspace mechanics.
+
+### Living Standards
+
+Use this table to calibrate what earnings actually mean. A d6 ₡ from a routine job barely clears a Poor month; 2d6 covers Average; 3d6 lets someone live well or start building a cushion.
 
 | Standard | ₡/month |
 |----------|---------|
-| Poor | 4 |
-| Low | 10 |
-| Average | 12 |
-| Good | 15 |
-| High | 20 |
-| Rich | 50 |
-| Royal | 200 |
+| Poor     | 4       |
+| Low      | 10      |
+| Average  | 12      |
+| Good     | 15      |
+| High     | 20      |
+| Rich     | 50      |
+| Royal    | 200     |
 
-Characters who cannot or do not pay upkeep for a month are deprived until they do: all rolls are hindered.
-
----
+What standard a character maintains is a fiction choice. It shapes what they spend on between jobs, what they're willing to sacrifice when credits run short, and what it means when they can't afford their usual way of living.
 
 ### Heat & Notoriety
 
@@ -888,19 +1023,20 @@ Heat measures how much trouble you've drawn from a specific **jurisdiction**: a 
 
 **Heat levels:**
 
-| Heat | Status |
-|------|--------|
-| 0 | Clear: no attention |
-| 1 | Noticed: being watched, questions asked |
-| 2 | Hot: the jurisdiction acts against you |
+| Heat | Status                                  |
+|------|-----------------------------------------|
+| 0    | Clear: no attention                     |
+| 1    | Noticed: being watched, questions asked |
+| 2    | Hot: the jurisdiction acts against you  |
 
 **Gain Heat (+1) from:**
+
 - Violence or public crimes in a jurisdiction's territory
 - Breaking a deal with the jurisdiction or its members
 - Being identified as responsible for a setback or disaster that harms them
 - Carrying flagged cargo through their checkpoints
 
-**When Hot:** Docking, trading, or operating openly in that jurisdiction's territory requires a roll. On 5+, you pass without incident. On a setback, you pass but attract surveillance. On a disaster, you're detained, fined, or worse. Heat resets to Clear when you leave that jurisdiction's territory for a significant period, or when you make things right.
+**When Hot:** Docking, trading, or operating openly in that jurisdiction's territory requires a roll. On 5+, you pass without incident. On a setback, you pass but attract surveillance. On a disaster, you're detained, fined, or worse. Heat drops by 1 after a full month away from that jurisdiction's territory. It resets to Clear immediately when you make things right.
 
 In solo play, Heat can also increase passively while you're docked and not working; jurisdictions have long memories and time to act. See Tracking the Story in Solo Play.
 
@@ -908,25 +1044,25 @@ In solo play, Heat can also increase passively while you're docked and not worki
 
 Notoriety is persistent galactic reputation. It follows you everywhere, accumulated across incidents and jurisdictions. Track it as a running total.
 
-| Notoriety | Effect |
-|-----------|--------|
-| 0–2 | No issues |
-| 3–5 | Some ports and factions refuse to deal with you openly |
-| 6–8 | Most legitimate ports deny docking; prices rise for everything |
-| 9+ | Hunted: bounty hunters, rival crews, and hostile jurisdictions actively seek you out |
+| Notoriety | Effect                                                                               |
+|-----------|--------------------------------------------------------------------------------------|
+| 0–2       | No issues                                                                            |
+| 3–5       | Some ports and factions refuse to deal with you openly                               |
+| 6–8       | Most legitimate ports deny docking; prices rise for everything                       |
+| 9+        | Hunted: bounty hunters, rival crews, and hostile jurisdictions actively seek you out |
 
 **Gain Notoriety (+1) from:**
+
 - Destroying a ship with witnesses
 - A major crime that becomes public knowledge across multiple systems
 - Betraying a high-profile contract in a way that gets talked about
 - Becoming known as the cause of a significant political or economic incident
 
 **Reduce Notoriety (–1) by:**
+
 - Completing three legitimate jobs for a major faction or jurisdiction you wronged
 - Lying low for a full month with no jobs and no incidents
 - Paying a fixer to quietly bury the record (cost at GM's discretion, expensive)
-
----
 
 ### Fuel
 
@@ -934,29 +1070,25 @@ Fuel is a narrative resource, not a per-jump deduction. The party tracks whether
 
 | Ship Size | Refuel Cost |
 |-----------|-------------|
-| Small | 2 ₡ |
-| Medium | 10 ₡ |
-| Large | 20 ₡ |
+| Small     | 2 ₡         |
+| Medium    | 10 ₡        |
+| Large     | 20 ₡        |
 
 Running low on fuel is a complication. Running dry in transit is a disaster.
-
----
 
 ### Oddspace Transit
 
 To jump to another system, the ship must have an Odd Drive and enough fuel. The navigator or pilot rolls Navigate (or Pilot if no navigator is aboard).
 
-| Roll | Result |
-|------|--------|
-| 1–2 | **Crisis.** Something goes seriously wrong: lost in oddspace, drive failure, fuel emergency, forced exit in the wrong system. |
-| 3–4 | **Complication.** Delayed, off-course exit, or a minor system problem that needs attention on arrival. |
-| 5+ | **Clean arrival.** The ship exits oddspace at the destination. |
+| Roll | Result                                                                                                                        |
+|------|-------------------------------------------------------------------------------------------------------------------------------|
+| 1–2  | **Crisis.** Something goes seriously wrong: lost in oddspace, drive failure, fuel emergency, forced exit in the wrong system. |
+| 3–4  | **Complication.** Delayed, off-course exit, or a minor system problem that needs attention on arrival.                        |
+| 5+   | **Clean arrival.** The ship exits oddspace at the destination.                                                                |
 
 Speed in oddspace is 1 parsec per hour. On arrival, roll 2d6 on the Space Contingencies table.
 
 Alternatively, ships may travel between galaxies via the **Wormhole Access Network**. WAN transit is faster and more reliable than oddspace but requires docking at a maintained node and the approval of whoever operates it. WAN travel generates transit records and is subject to inspection, access denial, and political closure without notice. No roll is required for WAN transit unless the jurisdiction has reason to refuse entry; in that case the GM calls for a relevant skill roll and applies Heat if things go badly.
-
----
 
 ### Reactions
 
@@ -966,49 +1098,41 @@ When the party encounters someone whose attitude is not obvious, the GM rolls 2d
 |---|-----|-----|------|----|
 | Hostile | Wary | Curious | Kind | Helpful |
 
----
-
 ### Space Contingencies
 
 Roll 2d6 each time the ship exits oddspace.
 
-| 2d6 | Event |
-|-----|-------|
-| 2–3 | Ship malfunction: a module goes offline until repaired. |
-| 4–6 | Space anomaly: a solar storm, debris field, or gravitational hazard complicates the situation. |
-| 7 | Encounter: roll on Reactions. |
-| 8–10 | Distress call: someone nearby needs help, or wants you to think they do. |
-| 11–12 | Advantage: a friendly hail, a patrol that owes you, a lucky sensor reading. |
-
----
+| 2d6   | Event                                                                                          |
+|-------|------------------------------------------------------------------------------------------------|
+| 2–3   | Ship malfunction: a module goes offline until repaired.                                        |
+| 4–6   | Space anomaly: a solar storm, debris field, or gravitational hazard complicates the situation. |
+| 7     | Encounter: roll on Reactions.                                                                  |
+| 8–10  | Distress call: someone nearby needs help, or wants you to think they do.                       |
+| 11–12 | Advantage: a friendly hail, a patrol that owes you, a lucky sensor reading.                    |
 
 ### Landing & Exploration
 
 Roll 2d6 each travel day spent on a planet or installation.
 
-| 2d6 | Event |
-|-----|-------|
-| 2–3 | Transport malfunction: a vehicle or piece of equipment fails at the worst moment. |
-| 4–6 | Weather shift: conditions change; what was safe may no longer be. |
-| 7 | Encounter: roll on Reactions. |
-| 8–10 | Clue: something points toward the next threat or opportunity. |
-| 11–12 | Advantage: useful information, unexpected help, or a lucky find. |
-
----
+| 2d6   | Event                                                                             |
+|-------|-----------------------------------------------------------------------------------|
+| 2–3   | Transport malfunction: a vehicle or piece of equipment fails at the worst moment. |
+| 4–6   | Weather shift: conditions change; what was safe may no longer be.                 |
+| 7     | Encounter: roll on Reactions.                                                     |
+| 8–10  | Clue: something points toward the next threat or opportunity.                     |
+| 11–12 | Advantage: useful information, unexpected help, or a lucky find.                  |
 
 ### Salvage
 
 Roll 2d6 for each area or room explored during a salvage or boarding mission.
 
-| 2d6 | Event |
-|-----|-------|
-| 2–3 | Exhaustion: the crew must rest before continuing. |
-| 4–6 | Local change: a door that was open is now locked, a sound from the next compartment, something has shifted. |
-| 7 | Encounter: roll on Reactions. |
-| 8–10 | Clue: something points toward the next threat or opportunity. |
-| 11–12 | Advantage: a useful cache, a safe room, an unexpected ally. |
-
----
+| 2d6   | Event                                                                                                       |
+|-------|-------------------------------------------------------------------------------------------------------------|
+| 2–3   | Exhaustion: the crew must rest before continuing.                                                           |
+| 4–6   | Local change: a door that was open is now locked, a sound from the next compartment, something has shifted. |
+| 7     | Encounter: roll on Reactions.                                                                               |
+| 8–10  | Clue: something points toward the next threat or opportunity.                                               |
+| 11–12 | Advantage: a useful cache, a safe room, an unexpected ally.                                                 |
 
 ### Trading
 
@@ -1020,28 +1144,28 @@ Standard cargo runs do not generate advancement credits or skill progression on 
 
 Each cargo slot holds 100 tons. Buy price is per slot. Availability depends on the source world.
 
-| Goods | Buy Price (₡/slot) | Source World | Notes |
-|-------|-------------------|--------------|-------|
-| Raw Materials | 5 | Mining | Bulky, always available |
-| Foodstuffs | 8 | Agricultural | Perishable |
-| Textiles | 10 | Agricultural | Seasonal demand |
-| Chemicals | 15 | Industrial | May be hazardous |
-| Machinery | 20 | Industrial | Heavy |
-| Electronics | 40 | Industrial/High-Tech | Fragile |
-| Luxuries | 60 | Core | High demand everywhere |
-| Biotech | 80 | Medical/Core | Restricted in some systems |
+| Goods         | Buy Price (₡/slot) | Source World         | Notes                      |
+|---------------|--------------------|----------------------|----------------------------|
+| Raw Materials | 5                  | Mining               | Bulky, always available    |
+| Foodstuffs    | 8                  | Agricultural         | Perishable                 |
+| Textiles      | 10                 | Agricultural         | Seasonal demand            |
+| Chemicals     | 15                 | Industrial           | May be hazardous           |
+| Machinery     | 20                 | Industrial           | Heavy                      |
+| Electronics   | 40                 | Industrial/High-Tech | Fragile                    |
+| Luxuries      | 60                 | Core                 | High demand everywhere     |
+| Biotech       | 80                 | Medical/Core         | Restricted in some systems |
 
 #### What Worlds Produce and Need
 
 This table drives both buying and selling. A world is rich in what it produces and short on what it needs.
 
-| World Type | Produces | Needs |
-|------------|----------|-------|
-| Agricultural | Food, Textiles | Electronics, Machinery, Biotech |
-| Industrial | Electronics, Machinery, Chemicals | Food, Raw Materials |
-| Mining | Raw Materials | Food, Electronics, Machinery |
-| Core/Central | Luxuries, Biotech | Raw Materials, Food |
-| Frontier | Little | Almost everything |
+| World Type   | Produces                          | Needs                           |
+|--------------|-----------------------------------|---------------------------------|
+| Agricultural | Food, Textiles                    | Electronics, Machinery, Biotech |
+| Industrial   | Electronics, Machinery, Chemicals | Food, Raw Materials             |
+| Mining       | Raw Materials                     | Food, Electronics, Machinery    |
+| Core/Central | Luxuries, Biotech                 | Raw Materials, Food             |
+| Frontier     | Little                            | Almost everything               |
 
 #### Buying
 
@@ -1055,12 +1179,12 @@ The whole game of trading is the spread: buy what's cheap where it's made, carry
 
 When you arrive at a destination and try to sell, roll d6 for market conditions:
 
-| d6 | Market | Value |
-|----|--------|-------|
-| 1 | Crash: flooded market, political crisis | 50% |
-| 2–3 | Slow | 75% |
-| 4–5 | Standard | 100% |
-| 6 | Boom | 150% |
+| d6  | Market                                  | Value |
+|-----|-----------------------------------------|-------|
+| 1   | Crash: flooded market, political crisis | 50%   |
+| 2–3 | Slow                                    | 75%   |
+| 4–5 | Standard                                | 100%  |
+| 6   | Boom                                    | 150%  |
 
 Use the produce/needs table above:
 
@@ -1071,14 +1195,14 @@ Use the produce/needs table above:
 
 Patrons sometimes offer unusual or illegal cargo. Roll d6 or choose when a job involves something out of the ordinary.
 
-| d6 | Cargo | Complication | Value Modifier |
-|----|-------|--------------|----------------|
-| 1 | Illegal weapons or contraband | Customs attention; gain Heat +1 with local jurisdiction if discovered | ×3 |
-| 2 | Live specimens | Require life support; roll d6 on arrival, on 1–2 something got loose | ×2 |
-| 3 | Unstable materials | Hazardous; any ship damage roll has a chance of triggering catastrophe | ×4 |
-| 4 | Time-sensitive | Must deliver within a strict deadline; late delivery means partial or no payment | ×2 |
-| 5 | VIP passenger | Demanding and potentially dangerous; may be wanted by someone | ×3 |
-| 6 | Stolen property | Original owners are looking for it; may be tracked | ×3 |
+| d6 | Cargo                         | Complication                                                                     | Value Modifier |
+|----|-------------------------------|----------------------------------------------------------------------------------|----------------|
+| 1  | Illegal weapons or contraband | Customs attention; gain Heat +1 with local jurisdiction if discovered            | ×3             |
+| 2  | Live specimens                | Require life support; roll d6 on arrival, on 1–2 something got loose             | ×2             |
+| 3  | Unstable materials            | Hazardous; any ship damage roll has a chance of triggering catastrophe           | ×4             |
+| 4  | Time-sensitive                | Must deliver within a strict deadline; late delivery means partial or no payment | ×2             |
+| 5  | VIP passenger                 | Demanding and potentially dangerous; may be wanted by someone                    | ×3             |
+| 6  | Stolen property               | Original owners are looking for it; may be tracked                               | ×3             |
 
 Value modifier applies to the sell roll result. A special cargo run is a job for advancement purposes; the GM declares a risk tier (typically risky or desperate) before the party commits, which determines both the advancement credit roll and how seriously to take the danger. Cargo sale proceeds and advancement credits are separate income streams; both apply after a successful run.
 
@@ -1094,844 +1218,138 @@ The GM may add one or more of these to any cargo for texture:
 - **Flagged**: Attracts inspection from military and law enforcement on sight.
 - **Valuable**: Pirates and rivals may target the ship specifically.
 
----
+### Jobs
 
-### Mission Generation
+Jobs are how the party pays its bills. A patron approaches with an offer, or the crew hunts for work themselves through cargo markets and rumors. Either way, the job is the unit of play: a situation with stakes, a clock, and people with competing interests.
 
-Build a job in two steps: generate the patron, then generate the job.
+#### Generating a Job
 
----
+Roll or choose on each table. Combine results before interpreting.
 
-#### Step 1: The Patron
+**Patron (2d6)**
 
-Roll or choose on each table. The combination creates a patron with built-in dramatic potential before the party even hears the offer.
-
-**Patron Type (2d6)**
-
-| 2d6 | Patron |
-|-----|--------|
-| 2 | Corporate executive, desperate |
-| 3 | Criminal syndicate representative |
-| 4 | Government official, mid-level |
-| 5 | Independent merchant |
-| 6 | Researcher or scientist |
-| 7 | Ship captain between jobs |
-| 8 | Colony leader |
-| 9 | Military officer, active duty |
-| 10 | Religious figure |
-| 11 | Information broker |
-| 12 | Wealthy private citizen |
+| 2d6 | Patron                            |
+|-----|-----------------------------------|
+| 2   | Corporate executive, desperate    |
+| 3   | Criminal syndicate representative |
+| 4   | Government official, mid-level    |
+| 5   | Independent merchant              |
+| 6   | Researcher or scientist           |
+| 7   | Ship captain between jobs         |
+| 8   | Colony leader                     |
+| 9   | Military officer, active duty     |
+| 10  | Religious figure                  |
+| 11  | Information broker                |
+| 12  | Wealthy private citizen           |
 
 **Motivation (d6)**
 
-| d6 | Motivation |
-|----|-----------|
-| 1 | Profit: pays standard rates, needs it done economically |
-| 2 | Survival: desperate situation, pays extra, may withhold details |
-| 3 | Revenge: personal vendetta; key facts may be omitted |
-| 4 | Duty: following orders; bureaucratic complications likely |
-| 5 | Curiosity: flexible on methods, interested in outcome |
-| 6 | Secrecy: cannot be officially involved; pays premium for discretion |
+| d6 | Motivation                                                          |
+|----|---------------------------------------------------------------------|
+| 1  | Profit: pays standard rates, needs it done economically             |
+| 2  | Survival: desperate situation, pays extra, may withhold details     |
+| 3  | Revenge: personal vendetta; key facts may be omitted                |
+| 4  | Duty: following orders; bureaucratic complications likely           |
+| 5  | Curiosity: flexible on methods, interested in outcome               |
+| 6  | Secrecy: cannot be officially involved; pays premium for discretion |
 
 **Reliability (d6)**
 
-| d6 | Reliability |
-|----|------------|
-| 1 | Deceitful: major details are lies or deliberate omissions |
-| 2 | Selective: truthful but not forthcoming |
-| 3 | Honest: tells what they know, which may be incomplete |
-| 4 | Thorough: complete briefing, answers questions directly |
-| 5 | Generous: honest and provides extra resources |
-| 6 | Connected: honest, resourceful, and opens doors |
-
-Reliability tells you how much the patron is hiding. A Deceitful patron with a Revenge motivation is building toward a betrayal. A Connected patron with Duty motivation probably has institutional backing. Let the combination drive the hidden layer of the job.
-
----
-
-#### Step 2: The Job
-
-**Type (d6)**
-
-| d6 | Job |
-|----|-----|
-| 1 | Cargo delivery: risky, illegal, or time-sensitive |
-| 2 | Passenger transport: criminal, noble, sick, or secretive |
-| 3 | Investigate: missing ship, missing person, corporate leak |
-| 4 | Salvage: derelict wreck, ruins, debris field |
-| 5 | Conflict: escort, raid, defend, or destabilize |
-| 6 | Exploration: survey uncharted world, first contact, anomaly |
-
-**Where**
-
-| d6 | Location |
-|----|---------|
-| 1 | Pirate base or lawless station |
-| 2 | Nearby colony or outpost |
-| 3 | Faraway system, multiple jumps |
-| 4 | Derelict ship or abandoned installation |
-| 5 | Government or corporate facility |
-| 6 | Drifter fleet or mobile community |
-
-**How the party finds out**
-
-| d6 | Hook |
-|----|------|
-| 1 | The patron comes to them directly |
-| 2 | An old acquaintance makes the introduction |
-| 3 | A rumor overheard in a cantina or starport |
-| 4 | It's the condition of their release |
-| 5 | It wasn't planned; the situation unfolded |
-| 6 | An object or message they found points the way |
-
-**Hidden Complication**
-
-The GM rolls d6 secretly at job start. On 1–2, the job has a hidden complication; roll d6 again to determine its nature:
-
-| d6 | Complication |
-|----|-------------|
-| 1 | The item or target isn't what the party was told |
-| 2 | A rival party is after the same objective |
-| 3 | The target is more dangerous than described |
-| 4 | A jurisdiction has interest in the job: inspectors, soldiers, or bounty hunters |
-| 5 | The target is alive, active, or fighting back |
-| 6 | The patron's enemy knows what's happening and is moving against it |
-
----
-
-#### Payment
-
-The GM declares the risk tier before the party commits. This determines both what they earn and what they're walking into.
-
-| Tier | Earnings | What it means |
-|------|----------|---------------|
-| Routine | d6 ₡ each | Standard job, known risks, patron is reliable |
-| Risky | 2d6 ₡ each | Significant danger, uncertain elements, or patron is selective |
-| Desperate | 3d6 ₡ each | High probability of serious harm, patron may be deceitful, or stakes are galactic |
-
-A Deceitful patron offering Desperate pay is a red flag the party is allowed to read.
-
----
-
-### Reading a Generated System
-
-Oddspace delegates system and sector generation to external tools: the **Sector Generation System** for sector mapping and system profiles, and **System Detail Expansion** for translating those profiles into planets, stations, habitats, and settlements.
-
-Every generated system produces a SEP profile string, nine characters encoding what the system is and how it functions in the network. Four of those fields translate directly into Oddspace mechanics:
-
-**Ac (Access) → Heat.** A system with Ac 3–5 is one where a jurisdiction actively controls entry. Operating there is exactly what Heat 2 describes: roll required to dock, disaster means detention or worse. High-Ac systems are where Heat matters most.
-
-**Tn (Tension) → Risk tier.** Tn 0–1 systems generate routine jobs. Tn 2–3 generate risky ones. Tn 4–5 generate desperate ones. Read the Tn value and declare the tier before the party commits.
-
-**Rx (Resource) → Cargo type.** Rx = M means raw materials are cheap and available; electronics are scarce and valuable. Rx = B means foodstuffs and textiles are the local product. Rx = X means special cargo territory: unusual, restricted, and worth the premium. Use the Rx field to set what's on offer at a given world without rolling.
-
-**Pw (Power) → Jurisdiction identity.** Pw = C means the Heat jurisdiction is a corporation. Pw = H means a hegemonic power; their Heat tends to follow you across systems, not just locally. Pw = A means authority is contested and fragmented; multiple factions may each hold a piece of your Heat record. Pw = V means no jurisdiction and no Heat, but also no law, no services, and no rescue.
-
-The Ni and Nr fields tell you the system's network role. A Ni 4–5 system with Nr = K is a chokepoint hub: high-stakes, well-watched, where desperate jobs originate and powerful patrons operate with low reliability. A Ni 0–1 system with Nr = B is where you go to lie low, take routine work, and stay off the grid.
-
----
-
-## Solo Play
-
-Oddspace runs well alone. The Five Galaxies are vast enough to fill any story one spacer can carry. These rules replace the GM with structured randomness and your own judgment. Use them fully or strip them down to what you need.
-
----
-
-### The Oracle
-
-Ask the Oracle when you need an answer your character can't know: whether the docking bay is guarded, whether the patron is lying, whether the rumor is true. Choose a die based on how likely the answer is, then roll.
-
-| Die | Likelihood |
-|-----|------------|
-| d4 | Unlikely |
-| d6 | Even odds |
-| d8 | Likely |
-| d10 | Very likely |
-
-| Result | Answer |
-|--------|--------|
-| 1 | No, and: plus a complication |
-| 2–3 | No |
-| 4 | No, but: with a silver lining |
-| 5 | Yes, but: with a complication |
-| 6–7 | Yes |
-| 8+ | Yes, and: plus a benefit |
-
-Ask the Oracle for things your character cannot know. Don't ask for things that need a skill roll. Don't ask questions that eliminate choices; keep the fiction moving forward.
-
----
-
-### Session Structure
-
-Each session follows this structure. Skip steps that don't apply.
-
-**1. Find Work**
-
-Choose one:
-- Roll on the Patron table to generate a job offer.
-- Check the cargo market at your current world and plan a trade run.
-- Roll for a Rumor and follow where it leads.
-
-**2. Prepare**
-
-Spend time and credits to improve your odds before committing. Ask the Oracle whether intel is available and how reliable it is. Buy gear if you need it. Decide your approach before you roll anything.
-
-**3. Travel**
-
-Roll Navigate (or Pilot if alone) for the oddspace jump. On 1–2: Crisis. On 3–4: Complication. On 5+: Clean arrival. Then roll on the Space Contingencies table.
-
-**4. Arrive**
-
-Roll on the Arrival table to find out what's waiting.
-
-| d6 | Local Situation |
-|----|----------------|
-| 1 | Authority checkpoint: inspections, papers, questions |
-| 2 | Quarantine or blockade: no easy docking |
-| 3 | Political unrest: curfews, factions at each other |
-| 4 | Rival crew: same job, same place, hostile intentions |
-| 5 | Heat finds you: a jurisdiction you wronged has agents here |
-| 6 | Clean arrival: no immediate complications |
-
-If your Notoriety is 6+, always roll on this table and apply the result.
-
-**5. Execute**
-
-Run the job as a sequence of 3–5 scenes. Use Scene Framing to open each scene and the Twist table when things need to turn.
-
-**6. Get Paid**
-
-Collect job earnings at the declared risk tier. If running cargo, sell it and take the market roll result. Apply any partial success modifiers from the job resolution.
-
-**7. Pay Expenses**
-
-Deduct ship payment if due. Deduct monthly living expenses. Deduct any repair costs.
-
-**8. Advance**
-
-Each character increases one skill and records earnings. Note any Heat or Notoriety gained. Note any new contacts, enemies, or leads.
-
----
-
-### Scene Structure
-
-Every job unfolds across scenes. Each scene has a purpose and an end point. Don't linger: when the goal is achieved, the decision is made, or the moment breaks, cut.
-
-**Opening a scene:** Answer two or three of these before rolling anything.
-
-- Where exactly am I?
-- Why am I here?
-- What could go wrong?
-- Who else is here?
-
-**Complications:** After each scene, ask the Oracle whether a complication occurs. Start with d4 (unlikely) on the first scene and step up one die size each scene after.
-
-| Scene | Complication Die |
-|-------|-----------------|
-| 1st | d4 |
-| 2nd | d6 |
-| 3rd | d8 |
-| 4th+ | d10 |
-
-On Yes (5+ on the die): roll on Mission Complications.
-
-**Mission Complications (d6):**
-
-| d6 | Complication |
-|----|-------------|
-| 1 | The item or target isn't what you were told |
-| 2 | A rival got here first |
-| 3 | The cargo or target is larger, stranger, or more dangerous than expected |
-| 4 | A jurisdiction's agents arrive: inspectors, soldiers, or bounty hunters |
-| 5 | The target is alive, active, or fighting back |
-| 6 | The patron's enemy knows what you're doing and is moving to stop it |
-
-**Twists:** When a scene feels stuck or flat, roll d6 for a twist.
-
-| d6 | Twist |
-|----|-------|
-| 1 | Someone arrives unexpectedly |
-| 2 | Time pressure suddenly increases |
-| 3 | A truth is revealed |
-| 4 | Equipment or a module fails at the worst moment |
-| 5 | An authority or faction takes interest |
-| 6 | Unexpected help appears |
-
----
-
-### Finding Work
-
-**Patron Jobs**
-
-Roll d6 for the type of job available, then roll for the patron.
-
-| d6 | Job Type |
-|----|----------|
-| 1 | Cargo delivery: risky, illegal, or time-sensitive |
-| 2 | Passenger transport: criminal, noble, sick, or secretive |
-| 3 | Investigate: missing ship, missing person, corporate leak |
-| 4 | Salvage: derelict wreck, ruins, debris field |
-| 5 | Conflict: escort, raid, defend, or destabilize |
-| 6 | Exploration: survey uncharted world, first contact, anomaly |
-
-**Patron Type (2d6)**
-
-**Patron Motivation (d6)**
-
-| d6 | Motivation |
-|----|-----------|
-| 1 | Profit: needs it done cheap, pays standard rates |
-| 2 | Survival: desperate, pays extra, may withhold details |
-| 3 | Revenge: personal vendetta; key facts may be omitted |
-| 4 | Duty: following orders; bureaucratic complications likely |
-| 5 | Curiosity: flexible on methods, interested in outcome |
-| 6 | Secrecy: cannot be officially involved; pays premium for discretion |
-
-**Patron Reliability (d6)**
-
-| d6 | Reliability |
-|----|------------|
-| 1 | Deceitful: major details are lies or deliberate omissions |
-| 2 | Selective: tells the truth but not the whole truth |
-| 3 | Honest: tells what they know, which may be incomplete |
-| 4 | Thorough: complete briefing, answers questions |
-| 5 | Generous: honest and provides extra resources |
-| 6 | Connected: honest, resourceful, and offers future work |
-
-Ask the Oracle "Is the patron being straight with you?" using the Reliability as your die (Deceitful = d4, Selective = d6, Honest = d8).
-
-**Rumors**
-
-Roll d6 when spending time at a starport, cantina, or anywhere people talk.
-
-| d6 | Rumor Type | How Reliable |
-|----|-----------|--------------|
-| 1 | Job opening | 4-in-6 true |
-| 2 | Local trouble creating opportunity | 3-in-6 true |
-| 3 | Cargo buyer desperate for specific goods | 3-in-6 true |
-| 4 | Location of valuable salvage or cargo | 2-in-6 true |
-| 5 | Warning: danger in a nearby system | 4-in-6 true |
-| 6 | Old legend: artifact, lost colony, ancient ruin | 1-in-6 true |
-
-Roll d6. If the result is at or below the listed reliability number, the rumor is true. Above it, it's false, exaggerated, or misunderstood.
-
----
-
-### NPC Behavior
-
-When you need to know what an NPC does, roll a die based on the context of the encounter.
-
-**Disposition die:**
-
-| Context | Die |
-|---------|-----|
-| Hostile situation, bad history with this faction | d4 |
-| Neutral encounter, no prior relationship | d6 |
-| Friendly situation, good history, or same species/culture | d8 |
-
-**Disposition result:**
-
-| Result | Attitude |
-|--------|---------|
-| 1–2 | Hostile: attack, demand, or threaten |
-| 3–5 | Neutral: watchful, transactional, noncommittal |
-| 6+ | Friendly: helpful, open, may offer more than asked |
-
-For each subsequent interaction in the same scene, step the die up one (d4→d6→d8→d10) if things are going well, or down one if things are deteriorating.
-
-**What they do next (d6, after establishing attitude):**
-
-| d6 | Hostile action | Neutral action | Friendly action |
-|----|---------------|---------------|----------------|
-| 1 | Attack or escalate | Demand credentials or purpose | Offer useful information |
-| 2 | Issue ultimatum | Watch and wait | Offer aid or resource |
-| 3 | Call for backup | Ask pointed questions | Introduce to someone else |
-| 4 | Attempt to detain | Make a guarded offer | Make a direct offer |
-| 5 | Attempt to steal or sabotage | Disengage | Share a rumor or lead |
-| 6 | Flee and report | Reluctantly cooperate | Become a contact |
-
----
-
-### Combat
-
-When fighting NPCs, roll for their behavior each round after the first. The initial approach is set by their Disposition.
-
-**Ground combat behavior (d6):**
-
-| d6 | Behavior |
-|----|---------|
-| 1–2 | **Aggressive**: charge, press the attack, take risks |
-| 3–4 | **Tactical**: use cover, coordinate, attack from advantage |
-| 5–6 | **Cautious**: hold position, retreat if injured, prioritize survival |
-
-After any significant setback (a complication or a broken defense), ask the Oracle "Do they continue fighting?" Use d4 for hired muscle or civilians, d6 for soldiers, d8 for fanatics or those with no exit.
-
-**Ship combat behavior**
-
-Before ship combat begins, roll d6 for the enemy captain's style. This determines how they act each round.
-
-| d6 | Style | Behavior |
-|----|-------|---------|
-| 1–2 | **Aggressive**: attacks every round, never breaks off |
-| 3–4 | **Opportunist**: attacks if their Agility ≥ yours, flees if losing |
-| 5–6 | **Cautious**: attempts to escape first; only fights if cornered |
-
-**Aggressive:** Roll Firepower dice and attack. Always.
-
-**Opportunist:** Compare ship Agility dice. If theirs is equal or larger, they attack. If yours is larger, they attempt to disengage (Chase roll). After their first broken module, ask Oracle "Do they continue?" with d6.
-
-**Cautious:** Always opens with a Chase roll to escape. If they cannot escape, they attack once, then try again. After any hit, they flee without checking Oracle.
-
-**Morale:** After the first module breaks on any ship, roll Oracle for any combatant who isn't Aggressive:
-- Military crew: d8
-- Hired crew or pirates: d6
-- Civilians: d4
-
----
-
-### Tracking the Story
-
-Keep a running note between sessions of:
-
-- **Current world** and jurisdiction Heat levels
-- **Notoriety** total
-- **Ship status**: which modules are broken, fuel state
-- **Open leads**: unresolved rumors, promised jobs, outstanding debts
-- **Contacts**: who owes you, who you owe, who wants you dead
-
-Between sessions, roll d6. On 1–2, something changed while you were docked: a contact moved on, a jurisdiction's Heat toward you increased by 1, or a rumored opportunity closed. On 3+, nothing changed.
-
----
-
-## Tables
-
-Roll on any table during character creation or as needed. All tables are d20 unless noted. Results are descriptive only unless stated otherwise.
-
----
-
-### Character Traits
-
-#### Talent (d20)
-
-| d20 | Talent | d20 | Talent |
-|-----|--------|-----|--------|
-| 1 | Acrobatic | 11 | Brawler |
-| 2 | Berserker | 12 | Focused |
-| 3 | Charismatic | 13 | Thoughtful |
-| 4 | Educated | 14 | Learned |
-| 5 | Insightful | 15 | Marksman |
-| 6 | Lucky | 16 | Opportunist |
-| 7 | Resolute | 17 | Perceptive |
-| 8 | Sneaky | 18 | Empathic |
-| 9 | Tough | 19 | Impulsive |
-| 10 | Vigilant | 20 | Survivalist |
-
-#### Background (d20)
-
-| d20 | Background | d20 | Background |
-|-----|------------|-----|------------|
-| 1 | Technician | 11 | Barbarian |
-| 2 | Clergy | 12 | Politician |
-| 3 | Pilot | 13 | Mercenary |
-| 4 | Noble | 14 | Merchant |
-| 5 | Hacker | 15 | Outlaw |
-| 6 | Explorer | 16 | Performer |
-| 7 | Cop | 17 | Pickpocket |
-| 8 | Soldier | 18 | Smuggler |
-| 9 | Gambler | 19 | Student |
-| 10 | Medic | 20 | Thug |
-
-#### Homeworld (d20)
-
-| d20 | Homeworld | d20 | Homeworld |
-|-----|-----------|-----|-----------|
-| 1 | Space Station | 11 | Gas Giant |
-| 2 | High-G | 12 | Starship |
-| 3 | Low-G | 13 | Water World |
-| 4 | Zero-G | 14 | Rock |
-| 5 | Desert | 15 | Volcanic |
-| 6 | Arctic | 16 | Huge |
-| 7 | Jungle | 17 | Asteroid |
-| 8 | High-Tech | 18–19 | Toxic |
-| 9 | Low-Tech | 20 | Dead |
-| 10 | Colony | | |
-
-#### Clothing (d20)
-
-| d20 | Clothing | d20 | Clothing |
-|-----|----------|-----|----------|
-| 1 | Dark | 11 | Tight |
-| 2 | Gaudy | 12 | Formal |
-| 3 | Colourful | 13 | Homespun |
-| 4 | Fur | 14 | Modest |
-| 5 | Leather | 15 | Revealing |
-| 6 | Futuristic | 16 | Sensible |
-| 7 | Dapper | 17 | Sporty |
-| 8 | Majestic | 18 | Thermal |
-| 9 | Chic | 19 | Glossy |
-| 10 | Baggy | 20 | Geometric |
-
-#### Virtue (d20)
-
-| d20 | Virtue | d20 | Virtue |
-|-----|--------|-----|--------|
-| 1 | Ambitious | 11 | Honourable |
-| 2 | Cautious | 12 | Humble |
-| 3 | Colourful | 13 | Idealistic |
-| 4 | Courageous | 14 | Just |
-| 5 | Curious | 15 | Loyal |
-| 6 | Disciplined | 16 | Merciful |
-| 7 | Focused | 17 | Righteous |
-| 8 | Generous | 18 | Serene |
-| 9 | Gregarious | 19 | Stoic |
-| 10 | Honest | 20 | Tolerant |
-
-#### Vice (d20)
-
-| d20 | Vice | d20 | Vice |
-|-----|------|-----|------|
-| 1 | Aggressive | 11 | Lazy |
-| 2 | Arrogant | 12 | Nervous |
-| 3 | Bitter | 13 | Prejudiced |
-| 4 | Cowardly | 14 | Reckless |
-| 5 | Cruel | 15 | Rude |
-| 6 | Deceitful | 16 | Suspicious |
-| 7 | Flippant | 17 | Vain |
-| 8 | Gluttonous | 18 | Vengeful |
-| 9 | Greedy | 19 | Wasteful |
-| 10 | Irascible | 20 | Whiny |
-
-#### Misfortune (d20)
-
-| d20 | Misfortune | d20 | Misfortune |
-|-----|------------|-----|------------|
-| 1 | Abandoned | 11 | Framed |
-| 2 | Addicted | 12 | Haunted |
-| 3 | Blackmailed | 13 | Kidnapped |
-| 4 | Condemned | 14 | Mutilated |
-| 5 | Unlucky | 15 | Poor |
-| 6 | Defrauded | 16 | Pursued |
-| 7 | Demoted | 17 | Rejected |
-| 8 | Discredited | 18 | Replaced |
-| 9 | Disowned | 19 | Robbed |
-| 10 | Exiled | 20 | Suspected |
-
----
-
-### Names (d20)
-
-#### Human Names
-
-| d20 | Female | Male | Neutral |
-|-----|--------|------|---------|
-| 1 | Aniet | Alard | Ashtot |
-| 2 | Brewda | Altes | Baileh |
-| 3 | Carea | Andrel | Beagan |
-| 4 | Danoelle | Annrew | Brady |
-| 5 | Debfa | Aqan | Cyarke |
-| 6 | Debowah | Asexander | Kandall |
-| 7 | Ditha | Branden | Kars |
-| 8 | Emaly | Daniel | Kaye |
-| 9 | Emis | Eroc | Keagan |
-| 10 | Evelyt | Hary | Kin |
-| 11 | Jelnifer | Hatold | Kuagan |
-| 12 | Jenna | Jase | Lace |
-| 13 | Mara | Jerrey | Leagan |
-| 14 | Michelle | Justoph | Mecah |
-| 15 | Mile | Lakrence | Morgan |
-| 16 | Nica | Masthew | Reegan |
-| 17 | Rebezca | Raige | Rib |
-| 18 | Rove | Terry | Riw |
-| 19 | Vandra | Tine | Sidgey |
-| 20 | Vean | Waxter | So |
-
-| d20 | Surname |
-|-----|---------|
-| 1 | Atson | 
-| 2 | Bennes |
-| 3 | Djirhuus |
-| 4 | Edner |
-| 5 | Evuns |
-| 6 | Foore |
-| 7 | Greber |
-| 8 | Hoffzann |
-| 9 | Jamos |
-| 10 | Koytovski |
-| 11 | Lanx |
-| 12 | Mates |
-| 13 | Muzler |
-| 14 | Niewi |
-| 15 | Olsen |
-| 16 | Ozdemur |
-| 17 | Ramoy |
-| 18 | Ronert |
-| 19 | Turusen |
-| 20 | Wacobs |
-
-#### Alien Names
-
-| d20 | Female | Male | Neutral |
-|-----|--------|------|---------|
-| 1 | Anic | Alfac | Aeo |
-| 2 | Balhee | Ascan | Azon |
-| 3 | Boly | Barka | Bani |
-| 4 | Churi | Dreele | Drille |
-| 5 | Hile | Elol | Henii |
-| 6 | Jata | Igat | Heri |
-| 7 | Kali | Ilen | Hisi |
-| 8 | Lisha | Kaloo | Husni |
-| 9 | Madai | Morphee | Jori |
-| 10 | Micia | Nokti | Kizo |
-| 11 | Minbe | Quarkyo | Kradda |
-| 12 | Quene | Raskyo | Mani |
-| 13 | Sani | Reeshi | Mova |
-| 14 | Scata | Russke | Mromi |
-| 15 | Sycia | Synthua | Mule |
-| 16 | Vorcia | Taloo | Nebra |
-| 17 | Wani | Tresi | Ruugi |
-| 18 | Xara | Uran | Shodi |
-| 19 | Zarboe | Vanni | Shurquen |
-| 20 | Zeni | Xilou | Skoni |
-
-| d20 | Surname |
-|-----|---------|
-| 1 | Alhoock |
-| 2 | B'Koni |
-| 3 | C'Goni |
-| 4 | Ch'Alen |
-| 5 | Gr'Anan |
-| 6 | Guri |
-| 7 | H'Votha |
-| 8 | Hagi |
-| 9 | Kalle |
-| 10 | Kh'Nari |
-| 11 | M'Drani |
-| 12 | Morphua |
-| 13 | Prandi |
-| 14 | Sl'Corvi |
-| 15 | Sloni |
-| 16 | T'Vorti |
-| 17 | Th'Keno |
-| 18 | Tr'Edan |
-| 19 | U'Dora |
-| 20 | V'Sconi |
-
----
-
-### Starting Gear
-
-For freeform characters. Roll once on each table.
-
-#### Armor (d20)
-
-| d20 | Armor |
-|-----|-------|
-| 1–5 | None |
-| 6–10 | Ballistic Cloth Jacket |
-| 11–15 | Synthetic Mesh |
-| 16–19 | Boarding Armor |
-| 20 | Power Armor |
-
-#### Weapons (d20)
-
-| d20 | Weapon |
-|-----|--------|
-| 1–5 | Blade or Bow |
-| 6–10 | Handgun |
-| 11–13 | Shotgun, Stun Pistol, or Rifle |
-| 14–17 | Energy Weapon |
-| 18–20 | Support Weapon or Launcher |
-
-#### Tech (d20)
-
-| d20 | Tech |
-|-----|------|
-| 1 | Binoculars |
-| 2 | Chemical Lightsticks |
-| 3 | Diving Gear |
-| 4 | Environment Mask |
-| 5 | Hand Scanner |
-| 6 | Flashlight |
-| 7 | Grapnel Launcher |
-| 8 | Parachute |
-| 9 | Gravchute |
-| 10 | Smartlink |
-| 11–12 | Personal Comms |
-| 13–14 | Portable Computer |
-| 15 | Survival Kit |
-| 16 | Trauma Medikit |
-| 17 | Surgical Medikit |
-| 18 | Wingsuit |
-| 19 | IR/Nightvision Goggles |
-| 20 | Universal Translator |
-
-#### Gear (d20)
-
-| d20 | Gear |
-|-----|------|
-| 1–2 | Clothing |
-| 3 | Backpack |
-| 4 | Pouch |
-| 5 | Personal Drone |
-| 6 | Cold Weather Clothing |
-| 7 | Desert Suit |
-| 8–9 | Personal Comms |
-| 10 | 1 ₡ |
-| 11–12 | First Aid Kit |
-| 13 | Distress Flares |
-| 14 | Toolkit |
-| 15 | 5 ₡ |
-| 16 | Climbing Kit |
-| 17 | Trauma Medikit |
-| 18 | Surgical Medikit |
-| 19 | Prefabricated Cabin |
-| 20 | 10 ₡ |
-
-#### Vehicle (d20)
-
-| d20 | Vehicle |
-|-----|---------|
-| 1 | Air Balloon |
-| 2 | Amphibious Vehicle |
-| 3 | APC |
-| 4 | Bicycle |
-| 5 | Combat Walker |
-| 6 | Drone |
-| 7 | Grav Flyer |
-| 8 | Ground Car |
-| 9 | Half Track ATV |
-| 10 | Helicopter |
-| 11 | Hovercraft |
-| 12 | Jet Airplane |
-| 13 | Jet Bike |
-| 14 | Marauder |
-| 15 | Mini Sub |
-| 16 | Motor Boat |
-| 17 | Motorcycle |
-| 18 | Riot Tank |
-| 19 | Rowboat |
-| 20 | Tracked Explorer |
-
-#### Starship (d20, party asset)
-
-| d20 | Starship |
-|-----|----------|
-| 1–5 | Explorer |
-| 6–10 | Freighter |
-| 11–15 | Trader |
-| 16–19 | Passenger Cargo |
-| 20 | Yacht |
-
-The party's starting ship is financed. The monthly payment is listed in Starships.
-
----
-
-### Spark Tables
-
-Roll 2d20 and combine the results to spark an idea: a person, place, object, or event. Use freely.
-
-| d20 | One | Two | | d20 | One | Two |
-|-----|-----|-----|-|-----|-----|-----|
-| 1 | far | photograph | | 1 | extant | director |
-| 2 | pink | monitor | | 2 | subtle | musician |
-| 3 | harsh | cab | | 3 | blank | referee |
-| 4 | sheer | criminal | | 4 | standard | sponsor |
-| 5 | tight | tourist | | 5 | startled | foyer |
-| 6 | ing | plaza | | 6 | appropriate | corridor |
-| 7 | massive | saloon | | 7 | polite | vehicle |
-| 8 | notorious | tavern | | 8 | austere | foliage |
-| 9 | orange | sunlight | | 9 | pallid | shed |
-| 10 | basic | restaurant | | 10 | unpleasant | parasol |
-| 11 | peevish | telephone | | 11 | fascinating | locater |
-| 12 | nearby | trouser | | 12 | typical | skirt |
-| 13 | sour | cargo | | 13 | scarlet | gong |
-| 14 | haired | equipment | | 14 | supple | dock |
-| 15 | available | eyebrow | | 15 | intricate | journalist |
-| 16 | casual | warehouse | | 16 | complicated | communicator |
-| 17 | glossy | pavilion | | 17 | worthless | corpse |
-| 18 | secure | goblet | | 18 | cautious | charabanc |
-| 19 | sensitive | shelf | | 19 | bleak | houseboat |
-| 20 | automatic | spaceship | | 20 | unique | waiter |
-
-| d20 | One | Two | | d20 | One | Two |
-|-----|-----|-----|-|-----|-----|-----|
-| 1 | slender | spaceman | | 1 | placid | feed |
-| 2 | limp | skimmer | | 2 | dismal | yacht |
-| 3 | unlikely | cubicle | | 3 | candid | crater |
-| 4 | vile | tray | | 4 | umped | dancer |
-| 5 | blond | fist | | 5 | modest | steward |
-| 6 | erect | booth | | 6 | extravagant | roble |
-| 7 | somber | kiosk | | 7 | contemptuous | traveler |
-| 8 | uneasy | tile | | 8 | bland | microphone |
-| 9 | restless | hatch | | 9 | urgent | pilgrim |
-| 10 | financial | paladin | | 10 | squat | crystal |
-| 11 | crooked | blouse | | 11 | conventional | weasel |
-| 12 | crazy | thumb | | 12 | sinister | wrist |
-| 13 | suspicious | murderer | | 13 | fantastic | laboratory |
-| 14 | sardonic | rug | | 14 | specific | terminal |
-| 15 | precise | ankle | | 15 | sandy | depot |
-| 16 | spare | ward | | 16 | sexual | centipede |
-| 17 | fake | crag | | 17 | faced | spacecraft |
-| 18 | serene | velvet | | 18 | concrete | sash |
-| 19 | transparent | drawer | | 19 | reckless | receptionist |
-| 20 | elaborate | seneschal | | 20 | instant | toe |
-
-| d20 | One | Two | | d20 | One | Two |
-|-----|-----|-----|-|-----|-----|-----|
-| 1 | wary | cafe | | 1 | unreal | hoe |
-| 2 | languid | mustache | | 2 | alert | patron |
-| 3 | criminal | glade | | 3 | notable | torso |
-| 4 | careless | cowl | | 4 | irregular | boulder |
-| 5 | maximum | ledge | | 5 | thoughtful | slipper |
-| 6 | tentative | ape | | 6 | impatient | ditch |
-| 7 | top | pirate | | 7 | circular | dune |
-| 8 | estuary | prong | | 8 | coarse | breech |
-| 9 | rear | wasp | | 9 | forlorn | socket |
-| 10 | identical | cape | | 10 | wry | omnibus |
-| 11 | rigid | slaver | | 11 | mock | puppet |
-| 12 | efficient | lane | | 12 | thurible | eyrie |
-| 13 | amazing | nostril | | 13 | concerned | chisel |
-| 14 | serial | steppe | | 14 | off | scrivener |
-| 15 | dreary | shrub | | 15 | husky | workroom |
-| 16 | eccentric | kidnaper | | 16 | archaic | domino |
-| 17 | distinctive | pond | | 17 | operative | craftsman |
-| 18 | random | slab | | 18 | accurate | carver |
-| 19 | expensive | boulevard | | 19 | choice | piston |
-| 20 | cunning | ramp | | 20 | marvelous | skiff |
-
-| d20 | One | Two | | d20 | One | Two |
-|-----|-----|-----|-|-----|-----|-----|
-| 1 | meaningful | alcove | | 1 | formless | pane |
-| 2 | magic | candidate | | 2 | startling | apron |
-| 3 | compact | underling | | 3 | valuta | girder |
-| 4 | luminous | vagabond | | 4 | civilized | hulk |
-| 5 | fastidious | dray | | 5 | skinned | precinct |
-| 6 | illicit | smock | | 6 | crude | shack |
-| 7 | uninterested | barge | | 7 | genetic | willow |
-| 8 | ferocious | delegate | | 8 | sixth | stanchion |
-| 9 | runaway | riverbank | | 9 | musing | alley |
-| 10 | hoarse | functionary | | 10 | lad | reed |
-| 11 | irresponsible | expert | | 11 | quizzical | smuggler |
-| 12 | forward | merchandise | | 12 | tart | porch |
-| 13 | polished | correspondent | | 13 | unfathomable | luggage |
-| 14 | measured | export | | 14 | reluctant | stateroom |
-| 15 | anti | sequin | | 15 | traditional | gland |
-| 16 | grotesque | lantern | | 16 | fascinated | excursionist |
-| 17 | indulgent | eel | | 17 | cursive | skull |
-| 18 | vacant | conspirator | | 18 | brisk | harness |
-| 19 | secretive | portal | | 19 | cantankerous | rotunda |
-| 20 | perverse | watchman | | 20 | wheeled | tyrant |
-
----
-
-*Celestial names for planets, stars, and sectors are available as a separate appendix in the original Plerion document.*
-
----
-
-### Sandbox Tables
-
-Use these during play to generate situations, encounters, and locations on the fly.
-
----
+| d6 | Reliability                                               | Tier Modifier |
+|----|-----------------------------------------------------------|---------------|
+| 1  | Deceitful: major details are lies or deliberate omissions | +2            |
+| 2  | Selective: truthful but not forthcoming                   | +1            |
+| 3  | Honest: tells what they know, which may be incomplete     | —             |
+| 4  | Thorough: complete briefing, answers questions directly   | —             |
+| 5  | Generous: honest and provides extra resources             | −1            |
+| 6  | Connected: honest, resourceful, and opens doors           | −2            |
+
+**Job Type (d6)**
+
+| d6 | Job                                                         |
+|----|-------------------------------------------------------------|
+| 1  | Cargo delivery: risky, illegal, or time-sensitive           |
+| 2  | Passenger transport: criminal, noble, sick, or secretive    |
+| 3  | Investigate: missing ship, missing person, corporate leak   |
+| 4  | Salvage: derelict wreck, ruins, debris field                |
+| 5  | Conflict: escort, raid, defend, or destabilize              |
+| 6  | Exploration: survey uncharted world, first contact, anomaly |
+
+**Location (d6)**
+
+| d6 | Location                                |
+|----|-----------------------------------------|
+| 1  | Pirate base or lawless station          |
+| 2  | Nearby colony or outpost                |
+| 3  | Faraway system, multiple jumps          |
+| 4  | Derelict ship or abandoned installation |
+| 5  | Government or corporate facility        |
+| 6  | Drifter fleet or mobile community       |
+
+**Hook (d6)**
+
+| d6 | Hook                                           |
+|----|------------------------------------------------|
+| 1  | The patron comes to them directly              |
+| 2  | An old acquaintance makes the introduction     |
+| 3  | A rumor overheard in a cantina or starport     |
+| 4  | It's the condition of their release            |
+| 5  | It wasn't planned; the situation unfolded      |
+| 6  | An object or message they found points the way |
+
+#### Risk Tier
+
+Roll 2d6 and add the Reliability modifier. Declare the result before the party commits — this is the contract.
+
+| Modified Roll | Tier      | Earnings    |
+|---------------|-----------|-------------|
+| 4 or less     | Routine   | d6 ₡ each   |
+| 5–9           | Risky     | 2d6 ₡ each  |
+| 10 or more    | Desperate | 3d6 ₡ each  |
+
+#### Reading the Combination
+
+Read the full result before you play it. A Colony Leader with Survival motivation and Deceitful reliability is hiding a threat to their people; the job is real but the briefing is missing its most important detail. A Military Officer with Duty and Thorough is exactly what they appear to be — the complication, if any, is institutional. A Researcher with Curiosity and Connected probably wants to see what you find as much as they need it delivered. A Criminal Syndicate representative with Secrecy motivation is never the last party with an interest in the outcome.
+
+Ask: *Is the patron telling us what we need to know?* Roll the Reliability die — Deceitful = d4, Selective = d6, Honest = d8, Thorough = d10, Generous or Connected = d12.
+
+- **5+:** The briefing is accurate.
+- **3–4:** Incomplete. The patron didn't lie, but left something out. Surface a complication mid-job.
+- **1–2:** There's a false layer. Roll Hidden Complication.
+
+#### Hidden Complication
+
+Roll d6 secretly. On 1–2, roll again:
+
+| d6 | Complication                                                                    |
+|----|---------------------------------------------------------------------------------|
+| 1  | The item or target isn't what the party was told                                |
+| 2  | A rival party is after the same objective                                       |
+| 3  | The target is more dangerous than described                                     |
+| 4  | A jurisdiction has interest in the job: inspectors, soldiers, or bounty hunters |
+| 5  | The target is alive, active, or fighting back                                   |
+| 6  | The patron's enemy knows what's happening and is moving against it              |
+
+Don't reveal the complication upfront. Let it surface as a detail that doesn't fit — a name that doesn't match, a sealed container that weighs wrong, an NPC who reacts with recognition instead of surprise.
+
+#### Rumors
+
+Work that doesn't come from a patron. Roll d6 when the crew spends time at a starport, cantina, or anywhere people gather.
+
+| d6 | Rumor                                                                            | True on |
+|----|----------------------------------------------------------------------------------|---------|
+| 1  | A job opening, third-hand — the last crew dropped out                            | 4-in-6  |
+| 2  | Local trouble that's opened an opportunity                                       | 3-in-6  |
+| 3  | A buyer desperate for specific cargo, paying over market                         | 3-in-6  |
+| 4  | The location of something worth having — a derelict, a cache, a contact          | 2-in-6  |
+| 5  | A warning: a route, system, or port has turned dangerous                         | 4-in-6  |
+| 6  | An old story: a lost colony, an artifact, something that shouldn't exist anymore | 1-in-6  |
+
+Roll d6. At or below the listed number, the rumor is accurate. Above it, it's false, exaggerated, or missing the part that matters. A true rumor is a situation, not a contract — no patron, no briefing, no guaranteed pay, but also no one else knows what you know.
+
+### Field Oracles
+
+Roll during play when you need an encounter, a location's contents, or a complication the fiction doesn't yet provide.
 
 #### Space Encounters (2d6)
 
@@ -1952,8 +1370,6 @@ Roll when exiting oddspace or when the GM calls for a traffic check. Apply the c
 | 12 | Experimental craft | Pirate | Derelict |
 
 **Encounter posture (d6):** 1–2 Aggressive: moving to intercept, weapons ready. 3–4 Cautious: hailing, keeping distance. 5–6 Ignoring: on their own business, will respond to hails.
-
----
 
 #### Starport Encounters (d20)
 
@@ -1980,9 +1396,7 @@ Roll when the party arrives at a port or spends time in a public area.
 | 17 | Colonists | Seeking transport or supplies |
 | 18 | Prospectors | Have a strike or need backing |
 | 19 | Government envoys | Need discreet transport or protection |
-| 20 | Patron | Roll on Mission Generation |
-
----
+| 20 | Patron | Roll on the Jobs tables |
 
 #### Derelict Contents (d66)
 
@@ -2029,8 +1443,6 @@ Roll 2–3 times when exploring an abandoned vessel. First die is tens, second i
 
 **Derelict condition (d6):** 1 Days abandoned. 2 Weeks. 3 Months. 4 Years. 5 Decades. 6 Pristine, which is wrong.
 
----
-
 #### Planet Surface Features (d66)
 
 Roll when the party lands on a world and explores beyond the port.
@@ -2073,6 +1485,322 @@ Roll when the party lands on a world and explores beyond the port.
 | 64 | Floating terrain | Gravity anomaly / Hard to access, hard to leave |
 | 65 | Time distortion | Research value / Crew ages at wrong rate |
 | 66 | Dimensional rift | Passage to somewhere else / Unstable |
+
+---
+
+## Solo Play
+
+*74XX Oddspace* can be played alone. You take on both the protagonist and the world: making decisions as your character, then stepping back to let the setting respond through the oracles below.
+
+The **Risk Oracle** tells you how much friction the world offers before you commit to an action. The **Question Oracle** lets the world answer questions you can't resolve alone (what an NPC does, whether the docking bay is sealed, if the cargo matches the manifest). **Sparks** give you a prompt when you need direction or momentum.
+
+Trust the results. When an oracle contradicts what you expected, that's where the story is.
+
+### The Loop
+
+Solo play runs on a set of interlocking tools. Here is what each one is for:
+
+- **Session Structure** — the map of a full session from finding work to collecting pay and advancing.
+- **Scene Structure** — how to open, run, and cut individual scenes within a job.
+- **Risk Oracle** — before you act, roll to find out how much friction the situation carries. High roll means it just happens; low roll means a real chance of things going wrong.
+- **Question Oracle** — when you need the world to answer something your character didn't cause (does the docking bay seal, does the NPC know who you are, is the cargo what the manifest says), ask a yes/no question and roll based on the odds.
+- **Sparks** — when momentum stalls and you don't know what happens next, combine an Action and a Theme for a prompt.
+- **NPC Behavior** — what NPCs do when their disposition is unclear; use this instead of deciding for them.
+- **Combat** — how enemies behave each round; what makes them break off.
+- **Tracking the Story** — what to note between sessions so threads stay live.
+
+For generating jobs and patron offers, use **Jobs** in the Travel section.
+
+Each time your character acts:
+
+1. **Declare your action.** What are you doing, and what do you want to happen?
+2. **Assess the situation.** Roll the Risk Oracle to read how much is at stake. On 5+, no roll needed — it just happens.
+3. **Roll if needed.** On Volatile or Friction, make your standard skill roll and apply the result.
+4. **Interpret the outcome.** Let the result shape the fiction. When you need to know how the world responds to something outside your character's action, use the Question Oracle.
+
+### Session Structure
+
+Each session follows this structure. Skip steps that don't apply.
+
+#### 1. Find Work
+
+Use the **Jobs** section in Travel. Choose one:
+
+- Generate a patron offer: roll Patron, Motivation, Reliability, Job Type, Location, and Hook.
+- Check the cargo market at your current world and plan a trade run.
+- Roll on the Rumors table and follow where it leads.
+
+#### 2. Prepare
+
+Spend time and credits to improve your odds before committing. Ask the Oracle whether intel is available and how reliable it is. Buy gear if you need it. Decide your approach before you roll anything.
+
+#### 3. Travel
+
+Roll Navigate (or Pilot if alone) for the oddspace jump. On 1–2: Crisis. On 3–4: Complication. On 5+: Clean arrival. Then roll on the Space Contingencies table.
+
+#### 4. Arrive
+
+Roll on the Arrival table to find out what's waiting.
+
+| d6 | Local Situation                                            |
+|----|------------------------------------------------------------|
+| 1  | Authority checkpoint: inspections, papers, questions       |
+| 2  | Quarantine or blockade: no easy docking                    |
+| 3  | Political unrest: curfews, factions at each other          |
+| 4  | Rival crew: same job, same place, hostile intentions       |
+| 5  | Heat finds you: a jurisdiction you wronged has agents here |
+| 6  | Clean arrival: no immediate complications                  |
+
+If your Notoriety is 6+, always roll on this table and apply the result.
+
+#### 5. Execute
+
+Run the job as a sequence of 3–5 scenes. Use Scene Framing to open each scene and the Twist table when things need to turn.
+
+#### 6. Get Paid
+
+Collect job earnings at the declared risk tier. If running cargo, sell it and take the market roll result. Apply any partial success modifiers from the job resolution.
+
+#### 7. Pay Expenses
+
+Deduct ship payment if due. Deduct monthly living expenses. Deduct any repair costs.
+
+#### 8. Advance
+
+Each character increases one skill and records earnings. Note any Heat or Notoriety gained. Note any new contacts, enemies, or leads.
+
+### Scene Structure
+
+Every job unfolds across scenes. Each scene has a purpose and an end point. Don't linger: when the goal is achieved, the decision is made, or the moment breaks, cut.
+
+**Opening a scene:** Answer two or three of these before rolling anything.
+
+- Where exactly am I?
+- Why am I here?
+- What could go wrong?
+- Who else is here?
+
+**Complications:** After each scene, ask the Oracle whether a complication occurs. Start with d4 (unlikely) on the first scene and step up one die size each scene after.
+
+| Scene | Complication Die |
+|-------|------------------|
+| 1st   | d4               |
+| 2nd   | d6               |
+| 3rd   | d8               |
+| 4th+  | d10              |
+
+On Yes (5+ on the die): roll on Mission Complications.
+
+**Mission Complications (d6):**
+
+| d6 | Complication                                                             |
+|----|--------------------------------------------------------------------------|
+| 1  | The item or target isn't what you were told                              |
+| 2  | A rival got here first                                                   |
+| 3  | The cargo or target is larger, stranger, or more dangerous than expected |
+| 4  | A jurisdiction's agents arrive: inspectors, soldiers, or bounty hunters  |
+| 5  | The target is alive, active, or fighting back                            |
+| 6  | The patron's enemy knows what you're doing and is moving to stop it      |
+
+**Twists:** When a scene feels stuck or flat, roll d6 for a twist.
+
+| d6 | Twist                                           |
+|----|-------------------------------------------------|
+| 1  | Someone arrives unexpectedly                    |
+| 2  | Time pressure suddenly increases                |
+| 3  | A truth is revealed                             |
+| 4  | Equipment or a module fails at the worst moment |
+| 5  | An authority or faction takes interest          |
+| 6  | Unexpected help appears                         |
+
+### Risk Oracle
+
+Before your character acts, roll to assess how much control you have over the situation.
+
+| Situation   | Die |
+|-------------|-----|
+| Chaotic     | d4  |
+| Precarious  | d6  |
+| Manageable  | d8  |
+| Predictable | d10 |
+| Stable      | d12 |
+
+Interpret the result:
+
+- **1-2: Volatile.** The situation is unstable. Make your standard roll, and failure hits hard.
+- **3-4: Friction.** Something could go wrong. Make your standard roll.
+- **5+: Clean.** The situation is in hand. No roll needed; it happens.
+
+### Question Oracle
+
+When the outcome isn't about what your character *does* (NPC reactions, world states, things off-screen), ask a yes/no question and roll based on the odds.
+
+| Likelihood     | Die |
+|----------------|-----|
+| Very Unlikely  | d4  |
+| Unlikely       | d6  |
+| Likely         | d8  |
+| Very Likely    | d10 |
+| Almost Certain | d12 |
+
+Interpret the result:
+
+- **1-2: No, and…** It doesn't happen, and things get worse.
+- **3-4: Yes, but…** It happens, but with a complication.
+- **5+: Yes, and…** It happens, and something else opens up.
+
+### Sparks
+
+When you need a fresh angle or you're stuck, combine an Action and a Theme to generate a prompt.
+
+#### Action
+
+| D20 | Action      |
+|-----|-------------|
+| 1   | Investigate |
+| 2   | Rescue      |
+| 3   | Sabotage    |
+| 4   | Pursue      |
+| 5   | Retrieve    |
+| 6   | Expose      |
+| 7   | Defend      |
+| 8   | Infiltrate  |
+| 9   | Negotiate   |
+| 10  | Escape      |
+| 11  | Salvage     |
+| 12  | Intercept   |
+| 13  | Protect     |
+| 14  | Extract     |
+| 15  | Confront    |
+| 16  | Transport   |
+| 17  | Warn        |
+| 18  | Steal       |
+| 19  | Betray      |
+| 20  | Survey      |
+
+#### Theme
+
+| D20 | Theme      |
+|-----|------------|
+| 1   | Derelict   |
+| 2   | Fugitive   |
+| 3   | Conspiracy |
+| 4   | Contraband |
+| 5   | Agent      |
+| 6   | Artifact   |
+| 7   | Outpost    |
+| 8   | Syndicate  |
+| 9   | Contact    |
+| 10  | Cargo      |
+| 11  | Survivor   |
+| 12  | Rival      |
+| 13  | Anomaly    |
+| 14  | Station    |
+| 15  | Ruins      |
+| 16  | Mutiny     |
+| 17  | Blockade   |
+| 18  | Vacuum     |
+| 19  | Signal     |
+| 20  | Claim      |
+
+### NPC Behavior
+
+When you need to know what an NPC does, roll a die based on the context of the encounter.
+
+**Disposition die:**
+
+| Context                                                   | Die |
+|-----------------------------------------------------------|-----|
+| Hostile situation, bad history with this faction          | d4  |
+| Neutral encounter, no prior relationship                  | d6  |
+| Friendly situation, good history, or same species/culture | d8  |
+
+**Disposition result:**
+
+| Result | Attitude                                           |
+|--------|----------------------------------------------------|
+| 1–2    | Hostile: attack, demand, or threaten               |
+| 3–5    | Neutral: watchful, transactional, noncommittal     |
+| 6+     | Friendly: helpful, open, may offer more than asked |
+
+For each subsequent interaction in the same scene, step the die up one (d4→d6→d8→d10) if things are going well, or down one if things are deteriorating.
+
+**What they do next (d6, after establishing attitude):**
+
+| d6 | Hostile action               | Neutral action                | Friendly action           |
+|----|------------------------------|-------------------------------|---------------------------|
+| 1  | Attack or escalate           | Demand credentials or purpose | Offer useful information  |
+| 2  | Issue ultimatum              | Watch and wait                | Offer aid or resource     |
+| 3  | Call for backup              | Ask pointed questions         | Introduce to someone else |
+| 4  | Attempt to detain            | Make a guarded offer          | Make a direct offer       |
+| 5  | Attempt to steal or sabotage | Disengage                     | Share a rumor or lead     |
+| 6  | Flee and report              | Reluctantly cooperate         | Become a contact          |
+
+### Combat
+
+When fighting NPCs, roll for their behavior each round after the first. The initial approach is set by their Disposition.
+
+**Ground combat behavior (d6):**
+
+| d6 | Behavior |
+|----|---------|
+| 1–2 | **Aggressive**: charge, press the attack, take risks |
+| 3–4 | **Tactical**: use cover, coordinate, attack from advantage |
+| 5–6 | **Cautious**: hold position, retreat if injured, prioritize survival |
+
+After any significant setback (a complication or a broken defense), ask the Oracle "Do they continue fighting?" Use d4 for hired muscle or civilians, d6 for soldiers, d8 for fanatics or those with no exit.
+
+**Ship combat behavior**
+
+Before ship combat begins, roll d6 for the enemy captain's style. This determines how they act each round.
+
+| d6 | Style | Behavior |
+|----|-------|---------|
+| 1–2 | **Aggressive**: attacks every round, never breaks off |
+| 3–4 | **Opportunist**: attacks if their Agility ≥ yours, flees if losing |
+| 5–6 | **Cautious**: attempts to escape first; only fights if cornered |
+
+**Aggressive:** Roll Firepower dice and attack. Always.
+
+**Opportunist:** Compare ship Agility dice. If theirs is equal or larger, they attack. If yours is larger, they attempt to disengage (Chase roll). After their first broken module, ask Oracle "Do they continue?" with d6.
+
+**Cautious:** Always opens with a Chase roll to escape. If they cannot escape, they attack once, then try again. After any hit, they flee without checking Oracle.
+
+**Morale:** After the first module breaks on any ship, roll Oracle for any combatant who isn't Aggressive:
+
+- Military crew: d8
+- Hired crew or pirates: d6
+- Civilians: d4
+
+### Tracking the Story
+
+Keep a running note between sessions of:
+
+- **Current world** and jurisdiction Heat levels
+- **Notoriety** total
+- **Ship status**: which modules are broken, fuel state
+- **Open leads**: unresolved rumors, promised jobs, outstanding debts
+- **Contacts**: who owes you, who you owe, who wants you dead
+
+Between sessions, roll d6. On 1–2, something changed while you were docked: a contact moved on, a jurisdiction's Heat toward you increased by 1, or a rumored opportunity closed. On 3+, nothing changed.
+
+## Appendix
+
+### Reading a Generated System
+
+Oddspace delegates system and sector generation to external tools: the **Sector Generation System** for sector mapping and system profiles, and **System Detail Expansion** for translating those profiles into planets, stations, habitats, and settlements.
+
+Every generated system produces a SEP profile string, nine characters encoding what the system is and how it functions in the network. Four of those fields translate directly into Oddspace mechanics:
+
+**Ac (Access) → Heat.** A system with Ac 3–5 is one where a jurisdiction actively controls entry. Operating there is exactly what Heat 2 describes: roll required to dock, disaster means detention or worse. High-Ac systems are where Heat matters most.
+
+**Tn (Tension) → Risk tier.** Tn 0–1 systems generate routine jobs. Tn 2–3 generate risky ones. Tn 4–5 generate desperate ones. Read the Tn value and declare the tier before the party commits.
+
+**Rx (Resource) → Cargo type.** Rx = M means raw materials are cheap and available; electronics are scarce and valuable. Rx = B means foodstuffs and textiles are the local product. Rx = X means special cargo territory: unusual, restricted, and worth the premium. Use the Rx field to set what's on offer at a given world without rolling.
+
+**Pw (Power) → Jurisdiction identity.** Pw = C means the Heat jurisdiction is a corporation. Pw = H means a hegemonic power; their Heat tends to follow you across systems, not just locally. Pw = A means authority is contested and fragmented; multiple factions may each hold a piece of your Heat record. Pw = V means no jurisdiction and no Heat, but also no law, no services, and no rescue.
+
+The Ni and Nr fields tell you the system's network role. A Ni 4–5 system with Nr = K is a chokepoint hub: high-stakes, well-watched, where desperate jobs originate and powerful patrons operate with low reliability. A Ni 0–1 system with Nr = B is where you go to lie low, take routine work, and stay off the grid.
 
 ---
 
