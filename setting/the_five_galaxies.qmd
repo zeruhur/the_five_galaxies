@@ -956,7 +956,7 @@ All entries are defined in one sentence. Names appear in their established form 
 
 **Large Magellanic Cloud (LMC)** — A satellite galaxy of the Milky Way dominated by the Empire of Wrulis, site of the Elysian Empire's genetic vaults, and the primary source of hyperion gas used in WAN node maintenance.
 
-**Milky Way** — The galaxy containing the Conglomerate of Sol and the most extensive United Federation of Avaros route network, where Lynem and Tesu territorial interests overlap without either power holding clear dominance.
+**Milky Way** — The galaxy containing the Terran Compact and the most extensive United Federation of Avaros route network, where Lynem and Tesu territorial interests overlap without either power holding clear dominance.
 
 **Small Magellanic Cloud (SMC)** — A satellite galaxy of the Milky Way contested by the Empire of Wrulis and the Confederacy of Enthor, with the Omalian Collective holding structural leverage through control of luminaite deposits and frequent supernovae routinely destroying established infrastructure.
 
@@ -1002,7 +1002,7 @@ All entries are defined in one sentence. Names appear in their established form 
 
 **Glimmerians** — A luminescent species distributed across Triangulum with no unified home territory; precision energy specialists whose bioluminescence intensifies under focus, making them impossible to conceal in darkened environments.
 
-**Humans** — A minor, biologically adaptable species whose Conglomerate of Sol governs a narrow strip of Orion's Arm in the Milky Way, with independent colonies, diaspora populations, and individual contractors scattered across all five galaxies.
+**Humans** — A minor, biologically adaptable species whose Terran Compact governs a narrow strip of Orion's Arm in the Milky Way, with independent colonies, diaspora populations, and individual contractors scattered across all five galaxies.
 
 **Korvans** — Small insectoid engineers from the Milky Way whose proprietary system designs make clients structurally dependent on Korvan maintenance contracts that cannot be easily exited or replicated.
 
@@ -1016,8 +1016,6 @@ All entries are defined in one sentence. Names appear in their established form 
 
 **Confederacy of Enthor** — A loose alliance of Hetsu clans with primary territory in the Small Magellanic Cloud and secondary presence in the Large Magellanic Cloud and Triangulum; clan autonomy prevents the central body from committing to or enforcing most agreements that carry strategic weight.
 
-**Conglomerate of Sol** — The human polity governing a narrow strip of Orion's Arm in the Milky Way; the largest human political entity and a minor player at the galactic scale.
-
 **Dominion of Aquilaria** — A Lynem monarchical empire centered in Andromeda, with extensions into Triangulum and the Milky Way; currently locking exclusive access to Celestial Dominion megastructure sites while managing an undisclosed succession dispute.
 
 **Empire of Wrulis** — A Tesu monarchical empire centered in the Large Magellanic Cloud, with secondary territory in the Small Magellanic Cloud and outposts in the Milky Way; controls the primary hyperion gas deposits and is operating under the constraints of a succession crisis that makes every external commitment provisional.
@@ -1025,6 +1023,8 @@ All entries are defined in one sentence. Names appear in their established form 
 **Omalian Collective** — A cooperative Omale governance structure in the Small Magellanic Cloud controlling the primary luminaite deposits; maintains structural leverage over the Empire of Wrulis and the Confederacy of Enthor through a non-alignment stance that neither party has formally accepted.
 
 **Technocratic Union of Skopalia** — A Che-esune technocratic republic in Triangulum whose leadership is earned through demonstrated scientific expertise; controls gravitite deposits essential for WAN maintenance and is actively suppressing all channels through which Survey Expedition SY-7's findings might surface.
+
+**Terran Compact** — The human polity governing a narrow strip of Orion's Arm in the Milky Way; the largest human political entity and a minor player at the galactic scale.
 
 **Union of Praovin** — A registered polity controlling a single Milky Way system that has declined all diplomatic contact and refused entry to all outside vessels; the species inhabiting the system has not been formally identified.
 
@@ -1078,7 +1078,7 @@ All entries are defined in one sentence. Names appear in their established form 
 
 **The Skopalian Cluster** — The Technocratic Union of Skopalia's primary territorial concentration in Triangulum, adjacent to Commonwealth of Elyros colony systems whose councils have been entering unauthorized bilateral resource agreements with Skopalia.
 
-**Sol Station Lagrange-4** — The Conglomerate of Sol's primary deep-space facility and the only functional WAN node in human-controlled space; subject to recurring Avaros-Sol access disputes that affect non-human vessels using the station as a transit point.
+**Sol Station Lagrange-4** — The Terran Compact's primary deep-space facility and the only functional WAN node in human-controlled space; subject to recurring Avaros-Sol access disputes that affect non-human vessels using the station as a transit point.
 
 **The Supernova Corridor** — The unpatrolled gap in the Small Magellanic Cloud where the destroyed LMC-SMC WAN node was located before a supernova three years ago; operators who use it avoid transit records but rely on charts that predate the event.
 
