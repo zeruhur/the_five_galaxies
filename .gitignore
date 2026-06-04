@@ -1,5 +1,14 @@
 _site/
 .quarto/
-
 /.quarto/
 **/*.quarto_ipynb
+site_libs/
+**/*.html
+**/*.typ
+**/*.odt
+**/*.epub
+**/*.pdf
+**/*-gfm.md
+setting/the_five_galaxies.md
+setting/the_five_galaxies_files/
+
