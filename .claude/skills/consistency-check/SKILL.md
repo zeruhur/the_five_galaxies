@@ -33,7 +33,7 @@ Check that the draft chapter does not contradict these established facts (from a
 
 - Commonwealth of Elyros: primary territory is Triangulum and Small Magellanic Cloud, with expanding presence in Andromeda. It is NOT primarily an Andromeda power.
 - Union of Praovin: if mentioned, it is in the Milky Way Galaxy. It has no further description in the source — do not invent facts about it unless the chapter explicitly developed it.
-- Humans / Conglomerate of Sol: humans are a **minor** species. The Conglomerate of Sol controls only a fraction of Orion's Arm in the Milky Way. Do not write humans as a dominant or central power.
+- Humans / Terran Compact: humans are a **minor** species. The Terran Compact controls only a fraction of Orion's Arm in the Milky Way. Do not write humans as a dominant or central power.
 - The Omalian Collective (Omale species) is in the Small Magellanic Cloud.
 - Independent Human Colonies exist in the Small Magellanic Cloud (scattered, neutral-leaning).
 
