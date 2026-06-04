@@ -56,7 +56,7 @@ These are defined in full in `plan.md`. The key ones:
 - **Correct name:** Empire of Wrulis (not "Wrulan Empire")
 - **Correct name:** Confederacy of Enthor (not "Thetesis")
 - **Dating system:** Sidereal Year (SY). Reference: SY 5.151.267 = 7,396 CE
-- **Humans** are a minor species. The Conglomerate of Sol controls only a fraction of Orion's Arm in the Milky Way.
+- **Humans** are a minor species. The Terran Compact controls only a fraction of Orion's Arm in the Milky Way.
 - **WAN** (Wormhole Access Network) = bidirectional artificial wormholes, maintained infrastructure, access can be denied. **Distinct from Oddspace** (the FTL medium ships traverse; fuel-limited; stranding is a real outcome).
 - **Commonwealth of Elyros:** primary territory is Triangulum + Small Magellanic Cloud; expanding into Andromeda. Not primarily an Andromeda power.
 
