@@ -12,6 +12,7 @@ project:
     - 74xx_cold_signal.md
     - 74xx_grey_channel.md
     - 74xx_star_trader.md
+    - orion_timeline.md
 
 website:
   title: "The Five Galaxies"
@@ -72,6 +73,7 @@ brand: _brand.yml
 
 filters:
   - _extensions/gfm-callout.lua
+  - _extensions/typst-pagebreak-h1.lua
 
 format:
   html:

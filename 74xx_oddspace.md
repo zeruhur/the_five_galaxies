@@ -88,7 +88,7 @@ Everything else in these rules is background pressure, not foreground management
 
 Run the job. Collect the pay. Ask what happens next.
 
-## Situation
+#### Situation
 
 When characters act without risk, the GM rolls a die sized to how settled things are: d4 (chaotic), d6 (precarious), d8 (manageable), d10 (predictable), d12 (stable), to find how the world moves.
 
@@ -98,11 +98,11 @@ When characters act without risk, the GM rolls a die sized to how settled things
 
 The surfaced fact must be proportionate to what is established, leave something to act on, and follow from prior events, not invented to fill the silence.
 
-## Opponents
+#### Opponents
 
 Characters played by the GM have no skill dice. Define them by their **behavior** (what they want, including when they would rather flee or bargain than fight), the **risks** they present (the 1–2 result for players in conflict with them), and any **obstacles** (visible conditions, armor, numbers, cover, that must be cleared before they can be put down). Signal both before players roll.
 
-## Conflict
+#### Conflict
 
 In a fight, the GM rolls the situation die: d4 if ambushed or scattered, d6 if evenly matched, d8 if holding an advantage, d10 if dominating, d12 if the opposition is broken, to find what the opposition does.
 
@@ -111,22 +111,6 @@ In a fight, the GM rolls the situation die: d4 if ambushed or scattered, d6 if e
 - 5+ Opening. An obstacle clears, a gap appears, or the opposition is ready to break.
 
 Roll in lulls, at the start of a fight, or whenever no skill roll applies. For extended conflicts, use Steps: state actions and risks, roll as needed, describe how the situation has changed, repeat. On an Opening with the opposition cornered, they break per their behavior, fleeing, yielding, or bargaining.
-
-## Skills
-
-A skill die starts at d8 when first acquired and advances to d10, then d12 through play. When acting without a relevant skill, roll d6.
-
-Skills are grouped below for reference only. The groupings carry no mechanical weight.
-
-**Physical:** Fight · Shoot · Sneak · React · Survive · Track
-
-**Technical:** Pilot · Navigate · Repair · Hack · Engineer · Prospect
-
-**Social:** Persuade · Negotiate · Deceive · Command · Translate
-
-**Knowledge:** Analyze · Heal
-
-Psionic skills do not appear on this list. They are available only to characters who begin play with a psionic archetype.
 
 ## Character Creation
 
@@ -353,7 +337,23 @@ Start with 3d6 ₡. Pay your first month's living expenses before play begins. S
 | 9   | Disowned    | 19  | Robbed     |
 | 10  | Exiled      | 20  | Suspected  |
 
-## Psionics
+### Skills
+
+A skill die starts at d8 when first acquired and advances to d10, then d12 through play. When acting without a relevant skill, roll d6.
+
+Skills are grouped below for reference only. The groupings carry no mechanical weight.
+
+**Physical:** Fight · Shoot · Sneak · React · Survive · Track
+
+**Technical:** Pilot · Navigate · Repair · Hack · Engineer · Prospect
+
+**Social:** Persuade · Negotiate · Deceive · Command · Translate
+
+**Knowledge:** Analyze · Heal
+
+Psionic skills do not appear on this list. They are available only to characters who begin play with a psionic archetype.
+
+### Psionics
 
 Psionic ability is innate; it cannot be taught or learned from scratch. It emerges in childhood and requires training to use reliably. Most civilizations treat it as a normal talent. A few are hostile to it. Three implants directly interface with the brain and suppress psionic ability while installed: Cortical Implant, Brain Augmentation, and Neural Datalink.
 
@@ -363,7 +363,7 @@ Only characters who begin play with a psionic archetype are psionic. They roll p
 
 **On a disaster (1–2):** the power goes seriously wrong: wrong target, uncontrolled cascade, the psion suffers the effect themselves, or something distant felt the disturbance and is now paying attention.
 
-### Psionic Skills
+#### Psionic Skills
 
 **Astral Projection**: You project a conscious presence beyond your body, observing remotely without physical constraints. Your body is defenseless while projecting.
 
@@ -405,13 +405,13 @@ Only characters who begin play with a psionic archetype are psionic. They roll p
 
 **Xenoglossy**: You understand, speak, and write any language, even one entirely unknown to you.
 
-## Archetypes
+### Archetypes
 
 Archetypes marked *[psionic]* include psionic skills.
 
 Some archetype gear packages include specialized items not found in the general equipment list. These represent custom or role-specific equipment and are acquired at character creation only.
 
-### 1. Bounty Hunter
+#### 1. Bounty Hunter
 
 *To bring dangerous scoundrels to justice. Incidentally, for good pay.*
 
@@ -424,7 +424,7 @@ Some archetype gear packages include specialized items not found in the general 
 - Portable Containment Field
 - Bounty License
 
-### 2. Croaker
+#### 2. Croaker
 
 *A redundant graduate. To repair broken bones, to cure diseases. Out there looking for a job.*
 
@@ -437,7 +437,7 @@ Some archetype gear packages include specialized items not found in the general 
 - Cortical Implant
 - Eye Implant
 
-### 3. Emissary
+#### 3. Emissary
 
 *Sometimes useful, sometimes not. Peace rests on their shoulders, not always appreciated.*
 
@@ -449,7 +449,7 @@ Some archetype gear packages include specialized items not found in the general 
 - Universal Translator
 - Personal Comms
 
-### 4. Expert
+#### 4. Expert
 
 *The subtleties of science have no mystery for them. Every ship should have one.*
 
@@ -462,7 +462,7 @@ Some archetype gear packages include specialized items not found in the general 
 - AR Goggles
 - Brain Augmentation
 
-### 5. Freelancer
+#### 5. Freelancer
 
 *A mercenary, looking for the next high-paying client. Nothing more, nothing less.*
 
@@ -475,7 +475,7 @@ Some archetype gear packages include specialized items not found in the general 
 - Playing Cards
 - Smokes
 
-### 6. Highborn
+#### 6. Highborn
 
 *Member of the highest castes, out here by necessity or in search of adventure.*
 
@@ -487,7 +487,7 @@ Some archetype gear packages include specialized items not found in the general 
 - Yacht (party asset)
 - Manservant (NPC, loyal)
 
-### 7. Hitman
+#### 7. Hitman
 
 *Professional assassin, hired to terminate inconvenient or untouchable targets.*
 
@@ -499,7 +499,7 @@ Some archetype gear packages include specialized items not found in the general 
 - Ballistic Vest
 - Cloaking Implant
 
-### 8. Jarhead
+#### 8. Jarhead
 
 *Wardog devoted to high-risk missions. Strong survival instinct, ready to die.*
 
@@ -512,7 +512,7 @@ Some archetype gear packages include specialized items not found in the general 
 - Direct Neural Interface
 - Cortical Implant
 
-### 9. Matterjammer *[psionic]*
+#### 9. Matterjammer *[psionic]*
 
 *Master of the mental manipulation of matter. You don't want one as an opponent.*
 
@@ -522,7 +522,7 @@ Some archetype gear packages include specialized items not found in the general 
 - Gas Mask
 - Ballistic Vest
 
-### 10. Mindbender *[psionic]*
+#### 10. Mindbender *[psionic]*
 
 *The mind of others has no secrets for them. They'll persuade you that you're an arachnid.*
 
@@ -532,7 +532,7 @@ Some archetype gear packages include specialized items not found in the general 
 - Sunglasses
 - Raincoat
 
-### 11. Operative
+#### 11. Operative
 
 *Exotic places, deadly missions. For the sake of the galaxy.*
 
@@ -545,7 +545,7 @@ Some archetype gear packages include specialized items not found in the general 
 - Eye Implant
 - Mindshield Implant
 
-### 12. Rockhopper
+#### 12. Rockhopper
 
 *Asteroid to asteroid, collecting minerals for resale at the nearest base.*
 
@@ -558,7 +558,7 @@ Some archetype gear packages include specialized items not found in the general 
 - Detoxifier Implant
 - Miner (ship, party asset)
 
-### 13. Routeplanner
+#### 13. Routeplanner
 
 *Human interface of the on-board computers, tracing routes through oddspace.*
 
@@ -570,7 +570,7 @@ Some archetype gear packages include specialized items not found in the general 
 - Integrated Comms Implant
 - Cortical Implant
 
-### 14. Savage
+#### 14. Savage
 
 *Born on a low-tech planet, skyrocketed while keeping a primal survival instinct.*
 
@@ -583,7 +583,7 @@ Some archetype gear packages include specialized items not found in the general 
 - Old-fashioned Clothes
 - Standard Spacesuit (sealed, bulky)
 
-### 15. Shaper
+#### 15. Shaper
 
 *Wiring or engines, it doesn't matter. If it's broken, they'll fix it.*
 
@@ -596,7 +596,7 @@ Some archetype gear packages include specialized items not found in the general 
 - Personal Comms
 - Mechanic's Overalls
 
-### 16. Smuggler
+#### 16. Smuggler
 
 *Smuggling is certainly not legal, but it's exciting and romantic, isn't it?*
 
@@ -609,7 +609,7 @@ Some archetype gear packages include specialized items not found in the general 
 - Stimulants Dispenser Implant
 - Ballistic Cloth Jacket
 
-### 17. Techie
+#### 17. Techie
 
 *Computers and electronics have no secrets for them, hardware or software.*
 
@@ -621,7 +621,7 @@ Some archetype gear packages include specialized items not found in the general 
 - Flashlight
 - Portable Computer
 
-### 18. Trader
+#### 18. Trader
 
 *Perilous routes, distant planets. One of the most ancient professions in the universe.*
 
@@ -634,7 +634,7 @@ Some archetype gear packages include specialized items not found in the general 
 - Ear Implant
 - Universal Translator
 
-### 19. Trailblazer
+#### 19. Trailblazer
 
 *Undiscovered voids and unknown planets are their bread and butter.*
 
@@ -647,7 +647,7 @@ Some archetype gear packages include specialized items not found in the general 
 - First Aid Kit
 - Personal Comms
 
-### 20. Voidcutter
+#### 20. Voidcutter
 
 *The backbone of transgalactic civilization, pilots of the sidereal expanses.*
 
@@ -660,7 +660,7 @@ Some archetype gear packages include specialized items not found in the general 
 - Direct Neural Interface
 - Heated Uniform
 
-## Species
+### Species
 
 Roll d20 or choose. Non-human characters roll or choose one trait from the Traits table. Human characters gain no trait. Transhuman characters gain no trait but start with one additional cybernetic implant of their choice.
 
@@ -670,7 +670,7 @@ Species traits are innate and passive. Where a trait resembles a psionic skill, 
 
 The entries below are archetypes, not catalogues. A Saurian character might be a Tesu; an Insectoid might be a Korvan or a young Omale; Energy maps directly to the Zynthari. For named species, their societies, internal fractures, and how outsiders experience them, refer to *The Five Galaxies*.
 
-### Species (d20)
+#### Species (d20)
 
 | d20 | Species    | d20   | Species    |
 |-----|------------|-------|------------|
@@ -683,7 +683,7 @@ The entries below are archetypes, not catalogues. A Saurian character might be a
 | 10  | Vulpine    | 18    | Amphibious |
 | 11  | Canine     | 19–20 | Human      |
 
-### Traits (d20)
+#### Traits (d20)
 
 | d20 | Trait        | Description                                                                                                                                                |
 |-----|--------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
