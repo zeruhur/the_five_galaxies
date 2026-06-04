@@ -3156,10 +3156,10 @@ dominated by the Empire of Wrulis, site of the Elysian Empire’s genetic
 vaults, and the primary source of hyperion gas used in WAN node
 maintenance.
 
-**Milky Way** — The galaxy containing the Conglomerate of Sol and the
-most extensive United Federation of Avaros route network, where Lynem
-and Tesu territorial interests overlap without either power holding
-clear dominance.
+**Milky Way** — The galaxy containing the Terran Compact and the most
+extensive United Federation of Avaros route network, where Lynem and
+Tesu territorial interests overlap without either power holding clear
+dominance.
 
 **Small Magellanic Cloud (SMC)** — A satellite galaxy of the Milky Way
 contested by the Empire of Wrulis and the Confederacy of Enthor, with
@@ -3255,8 +3255,8 @@ with no unified home territory; precision energy specialists whose
 bioluminescence intensifies under focus, making them impossible to
 conceal in darkened environments.
 
-**Humans** — A minor, biologically adaptable species whose Conglomerate
-of Sol governs a narrow strip of Orion’s Arm in the Milky Way, with
+**Humans** — A minor, biologically adaptable species whose Terran
+Compact governs a narrow strip of Orion’s Arm in the Milky Way, with
 independent colonies, diaspora populations, and individual contractors
 scattered across all five galaxies.
 
@@ -3285,10 +3285,6 @@ Large Magellanic Cloud and Triangulum; clan autonomy prevents the
 central body from committing to or enforcing most agreements that carry
 strategic weight.
 
-**Conglomerate of Sol** — The human polity governing a narrow strip of
-Orion’s Arm in the Milky Way; the largest human political entity and a
-minor player at the galactic scale.
-
 **Dominion of Aquilaria** — A Lynem monarchical empire centered in
 Andromeda, with extensions into Triangulum and the Milky Way; currently
 locking exclusive access to Celestial Dominion megastructure sites while
@@ -3311,6 +3307,10 @@ in Triangulum whose leadership is earned through demonstrated scientific
 expertise; controls gravitite deposits essential for WAN maintenance and
 is actively suppressing all channels through which Survey Expedition
 SY-7’s findings might surface.
+
+**Terran Compact** — The human polity governing a narrow strip of
+Orion’s Arm in the Milky Way; the largest human political entity and a
+minor player at the galactic scale.
 
 **Union of Praovin** — A registered polity controlling a single Milky
 Way system that has declined all diplomatic contact and refused entry to
@@ -3437,10 +3437,10 @@ territorial concentration in Triangulum, adjacent to Commonwealth of
 Elyros colony systems whose councils have been entering unauthorized
 bilateral resource agreements with Skopalia.
 
-**Sol Station Lagrange-4** — The Conglomerate of Sol’s primary
-deep-space facility and the only functional WAN node in human-controlled
-space; subject to recurring Avaros-Sol access disputes that affect
-non-human vessels using the station as a transit point.
+**Sol Station Lagrange-4** — The Terran Compact’s primary deep-space
+facility and the only functional WAN node in human-controlled space;
+subject to recurring Avaros-Sol access disputes that affect non-human
+vessels using the station as a transit point.
 
 **The Supernova Corridor** — The unpatrolled gap in the Small Magellanic
 Cloud where the destroyed LMC-SMC WAN node was located before a
