@@ -83,3 +83,10 @@ format:
     toc: true
     toc-depth: 3
     include-in-header: assets/fonts.html
+    format-links:
+      - format: typst
+        text: PDF
+        icon: file-pdf
+      - odt
+      - epub
+      - gfm
