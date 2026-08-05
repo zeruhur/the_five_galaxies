@@ -8,6 +8,8 @@ project:
     - maps.qmd
     - 74xx_oddspace.md
     - 74xx_space_cadets.md
+    - 74xx_skirmish_cadets.md
+    - 74xx_skirmish_fleet.md
     - 74xx_grey_channel.md
     - 74xx_cold_signal.md
     - 74xx_grey_channel.md
@@ -58,6 +60,10 @@ website:
             href: 74xx_oddspace.html
           - text: "Space Cadets"
             href: 74xx_space_cadets.html
+          - text: "Skirmish: Cadets & Spacers"
+            href: 74xx_skirmish_cadets.html
+          - text: "Skirmish: Fleet"
+            href: 74xx_skirmish_fleet.html
           - text: "Grey Channel"
             href: 74xx_grey_channel.html
           - text: "Cold Signal"
